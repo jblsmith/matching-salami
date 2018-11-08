@@ -19,6 +19,15 @@ ensure_dir(downloaded_audio_folder)
 salami_public_audio_folder = os.path.realpath("../../data/SALAMI/audio")
 salami_public_metadata_path = os.path.realpath("../../data/SALAMI/SALAMI_data_v1.2")
 salami_public_metadata_file = salami_public_metadata_path + "/metadata.csv"
+fingerprint_public_filename = os.getcwd() + "/salami_public_fpdb.pklz"
+
+# Create the fingerprint database
+# 		!! WARNING !!
+# 		This command is designed to be run ONCE.
+#		Do not overwrite the database unnecessarily.
+def createFingerprintDB(fingerprint_public_filename, salami_public_audio_folder):
+	subcall = ["python","./audfprint/audfprint.py","new","--dbase",fingerprint_public_filename, salami_public_audio_folder+"/*/*.mp3"]
+	os.system(" ".join(subcall))
 
 # Load local song metadata
 def load_song_info(salami_public_metadata_path):
@@ -62,6 +71,9 @@ for salami_id in metadata.keys()[:5]:
 	search_responses = search_for_song(salami_id, metadata)
 	try_count, download_title = download_at_least_one_video(search_responses, downloaded_audio_folder)
 	print try_count, download_title
+
+
+
 
 # TODO:
 # 1. set up youtube api with key
