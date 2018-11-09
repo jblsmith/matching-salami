@@ -59,60 +59,69 @@ def search_for_song(salami_id, metadata):
 	search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
 	return search_responses
 
+def store_result_in_database(salami_id, youtube_id, outcome, expected_length, video_length, database=matching_dataset_filename):
+	ds = dataset.connect('sqlite:///' + matching_dataset_filename)
+	table = ds['songs']
+	table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, outcome=outcome, expected_length=expected_length, video_length=video_length))
+
+def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2, downloaded_audio_folder=downloaded_audio_folder):
+	try:
+		video_handle = pytube.YouTube('http://www.youtube.com/watch?v=' + youtube_id)
+	except:
+		print "Video connection failed."
+		return "error", 0
+	video_length = int(video_handle.length)
+	download_title = video_handle.title
+	if expected_length == 0:
+		ratio_deviation = 0
+	else:
+		ratio_deviation = np.abs(expected_length-video_length)/expected_length
+	if ratio_deviation > max_ratio_deviation:
+		print "Stopping -- unexpected length ({0})".format(youtube_id)
+		return "stopped", video_length
+	if video_length > 60*10:
+		print "Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id)
+		return "stopped", video_length
+	try:
+		video_handle.streams.first().download(output_path = downloaded_audio_folder, filename = youtube_id)
+		print "Successfully downloaded ({0})".format(youtube_id)
+		return "downloaded", video_length
+	except:
+		print "Error downloading video ({0})".format(youtube_id)
+		return "error", video_length
+
 # Download at least one video for a song (trying from the top of the search result list)
-def download_at_least_one_video(salami_id, database_path, search_responses, downloaded_audio_folder, metadata, max_count=10):
-	ds = dataset.connect('sqlite:///' + database_path)
-	downloaded = False
+def download_at_least_one_video(salami_id, database_path, search_responses, downloaded_audio_folder, metadata, max_count=10, matching_dataset_filename=matching_dataset_filename):
+	outcome = "empty"
 	try_count = 0
 	expected_length = metadata.loc[salami_id]["length"]
 	try:
 		expected_length = int(expected_length)
 	except:
 		expected_length = 0
-	while (not downloaded) or (try_count<max_count) or (try_count<len(search_responses.get("items"))):
+	while (outcome != "downloaded") and (try_count<max_count) and (try_count<len(search_responses.get("items"))):
 		youtube_id = search_responses.get("items", [])[try_count]['id']['videoId']
-		table = ds['songs']
-		try:
-			stop = False
-			video_handle = pytube.YouTube('http://www.youtube.com/watch?v=' + youtube_id)
-			if expected_length > 0:
-				# check for similar range
-				if np.abs(expected_length-int(video_handle.length))/expected_length > 0.2:
-					stop = True
-					print "Stopping -- unexpected length"
-					print youtube_id
-			else:
-				if video_handle.length > 60*10:
-					stop = True
-					print "Stopping -- too long"
-					print youtube_id
-			download_title = video_handle.title
-			if not stop:
-				video_handle.streams.first().download(output_path = downloaded_audio_folder, filename = youtube_id)
-				downloaded = True
-				print "Downloaded " + youtube_id
-				table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, success="Downloaded"))
-				return try_count, download_title
-			else:
-				table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, success="Stop"))
-		except:
-			print "Error downloading video on attempt " + str(try_count) + " (" + youtube_id + ")"
-			table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, success="Error"))
+		outcome, video_length = make_download_attempt(youtube_id, expected_length)
+		store_result_in_database(salami_id, youtube_id, outcome, expected_length, video_length, database=matching_dataset_filename)
 		try_count += 1
 
+
+
+
 metadata = load_song_info(salami_public_metadata_path)
-for salami_id in metadata.index[4:40]:
+for salami_id in metadata.index[:3]:
 	search_responses = search_for_song(salami_id, metadata)
-	try_count, download_title = download_at_least_one_video(salami_id, matching_dataset_filename, search_responses, downloaded_audio_folder, metadata)
-	print try_count, download_title
+	download_at_least_one_video(salami_id, matching_dataset_filename, search_responses, downloaded_audio_folder, metadata)
 
 
 # Query database, interpret result, make a decision and decide offset.
 metadata = load_song_info(salami_public_metadata_path)
-for salami_id in metadata.keys()[:5]:
+for salami_id in metadata.keys()[:3]:
 	output_filename = "./match_report_" + str(salami_id) + ".txt"
 	subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase",fingerprint_public_filename, "./downloaded_audio/pTlllvUYVaI.mp4", "-N", "10", "-x", "3", "-D", "1300", "-w", "10", "-o",output_filename, "-F", "10", "-n", "36"]
 	os.system(" ".join(subcall))
+
+
 
 
 # TODO:
