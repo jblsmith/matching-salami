@@ -3,3 +3,4 @@ apiclient
 jsonschema
 matplotlib
 dataset
+youtube-dl

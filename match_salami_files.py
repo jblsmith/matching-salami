@@ -1,10 +1,12 @@
 import os
 import pytube
+import youtube_dl
 import numpy as np
 import pandas as pd
 import json
 import dataset
 from apiclient.discovery import build
+import time
 
 # Handy functions
 
@@ -23,6 +25,15 @@ salami_public_metadata_path = os.path.realpath("../../data/SALAMI/SALAMI_data_v1
 salami_public_metadata_file = salami_public_metadata_path + "/metadata.csv"
 fingerprint_public_filename = os.getcwd() + "/salami_public_fpdb.pklz"
 matching_dataset_filename = os.getcwd() + "/match_list.db"
+ydl_opts = {
+	'outtmpl': os.path.join(downloaded_audio_folder, u'%(id)s.%(ext)s'),
+	'format': 'bestaudio/best',
+	'postprocessors': [{
+		'key': 'FFmpegExtractAudio',
+		'preferredcodec': 'mp3',
+		'preferredquality': '192',
+	}],
+}
 
 # Create the fingerprint database
 # 		!! WARNING !!
@@ -64,18 +75,22 @@ def store_result_in_database(salami_id, youtube_id, outcome, expected_length, vi
 	table = ds['songs']
 	table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, outcome=outcome, expected_length=expected_length, video_length=video_length))
 
-def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2, downloaded_audio_folder=downloaded_audio_folder):
+def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2, downloaded_audio_folder=downloaded_audio_folder, ydl_opts=ydl_opts, min_sleep_interval=20):
 	try:
-		video_handle = pytube.YouTube('http://www.youtube.com/watch?v=' + youtube_id)
+		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+			x = ydl.extract_info('http://www.youtube.com/watch?v='+youtube_id, download=False)
+			video_length = x['duration']
+			download_title = x['title']
+		# video_handle = pytube.YouTube('http://www.youtube.com/watch?v=' + youtube_id)
+		# video_length = int(video_handle.length)
+		# download_title = video_handle.title
 	except:
 		print "Video connection failed."
 		return "error", 0
-	video_length = int(video_handle.length)
-	download_title = video_handle.title
 	if expected_length == 0:
 		ratio_deviation = 0
 	else:
-		ratio_deviation = np.abs(expected_length-video_length)/expected_length
+		ratio_deviation = np.abs(expected_length-video_length)*1.0/expected_length
 	if ratio_deviation > max_ratio_deviation:
 		print "Stopping -- unexpected length ({0})".format(youtube_id)
 		return "stopped", video_length
@@ -83,7 +98,10 @@ def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2, 
 		print "Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id)
 		return "stopped", video_length
 	try:
-		video_handle.streams.first().download(output_path = downloaded_audio_folder, filename = youtube_id)
+		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+			x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
+			time.sleep(min_sleep_interval)
+		# video_handle.streams.first().download(output_path = downloaded_audio_folder, filename = youtube_id)
 		print "Successfully downloaded ({0})".format(youtube_id)
 		return "downloaded", video_length
 	except:
@@ -101,27 +119,47 @@ def download_at_least_one_video(salami_id, database_path, search_responses, down
 		expected_length = 0
 	while (outcome != "downloaded") and (try_count<max_count) and (try_count<len(search_responses.get("items"))):
 		youtube_id = search_responses.get("items", [])[try_count]['id']['videoId']
-		outcome, video_length = make_download_attempt(youtube_id, expected_length)
-		store_result_in_database(salami_id, youtube_id, outcome, expected_length, video_length, database=matching_dataset_filename)
-		try_count += 1
+		if os.path.exists(downloaded_audio_folder + "/" + youtube_id + ".mp3"):
+			print "Already downloaded!"
+			return youtube_id, "downloaded"
+		else:
+			outcome, video_length = make_download_attempt(youtube_id, expected_length)
+			store_result_in_database(salami_id, youtube_id, outcome, expected_length, video_length, database=matching_dataset_filename)
+			try_count += 1
+	return youtube_id, outcome
 
+def fetch_downloaded_youtube_id(salami_id, matching_dataset_filename=matching_dataset_filename):
+	ds = dataset.connect('sqlite:///' + matching_dataset_filename)
+	table = ds['songs']
+	rows = list(table.find(salami_id=salami_id, outcome="downloaded"))
+	if len(rows)>0:
+		return rows[0]['youtube_id']
 
-
-
-metadata = load_song_info(salami_public_metadata_path)
-for salami_id in metadata.index[:3]:
-	search_responses = search_for_song(salami_id, metadata)
-	download_at_least_one_video(salami_id, matching_dataset_filename, search_responses, downloaded_audio_folder, metadata)
-
-
-# Query database, interpret result, make a decision and decide offset.
-metadata = load_song_info(salami_public_metadata_path)
-for salami_id in metadata.keys()[:3]:
+def test_for_matching_audio(youtube_id):
+	filename = downloaded_audio_folder + "/" + youtube_id + ".mp3"
 	output_filename = "./match_report_" + str(salami_id) + ".txt"
-	subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase",fingerprint_public_filename, "./downloaded_audio/pTlllvUYVaI.mp4", "-N", "10", "-x", "3", "-D", "1300", "-w", "10", "-o",output_filename, "-F", "10", "-n", "36"]
+	subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase",fingerprint_public_filename, filename, "-N", "10", "-x", "3", "-D", "1300", "-w", "10", "-o",output_filename, "-F", "10", "-n", "36"]
 	os.system(" ".join(subcall))
+	text = open(output_filename, 'r').readlines()
+	if text[1].split(" ")[0] == "NOMATCH":
+		return None, None, None, None
+	else:
+		line_info = text[1].split()
+		matched_song_id = int(line_info[8].split("/")[-2])
+		onset, hashes, total_hashes = [float(line_info[i]) for i in [10, 13, 15]]
+		return matched_song_id, onset, hashes, total_hashes
 
 
+
+metadata = load_song_info(salami_public_metadata_path)
+
+for salami_id in metadata.index[3:30]:
+	search_responses = search_for_song(salami_id, metadata)
+	youtube_id, outcome = download_at_least_one_video(salami_id, matching_dataset_filename, search_responses, downloaded_audio_folder, metadata)
+	matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id)
+	if salami_id == matched_song_id:
+		print "\n\nSuccess!\nDownloaded audio matches intended SALAMI song."
+		print "I.e., video {0} matches salami song {1}, with {2} out of {3} matching hashes.\n\n".format(youtube_id, salami_id, hashes, total_hashes)
 
 
 # TODO:
