@@ -3,5 +3,5 @@ audfprint*
 downloaded_audio/*
 keys.json
 *.pyc
-salami_public_fpdb.pklz
+salami_private_fpdb.pklz
 match_report*
