@@ -27,6 +27,15 @@ salami_public_metadata_file = salami_public_metadata_path + "/metadata.csv"
 fingerprint_public_filename = os.getcwd() + "/salami_public_fpdb.pklz"
 # matching_dataset_filename = os.getcwd() + "/match_list.db"
 matchlist_csv_filename = os.getcwd() + "/match_list.csv"
+salami_xml_filename = salami_public_metadata_path + "/SALAMI_iTunes_library.xml"
+codaich_info_filename = salami_public_metadata_path + "/id_index_codaich.csv"
+
+import plistlib
+salxml = plistlib.readPlist(open(salami_xml_filename,'r'))
+track_keys = salxml["Tracks"].keys()
+track_to_persistent_id = {tk:salxml["Tracks"][tk]["Persistent ID"] for tk in track_keys}
+persistent_id_to_track = {track_to_persistent_id[tk]:tk for tk in track_keys}
+
 ydl_opts = {
 	'outtmpl': os.path.join(downloaded_audio_folder, u'%(id)s.%(ext)s'),
 	'format': 'bestaudio/best',
@@ -61,14 +70,33 @@ def load_song_info(salami_public_metadata_file):
 	# metadata = {int(line[0]): [line[8], line[7]] for line in metadata_lines}
 	return mddf
 
+
+def get_true_artist(salami_id, salxml=salxml):
+	codaich_info = open(codaich_info_filename,'r').readlines()
+	[line.strip().split(",") for line in codaich_info]
+	cod_df = pd.read_csv(codaich_info_filename)
+	index = cod_df.index[cod_df["SONG_ID"]==salami_id]
+	persistent_id = cod_df.loc[index]["PERSISTENT_ID"].tolist()[0]
+	tk = persistent_id_to_track[persistent_id]
+	info = salxml["Tracks"][tk]
+	artist = info["Artist"]
+	title = info["Name"]
+	if "Composer" in info.keys():
+		composer = info["Composer"]
+	else:
+		composer = ""
+	return artist, title, composer
+
 # Search for a song using the YouTube API client
 def search_for_song(salami_id, metadata):
-	artist, songtitle = metadata.loc[salami_id]['artist'], metadata.loc[salami_id]['song_title']
-	artist = " ".join(artist.split("_"))
-	songtitle = " ".join(songtitle.split("_"))
+	# artist, songtitle = metadata.loc[salami_id]['artist'], metadata.loc[salami_id]['song_title']
+	# artist = " ".join(artist.split("_"))
+	# if artist == "Compilations":
+	# songtitle = " ".join(songtitle.split("_"))
 	developer_key = json.load(open(os.path.realpath("./keys.json"),'r'))["youtube_developer_key"]
 	youtube_handle = build("youtube", "v3", developerKey=developer_key)
-	query_text = " ".join(["'"+artist+"'","'"+songtitle+"'"])
+	artist, songtitle, composer = get_true_artist(salami_id)
+	query_text = " ".join(["'"+artist+"'","'"+songtitle+"'","'"+composer+"'"])
 	search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
 	return search_responses
 
@@ -127,7 +155,7 @@ def load_matchlist(matchlist_csv_filename):
 	df = df.fillna("")
 	return df
 
-def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2, downloaded_audio_folder=downloaded_audio_folder, ydl_opts=ydl_opts, min_sleep_interval=20):
+def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2, downloaded_audio_folder=downloaded_audio_folder, ydl_opts=ydl_opts, min_sleep_interval=120):
 	try:
 		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 			x = ydl.extract_info('http://www.youtube.com/watch?v='+youtube_id, download=False)
@@ -211,30 +239,28 @@ def test_for_matching_audio(youtube_id):
 
 
 metadata = load_song_info(salami_public_metadata_file)
-
-for salami_id in metadata.index[3:30]:
-	search_responses = search_for_song(salami_id, metadata)
-	youtube_id, outcome = download_at_least_one_video(salami_id, search_responses, downloaded_audio_folder, metadata)
-	matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id)
-	if salami_id == matched_song_id:
-		print "\n\nSuccess!\nDownloaded audio matches intended SALAMI song."
-		print "I.e., video {0} matches salami song {1}, with {2} out of {3} matching hashes.\n\n".format(youtube_id, salami_id, hashes, total_hashes)
-	else:
-		print "\n\nVideo {0} does not match SALAMI file.".format(youtube_id)
-		if matched_song_id is not None:
-			print "...but it did match something: {0}".format(matched_song_id)
-
+salami_pop = metadata.index[metadata["class"]=="popular"]
+for salami_id in salami_pop[112:]:
+	try:
+		print "\n\n\n\n\n" + str(salami_id) + "\n\n\n"
+		search_responses = search_for_song(salami_id, metadata)
+		youtube_id, outcome = download_at_least_one_video(salami_id, search_responses, downloaded_audio_folder, metadata)
+		if outcome is "downloaded":
+			matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id)
+			if salami_id == matched_song_id:
+				print "\n\nSuccess!\nDownloaded audio matches intended SALAMI song."
+				print "I.e., video {0} matches salami song {1}, with {2} out of {3} matching hashes.\n\n".format(youtube_id, salami_id, hashes, total_hashes)
+			else:
+				print "\n\nVideo {0} does not match SALAMI file.".format(youtube_id)
+				if matched_song_id is not None:
+					print "...but it did match something: {0}".format(matched_song_id)
+	except (KeyboardInterrupt, SystemExit):
+		raise
+	except:
+		print "Failed for " + str(salami_id)
 
 # TODO:
-# 1. set up youtube api with key
-# 2. load codaich metadata (or maybe all salami sources)
-# 3. set up Dan Ellis fingerprinter and create DB with all SALAMI files (public and private)
-# 4. for each file:
-# 	a. look up artist / song / album on youtube
-# 	b. Look for results with the same length (+/- 5 seconds)
-# 	c. download top result, with the first official result taking priority
-# 	d. make several queries to fingerprint DB
-# 	5. if a song is a match, find offset and preserve youtube id and offset along with salami DB
-# 5. when finished, or perhaps iteratively, publish list of youtube IDs to download SALAMI
-
-
+# turn "get_true_artist" into a "generate query" function that does all the logic about what fields exist.
+# get fingerprint matching to communicate with CSV file
+# update fingerprint DB with 5 mod 8 audio
+# include fingerprint DB in repo so that others can test whether they match!
