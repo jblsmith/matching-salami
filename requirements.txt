@@ -4,3 +4,4 @@ jsonschema
 matplotlib
 dataset
 youtube-dl
+mutagen
