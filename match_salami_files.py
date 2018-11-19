@@ -241,37 +241,38 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True):
 	global fingerprint_public_filename
 	filename = downloaded_audio_folder + "/" + youtube_id + ".mp3"
 	if not os.path.exists(filename):
-		print "Corresponding audio not downloaded. Stopping."
-		return None, None, None, None
+		print "Corresponding audio not downloaded. Removing from row entirely."
+		return "forget", None, None, None
 	output_filename = "./match_report_" + str(salami_id) + ".txt"
 	if (not os.path.exists(output_filename)) or (redo):
 		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "3", "-D", "1300", "-w", "10", "-o",output_filename, "-F", "10", "-n", "36"]
 		os.system(" ".join(subcall))
 	text = open(output_filename, 'r').readlines()
 	if text[1].split(" ")[0] == "NOMATCH":
-		return None, None, None, None
+		return "reject", None, None, None
 	else:
 		line_info = text[1].split()
 		matched_song_id = int(line_info[8].split("/")[-2])
 		onset, hashes, total_hashes = [float(line_info[i]) for i in [10, 13, 15]]
 		return matched_song_id, onset, hashes, total_hashes
 
-def manage_match_list(salami_id, youtube_id, operation, onset=0):
+def handle_candidate(salami_id, youtube_id, operation, onset=0):
 	global downloaded_audio_folder
+	global matchlist_csv_filename
 	df = load_matchlist()
 	index = df.index[df['salami_id'] == salami_id].tolist()[0]
 	candidate_list = df["candidate_youtube_ids"][index].split(" ")
 	rejects_list = df["rejected_youtube_ids"][index].split(" ")
 	matched_id = df["youtube_id"][index]
-	temp_output_filename = "blorp.csv"
+	# temp_output_filename = "blorp.csv"
+	assert youtube_id in candidate_list
+	new_candidate_list = [cand for cand in candidate_list if cand != youtube_id]
+	df.loc[index,"candidate_youtube_ids"] = " ".join(new_candidate_list).strip()
 	if operation == "match":
 		# Assert that the youtube_id we're moving is already where we expect it
-		assert youtube_id in candidate_list
 		# Assert that no other youtube_id has been matched already.
 		assert matched_id == ""
 		# Take youtube_id, move it from candidate list to match, and write corresponding info (onset, length) about match.
-		new_candidate_list = [cand for cand in candidate_list if cand != youtube_id]
-		df.loc[index,"candidate_youtube_ids"] = " ".join(new_candidate_list).strip()
 		df.loc[index,"youtube_id"] = youtube_id
 		df.loc[index,"time_offset"] = onset
 		# We have time stretch and pitch shift columns in case we get a different fingerprinter in.
@@ -282,24 +283,27 @@ def manage_match_list(salami_id, youtube_id, operation, onset=0):
 		audio = mutagen.mp3.MP3(mp3_path)
 		song_length = audio.info.length
 		df.loc[index,"youtube_length"] = song_length
-		df.to_csv(temp_output_filename, header=False, index=False)
+		df.to_csv(matchlist_csv_filename, header=False, index=False)
 	if operation == "reject":
-		assert youtube_id in candidate_list
 		# Take youtube_id, move it from candidate list to rejects.
-		new_candidate_list = [cand for cand in candidate_list if cand != youtube_id]
-		df.loc[index,"candidate_youtube_ids"] = " ".join(new_candidate_list).strip()
 		# Check if already in rejects list
 		rejects_list = df["rejected_youtube_ids"][index].split(" ")
 		assert youtube_id not in rejects_list
 		rejects_list += [youtube_id]
 		df.loc[index,"rejected_youtube_ids"] = " ".join(rejects_list).strip()
-		df.to_csv(temp_output_filename, header=False, index=False)
+		df.to_csv(matchlist_csv_filename, header=False, index=False)
+	if operation == "forget":
+		df.to_csv(matchlist_csv_filename, header=False, index=False)
 
 
 md = load_song_info()
 salami_pop = md.index[md["class"]=="popular"]
 salami_jazz = md.index[md["class"]=="jazz"]
-download_for_salami_ids(salami_jazz, min_sleep_interval=180)
+salami_world = md.index[md["class"]=="world"]
+salami_classical = md.index[md["class"]=="classical"]
+all_salami = list(salami_pop) + list(salami_jazz) + list(salami_world) + list(salami_classical)
+all_salami.sort()
+# download_for_salami_ids(salami_pop, min_sleep_interval=180)
 
 def test_fingerprints_for_salami_id(salami_id):
 	# Put more logic in here?
@@ -320,10 +324,15 @@ def test_fingerprints_for_salami_id(salami_id):
 			matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id, salami_id)
 			if matched_song_id == salami_id:
 				print "Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id)
-				manage_match_list(salami_id, youtube_id, "match", onset=onset)
+				handle_candidate(salami_id, youtube_id, "match", onset=onset)
 				return youtube_id
-			else:
-				print "Not a match. Shifting {0} to rejects for salami_id {1}.".format(youtube_id, salami_id)
-				manage_match_list(salami_id, youtube_id, "reject", onset=onset)
+			elif matched_song_id == "reject":
+				print "No match. Shifting {0} to rejects for salami_id {1}.".format(youtube_id, salami_id)
+				handle_candidate(salami_id, youtube_id, "reject")
+			elif matched_song_id == "forget":
+				print "Audio does not exist. Deleting {0} from list of youtube_ids.".format(youtube_id)
+				handle_candidate(salami_id, youtube_id, "forget")
 	return None
 
+for salami_id in all_salami:
+	test_fingerprints_for_salami_id(salami_id)
