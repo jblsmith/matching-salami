@@ -295,16 +295,6 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0):
 	if operation == "forget":
 		df.to_csv(matchlist_csv_filename, header=False, index=False)
 
-
-md = load_song_info()
-salami_pop = md.index[md["class"]=="popular"]
-salami_jazz = md.index[md["class"]=="jazz"]
-salami_world = md.index[md["class"]=="world"]
-salami_classical = md.index[md["class"]=="classical"]
-all_salami = list(salami_pop) + list(salami_jazz) + list(salami_world) + list(salami_classical)
-all_salami.sort()
-# download_for_salami_ids(salami_pop, min_sleep_interval=180)
-
 def test_fingerprints_for_salami_id(salami_id):
 	# Put more logic in here?
 	df = load_matchlist()
@@ -334,5 +324,45 @@ def test_fingerprints_for_salami_id(salami_id):
 				handle_candidate(salami_id, youtube_id, "forget")
 	return None
 
+# Download youtube files for all the genres
+md = load_song_info()
+salami_pop = md.index[md["class"]=="popular"]
+salami_jazz = md.index[md["class"]=="jazz"]
+salami_world = md.index[md["class"]=="world"]
+salami_classical = md.index[md["class"]=="classical"]
+all_salami = list(salami_pop) + list(salami_jazz) + list(salami_world) + list(salami_classical)
+all_salami.sort()
+# download_for_salami_ids(salami_pop, min_sleep_interval=180)
+
+# Run all the fingerprint tests
 for salami_id in all_salami:
 	test_fingerprints_for_salami_id(salami_id)
+
+# How many match?
+df = load_matchlist()
+resolved_ids = list(df.salami_id[df.youtube_id != ""])
+len(resolved_ids)
+cod_ids = list((md.salami_id[md.source=="Codaich"]).astype(int))
+cod_ids.sort()
+# Note: none of the IA audio is involved in this.
+# Note: none of the RWC songs were found.
+rwc_ids = list(md.index[md.source=='RWC'])
+set.intersection(set(rwc_ids),set(resolved_ids))
+# Some of the Isophonics was found, naturally
+iso_ids = list(md.index[md.source=='Isophonics'])
+len(set.intersection(set(cod_ids),set(resolved_ids)))
+len(set.intersection(set(iso_ids),set(resolved_ids)))
+
+# Success across class:
+for clas in ["popular","jazz","classical","world"]:
+	clasids = list((md.salami_id[(md["class"]==clas) & (md.source=="Codaich")]).astype(int))
+	print "{0} / {1}".format(len(set.intersection(set(clasids),set(resolved_ids))), len(clasids))
+
+
+
+
+# TODO:
+# 1. Find the rest of the audio --- perhaps by re-running the system but using additional metadata fields, like album title.
+# 2. Add convenience scripts for others, to:
+# 	1. Download the audio from YouTube
+# 	2. Zero-pad / crop the audio to fit the timing of the SALAMI annotations.
