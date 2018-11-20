@@ -1,5 +1,4 @@
 import os
-import pytube
 import youtube_dl
 import numpy as np
 import pandas as pd
@@ -124,7 +123,7 @@ def store_result_in_database(salami_id, youtube_id):
 	# df["youtube_id"][salami_id] = youtube_id
 	# df["youtube_length"][salami_id] = video_length
 	# table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, outcome=outcome, expected_length=expected_length, video_length=video_length))
-	df.to_csv(matchlist_csv_filename, header=False, index=False)
+	df.to_csv(matchlist_csv_filename, header=True, index=False)
 
 # !!! WARNING !!!
 # This overwrites the match list. So, only run it only once to initialize the file.
@@ -144,7 +143,7 @@ def create_matchlist_csv():
 		audio = mutagen.mp3.MP3(mp3_path)
 		song_length = audio.info.length
 		df["salami_length"][salid] = song_length
-	df.to_csv(matchlist_csv_filename, header=False, index=False)
+	df.to_csv(matchlist_csv_filename, header=True, index=False)
 	# Note: salami files 1126, 1227, 1327 were flacs mistakenly labelled as mp3s.
 	# Also, 1599 isn't a real entry! I deleted it from the metadata file.
 
@@ -156,9 +155,7 @@ def create_matchlist_csv():
 
 def load_matchlist():
 	global matchlist_csv_filename
-	csv_header = ["salami_id", "salami_length", "youtube_id", "youtube_length", "time_offset", "time_stretch", "pitch_shift", "candidate_youtube_ids", "rejected_youtube_ids"]
-	df = pd.read_csv(matchlist_csv_filename, header=None)
-	df.columns = csv_header
+	df = pd.read_csv(matchlist_csv_filename, header=0)
 	df = df.fillna("")
 	return df
 
@@ -169,9 +166,6 @@ def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2):
 			x = ydl.extract_info('http://www.youtube.com/watch?v='+youtube_id, download=False)
 			video_length = x['duration']
 			download_title = x['title']
-		# video_handle = pytube.YouTube('http://www.youtube.com/watch?v=' + youtube_id)
-		# video_length = int(video_handle.length)
-		# download_title = video_handle.title
 	except:
 		print "Video connection failed."
 		return "error", 0
@@ -283,7 +277,7 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0):
 		audio = mutagen.mp3.MP3(mp3_path)
 		song_length = audio.info.length
 		df.loc[index,"youtube_length"] = song_length
-		df.to_csv(matchlist_csv_filename, header=False, index=False)
+		df.to_csv(matchlist_csv_filename, header=True, index=False)
 	if operation == "reject":
 		# Take youtube_id, move it from candidate list to rejects.
 		# Check if already in rejects list
@@ -291,9 +285,9 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0):
 		assert youtube_id not in rejects_list
 		rejects_list += [youtube_id]
 		df.loc[index,"rejected_youtube_ids"] = " ".join(rejects_list).strip()
-		df.to_csv(matchlist_csv_filename, header=False, index=False)
+		df.to_csv(matchlist_csv_filename, header=True, index=False)
 	if operation == "forget":
-		df.to_csv(matchlist_csv_filename, header=False, index=False)
+		df.to_csv(temp_output_filename, header=True, index=False)
 
 def test_fingerprints_for_salami_id(salami_id):
 	# Put more logic in here?
@@ -341,6 +335,8 @@ for salami_id in all_salami:
 # How many match?
 df = load_matchlist()
 resolved_ids = list(df.salami_id[df.youtube_id != ""])
+unresolved_ids = list(df.salami_id[df.youtube_id == ""])
+ia_rwc_ids = list((md.salami_id[(md["source"]=="IA") | (md.source=="RWC")]).astype(int))
 len(resolved_ids)
 cod_ids = list((md.salami_id[md.source=="Codaich"]).astype(int))
 cod_ids.sort()
@@ -366,3 +362,7 @@ for clas in ["popular","jazz","classical","world"]:
 # 2. Add convenience scripts for others, to:
 # 	1. Download the audio from YouTube
 # 	2. Zero-pad / crop the audio to fit the timing of the SALAMI annotations.
+
+
+next_ids = set.difference(set(unresolved_ids),set(ia_rwc_ids))
+
