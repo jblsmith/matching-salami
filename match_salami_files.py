@@ -91,14 +91,18 @@ def get_true_artist(salami_id):
 		composer = info["Composer"]
 	else:
 		composer = ""
-	return artist, title, composer
+	if "Album" in info.keys():
+		album = info["Album"]
+	else:
+		composer = ""
+	return artist, title, composer, album
 
 # Search for a song using the YouTube API client
 def search_for_song(salami_id):
 	developer_key = json.load(open(os.path.realpath("./keys.json"),'r'))["youtube_developer_key"]
 	youtube_handle = build("youtube", "v3", developerKey=developer_key)
-	artist, songtitle, composer = get_true_artist(salami_id)
-	query_text = " ".join(["'"+artist+"'","'"+songtitle+"'","'"+composer+"'"])
+	song_info = get_true_artist(salami_id)
+	query_text = " ".join(["'"+item+"'" for item in song_info if item != ""])
 	search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
 	return search_responses
 
@@ -191,8 +195,14 @@ def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2):
 
 # Download at least one video for a song (trying from the top of the search result list)
 def download_at_least_one_video(salami_id, search_responses, max_count=10, min_sleep_interval=120):
+	print get_true_artist(salami_id)
 	# , matching_dataset_filename=matching_dataset_filename):
 	global downloaded_audio_folder
+	# Look up row in current match_list. We don't want to bother downloading audio for youtube_ids we've already rejected.
+	df = load_matchlist()
+	index = df.index[df['salami_id'] == salami_id].tolist()[0]
+	candidate_list = df["candidate_youtube_ids"][index].split(" ")
+	rejects_list = df["rejected_youtube_ids"][index].split(" ")
 	metadata = load_song_info()
 	outcome = "empty"
 	try_count = 0
@@ -206,9 +216,14 @@ def download_at_least_one_video(salami_id, search_responses, max_count=10, min_s
 		return None, None
 	while (outcome != "downloaded") and (try_count<max_count) and (try_count<len(search_responses.get("items"))):
 		youtube_id = search_responses.get("items", [])[try_count]['id']['videoId']
-		if os.path.exists(downloaded_audio_folder + "/" + youtube_id + ".mp3"):
+		mp3_location = downloaded_audio_folder + "/" + youtube_id + ".mp3"
+		print "Next search result to consider: {0}".format(youtube_id)
+		if youtube_id in rejects_list:
+			print "Not bothering to consider because we already rejected it."
+			try_count += 1
+		elif os.path.exists(mp3_location):
 			print "Already downloaded!"
-			store_result_in_database(salami_id, youtube_id)
+			# store_result_in_database(salami_id, youtube_id)
 			return youtube_id, "downloaded"
 		else:
 			outcome, video_length = make_download_attempt(youtube_id, expected_length)
@@ -230,13 +245,19 @@ def download_for_salami_ids(salami_ids, min_sleep_interval=120):
 			print "Error downloading {0}. Maybe skipping sleep interval.".format(salami_id)
 
 # Tells you whether downloaded audio for [youtube_id] matches any audio in SALAMI, and saves the report under "match_report_[salami_id]".
-def test_for_matching_audio(youtube_id, salami_id, redo=True):
+def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand=False):
 	global downloaded_audio_folder
 	global fingerprint_public_filename
 	filename = downloaded_audio_folder + "/" + youtube_id + ".mp3"
-	if not os.path.exists(filename):
+	if not os.path.exists(filename) and not download_on_demand:
 		print "Corresponding audio not downloaded. Removing from row entirely."
 		return "forget", None, None, None
+	elif not os.path.exists(filename) and download_on_demand:
+		print "Corresponding audio not downloaded. Attempting to download now."
+		outcome, video_length = make_download_attempt(youtube_id,0)
+		if outcome not in ["downloaded"]:
+			print "Download attempt failed."
+			return "error", None, None, None
 	output_filename = "./match_report_" + str(salami_id) + ".txt"
 	if (not os.path.exists(output_filename)) or (redo):
 		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "3", "-D", "1300", "-w", "10", "-o",output_filename, "-F", "10", "-n", "36"]
@@ -282,8 +303,10 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0):
 		# Take youtube_id, move it from candidate list to rejects.
 		# Check if already in rejects list
 		rejects_list = df["rejected_youtube_ids"][index].split(" ")
-		assert youtube_id not in rejects_list
-		rejects_list += [youtube_id]
+		if youtube_id not in rejects_list:
+			rejects_list += [youtube_id]
+		else:
+			print "This youtube_id was already rejected before!"
 		df.loc[index,"rejected_youtube_ids"] = " ".join(rejects_list).strip()
 		df.to_csv(matchlist_csv_filename, header=True, index=False)
 	if operation == "forget":
@@ -316,6 +339,9 @@ def test_fingerprints_for_salami_id(salami_id):
 			elif matched_song_id == "forget":
 				print "Audio does not exist. Deleting {0} from list of youtube_ids.".format(youtube_id)
 				handle_candidate(salami_id, youtube_id, "forget")
+			elif type(matched_song_id) is int:
+				print "Match found for a different SALAMI ID... not sure what to do yet. Maybe handle manually."
+				print "\nIntended SALAMI ID: {0}.\nMatched SALAMI ID: {1}.\nyoutube_id in question: {2}.\n\n".format(salami_id, matched_song_id, youtube_id)
 	return None
 
 # Download youtube files for all the genres
@@ -364,5 +390,10 @@ for clas in ["popular","jazz","classical","world"]:
 # 	2. Zero-pad / crop the audio to fit the timing of the SALAMI annotations.
 
 
-next_ids = set.difference(set(unresolved_ids),set(ia_rwc_ids))
+next_ids = list(set.difference(set(unresolved_ids),set(ia_rwc_ids)))
+for id in next_ids[1:]:
+	if (id >= 300):
+		print id
+		download_for_salami_ids([id],min_sleep_interval=60)
+		test_fingerprints_for_salami_id(id)
 
