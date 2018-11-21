@@ -1,6 +1,7 @@
 salamienv/*
 audfprint*
 downloaded_audio/*
+transformed_audio/*
 keys.json
 *.pyc
 salami_private_fpdb.pklz

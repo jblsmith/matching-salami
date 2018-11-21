@@ -134,7 +134,7 @@ def store_result_in_database(salami_id, youtube_id):
 def create_matchlist_csv():
 	global matchlist_csv_filename
 	global salami_public_audio_folder
-	csv_header = ["salami_id", "salami_length", "youtube_id", "youtube_length", "time_offset", "time_stretch", "pitch_shift", "candidate_youtube_ids", "rejected_youtube_ids"]
+	csv_header = ["salami_id", "salami_length", "youtube_id", "youtube_length", "matching_hashes", "total_hashes", "time_offset", "time_stretch", "pitch_shift", "candidate_youtube_ids", "rejected_youtube_ids"]
 	df = pd.DataFrame(columns=csv_header)
 	md = load_song_info()
 	md.sort_index(inplace=True)
@@ -163,7 +163,7 @@ def load_matchlist():
 	df = df.fillna("")
 	return df
 
-def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2):
+def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.05, long_ok=False):
 	global ydl_opts
 	try:
 		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -180,7 +180,7 @@ def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.2):
 	if ratio_deviation > max_ratio_deviation:
 		print "Stopping -- unexpected length ({0})".format(youtube_id)
 		return "stopped", video_length
-	if video_length > 60*10:
+	if (video_length > 60*10) and (not long_ok):
 		print "Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id)
 		return "stopped", video_length
 	try:
@@ -271,7 +271,7 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand
 		onset, hashes, total_hashes = [float(line_info[i]) for i in [10, 13, 15]]
 		return matched_song_id, onset, hashes, total_hashes
 
-def handle_candidate(salami_id, youtube_id, operation, onset=0):
+def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_hashes=0):
 	global downloaded_audio_folder
 	global matchlist_csv_filename
 	df = load_matchlist()
@@ -290,6 +290,8 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0):
 		# Take youtube_id, move it from candidate list to match, and write corresponding info (onset, length) about match.
 		df.loc[index,"youtube_id"] = youtube_id
 		df.loc[index,"time_offset"] = onset
+		df.loc[index,"matching_hashes"] = int(hashes)
+		df.loc[index,"total_hashes"] = int(total_hashes)
 		# We have time stretch and pitch shift columns in case we get a different fingerprinter in.
 		df.loc[index,"time_stretch"] = 0
 		df.loc[index,"pitch_shift"] = 0
@@ -331,7 +333,7 @@ def test_fingerprints_for_salami_id(salami_id):
 			matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id, salami_id)
 			if matched_song_id == salami_id:
 				print "Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id)
-				handle_candidate(salami_id, youtube_id, "match", onset=onset)
+				handle_candidate(salami_id, youtube_id, "match", onset=onset, hashes=hashes, total_hashes=total_hashes)
 				return youtube_id
 			elif matched_song_id == "reject":
 				print "No match. Shifting {0} to rejects for salami_id {1}.".format(youtube_id, salami_id)
@@ -382,6 +384,19 @@ for clas in ["popular","jazz","classical","world"]:
 
 
 
+def add_hashes_to_table(salami_id):
+	
+
+df = load_matchlist()
+for salami_id in df.salami_id:
+	index = df.index[df['salami_id'] == salami_id].tolist()[0]
+	youtube_id = df["youtube_id"][index]
+	if youtube_id != "":
+		matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id, salami_id, redo=False, download_on_demand=False)
+		df.loc[index,"matching_hashes"] = int(hashes)
+		df.loc[index,"total_hashes"] = int(total_hashes)
+df.to_csv(matchlist_csv_filename, header=True, index=False)	
+
 
 # TODO:
 # 1. Find the rest of the audio --- perhaps by re-running the system but using additional metadata fields, like album title.
@@ -397,3 +412,15 @@ for id in next_ids[1:]:
 		download_for_salami_ids([id],min_sleep_interval=60)
 		test_fingerprints_for_salami_id(id)
 
+
+make_download_attempt("Q5u1ZbIaNps",0)
+make_download_attempt("74tbPpF5SAY",0)
+test_fingerprints_for_salami_id(14)
+
+"RW9A8oJKx7s", 4   --> previous matching song had wrong length!
+"LBYIxhnnQi4", 298 --> salami subset of youtube
+"ZMe22tHvG4c", 300 --> salami subset of youtube
+"jpG9l5_Yri4", 302
+
+
+StgAsIxCP6A, 1620
