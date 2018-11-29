@@ -6,34 +6,34 @@ import json
 import dataset
 from apiclient.discovery import build
 import time
-import mutagen.mp3
 import plistlib
+import librosa
+import sox
 
-# Handy functions
-def ensure_dir(path):
-	if not os.path.exists(path):
-		os.makedirs(path)
-
-def printjson(rawjson):
-	print json.dumps(rawjson,sort_keys=True,indent=4)
-
-# Point to folders and metadata files:
-downloaded_audio_folder = os.getcwd() + "/downloaded_audio"
-ensure_dir(downloaded_audio_folder)
+# Audio directories
 salami_public_audio_folder = os.path.expanduser("~/Documents/data/SALAMI/audio")
-salami_private_audio_folder = os.path.expanduser("~/Documents/data/SALAMI/priv")
+downloaded_audio_folder = os.getcwd() + "/downloaded_audio"
+if not os.path.exists(downloaded_audio_folder):
+	os.makedirs(downloaded_audio_folder)
+
+# Metadata path and files
 salami_public_metadata_path = os.path.expanduser("~/Documents/repositories/") + "salami-data-public/metadata"
 salami_public_metadata_file = salami_public_metadata_path + "/metadata.csv"
-fingerprint_public_filename = os.getcwd() + "/salami_public_fpdb.pklz"
-fingerprint_private_filename = os.getcwd() + "/salami_private_fpdb.pklz"
-matchlist_csv_filename = os.getcwd() + "/match_list.csv"
 salami_xml_filename = salami_public_metadata_path + "/SALAMI_iTunes_library.xml"
 codaich_info_filename = salami_public_metadata_path + "/id_index_codaich.csv"
+
+# Fingerprint databases
+fingerprint_public_filename = os.getcwd() + "/salami_public_fpdb.pklz"
+fingerprint_youtube_filename = os.getcwd() + "/youtube_public_fpdb.pklz"
+
+# Match list info
+salami_matchlist_csv_filename = os.getcwd() + "/match_list.csv"
 salami_xml = plistlib.readPlist(open(salami_xml_filename,'r'))
 track_keys = salami_xml["Tracks"].keys()
 track_to_persistent_id = {tk:salami_xml["Tracks"][tk]["Persistent ID"] for tk in track_keys}
 persistent_id_to_track = {track_to_persistent_id[tk]:tk for tk in track_keys}
 
+# Youtube download and post-processing options
 ydl_opts = {
 	'outtmpl': os.path.join(downloaded_audio_folder, u'%(id)s.%(ext)s'),
 	'format': 'bestaudio/best',
@@ -48,8 +48,12 @@ ydl_opts = {
 # 		!! WARNING !!
 # 		This command is designed to be run ONCE.
 #		Do not overwrite the database unnecessarily.
-def create_fingerprint_database(database_filename, audio_folder):
-	subcall = ["python","./audfprint/audfprint.py","new","--dbase", database_filename,  audio_folder+"/*/*.mp3"]
+def create_fingerprint_database(database_filename, audio_folder_wildcard):
+	subcall = ["python","./audfprint/audfprint.py","new","--dbase", database_filename, audio_folder_wildcard]
+	os.system(" ".join(subcall))
+
+def add_to_fingerprint_database(database_filename, audio_file):
+	subcall = ["python","./audfprint/audfprint.py","add","--dbase", database_filename, audio_file]
 	os.system(" ".join(subcall))	
 
 # Load local song metadata
@@ -59,11 +63,6 @@ def load_song_info():
 		x = f.readlines()
 	metadata_lines = [line.strip().split(",") for line in x]
 	mddf = pd.DataFrame(metadata_lines[1:], columns=['salami_id'] + [x.lower() for x in metadata_lines[0][1:]])
-	# mddf.columns = ['salami_id', 'source', 'annotator1', 'annotator2', 'path',
-	# 				'length', 'blank', 'title', 'artist', 'audio_format',
-	# 				'ann1_time', 'ann2_time', 'ann1_filename', 'ann2_filename',
-	# 				'class', 'genre', 'ann1_date', 'ann2_date',
-	# 				'trash1', 'trash2', 'xeqs1', 'xeqs2']
 	mddf.index = mddf.salami_id.astype(int)
 	return mddf
 
@@ -79,23 +78,13 @@ def get_true_artist(salami_id):
 	persistent_id = cod_df.loc[index]["PERSISTENT_ID"].tolist()[0]
 	tk = persistent_id_to_track[persistent_id]
 	info = salami_xml["Tracks"][tk]
-	if "Artist" in info.keys():
-		artist = info["Artist"]
-	else:
-		artist = ""
-	if "Name" in info.keys():
-		title = info["Name"]
-	else:
-		title = ""
-	if "Composer" in info.keys():
-		composer = info["Composer"]
-	else:
-		composer = ""
-	if "Album" in info.keys():
-		album = info["Album"]
-	else:
-		composer = ""
-	return artist, title, composer, album
+	artist_info = []
+	for field in ["Artist","Name","Composer","Album"]:
+		if field in info.keys():
+			artist_info += [info[field]]
+		else:
+			artist_info += [""]
+	return artist_info
 
 # Search for a song using the YouTube API client
 def search_for_song(salami_id):
@@ -104,16 +93,30 @@ def search_for_song(salami_id):
 	song_info = get_true_artist(salami_id)
 	query_text = " ".join(["'"+item+"'" for item in song_info if item != ""])
 	search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
+	for i in range(len(search_responses['items'])):
+		search_responses['items'][i]['rank'] = i
 	return search_responses
 
-# def store_result_in_database(salami_id, youtube_id, outcome, expected_length, video_length, database=matching_dataset_filename):
-# 	ds = dataset.connect('sqlite:///' + matching_dataset_filename)
-# 	table = ds['songs']
-# 	table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, outcome=outcome, expected_length=expected_length, video_length=video_length))
+def multiple_searches_for_song(salami_id):
+	developer_key = json.load(open(os.path.realpath("./keys.json"),'r'))["youtube_developer_key"]
+	youtube_handle = build("youtube", "v3", developerKey=developer_key)
+	song_info = get_true_artist(salami_id)
+	query_combos = [song_info[:2], song_info[1:3], song_info[:3], [song_info[1],song_info[3]], song_info]
+	query_texts = [" ".join(["'"+item+"'" for item in info_list if item != ""]) for info_list in query_combos]
+	output_list = []
+	for query_text in query_texts:
+		search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
+		for i in range(len(search_responses['items'])):
+			search_responses['items'][i]['rank'] = i
+		output_list += search_responses['items']
+	return output_list
+
+# TODO: Replace search_for_song with multiple_searches.
+# Produce to-do list for each song, with all youtube song lengths. Then we can sort results by song length and proceed down the list of promising matches until we get a hit.
 
 # Updated function to use readable, human-editable CSV instead of finnicky dataset:
 def store_result_in_database(salami_id, youtube_id):
-	global matchlist_csv_filename
+	global salami_matchlist_csv_filename
 	df = load_matchlist()
 	# if outcome in ["downloaded"]:
 	# if outcome in ["stopped", "error"]:
@@ -124,15 +127,13 @@ def store_result_in_database(salami_id, youtube_id):
 	if youtube_id not in ytid_list:
 		print "Adding new youtube ID to storage so you can test for matches later."
 		df.loc[index,"candidate_youtube_ids"] = " ".join(ytid_list + [youtube_id]).strip()
-	# df["youtube_id"][salami_id] = youtube_id
-	# df["youtube_length"][salami_id] = video_length
-	# table.insert(dict(salami_id=salami_id, youtube_id=youtube_id, outcome=outcome, expected_length=expected_length, video_length=video_length))
-	df.to_csv(matchlist_csv_filename, header=True, index=False)
+	df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+
 
 # !!! WARNING !!!
 # This overwrites the match list. So, only run it only once to initialize the file.
 def create_matchlist_csv():
-	global matchlist_csv_filename
+	global salami_matchlist_csv_filename
 	global salami_public_audio_folder
 	csv_header = ["salami_id", "salami_length", "youtube_id", "youtube_length", "matching_hashes", "total_hashes", "time_offset", "time_stretch", "pitch_shift", "candidate_youtube_ids", "rejected_youtube_ids"]
 	df = pd.DataFrame(columns=csv_header)
@@ -144,26 +145,20 @@ def create_matchlist_csv():
 	print "Getting SALAMI song lengths..."
 	for salid in md.index:
 		mp3_path = salami_public_audio_folder + "/" + str(salid) + "/audio.mp3"
-		audio = mutagen.mp3.MP3(mp3_path)
-		song_length = audio.info.length
+		song_length = librosa.core.get_duration(filename=mp3_path)
 		df["salami_length"][salid] = song_length
-	df.to_csv(matchlist_csv_filename, header=True, index=False)
+	df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
 	# Note: salami files 1126, 1227, 1327 were flacs mistakenly labelled as mp3s.
 	# Also, 1599 isn't a real entry! I deleted it from the metadata file.
 
-# To check actual mp3 lengths against metadata lengths:
-# for i in md.index:
-# 	diff = df.loc[i]['salami_length'] - float(md.loc[i]["song_duration"])
-# 	if ~np.isnan(diff) and diff>1:
-# 		print i, diff
-
 def load_matchlist():
-	global matchlist_csv_filename
-	df = pd.read_csv(matchlist_csv_filename, header=0)
+	global salami_matchlist_csv_filename
+	df = pd.read_csv(salami_matchlist_csv_filename, header=0)
 	df = df.fillna("")
 	return df
 
-def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.05, long_ok=False):
+def make_download_attempt(youtube_id, expected_length, max_abs_deviation=2, long_ok=False):
+	# max_ratio_deviation=0.05, 
 	global ydl_opts
 	try:
 		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -173,14 +168,15 @@ def make_download_attempt(youtube_id, expected_length, max_ratio_deviation=0.05,
 	except:
 		print "Video connection failed."
 		return "error", 0
-	if expected_length == 0:
-		ratio_deviation = 0
-	else:
-		ratio_deviation = np.abs(expected_length-video_length)*1.0/expected_length
-	if ratio_deviation > max_ratio_deviation:
+	# if expected_length == 0:
+	# 	ratio_deviation = 0
+	# else:
+	# 	ratio_deviation = np.abs(expected_length-video_length)*1.0/expected_length
+	abs_deviation = np.abs(expected_length-video_length)
+	if abs_deviation > max_abs_deviation:
 		print "Stopping -- unexpected length ({0})".format(youtube_id)
 		return "stopped", video_length
-	if (video_length > 60*10) and (not long_ok):
+	if (video_length > 60*10) and (expected_length<60*10-10) and (not long_ok):
 		print "Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id)
 		return "stopped", video_length
 	try:
@@ -203,6 +199,7 @@ def download_at_least_one_video(salami_id, search_responses, max_count=10, min_s
 	index = df.index[df['salami_id'] == salami_id].tolist()[0]
 	candidate_list = df["candidate_youtube_ids"][index].split(" ")
 	rejects_list = df["rejected_youtube_ids"][index].split(" ")
+	match_item = df["youtube_id"][index]
 	metadata = load_song_info()
 	outcome = "empty"
 	try_count = 0
@@ -223,7 +220,8 @@ def download_at_least_one_video(salami_id, search_responses, max_count=10, min_s
 			try_count += 1
 		elif os.path.exists(mp3_location):
 			print "Already downloaded!"
-			# store_result_in_database(salami_id, youtube_id)
+			if youtube_id not in candidate_list + rejects_list + [match_item]:
+				store_result_in_database(salami_id, youtube_id)
 			return youtube_id, "downloaded"
 		else:
 			outcome, video_length = make_download_attempt(youtube_id, expected_length)
@@ -251,29 +249,41 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand
 	filename = downloaded_audio_folder + "/" + youtube_id + ".mp3"
 	if not os.path.exists(filename) and not download_on_demand:
 		print "Corresponding audio not downloaded. Removing from row entirely."
-		return "forget", None, None, None
+		return "forget"
 	elif not os.path.exists(filename) and download_on_demand:
 		print "Corresponding audio not downloaded. Attempting to download now."
 		outcome, video_length = make_download_attempt(youtube_id,0)
 		if outcome not in ["downloaded"]:
 			print "Download attempt failed."
-			return "error", None, None, None
-	output_filename = "./match_report_" + str(salami_id) + ".txt"
+			return "error"
+	output_filename = "./match_reports/match_report_" + str(salami_id) + ".txt"
 	if (not os.path.exists(output_filename)) or (redo):
-		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "3", "-D", "1300", "-w", "10", "-o",output_filename, "-F", "10", "-n", "36"]
+		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "1", "-D", "1300", "-w", "10", "--find-time-range", "--time-quantile", "0", "-o", output_filename]
+		# Since default options were used to create database, I'm removing these: "-F", "10", "-n", "36",
 		os.system(" ".join(subcall))
 	text = open(output_filename, 'r').readlines()
 	if text[1].split(" ")[0] == "NOMATCH":
-		return "reject", None, None, None
+		return "reject"
+	else:
+		return "match"
+
+def read_match_report(salami_id):
+	output_filename = "./match_reports/match_report_" + str(salami_id) + ".txt"
+	if not os.path.exists(output_filename):
+		print "Match report not yet computed"
+	text = open(output_filename, 'r').readlines()
+	if text[1].split(" ")[0] == "NOMATCH":
+		print "No match"
+		return None, None, None, None, None, None
 	else:
 		line_info = text[1].split()
-		matched_song_id = int(line_info[8].split("/")[-2])
-		onset, hashes, total_hashes = [float(line_info[i]) for i in [10, 13, 15]]
-		return matched_song_id, onset, hashes, total_hashes
-
+		matched_song_id = int(line_info[14].split("/")[-2])
+		matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = [float(line_info[i]) for i in [1, 5, 11, 16, 18]]
+		return matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes
+	
 def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_hashes=0):
 	global downloaded_audio_folder
-	global matchlist_csv_filename
+	global salami_matchlist_csv_filename
 	df = load_matchlist()
 	index = df.index[df['salami_id'] == salami_id].tolist()[0]
 	candidate_list = df["candidate_youtube_ids"][index].split(" ")
@@ -287,20 +297,19 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_
 		# Assert that the youtube_id we're moving is already where we expect it
 		# Assert that no other youtube_id has been matched already.
 		assert matched_id == ""
+		matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
 		# Take youtube_id, move it from candidate list to match, and write corresponding info (onset, length) about match.
 		df.loc[index,"youtube_id"] = youtube_id
-		df.loc[index,"time_offset"] = onset
+		df.loc[index,"matching_length"] = matching_length
+		df.loc[index,"onset_in_youtube"] = onset_in_youtube
+		df.loc[index,"onset_in_salami"] = onset_in_salami
 		df.loc[index,"matching_hashes"] = int(hashes)
 		df.loc[index,"total_hashes"] = int(total_hashes)
-		# We have time stretch and pitch shift columns in case we get a different fingerprinter in.
-		df.loc[index,"time_stretch"] = 0
-		df.loc[index,"pitch_shift"] = 0
-		# Record file length
+		# Get youtube file length
 		mp3_path = downloaded_audio_folder + "/" + youtube_id + ".mp3"
-		audio = mutagen.mp3.MP3(mp3_path)
-		song_length = audio.info.length
+		song_length = librosa.core.get_duration(filename=mp3_path)
 		df.loc[index,"youtube_length"] = song_length
-		df.to_csv(matchlist_csv_filename, header=True, index=False)
+		df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
 	if operation == "reject":
 		# Take youtube_id, move it from candidate list to rejects.
 		# Check if already in rejects list
@@ -310,7 +319,7 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_
 		else:
 			print "This youtube_id was already rejected before!"
 		df.loc[index,"rejected_youtube_ids"] = " ".join(rejects_list).strip()
-		df.to_csv(matchlist_csv_filename, header=True, index=False)
+		df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
 	if operation == "forget":
 		df.to_csv(temp_output_filename, header=True, index=False)
 
@@ -326,101 +335,22 @@ def test_fingerprints_for_salami_id(salami_id):
 		return youtube_id
 	if not candidates_exist:
 		print "There are no existing candidates for salami_id {0}.".format(salami_id)
-		return None
 	else:
 		candidate_list = df["candidate_youtube_ids"][index].split(" ")
 		for youtube_id in candidate_list:
-			matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id, salami_id)
-			if matched_song_id == salami_id:
-				print "Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id)
-				handle_candidate(salami_id, youtube_id, "match", onset=onset, hashes=hashes, total_hashes=total_hashes)
-				return youtube_id
-			elif matched_song_id == "reject":
+			match_result = test_for_matching_audio(youtube_id, salami_id, download_on_demand=True)
+			matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
+			if match_result == "match":
+				if matched_song_id == salami_id:
+					print "Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id)
+					handle_candidate(salami_id, youtube_id, "match")
+				else:
+					# elif type(matched_song_id) is int:
+					print "Match found for a different SALAMI ID... not sure what to do yet. Maybe handle manually."
+					print "\nIntended SALAMI ID: {0}.\nMatched SALAMI ID: {1}.\nyoutube_id in question: {2}.\n\n".format(salami_id, matched_song_id, youtube_id)
+			elif match_result == "reject":
 				print "No match. Shifting {0} to rejects for salami_id {1}.".format(youtube_id, salami_id)
 				handle_candidate(salami_id, youtube_id, "reject")
-			elif matched_song_id == "forget":
+			elif match_result == "forget":
 				print "Audio does not exist. Deleting {0} from list of youtube_ids.".format(youtube_id)
 				handle_candidate(salami_id, youtube_id, "forget")
-			elif type(matched_song_id) is int:
-				print "Match found for a different SALAMI ID... not sure what to do yet. Maybe handle manually."
-				print "\nIntended SALAMI ID: {0}.\nMatched SALAMI ID: {1}.\nyoutube_id in question: {2}.\n\n".format(salami_id, matched_song_id, youtube_id)
-	return None
-
-# Download youtube files for all the genres
-md = load_song_info()
-salami_pop = md.index[md["class"]=="popular"]
-salami_jazz = md.index[md["class"]=="jazz"]
-salami_world = md.index[md["class"]=="world"]
-salami_classical = md.index[md["class"]=="classical"]
-all_salami = list(salami_pop) + list(salami_jazz) + list(salami_world) + list(salami_classical)
-all_salami.sort()
-# download_for_salami_ids(salami_pop, min_sleep_interval=180)
-
-# Run all the fingerprint tests
-for salami_id in all_salami:
-	test_fingerprints_for_salami_id(salami_id)
-
-# How many match?
-df = load_matchlist()
-resolved_ids = list(df.salami_id[df.youtube_id != ""])
-unresolved_ids = list(df.salami_id[df.youtube_id == ""])
-ia_rwc_ids = list((md.salami_id[(md["source"]=="IA") | (md.source=="RWC")]).astype(int))
-len(resolved_ids)
-cod_ids = list((md.salami_id[md.source=="Codaich"]).astype(int))
-cod_ids.sort()
-# Note: none of the IA audio is involved in this.
-# Note: none of the RWC songs were found.
-rwc_ids = list(md.index[md.source=='RWC'])
-set.intersection(set(rwc_ids),set(resolved_ids))
-# Some of the Isophonics was found, naturally
-iso_ids = list(md.index[md.source=='Isophonics'])
-len(set.intersection(set(cod_ids),set(resolved_ids)))
-len(set.intersection(set(iso_ids),set(resolved_ids)))
-
-# Success across class:
-for clas in ["popular","jazz","classical","world"]:
-	clasids = list((md.salami_id[(md["class"]==clas) & (md.source=="Codaich")]).astype(int))
-	print "{0} / {1}".format(len(set.intersection(set(clasids),set(resolved_ids))), len(clasids))
-
-
-
-def add_hashes_to_table(salami_id):
-	
-
-df = load_matchlist()
-for salami_id in df.salami_id:
-	index = df.index[df['salami_id'] == salami_id].tolist()[0]
-	youtube_id = df["youtube_id"][index]
-	if youtube_id != "":
-		matched_song_id, onset, hashes, total_hashes = test_for_matching_audio(youtube_id, salami_id, redo=False, download_on_demand=False)
-		df.loc[index,"matching_hashes"] = int(hashes)
-		df.loc[index,"total_hashes"] = int(total_hashes)
-df.to_csv(matchlist_csv_filename, header=True, index=False)	
-
-
-# TODO:
-# 1. Find the rest of the audio --- perhaps by re-running the system but using additional metadata fields, like album title.
-# 2. Add convenience scripts for others, to:
-# 	1. Download the audio from YouTube
-# 	2. Zero-pad / crop the audio to fit the timing of the SALAMI annotations.
-
-
-next_ids = list(set.difference(set(unresolved_ids),set(ia_rwc_ids)))
-for id in next_ids[1:]:
-	if (id >= 300):
-		print id
-		download_for_salami_ids([id],min_sleep_interval=60)
-		test_fingerprints_for_salami_id(id)
-
-
-make_download_attempt("Q5u1ZbIaNps",0)
-make_download_attempt("74tbPpF5SAY",0)
-test_fingerprints_for_salami_id(14)
-
-"RW9A8oJKx7s", 4   --> previous matching song had wrong length!
-"LBYIxhnnQi4", 298 --> salami subset of youtube
-"ZMe22tHvG4c", 300 --> salami subset of youtube
-"jpG9l5_Yri4", 302
-
-
-StgAsIxCP6A, 1620
