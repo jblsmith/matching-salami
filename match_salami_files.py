@@ -105,14 +105,98 @@ def multiple_searches_for_song(salami_id):
 	query_texts = [" ".join(["'"+item+"'" for item in info_list if item != ""]) for info_list in query_combos]
 	output_list = []
 	for query_text in query_texts:
-		search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
+		search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=20, type="video", pageToken="").execute()
 		for i in range(len(search_responses['items'])):
 			search_responses['items'][i]['rank'] = i
 		output_list += search_responses['items']
 	return output_list
 
-# TODO: Replace search_for_song with multiple_searches.
-# Produce to-do list for each song, with all youtube song lengths. Then we can sort results by song length and proceed down the list of promising matches until we get a hit.
+def define_candidates_from_searches(salami_id, search_response_list, overwrite=False):
+	df = load_matchlist()
+	output_filename = "./search_lists/" + str(salami_id) + ".csv"
+	if os.path.exists(output_filename) and (not overwrite):
+		print "Cannot process candidates because saved list already exists."
+		return
+	expected_length = float(df["salami_length"][df.salami_id==salami_id].values)
+	candidates = pd.DataFrame(columns=["top_rank", "n_hits", "title", "duration", "deviation", "salami_coverage", "decision", "in_top_5", "in_top_10", "same_plus_5", "same_less_5", "overall_score", "matching_length", "onset_in_youtube", "onset_in_salami", "hashes", "total_hashes"])
+	candidates.index.name = 'youtube_id'
+	try:
+		for video in search_response_list:
+			youtube_id = video["id"]["videoId"]
+			video_info = None
+			if youtube_id not in candidates.index:
+				candidates.loc[youtube_id,:7] = [np.inf, 0, "", 0, np.inf, 0, ""]
+				video_info = get_info_from_youtube(youtube_id)
+			if video_info:
+				candidates.loc[youtube_id,"duration"] = video_info["duration"]
+				candidates.loc[youtube_id,"title"] = video_info["title"]
+				candidates.loc[youtube_id,"deviation"] = expected_length - video_info["duration"]
+			rank = video["rank"]
+			candidates.loc[youtube_id, "top_rank"] = min(candidates.loc[youtube_id, "top_rank"], rank)
+			candidates.loc[youtube_id, "n_hits"] += 1
+		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8")
+	except:
+		print "Outputting list to temporary CSV file because something went wrong."
+		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8")
+
+def prioritize_candidates(salami_id):
+	candidates = load_candidate_list(salami_id)
+	# Prioritization:
+	# 	- multiply-ranked first
+	# 	- anything in top 10, by rank, at most 5 seconds longer than SALAMI
+	#	- anything in top 10, by rank, at most 5 seconds shorter than SALAMI
+	# 	- rest of the top 10, by rank, disregarding length
+	# 	- rest of everything, in order of length deviation
+	candidates["in_top_5"] = candidates.top_rank<5
+	candidates["in_top_10"] = candidates.top_rank<10
+	candidates["same_plus_5"] = (candidates.deviation<=0) & (candidates.deviation>=-5)
+	candidates["same_less_5"] = (candidates.deviation>=0) & (candidates.deviation<=5)
+	candidates["overall_score"] = candidates.in_top_5 + candidates.in_top_10 + 2*candidates.same_plus_5 + candidates.same_less_5
+	candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
+	save_candidates(salami_id, candidates)
+	# Check results sorted as expected:
+	# cands[['n_hits','in_top_10','same_plus_5','same_less_5','top_rank']]
+
+def load_candidate_list(salami_id):
+	filename = "./search_lists/" + str(salami_id) + ".csv"
+	assert os.path.exists(filename)
+	candidates = pd.read_csv(filename, header=0)
+	candidates = candidates.fillna("")
+	return candidates
+
+def save_candidates(salami_id, candidates):
+	filename = "./search_lists/" + str(salami_id) + ".csv"
+	candidates.to_csv(filename, header=True, index=False, encoding="utf-8")
+
+def process_candidates(salami_id, max_tries_per_video=10):
+	candidates = load_candidate_list(salami_id)
+	df = load_matchlist()
+	for ind in candidates.index[:max_tries_per_video]:
+		youtube_id = candidates.loc[ind]['youtube_id']
+		decision = candidates.loc[ind]['decision']
+		decisions = candidates['decision'].values.tolist()
+		if ("match" not in decisions) and (np.sum(np.array(decisions)=="potential") < 3):
+			if decision == "":
+				download_status = download_and_report(youtube_id)
+				if download_status == "downloaded":
+					match_status = test_for_matching_audio(youtube_id, salami_id, redo=True)
+					candidates.decision.loc[ind] = match_status
+					if match_status == "potential":
+						matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
+						if matched_song_id == salami_id:
+							candidates.matching_length.loc[ind] = matching_length
+							candidates.onset_in_youtube.loc[ind] = onset_in_youtube
+							candidates.onset_in_salami.loc[ind] = onset_in_salami
+							candidates.hashes.loc[ind] = hashes
+							candidates.total_hashes.loc[ind] = total_hashes
+							salami_length = df.salami_length[df.salami_id==salami_id].values
+							frac_match = candidates.matching_length.loc[ind] / salami_length
+							if frac_match > 0.95:
+								candidates.decision.loc[ind] = "match"
+						else:
+							print "Matched... but with a different SALAMI song!"
+							candidates.decision.loc[ind] = "matched_"+str(matched_song_id)
+					save_candidates(salami_id, candidates)
 
 # Updated function to use readable, human-editable CSV instead of finnicky dataset:
 def store_result_in_database(salami_id, youtube_id):
@@ -151,29 +235,77 @@ def create_matchlist_csv():
 	# Note: salami files 1126, 1227, 1327 were flacs mistakenly labelled as mp3s.
 	# Also, 1599 isn't a real entry! I deleted it from the metadata file.
 
+# TODO: Redo create_matchlist_csv to have new format (no pitch shift or time stretch, yes new columns)
+# def create_matchlists_csv():
+# 	# Create
+# 	global youtube_matchlist_csv_filename
+# 	csv_header = ["youtube_id", "youtube_length", "salami_id", "salami_length", "matching_hashes", "total_hashes", "time_offset", "status"]
+# 	df = pd.DataFrame(columns=csv_header)
+# 	df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+# 	global salami_matchlist_csv_filename
+# 	global salami_public_audio_folder
+# 	csv_header = ["salami_id", "salami_length", "youtube_id", "youtube_length", "matching_hashes", "total_hashes", "time_offset", "status", "candidate_youtube_ids"]
+# 	df = pd.DataFrame(columns=csv_header)
+# 	for salid in md.index:
+# 		mp3_path = salami_public_audio_folder + "/" + str(salid) + "/audio.mp3"
+# 		song_length = librosa.core.get_duration(filename=mp3_path)
+# 		df["salami_length"][salid] = song_length
+# 	df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+
+
 def load_matchlist():
 	global salami_matchlist_csv_filename
 	df = pd.read_csv(salami_matchlist_csv_filename, header=0)
 	df = df.fillna("")
 	return df
 
-def make_download_attempt(youtube_id, expected_length, max_abs_deviation=2, long_ok=False):
-	# max_ratio_deviation=0.05, 
+def get_info_from_youtube(youtube_id):
 	global ydl_opts
 	try:
 		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 			x = ydl.extract_info('http://www.youtube.com/watch?v='+youtube_id, download=False)
-			video_length = x['duration']
-			download_title = x['title']
+			# video_length = x['duration']
+			return x
+	except (KeyboardInterrupt):
+		raise
 	except:
-		print "Video connection failed."
-		return "error", 0
+		# print "Video connection failed."
+		return None
+
+def download_and_report(youtube_id, redownload=False):
+	global ydl_opts
+	if (not os.path.exists(downloaded_audio_folder + "/" + youtube_id + ".mp3")) or (redownload):
+		try:
+			with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+				x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
+			print "Successfully downloaded ({0})".format(youtube_id)
+			return "downloaded"
+		except (KeyboardInterrupt):
+			raise
+		except:
+			print "Error downloading video ({0})".format(youtube_id)
+			return "error"
+	else:
+		return "downloaded"
+
+def make_download_attempt(youtube_id, expected_length=None, max_abs_deviation=2, long_ok=False):
+	if (expected_length > 60*9) and (not long_ok):
+		print "Setting long_ok = True, because expected length is greater than 9 minutes."
+		long_ok = True
+	# If expected_length = None, don't bother checking length of video.
+	global ydl_opts
+	video_info = get_info_from_youtube(youtube_id)
+	if video_info:
+		video_length = video_info
+	else:
+		video_length = 0
+	# max_ratio_deviation=0.05, 
 	# if expected_length == 0:
 	# 	ratio_deviation = 0
 	# else:
 	# 	ratio_deviation = np.abs(expected_length-video_length)*1.0/expected_length
 	abs_deviation = np.abs(expected_length-video_length)
-	if abs_deviation > max_abs_deviation:
+	if (abs_deviation > max_abs_deviation) and (expected_length is not None):
 		print "Stopping -- unexpected length ({0})".format(youtube_id)
 		return "stopped", video_length
 	if (video_length > 60*10) and (expected_length<60*10-10) and (not long_ok):
@@ -265,7 +397,7 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand
 	if text[1].split(" ")[0] == "NOMATCH":
 		return "reject"
 	else:
-		return "match"
+		return "potential"
 
 def read_match_report(salami_id):
 	output_filename = "./match_reports/match_report_" + str(salami_id) + ".txt"
@@ -280,7 +412,7 @@ def read_match_report(salami_id):
 		matched_song_id = int(line_info[14].split("/")[-2])
 		matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = [float(line_info[i]) for i in [1, 5, 11, 16, 18]]
 		return matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes
-	
+
 def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_hashes=0):
 	global downloaded_audio_folder
 	global salami_matchlist_csv_filename
@@ -340,7 +472,7 @@ def test_fingerprints_for_salami_id(salami_id):
 		for youtube_id in candidate_list:
 			match_result = test_for_matching_audio(youtube_id, salami_id, download_on_demand=True)
 			matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
-			if match_result == "match":
+			if match_result == "potential":
 				if matched_song_id == salami_id:
 					print "Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id)
 					handle_candidate(salami_id, youtube_id, "match")

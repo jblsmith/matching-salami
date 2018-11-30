@@ -1,4 +1,17 @@
 from match_salami_files import *
+df = load_matchlist()
+for salami_id in df.salami_id[12:20]:
+	# for salami_id in [2,3,4,5,6,7,8]:
+	output_list = multiple_searches_for_song(salami_id)
+	define_candidates_from_searches(salami_id, output_list)
+	prioritize_candidates(salami_id)
+	process_candidates(salami_id)
+
+
+# It still misses Q5u1ZbIaNps for 14! So I still need to add a manual suggestion method.
+manually_suggest_and_process(salami_id,youtube_id)
+
+
 salami_id = 3
 youtube_id="Y6zAT15vaFk"
 test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand=False)
