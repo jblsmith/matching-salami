@@ -142,20 +142,48 @@ def define_candidates_from_searches(salami_id, search_response_list, overwrite=F
 def prioritize_candidates(salami_id):
 	candidates = load_candidate_list(salami_id)
 	# Prioritization:
-	# 	- multiply-ranked first
-	# 	- anything in top 10, by rank, at most 5 seconds longer than SALAMI
-	#	- anything in top 10, by rank, at most 5 seconds shorter than SALAMI
-	# 	- rest of the top 10, by rank, disregarding length
-	# 	- rest of everything, in order of length deviation
+	#   - anything ranked 0 first
+	#	- sort by score: get points for being in top 10 (two for being in top 5), and having same length +/- 5 seconds (2 points for being on the long side).
+	#	- Otherwise, sort by number of search hits, and search rank.
+	#	- Manually-suggested videos (e.g., by manual search, or by previously-matched database): adds 100 to the score.
 	candidates["in_top_5"] = candidates.top_rank<5
 	candidates["in_top_10"] = candidates.top_rank<10
 	candidates["same_plus_5"] = (candidates.deviation<=0) & (candidates.deviation>=-5)
 	candidates["same_less_5"] = (candidates.deviation>=0) & (candidates.deviation<=5)
-	candidates["overall_score"] = candidates.in_top_5 + candidates.in_top_10 + 2*candidates.same_plus_5 + candidates.same_less_5
+	candidates["overall_score"] = candidates.in_top_5 + candidates.in_top_10 + 2*candidates.same_plus_5 + candidates.same_less_5 + 5*pd.Series(candidates.top_rank==0)
 	candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
 	save_candidates(salami_id, candidates)
 	# Check results sorted as expected:
 	# cands[['n_hits','in_top_10','same_plus_5','same_less_5','top_rank']]
+
+def manually_suggest_and_process(salami_id, youtube_id):
+	candidates = load_candidate_list(salami_id)
+	if youtube_id in candidates.youtube_id.values:
+		print "Candidate already in list..."
+		ind = candidates.index[candidates.youtube_id==youtube_id].values
+		if candidates.loc[ind,"decision"].values != "":
+			print "Already tested for similarity! Not changing anything."
+		else:
+			print "Candidate not yet tested. Boosting score by 100."
+			candidates.loc[ind,"overall_score"] += 100
+			candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
+			save_candidates(salami_id, candidates)
+	else:
+		next_ind = len(candidates.index)
+		candidates.loc[next_ind,"youtube_id"] = youtube_id
+		candidates.loc[next_ind,"overall_score"] = 100
+		video_info = get_info_from_youtube(youtube_id)
+		candidates.loc[next_ind,"duration"] = video_info["duration"]
+		candidates.loc[next_ind,"title"] = video_info["title"]
+		df = load_matchlist()
+		expected_length = float(df["salami_length"][df.salami_id==salami_id].values)
+		candidates.loc[next_ind,"deviation"] = expected_length - video_info["duration"]
+		candidates.loc[next_ind, "top_rank"] = -1
+		candidates.loc[next_ind, "salami_coverage"] = 0
+		candidates.loc[next_ind, "n_hits"] = 1
+		candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
+		candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]] = candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]].astype(int)
+		save_candidates(salami_id, candidates)
 
 def load_candidate_list(salami_id):
 	filename = "./search_lists/" + str(salami_id) + ".csv"
@@ -168,14 +196,14 @@ def save_candidates(salami_id, candidates):
 	filename = "./search_lists/" + str(salami_id) + ".csv"
 	candidates.to_csv(filename, header=True, index=False, encoding="utf-8")
 
-def process_candidates(salami_id, max_tries_per_video=10):
+def process_candidates(salami_id, max_tries_per_video=10, max_potential=3):
 	candidates = load_candidate_list(salami_id)
 	df = load_matchlist()
 	for ind in candidates.index[:max_tries_per_video]:
 		youtube_id = candidates.loc[ind]['youtube_id']
 		decision = candidates.loc[ind]['decision']
 		decisions = candidates['decision'].values.tolist()
-		if ("match" not in decisions) and (np.sum(np.array(decisions)=="potential") < 3):
+		if ("match" not in decisions) and (np.sum(np.array(decisions)=="potential") < max_potential):
 			if decision == "":
 				download_status = download_and_report(youtube_id)
 				if download_status == "downloaded":
@@ -197,6 +225,17 @@ def process_candidates(salami_id, max_tries_per_video=10):
 							print "Matched... but with a different SALAMI song!"
 							candidates.decision.loc[ind] = "matched_"+str(matched_song_id)
 					save_candidates(salami_id, candidates)
+
+def purge_rejected_audio(salami_id):
+	candidates = load_candidate_list(salami_id)
+	rejects = candidates.loc[candidates["decision"] == "reject"]
+	reject_ids = rejects.youtube_id.values
+	for youtube_id in reject_ids:
+		mp3_location = downloaded_audio_folder + "/" + youtube_id + ".mp3"
+		garbage_location = os.getcwd() + "/garbage_audio"
+		if os.path.exists(mp3_location):
+			subcall = ["mv", mp3_location, garbage_location]
+			os.system(" ".join(subcall))
 
 # Updated function to use readable, human-editable CSV instead of finnicky dataset:
 def store_result_in_database(salami_id, youtube_id):
