@@ -113,7 +113,7 @@ def multiple_searches_for_song(salami_id):
 
 def define_candidates_from_searches(salami_id, search_response_list, overwrite=False):
 	df = load_matchlist()
-	output_filename = "./search_lists/" + str(salami_id) + ".csv"
+	output_filename = "./candidate_lists/" + str(salami_id) + ".csv"
 	if os.path.exists(output_filename) and (not overwrite):
 		print "Cannot process candidates because saved list already exists."
 		return
@@ -150,7 +150,7 @@ def prioritize_candidates(salami_id):
 	candidates["in_top_10"] = candidates.top_rank<10
 	candidates["same_plus_5"] = (candidates.deviation<=0) & (candidates.deviation>=-5)
 	candidates["same_less_5"] = (candidates.deviation>=0) & (candidates.deviation<=5)
-	candidates["overall_score"] = candidates.in_top_5 + candidates.in_top_10 + 2*candidates.same_plus_5 + candidates.same_less_5 + 5*pd.Series(candidates.top_rank==0)
+	candidates["overall_score"] = 1*candidates.in_top_5 + 1*candidates.in_top_10 + 2*candidates.same_plus_5 + 1*candidates.same_less_5 + 5*pd.Series(candidates.top_rank==0)
 	candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
 	save_candidates(salami_id, candidates)
 	# Check results sorted as expected:
@@ -185,18 +185,25 @@ def manually_suggest_and_process(salami_id, youtube_id):
 		candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]] = candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]].astype(int)
 		save_candidates(salami_id, candidates)
 
+def suggest_previous_find(salami_id):
+	df = load_matchlist()
+	ind = df.index.values[df.salami_id==salami_id]
+	youtube_id = df.loc[ind]["youtube_id"].values.tolist()[0]
+	if youtube_id != "":
+		manually_suggest_and_process(salami_id, youtube_id)
+
 def load_candidate_list(salami_id):
-	filename = "./search_lists/" + str(salami_id) + ".csv"
+	filename = "./candidate_lists/" + str(salami_id) + ".csv"
 	assert os.path.exists(filename)
 	candidates = pd.read_csv(filename, header=0)
 	candidates = candidates.fillna("")
 	return candidates
 
 def save_candidates(salami_id, candidates):
-	filename = "./search_lists/" + str(salami_id) + ".csv"
+	filename = "./candidate_lists/" + str(salami_id) + ".csv"
 	candidates.to_csv(filename, header=True, index=False, encoding="utf-8")
 
-def process_candidates(salami_id, max_tries_per_video=10, max_potential=3):
+def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep=0):
 	candidates = load_candidate_list(salami_id)
 	df = load_matchlist()
 	for ind in candidates.index[:max_tries_per_video]:
@@ -205,7 +212,7 @@ def process_candidates(salami_id, max_tries_per_video=10, max_potential=3):
 		decisions = candidates['decision'].values.tolist()
 		if ("match" not in decisions) and (np.sum(np.array(decisions)=="potential") < max_potential):
 			if decision == "":
-				download_status = download_and_report(youtube_id)
+				download_status = download_and_report(youtube_id, sleep=sleep)
 				if download_status == "downloaded":
 					match_status = test_for_matching_audio(youtube_id, salami_id, redo=True)
 					candidates.decision.loc[ind] = match_status
@@ -311,7 +318,7 @@ def get_info_from_youtube(youtube_id):
 		# print "Video connection failed."
 		return None
 
-def download_and_report(youtube_id, redownload=False):
+def download_and_report(youtube_id, redownload=False, sleep=0):
 	global ydl_opts
 	if (not os.path.exists(downloaded_audio_folder + "/" + youtube_id + ".mp3")) or (redownload):
 		try:
@@ -319,6 +326,7 @@ def download_and_report(youtube_id, redownload=False):
 				x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
 			print "Successfully downloaded ({0})".format(youtube_id)
 			return "downloaded"
+			time.sleep(sleep)
 		except (KeyboardInterrupt):
 			raise
 		except:

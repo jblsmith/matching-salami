@@ -1,23 +1,16 @@
 from match_salami_files import *
 df = load_matchlist()
-for salami_id in df.salami_id[20:40]:
+# Make too-short videos always less desirable.
+for salami_id in df.salami_id[40:60]:
 	# for salami_id in [2,3,4,5,6,7,8]:
 	output_list = multiple_searches_for_song(salami_id)
 	define_candidates_from_searches(salami_id, output_list)
 	prioritize_candidates(salami_id)
-	process_candidates(salami_id)
-
-# TODO
-
-# It still misses Q5u1ZbIaNps for 14! So I still need to add a manual suggestion method.
-manually_suggest_and_process(14,"Q5u1ZbIaNps")
-process_candidates(salami_id, max_tries_per_video=1)
-
-# ADd this function:
-for salami_id in df.salami_id[:40]:
+	suggest_previous_find(salami_id) # (if it exists)
+	process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep=10)
 	purge_rejected_audio(salami_id)
 
-# Start tracking candidate_list files
+
 
 salami_id = 3
 youtube_id="Y6zAT15vaFk"
