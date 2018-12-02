@@ -1,0 +1,6 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+PVf0MTZcTcw,4,1,"Fiatal, de fogoly",240,-64.9534583333,0,reject,True,True,False,False,2,,,,,
+mrrQT4WkbNE,0,3,Solomon Linda&The Evening ( The First Version ) - Mbube,164,11.046541666700001,0,reject,True,True,False,False,0,,,,,
+cd6lVIJJeE4,0,3,Mbube Solomon Linda's Original Evening Birds '39 Singer 829,164,11.046541666700001,0,,True,True,False,False,0,,,,,
+OqfMdChj74Q,2,3,Solomon Linda - Mbube (The Lion Sleeps Tonight),165,10.0465416667,0,,True,True,False,False,0,,,,,
+PuzbHvnvOfI,3,1,"Ihlombe! South African Choral Festival - ""Mandela at 100: Songs of Hope, Freedom & Unity""",81,94.0465416667,0,,True,True,False,False,0,,,,,

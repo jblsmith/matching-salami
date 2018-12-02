@@ -1,0 +1,4 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+_xWtVqQWixY,0,2,Macklean Sonata I - Adagio,76,257.635916667,0,reject,True,True,False,False,0,,,,,
+xaQ9fGy0TWo,1,2,Loch Ness: Loch Ness; Sandy Is My Darling,181,152.635916667,0,reject,True,True,False,False,0,,,,,
+l52fjXZb7uc,1,2,Kinloch's Fantasy (Among The Cottonwoods) - Cottonwood Reel; A Duncan Macquarrie Reel,168,165.635916667,0,,True,True,False,False,0,,,,,

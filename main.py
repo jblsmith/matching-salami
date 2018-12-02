@@ -1,15 +1,82 @@
 from match_salami_files import *
 df = load_matchlist()
+md = load_song_info()
+cod_ids = list((md.salami_id[md.source=="Codaich"]).astype(int))
+cod_ids.sort()
 # Make too-short videos always less desirable.
-for salami_id in df.salami_id[40:60]:
-	# for salami_id in [2,3,4,5,6,7,8]:
-	output_list = multiple_searches_for_song(salami_id)
-	define_candidates_from_searches(salami_id, output_list)
-	prioritize_candidates(salami_id)
-	suggest_previous_find(salami_id) # (if it exists)
-	process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep=10)
-	purge_rejected_audio(salami_id)
+for salami_id in cod_ids[826:]:
+	print salami_id
+	try:
+		output_list = multiple_searches_for_song(salami_id)
+		define_candidates_from_searches(salami_id, output_list)
+		prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
+		# If match not found on first pass, we can relax constraint and set no_longs=False to get more options.
+		# Also, focus for now only on things that are at least as long as the SALAMI file.
+		suggest_previous_find(salami_id) # (if it exists)
+		process_candidates(salami_id, max_tries_per_video=2, max_potential=2, sleep=60)
+		purge_rejected_audio(salami_id)
+	except (KeyboardInterrupt):
+		raise
+	except:
+		print "Error processing salami_id {0}".format(salami_id)
 
+
+
+
+# Push deeper:
+for salami_id in cod_ids:
+	try:
+		prioritize_candidates(salami_id, no_longs=False, must_be_longer=True)
+		# If match not found on first pass, we can relax constraint and set no_longs=False to get more options.
+		# Also, focus for now only on things that are at least as long as the SALAMI file.
+		suggest_previous_find(salami_id) # (if it exists)
+		process_candidates(salami_id, max_tries_per_video=5, max_potential=2, sleep=60)
+		purge_rejected_audio(salami_id)
+	except (KeyboardInterrupt):
+		raise
+	except:
+		print "Error processing salami_id {0}".format(salami_id)
+
+
+matchlist = pd.DataFrame(columns=["salami_id","salami_length","youtube_id","youtube_length","coverage","coverage_percent"])
+for salami_id in cod_ids:
+	# Record best answer so far [might be nothing]
+	candidates = load_candidate_list(salami_id)
+	# Read candidate report
+	next_ind = len(matchlist)
+	salami_length = df.salami_length[df.salami_id==salami_id].values[0]
+	if "match" in candidates.decision.values:
+		# Select best candidate from report [could be a "potential", not "match".]
+		matchlist.loc[next_ind,"salami_id"] = salami_id
+		matchlist.loc[next_ind,"salami_length"] = salami_length
+		matchlist.loc[next_ind,"youtube_id"] = candidates.youtube_id[candidates.decision=="match"].values[0]
+		matchlist.loc[next_ind,"youtube_length"] = candidates.duration[candidates.decision=="match"].values[0]
+		matchlist.loc[next_ind,"coverage"] = candidates.matching_length[candidates.decision=="match"].values[0]
+		matchlist.loc[next_ind,"coverage_percent"] = matchlist.loc[next_ind,"coverage"] / salami_length
+	# Choose better of the matches
+	# Update file with results
+	# If no match yet, do nothing.
+
+matchlist.to_csv("matchlist_final_format.csv",header=True,index=False)
+
+
+def update_matchlist_from_candidate_report(salami_id):
+	# Open file
+	global matchlist
+	# Record best answer so far [might be nothing]
+	# Read candidate report
+	# Select best candidate from report [could be a "potential", not "match".]
+	# Choose better of the matches
+	# Update file with results
+	# If no match yet, do nothing.
+
+# 
+
+# TODO:
+# Function to convert candidate lists to final approved lists
+# Script (in main.py) to look deeper and find more when no matches found
+# Revise downloading_audio to use new info
+# Revise match_list saving/loading to have limited float length, because it's dumbly changing the precision.
 
 
 salami_id = 3

@@ -1,0 +1,9 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+tfO3y2_5L-o,0,1,SUDAN: Al Shammasha,122,-57.1640833333,0,potential,True,True,False,False,7,58.7,1.1,1.1,1361.0,1555.0
+EUir82fwF38,1,1,BRAZIL: Aije (The sound of the bull-roarers),114,-49.1640833333,0,reject,True,True,False,False,2,,,,,
+d3vtArl2WnY,2,1,BALI: Gambang Suling (extract),293,-228.16408333299998,0,,True,True,False,False,2,,,,,
+chSV6XEohsI,3,1,JAVA: Tarawangsa (extract),293,-228.16408333299998,0,,True,True,False,False,2,,,,,
+QBx-RZhKwWY,4,1,BENIN: Music in praise of Oru Suru (extract),261,-196.16408333299998,0,,True,True,False,False,2,,,,,
+65GmnA4-3Jo,5,1,"BADAKHSHAN: Uyman tartur, Oyimcha, Takanja dandun nars (I love your little teeth) (extract)",75,-10.1640833333,0,,False,True,False,False,1,,,,,
+3WjkW1zn58Q,6,1,INDIA: Khyal (extract),310,-245.16408333299998,0,,False,True,False,False,1,,,,,
+zLj3lYD0Bis,7,1,UZBEKISTAN: Hafif-i segah,286,-221.16408333299998,0,,False,True,False,False,1,,,,,

@@ -1,0 +1,5 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+_mH18duWVLE,0,2,"Lilac Slips - Brilliante; Giga; Brilliants; Old Dutch Churn, Joan Beaton's Jig Slip-jig",190,-0.40325,0,match,True,True,True,False,9,188.5,0.6,0.6,3516.0,3945.0
+Sqk61pnc3MY,1,2,Macminutes - Lady Jean Lindsay's Minuet; Minuetto; Lady Jean Lindsday's Minuet Reprise,217,-27.40325,0,,True,True,False,False,2,,,,,
+77Yxd4klNFs,1,1,Old Dutch Churn/Drops of Brandy/Colonel Macbean/Neil Roy,285,-95.40325,0,,True,True,False,False,2,,,,,
+z4znC6E4Y4k,2,1,The Old Dutch Churn/ Looney McTwalter/ Mike Moloney's,306,-116.40325,0,,True,True,False,False,2,,,,,

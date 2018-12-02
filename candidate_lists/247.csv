@@ -1,0 +1,4 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+F1INszJsEPQ,0,1,"10. Music of the Middle Ages; Virelai, Rondeau and Ballade",571,-487.09466666699996,0,reject,True,True,False,False,7,,,,,
+8v5gMsius9M,2,1,Assumption High School's Rose Theatre Company: The Diviners Commercial,108,-24.0946666667,0,reject,True,True,False,False,2,,,,,
+POxLCnG7l50,0,3,Guillaume de Machaut: Medieval music from the time of plague and courtly love (c.1350-1370),1409,-1325.09466667,0,,True,True,False,False,0,,,,,

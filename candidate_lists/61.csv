@@ -1,0 +1,6 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+UIIUq6pD96c,0.0,1,Seven Studies on Themes of Paul Klee: 3. Little Blue Devil,184,-33.4301666667,0,reject,True,True,False,False,7,,,,,
+q-YRPujUuQI,3.0,1,Seven Studies on Themes of Paul Klee: 5. Arab Village,412,-261.430166667,0,match,True,True,False,False,2,143.7,78.1,0.2,778.0,934.0
+uD6m-qK6lWk,1.0,1,Seven Studies on Themes of Paul Klee: 4. The Twittering Machine,128,22.5698333333,0,,True,True,False,False,0,,,,,
+p4yW_IcntYE,2.0,1,An Interview with Gunther Schuller on his Seven Studies on Themes of Paul Klee,6485,-6334.43016667,0,,True,True,False,False,0,,,,,
+98cE8SU7ALM,inf,0,,0,inf,0,,False,False,False,False,0,,,,,

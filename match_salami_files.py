@@ -139,7 +139,7 @@ def define_candidates_from_searches(salami_id, search_response_list, overwrite=F
 		print "Outputting list to temporary CSV file because something went wrong."
 		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8")
 
-def prioritize_candidates(salami_id):
+def prioritize_candidates(salami_id, no_longs=False, must_be_longer=False):
 	candidates = load_candidate_list(salami_id)
 	# Prioritization:
 	#   - anything ranked 0 first
@@ -150,7 +150,14 @@ def prioritize_candidates(salami_id):
 	candidates["in_top_10"] = candidates.top_rank<10
 	candidates["same_plus_5"] = (candidates.deviation<=0) & (candidates.deviation>=-5)
 	candidates["same_less_5"] = (candidates.deviation>=0) & (candidates.deviation<=5)
-	candidates["overall_score"] = 1*candidates.in_top_5 + 1*candidates.in_top_10 + 2*candidates.same_plus_5 + 1*candidates.same_less_5 + 5*pd.Series(candidates.top_rank==0)
+	candidates["overall_score"] = 1*candidates.in_top_5 + 1*candidates.in_top_10 + 2*candidates.same_plus_5 + 1*candidates.same_less_5 + 5*pd.Series(candidates.top_rank==0) + 100*(candidates.top_rank == -1)
+	if no_longs:
+		candidates["overall_score"] = candidates["overall_score"]*(candidates.duration < 10*60)
+	if must_be_longer:
+		df = load_matchlist()
+		salami_length = df.salami_length[df.salami_id==salami_id].values[0]
+		candidates["overall_score"] = candidates["overall_score"]*(candidates.duration >= salami_length)
+	# If a video is manually suggested, we indicate its top rank as -1, and it gets the highest priority.
 	candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
 	save_candidates(salami_id, candidates)
 	# Check results sorted as expected:
@@ -173,17 +180,20 @@ def manually_suggest_and_process(salami_id, youtube_id):
 		candidates.loc[next_ind,"youtube_id"] = youtube_id
 		candidates.loc[next_ind,"overall_score"] = 100
 		video_info = get_info_from_youtube(youtube_id)
-		candidates.loc[next_ind,"duration"] = video_info["duration"]
-		candidates.loc[next_ind,"title"] = video_info["title"]
-		df = load_matchlist()
-		expected_length = float(df["salami_length"][df.salami_id==salami_id].values)
-		candidates.loc[next_ind,"deviation"] = expected_length - video_info["duration"]
-		candidates.loc[next_ind, "top_rank"] = -1
-		candidates.loc[next_ind, "salami_coverage"] = 0
-		candidates.loc[next_ind, "n_hits"] = 1
-		candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
-		candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]] = candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]].astype(int)
-		save_candidates(salami_id, candidates)
+		if video_info is not None:
+			candidates.loc[next_ind,"duration"] = video_info["duration"]
+			candidates.loc[next_ind,"title"] = video_info["title"]
+			df = load_matchlist()
+			expected_length = float(df["salami_length"][df.salami_id==salami_id].values)
+			candidates.loc[next_ind,"deviation"] = expected_length - video_info["duration"]
+			candidates.loc[next_ind, "top_rank"] = -1
+			candidates.loc[next_ind, "salami_coverage"] = 0
+			candidates.loc[next_ind, "n_hits"] = 1
+			candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
+			candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]] = candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]].astype(int)
+			save_candidates(salami_id, candidates)
+		else:
+			print "Video info failed. Not adding suggestion."
 
 def suggest_previous_find(salami_id):
 	df = load_matchlist()

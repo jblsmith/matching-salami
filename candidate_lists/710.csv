@@ -1,0 +1,4 @@
+youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
+hImuF43NAX0,0,5,I've Been Shot,7,-0.7066666666670001,0,potential,True,True,True,False,109,5.7,0.3,0.1,96.0,96.0
+SvvmO0fj99Q,1,5,Lock Stock and Two Smoking Barrels Soundtrack Tracklist,135,-128.706666667,0,reject,True,True,False,False,2,,,,,
+phzo2R_mqvE,2,3,Asian gang attack man and car in alum Rock  Birmingham England,104,-97.7066666667,0,,True,True,False,False,2,,,,,
