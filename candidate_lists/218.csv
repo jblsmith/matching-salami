@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-fmZPX5FV4Xk,1,5,Missa de beata Virgine: XVII. Agnus Dei No. 1,88,-0.411416666667,0,match,True,True,True,False,104,85.5,0.1,0.1,727.0,736.0
 H5dblpcy86M,0,5,Missa de beata Virgine: XIX. Agnus Dei No. 3,108,-20.4114166667,0,,True,True,False,False,7,,,,,
 x1LWGWDXoyU,0,3,Josquin: Missa De Beata Vergine - Agnus Dei,295,-207.411416667,0,,True,True,False,False,7,,,,,
+fmZPX5FV4Xk,1,5,Missa de beata Virgine: XVII. Agnus Dei No. 1,88,-0.411416666667,0,match,True,True,True,False,4,85.5,0.1,0.1,727.0,736.0
 b8c0ljr0yz0,5,1,Missa de Beata Virgine: Agnus Dei I,91,-3.41141666667,0,,False,True,True,False,3,,,,,
 1xTSMpy6CN4,1,5,Missa de beata virgine - Agnus Dei (Agnus Dei 1 - Agnus Dei 2 - Agnus Dei 3),282,-194.411416667,0,,True,True,False,False,2,,,,,
 3DGcz518FpI,1,4,Missa de beata Virgine: XVIII. Agnus Dei No. 2,105,-17.4114166667,0,,True,True,False,False,2,,,,,

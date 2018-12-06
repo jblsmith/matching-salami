@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-FmDt7-lDGfc,0,4,"Duke Ellington ""So Far, So Good"" Victor 26537 Ivie Anderson vocals",176,-1.3389,0,potential,True,True,True,False,109,87.3,74.3,74.9,251.0,559.0
+FmDt7-lDGfc,0,4,"Duke Ellington ""So Far, So Good"" Victor 26537 Ivie Anderson vocals",176,-1.3389,0,potential,True,True,True,False,9,87.3,74.3,74.9,251.0,559.0
 KUFZgJ32xU8,0,1,Phyno - So Far So Good [Official Video],242,-67.3389,0,reject,True,True,False,False,7,,,,,
-iA-IY0KeO0A,1,3,"So Far, So Good (feat. Ivie Anderson)",175,-0.3389,0,,True,True,True,False,4,,,,,
+iA-IY0KeO0A,1,3,"So Far, So Good (feat. Ivie Anderson)",175,-0.3389,0,match,True,True,True,False,4,170.9,1.0,0.2,2074.0,2160.0
 TqJ-Sy2ufHs,2,2,"Duke Ellington - So Far, So Good",178,-3.3389,0,,True,True,True,False,4,,,,,
 21xzzgXItwQ,10,2,"So Far, So Good",177,-2.3389,0,,False,False,True,False,2,,,,,
 E_DxgM3t64U,14,2,"So Far, So Good",177,-2.3389,0,,False,False,True,False,2,,,,,

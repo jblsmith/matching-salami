@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-vZKFeI5Q6uA,0,5,"Ani DiFranco/Prince ""Providence""",433,5.20408333333,0,potential,True,True,False,False,100,379.9,0.5,0.4,3810.0,4680.0
 wC4Ky9HXqBY,1,3,Ani DiFranco - Providence (Live 2000),542,-103.79591666700001,0,reject,True,True,False,False,2,,,,,
-81tmJAxvlds,6,1,To the Teeth,463,-24.795916666700002,0,,False,True,False,False,1,,,,,
-Ryf_t-Y6FJs,1,5,Providence,438,0.204083333333,0,,True,True,False,True,0,,,,,
+81tmJAxvlds,6,1,To the Teeth,463,-24.795916666700002,0,reject,False,True,False,False,1,,,,,
+vZKFeI5Q6uA,0,5,"Ani DiFranco/Prince ""Providence""",433,5.20408333333,0,potential,True,True,False,False,0,379.9,0.5,0.4,3810.0,4680.0
+Ryf_t-Y6FJs,1,5,Providence,438,0.204083333333,0,potential,True,True,False,True,0,379.9,0.4,0.4,4215.0,5240.0
 eF_W-1DfgUI,3,4,Ani Difranco - Providence,303,135.204083333,0,,True,True,False,False,0,,,,,
 LLJ6f5V8Y2g,8,4,"Ani Difranco ""Providence"" (Skeptomai)",296,142.204083333,0,,False,True,False,False,0,,,,,
 qKjBgMDbZx4,3,3,Ani DiFranco Santa Cruz Rio 10-13-09 Providence,345,93.2040833333,0,,True,True,False,False,0,,,,,

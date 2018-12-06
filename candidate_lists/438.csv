@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-59til4fU1tk,0,2,Clifford Brown - Easy Living,224,1.09715,0,match,True,True,False,True,100,219.8,0.5,0.4,2527.0,2615.0
 yTbun9dlDrA,0,1,KBong - Livin Easy (feat. Stick Figure),237,-11.90285,0,,True,True,False,False,7,,,,,
 Bv0iwXgWWd0,1,2,Clifford Brown - Easy Living - transcription for Bb (trumpet) and C instruments,230,-4.90285,0,,True,True,True,False,4,,,,,
 fVafHtRMWzk,6,2,Easy Living - Clifford Brown (The AudioNirvana Tape Circle),227,-1.90285,0,,False,True,True,False,3,,,,,
@@ -13,6 +12,7 @@ KxaC0_O3i9Q,6,1,Rico And The Allstars - Fab Records - 1967,406,-180.90285,0,,Fal
 uLqjvFSOs7c,7,1,Jon Faddis / Riverside Park - Track 3 - Chesky 2K Sampler / Chesky Records - 2000,456,-230.90285,0,,False,True,False,False,1,,,,,
 u3S5rXpo47w,8,1,Norah Jones - Easy Living,394,-168.90285,0,,False,True,False,False,1,,,,,
 P_tAU3GM9XI,9,1,Erroll Garner plays Misty,254,-28.90285,0,,False,True,False,False,1,,,,,
+59til4fU1tk,0,2,Clifford Brown - Easy Living,224,1.09715,0,match,True,True,False,True,0,219.8,0.5,0.4,2527.0,2615.0
 d-7ZsVPh47Y,0,2,Jazz All Days: Anita O'Day,16417,-16191.90285,0,,True,True,False,False,0,,,,,
 wQA_XKJQ9jc,2,2,Clifford Brown - Easy Living,225,0.09715,0,,True,True,False,True,0,,,,,
 LSogff7FPyA,3,2,Clifford Brown - 1956 - Memorial Album - 02 Easy Living,223,2.09715,0,,True,True,False,True,0,,,,,

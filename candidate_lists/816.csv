@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 eEhzp7Y1fcQ,0,4,A Toda Cuba Le Gusta,148,-2.65475,0,reject,True,True,True,False,9,,,,,
 kwM0VsTUIhs,1,3,A Toda Cuba le Gusta,148,-2.65475,0,reject,True,True,True,False,4,,,,,
-jLSNS_qZcUU,2,3,A Toda Cuba Le Gusta,149,-3.65475,0,,True,True,True,False,4,,,,,
-toreHfq87SE,9,3,A Toda Cuba Le Gusta (Guaracha),149,-3.65475,0,,False,True,True,False,3,,,,,
-OETA5Xoys20,3,3,Amor Verdadero Afro-Cuban All Stars,403,-257.65475,0,,True,True,False,False,2,,,,,
+jLSNS_qZcUU,2,3,A Toda Cuba Le Gusta,149,-3.65475,0,reject,True,True,True,False,4,,,,,
+toreHfq87SE,9,3,A Toda Cuba Le Gusta (Guaracha),149,-3.65475,0,potential,False,True,True,False,3,34.8,0.4,0.3,48.0,223.0
+OETA5Xoys20,3,3,Amor Verdadero Afro-Cuban All Stars,403,-257.65475,0,reject,True,True,False,False,2,,,,,
 gfNR-u3mlCI,3,3,"Nostalgia Cubana - Pio Leiva, Ibrahin Ferrer y Puntillita - Alto Songo",164,-18.65475,0,,True,True,False,False,2,,,,,
 Df2FNZUZJpk,1,2,A Toda Cuba Le Gusta Afro-Cuban All Stars,352,-206.65475,0,,True,True,False,False,2,,,,,
 RIOBBA4vh2g,3,2,willie rosario - a toda cuba le gusta,286,-140.65475,0,,True,True,False,False,2,,,,,

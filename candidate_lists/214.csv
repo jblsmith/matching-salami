@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 v21QACJrwWI,0,1,Attaingnant: Basse danse La brosse - Tripla - Tourdion,115,-22.3697916667,0,reject,True,True,False,False,7,,,,,
-A3TIsu2V6mg,1,1,a little Branle Gay by Pierre Attaignant  1547,93,-0.369791666667,0,,True,True,True,False,4,,,,,
-PQshZ9ej4aU,6,1,Basse Dance (Suite) - Claude Gervaise,93,-0.369791666667,0,,False,True,True,False,3,,,,,
-8hfaDKc11Zc,2,1,Bransle simple - Bransle gay - Basse dance la Magdalena - Tourdion,358,-265.369791667,0,,True,True,False,False,2,,,,,
-gEOBC2zQKSE,4,1,Claude Gervaise - Pavane Passamaize de la Suite Nº 1,102,-9.36979166667,0,,True,True,False,False,2,,,,,
+A3TIsu2V6mg,1,1,a little Branle Gay by Pierre Attaignant  1547,93,-0.369791666667,0,reject,True,True,True,False,4,,,,,
+PQshZ9ej4aU,6,1,Basse Dance (Suite) - Claude Gervaise,93,-0.369791666667,0,reject,False,True,True,False,3,,,,,
+8hfaDKc11Zc,2,1,Bransle simple - Bransle gay - Basse dance la Magdalena - Tourdion,358,-265.369791667,0,reject,True,True,False,False,2,,,,,
+gEOBC2zQKSE,4,1,Claude Gervaise - Pavane Passamaize de la Suite Nº 1,102,-9.369791666669999,0,reject,True,True,False,False,2,,,,,
 4eLW6cJPDb4,5,1,Claude Gervaise - Almande IV de la Suite Nº 3,184,-91.3697916667,0,,False,True,False,False,1,,,,,
 f1UV_0JHi-M,8,1,Bransle Simple,103,-10.3697916667,0,,False,True,False,False,1,,,,,
 _QRjqjefDKM,9,1,Claude Gervaise - Bransles,283,-190.36979166700002,0,,False,True,False,False,1,,,,,

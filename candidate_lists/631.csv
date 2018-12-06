@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-LdR5_bqS8ok,0,5,Bob Marley - Ride Natty Ride [08],237,-5.47675,0,match,True,True,False,False,107,228.0,5.7,0.7,2096.0,2844.0
+LdR5_bqS8ok,0,5,Bob Marley - Ride Natty Ride [08],237,-5.47675,0,match,True,True,False,False,7,228.0,5.7,0.7,2096.0,2844.0
 upvLl5e_uqs,4,5,Ride Natty Ride,232,-0.47675,0,,True,True,True,False,4,,,,,
 hUNQ_cmISVk,3,4,Bob Marley - Zimbabwe [02],236,-4.47675,0,,True,True,True,False,4,,,,,
 Tx-09WZEpWA,1,3,Bob Marley - Ride Natty Ride Lyrics,236,-4.47675,0,,True,True,True,False,4,,,,,

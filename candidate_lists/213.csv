@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XeO2cWyB1Xg,0,5,"Canto Gregoriano 1/5, Puer natus est nobis, Santo Domingo de Silos",227,-5.92570833333,0,match,True,True,False,False,107,214.8,1.5,1.2,1242.0,1319.0
+XeO2cWyB1Xg,0,5,"Canto Gregoriano 1/5, Puer natus est nobis, Santo Domingo de Silos",227,-5.92570833333,0,match,True,True,False,False,7,214.8,1.5,1.2,1242.0,1319.0
 gZDnB5xFONg,12,2,Viderunt omnes. Gradual (Modo V) (Remasterizado),223,-1.92570833333,0,,False,False,True,False,2,,,,,
 h_Ez91zGm4Y,1,1,Old Roman chant - Puer natus est nobis,346,-124.92570833299999,0,,True,True,False,False,2,,,,,
 uAMzTIOqvbA,9,3,O adiutor omnium (Códice Calixtino) (2016 Remaster),276,-54.9257083333,0,,False,True,False,False,1,,,,,
@@ -36,7 +36,7 @@ vazVslEFgEM,9,1,Puer natus est nobis,171,50.0742916667,0,,False,True,False,False
 7LJ-8mTupCs,10,1,Gorgeous Thomas Tallis Missa Puer natus est nobis Christmas mass,1583,-1361.92570833,0,,False,False,False,False,0,,,,,
 EQL9GKuQyTU,10,1,Cantos Gregorianos - Puer natus est,175,46.0742916667,0,,False,False,False,False,0,,,,,
 6YeQROcbJjk,10,1,Christus Natus. Invitatorio (Modo IV) (1981 Remastered Version),208,13.0742916667,0,,False,False,False,False,0,,,,,
-cYl8Vcd06yM,11,1,Puer natus est nobis-E. Elder,219,2.0742916666699998,0,,False,False,False,True,0,,,,,
+cYl8Vcd06yM,11,1,Puer natus est nobis-E. Elder,219,2.07429166667,0,,False,False,False,True,0,,,,,
 eaX1PXQp-aI,11,1,Introit: Puer natus est nobis - Gregorian Chant,190,31.074291666700002,0,,False,False,False,False,0,,,,,
 Dq62LaW8uMk,12,1,Canto gregoriano - Puer natus,160,61.0742916667,0,,False,False,False,False,0,,,,,
 c_r6J21_2nM,13,1,Puer natus est nobis,173,48.0742916667,0,,False,False,False,False,0,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 8bIVNESyNLA,0,3,"Bo Diddley, Bo-Jam",216,-1.351875,0,reject,True,True,True,False,9,,,,,
 BXpaMk6O1GU,6,1,Spacejam Bo - Who Really Love Me?,216,-1.351875,0,reject,False,True,True,False,3,,,,,
-jF2qgemCU0o,2,2,Bo Diddley  ~   ''Bo Jam''  1973,220,-5.351875,0,,True,True,False,False,2,,,,,
-_4gTFwxXS4U,4,2,"Bo Diddley - I'm A Man (From ""Legends of Rock 'n' Roll"" DVD)",224,-9.351875,0,,True,True,False,False,2,,,,,
-3krujalOdRc,1,1,The Bojam Project - Maghihintay (feat. Muriel),252,-37.351875,0,,True,True,False,False,2,,,,,
+jF2qgemCU0o,2,2,Bo Diddley  ~   ''Bo Jam''  1973,220,-5.351875,0,reject,True,True,False,False,2,,,,,
+_4gTFwxXS4U,4,2,"Bo Diddley - I'm A Man (From ""Legends of Rock 'n' Roll"" DVD)",224,-9.351875,0,reject,True,True,False,False,2,,,,,
+3krujalOdRc,1,1,The Bojam Project - Maghihintay (feat. Muriel),252,-37.351875,0,reject,True,True,False,False,2,,,,,
 P4oSRlQqjf8,2,1,Ed Sheeran - Shape Of You (SING OFF vs. The Vamps),245,-30.351875,0,,True,True,False,False,2,,,,,
 8v_4O44sfjM,3,1,Christina Perri - Jar of Hearts [Official Music Video],271,-56.351875,0,,True,True,False,False,2,,,,,
 -JaKcfwTbZo,3,1,Nags Head Blues Jam Night  -  Bo Diddley's Hey Bo Diddley  -  2011,349,-134.351875,0,,True,True,False,False,2,,,,,

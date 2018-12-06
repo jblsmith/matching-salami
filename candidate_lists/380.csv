@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Wej0nlDjkpo,0,5,Monty Python Henry Kissinger 21,93,-1.85875,0,potential,True,True,True,False,109,86.3,0.3,0.2,1450.0,9353.0
+Wej0nlDjkpo,0,5,Monty Python Henry Kissinger 21,93,-1.85875,0,potential,True,True,True,False,9,86.3,0.3,0.2,1450.0,9353.0
 SVGV6lvNTR4,1,5,Henry Kissinger,96,-4.85875,0,potential,True,True,True,False,4,86.5,0.2,0.2,1120.0,9835.0
 wcUz2zKrEB8,2,5,Monty Python - Henry Kissinger,100,-8.85875,0,,True,True,False,False,2,,,,,
 4KBz_tGwak0,4,5,The Henry Kissinger Song,320,-228.85875,0,,True,True,False,False,2,,,,,

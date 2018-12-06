@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-yEKDYIYMgBc,0,2,All Things Dull And Ugly,96,-0.835916666667,0,potential,True,True,True,False,109,86.7,5.3,0.3,523.0,584.0
+yEKDYIYMgBc,0,2,All Things Dull And Ugly,96,-0.835916666667,0,potential,True,True,True,False,9,86.7,5.3,0.3,523.0,584.0
 aPriOQkKd6k,0,2,Monty Python All Things Dull And Ugly 19,97,-1.83591666667,0,potential,True,True,True,False,9,86.6,0.4,0.3,842.0,904.0
 8bHzb5TNt6k,5,2,(instr) Always Look on the Bright Side of Life,98,-2.8359166666699998,0,,False,True,True,False,3,,,,,
 imR6BxgZaiY,2,3,Armitage Scratch Band - Always Look On the Bright side of Life,234,-138.83591666700002,0,,True,True,False,False,2,,,,,

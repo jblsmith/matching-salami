@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 OFAqodiyBiw,1,3,Last Chelkona Dance Song,163,-38.9444583333,0,reject,True,True,False,False,2,,,,,
 yt87DhBWakw,2,3,Nolic Traditional Singers and Basket Dancers,504,-379.94445833300006,0,reject,True,True,False,False,2,,,,,
-er9_WUOf_qg,3,3,Deer Dance (Yoko Muhu) (Speckled Owl) and Bali Jekan (Fresh Air),141,-16.9444583333,0,,True,True,False,False,2,,,,,
-7jFQCREhPOo,4,3,The Flood (wi'indag) (Keihina Dance),198,-73.9444583333,0,,True,True,False,False,2,,,,,
-m0XAHLHk6as,17,3,Song Heard By Sick Man,129,-4.94445833333,0,,False,False,True,False,2,,,,,
+er9_WUOf_qg,3,3,Deer Dance (Yoko Muhu) (Speckled Owl) and Bali Jekan (Fresh Air),141,-16.9444583333,0,reject,True,True,False,False,2,,,,,
+7jFQCREhPOo,4,3,The Flood (wi'indag) (Keihina Dance),198,-73.9444583333,0,reject,True,True,False,False,2,,,,,
+m0XAHLHk6as,17,3,Song Heard By Sick Man,129,-4.94445833333,0,reject,False,False,True,False,2,,,,,
 ENDjQXoIXSM,6,3,Horse Song (Wusota Song),167,-42.9444583333,0,,False,True,False,False,1,,,,,
 0LJ1DddI8_A,7,3,tohono o'odham nation traditional song,189,-64.9444583333,0,,False,True,False,False,1,,,,,
 ASeHb108w4Y,9,3,Whistling Mountain (Keihina Dance),161,-36.9444583333,0,,False,True,False,False,1,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 ERDFCb11y5g,0,3,Massed Sing - The Internationale - Street Choirs Festival 2016,232,-126.9355,0,reject,True,True,False,False,7,,,,,
 LZFF8EuaGjM,0,2,Tour the World - Official Music Video,519,-413.9355,0,matched_1589,True,True,False,False,7,,,,,
-5DTbashsKic,1,3,English Internationale (with lyrics),207,-101.9355,0,,True,True,False,False,2,,,,,
-PZlD5RXkeuA,2,3,The Internationale Modern Rock Pop Version Chinese French,383,-277.9355,0,,True,True,False,False,2,,,,,
-PBm9NQ9kxRE,3,3,the internationale,238,-132.9355,0,,True,True,False,False,2,,,,,
+5DTbashsKic,1,3,English Internationale (with lyrics),207,-101.9355,0,reject,True,True,False,False,2,,,,,
+PZlD5RXkeuA,2,3,The Internationale Modern Rock Pop Version Chinese French,383,-277.9355,0,reject,True,True,False,False,2,,,,,
+PBm9NQ9kxRE,3,3,the internationale,238,-132.9355,0,reject,True,True,False,False,2,,,,,
 JTML7gIwhiw,4,3,"The Internationale - Street Choirs Festival 2018, Brighton",231,-125.9355,0,,True,True,False,False,2,,,,,
 wyK7YuwUWsU,1,2,Taylor Swift - New Romantics,262,-156.9355,0,,True,True,False,False,2,,,,,
 EkHTsc9PU2A,3,2,Jason Mraz - I'm Yours (Official Video),221,-115.9355,0,,True,True,False,False,2,,,,,

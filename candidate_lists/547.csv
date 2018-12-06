@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 xpVfcZ0ZcFM,0,1,Drake - God's Plan,357,-267.7135,0,reject,True,True,False,False,7,,,,,
 SoSM-aBD9ag,0,1,Racist? Serena Williams Responds to Impression,249,-159.7135,0,reject,True,True,False,False,7,,,,,
-nFCPdVtB8gI,1,2,Fox News' problem is a lot bigger than Bill O'Reilly,346,-256.7135,0,,True,True,False,False,2,,,,,
-gjLNF9o0zLs,2,2,"Gretchen Carlson, Gayle King, Norah O'Donnell, Cory Booker comment on Bill O'Reilly at Variety Power",307,-217.7135,0,,True,True,False,False,2,,,,,
-xtnXDdazois,3,2,"O'Reilly: ""I'm getting paid millions of dollars for being a big thug""",198,-108.7135,0,,True,True,False,False,2,,,,,
+nFCPdVtB8gI,1,2,Fox News' problem is a lot bigger than Bill O'Reilly,346,-256.7135,0,reject,True,True,False,False,2,,,,,
+gjLNF9o0zLs,2,2,"Gretchen Carlson, Gayle King, Norah O'Donnell, Cory Booker comment on Bill O'Reilly at Variety Power",307,-217.7135,0,reject,True,True,False,False,2,,,,,
+xtnXDdazois,3,2,"O'Reilly: ""I'm getting paid millions of dollars for being a big thug""",198,-108.7135,0,reject,True,True,False,False,2,,,,,
 LGJjVSnydGs,1,1,MARRIAGE PROPOSAL GONE WRONG!! SHE SAID NO!!! 😳😨😢,503,-413.7135,0,,True,True,False,False,2,,,,,
 pPKx-fon1nY,1,1,Drake - God's Plan (Lyric Video),199,-109.7135,0,,True,True,False,False,2,,,,,
 IbVC2jLOSsc,2,1,Drake - God’s Plan (Lyrics) ”She Said Do You Love Me”,187,-97.7135,0,,True,True,False,False,2,,,,,

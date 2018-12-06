@@ -1,15 +1,15 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-csrVmkBCkFw,0,5,Deltron 3030 - National Movie Review (Good Quality),54,1.08,0,potential,True,True,False,True,100,50.6,0.7,0.7,547.0,619.0
 NqVot9T9RDU,2,1,National Lampoon's Christmas Vacation (1989) Movie Review,519,-463.92,0,reject,True,True,False,False,2,,,,,
-9mNk5IGPVU4,4,1,RAAZI Movie First Review | Alia Bhatt Ko National Awards Milega | Raazi Review,292,-236.92,0,,True,True,False,False,2,,,,,
-O7dyli_nXn4,6,4,Mastermind,214,-158.92,0,,False,True,False,False,1,,,,,
-4k18VIqM764,7,4,Deltron 3030 - Memory Loss,278,-222.92,0,,False,True,False,False,1,,,,,
-hBdKLoy5-QE,8,4,The Future of Food (feat David Chang) - Deltron 3030,76,-20.92,0,,False,True,False,False,1,,,,,
+9mNk5IGPVU4,4,1,RAAZI Movie First Review | Alia Bhatt Ko National Awards Milega | Raazi Review,292,-236.92,0,reject,True,True,False,False,2,,,,,
+O7dyli_nXn4,6,4,Mastermind,214,-158.92,0,reject,False,True,False,False,1,,,,,
+4k18VIqM764,7,4,Deltron 3030 - Memory Loss,278,-222.92,0,reject,False,True,False,False,1,,,,,
+hBdKLoy5-QE,8,4,The Future of Food (feat David Chang) - Deltron 3030,76,-20.92,0,reject,False,True,False,False,1,,,,,
 XGraatckEPg,9,4,Album Review: Deltron 3030 (self titled),122,-66.92,0,,False,True,False,False,1,,,,,
 FQI7vieePIs,5,1,NATIONAL LAMPOON'S ANIMAL HOUSE (1978) Movie Review,334,-278.92,0,,False,True,False,False,1,,,,,
 aI2wS4Iuxig,6,1,Green Book Wins National Board Of Review Best Film Award,296,-240.92,0,,False,True,False,False,1,,,,,
 C-_JoLGx1jw,7,1,National Film & TV School: 2017/18 Season Review,309,-253.92,0,,False,True,False,False,1,,,,,
 YnaOx6ft5Jg,8,1,Is NATIONAL TREASURE a S**tty Nicolas Cage Movie We All Love?,478,-422.92,0,,False,True,False,False,1,,,,,
+csrVmkBCkFw,0,5,Deltron 3030 - National Movie Review (Good Quality),54,1.08,0,potential,True,True,False,True,0,50.6,0.7,0.7,547.0,619.0
 gFpshs_mAU0,0,5,National Movie Review,53,2.08,0,,True,True,False,True,0,,,,,
 A5gBrtHVWzE,2,5,Deltron 3030 - National Movie Review,53,2.08,0,,True,True,False,True,0,,,,,
 v6YJjkO7F5A,2,4,Deltron 3030 - Deltron 3030 (FULL ALBUM),3625,-3569.92,0,,True,True,False,False,0,,,,,

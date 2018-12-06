@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-T_NamwC1bS4,0,5,"Duke Ellington ""The Sleeping Lady and the Giant Who Watches Over Her""",444,3.60816666667,0,potential,True,True,False,True,100,378.8,0.6,0.6,3695.0,5100.0
 CjwWqunP5rQ,9,2,Oclupaca,485,-37.3918333333,0,reject,False,True,False,False,1,,,,,
-Kmt31uOnb0U,1,5,The Sleeping Lady And The Giant Who Watches Over Her,446,1.6081666666699999,0,,True,True,False,True,0,,,,,
+T_NamwC1bS4,0,5,"Duke Ellington ""The Sleeping Lady and the Giant Who Watches Over Her""",444,3.60816666667,0,potential,True,True,False,True,0,378.8,0.6,0.6,3695.0,5100.0
+Kmt31uOnb0U,1,5,The Sleeping Lady And The Giant Who Watches Over Her,446,1.60816666667,0,potential,True,True,False,True,0,379.7,0.5,0.6,4008.0,5636.0
 wLDncJiPHSI,1,5,Duke Ellington: Mexicanticipation (Latin American Suite) - Live in Mexico 1968,1184,-736.391833333,0,,True,True,False,False,0,,,,,
 az-i8zXx7wY,3,5,Oclupaca,261,186.608166667,0,,True,True,False,False,0,,,,,
 dOdx6q83L0I,4,5,Tina - Duke Ellington,280,167.608166667,0,,True,True,False,False,0,,,,,

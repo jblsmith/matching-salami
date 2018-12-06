@@ -1,12 +1,12 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-CjxZXRR4NzQ,0,5,Timbaland & Magoo - I Got Luv For Ya,248,-0.0933333333333,0,match,True,True,True,False,109,247.4,0.3,0.1,2317.0,173118.0
+CjxZXRR4NzQ,0,5,Timbaland & Magoo - I Got Luv For Ya,248,-0.0933333333333,0,match,True,True,True,False,9,247.4,0.3,0.1,2317.0,173118.0
 geho_0rtayg,1,5,timbaland & magoo - I Got Luv 4 ya,252,-4.09333333333,0,,True,True,True,False,4,,,,,
 QsH2JVDXRuA,2,1,I Got Luv 4 Ya,248,-0.0933333333333,0,,True,True,True,False,4,,,,,
 epyBJk0wglY,3,3,Timbaland and Magoo -  I Got Luv 4 Ya [Slowed Down 2013],310,-62.0933333333,0,,True,True,False,False,2,,,,,
 BPWd1gijXSA,2,2,Timbaland & Magoo - Luv 2 Luv Ya HQ,271,-23.0933333333,0,,True,True,False,False,2,,,,,
 SMXpcHqtuqo,4,2,Timbaland & Magoo - Hold On ft Wyclef,305,-57.0933333333,0,,True,True,False,False,2,,,,,
 nidQCt_HEsY,4,1,"Miyagi, Эндшпиль Ft. Рем Дигга - I Got Love (Official Video)",274,-26.0933333333,0,,True,True,False,False,2,,,,,
-fP6bvLsrwk0,6,3,Timbaland Ft - Sebastian Magoo - Do Your Thang,257,-9.093333333330001,0,,False,True,False,False,1,,,,,
+fP6bvLsrwk0,6,3,Timbaland Ft - Sebastian Magoo - Do Your Thang,257,-9.09333333333,0,,False,True,False,False,1,,,,,
 LI8jY6iL6cI,5,2,Timbaland and Magoo - Luv 2 Luv U (Remix),401,-153.093333333,0,,False,True,False,False,1,,,,,
 AfWfbRzk8uY,6,2,Timbaland & Magoo - Luv 2 Luv 2 U,268,-20.0933333333,0,,False,True,False,False,1,,,,,
 KBjKSeyJMhI,7,2,Timbaland & Magoo - Luv 2 Luv U (Remix),402,-154.093333333,0,,False,True,False,False,1,,,,,
@@ -24,7 +24,7 @@ KComDUIbXMc,5,2,Timbaland & Magoo - Indian Flute (Feat.  Sebastian & Raje Shwari
 yg1hW2zwDNU,8,2,Timbaland & Magoo – Luv 2 Luv U remix,115,132.906666667,0,,False,True,False,False,0,,,,,
 CUkFY4aMhJE,9,2,Timbaland feat. Nelly Furtado & Justin Timberlake - Give It To Me + Lyrics,215,32.9066666667,0,,False,True,False,False,0,,,,,
 z3fTX_KY9xM,9,2,"TIMBALAND - TIM'S BIO [12"" FULL ALBUM]",4135,-3887.09333333,0,,False,True,False,False,0,,,,,
-UMUwXExS5fw,10,2,Nicole Wray feat. Missy Elliott - Make It Hot,257,-9.093333333330001,0,,False,False,False,False,0,,,,,
+UMUwXExS5fw,10,2,Nicole Wray feat. Missy Elliott - Make It Hot,257,-9.09333333333,0,,False,False,False,False,0,,,,,
 Ch9s9ek0y4s,10,2,"""Hold Cutz"" Timbaland & Magoo",275,-27.0933333333,0,,False,False,False,False,0,,,,,
 sNF_i4Q1jY0,11,2,Where Is Magoo?,283,-35.0933333333,0,,False,False,False,False,0,,,,,
 eKKFMWmoRZ0,12,2,Justin Timberlake - My Love (HD),173,74.9066666667,0,,False,False,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-6PNpP6owiJs,0,2,Devil Woman,178,0.319875,0,match,True,True,False,True,100,172.7,0.4,0.4,3351.0,4289.0
 7tuAkdlLhTE,0,1,Cliff Richard - Devil Woman [HQ stereo],211,-32.680125,0,,True,True,False,False,7,,,,,
 EzPDhn8Ls1U,0,1,Valis (w/Dirty of the Glasspack) - Cocaine Woman @ Small Stone Records SXSW Showcase 2009,296,-117.680125,0,,True,True,False,False,7,,,,,
 Bo8PBVL5bRI,2,2,"toubab krewe ""devil woman""",179,-0.680125,0,,True,True,True,False,4,,,,,
@@ -25,6 +24,7 @@ NG9Gddy8r_8,8,1,Devil Woman (2001 Remastered Version),217,-38.680125,0,,False,Tr
 ACa6Ks-BMXg,8,1,The Glasspack - Super Sport,251,-72.680125,0,,False,True,False,False,1,,,,,
 fj4z5P1d414,9,1,devil woman - cliff richard HD,216,-37.680125,0,,False,True,False,False,1,,,,,
 d7NjrM8AOSc,9,1,Doll & The Kicks - Disco Queen - BBC Radio One,249,-70.680125,0,,False,True,False,False,1,,,,,
+6PNpP6owiJs,0,2,Devil Woman,178,0.319875,0,match,True,True,False,True,0,172.7,0.4,0.4,3351.0,4289.0
 EO98I_yVRjM,3,2,Devil Woman by Toubab Krewe,176,2.319875,0,,True,True,False,True,0,,,,,
 H0VBbK1IE_c,5,2,NuJazz Festival '11: TOUBAB KREWE,4854,-4675.680125,0,,False,True,False,False,0,,,,,
 ULtSPl46MuI,10,2,Toubab Krewe - Bani,299,-120.680125,0,,False,False,False,False,0,,,,,

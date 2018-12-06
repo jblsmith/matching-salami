@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 mGChUgSddmY,0,1,"Ensemble Gilles Binchois, Dominique Vellard - Gaudeat devotio - Nostrum",71,-20.1134583333,0,reject,True,True,False,False,7,,,,,
 -b0eR7AqiyQ,1,1,Alleluya pascha nostrum: Gaudeat devotio - Nostrum,218,-167.11345833299998,0,reject,True,True,False,False,2,,,,,
-wvqHZEaJI-I,2,1,Gaudeat devotio - Nostrum,70,-19.1134583333,0,,True,True,False,False,2,,,,,
-_XuuS1Qab-E,3,1,Gaudeat devotio fidelium,184,-133.11345833299998,0,,True,True,False,False,2,,,,,
-xKxbwGQhIoM,4,1,Gaudeat Devotio Fidelium,92,-41.1134583333,0,,True,True,False,False,2,,,,,
+wvqHZEaJI-I,2,1,Gaudeat devotio - Nostrum,70,-19.1134583333,0,reject,True,True,False,False,2,,,,,
+_XuuS1Qab-E,3,1,Gaudeat devotio fidelium,184,-133.11345833299998,0,reject,True,True,False,False,2,,,,,
+xKxbwGQhIoM,4,1,Gaudeat Devotio Fidelium,92,-41.1134583333,0,reject,True,True,False,False,2,,,,,
 9FPKSt-YSwg,5,1,Perotinus: Alleluia Posui Adiutorium,454,-403.11345833300004,0,,False,True,False,False,1,,,,,
 oCOE75o9RGg,6,1,Alleluia / Posui adiutorium,346,-295.113458333,0,,False,True,False,False,1,,,,,
 hwyJSCF4ogI,7,1,Diabolus in Musica - Benedicamus Domino (Organum),356,-305.113458333,0,,False,True,False,False,1,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-6nYI0a-pZM0,0,3,Soulive First street,402,-0.550166666667,0,potential,True,True,True,False,109,379.8,0.5,0.5,5275.0,19194.0
+6nYI0a-pZM0,0,3,Soulive First street,402,-0.550166666667,0,potential,True,True,True,False,9,379.8,0.5,0.5,5275.0,19194.0
 IJhxX6dNhx8,1,2,"Soulive ""First Street""",402,-0.550166666667,0,potential,True,True,True,False,4,379.3,1.2,1.0,4256.0,16889.0
 Qao_hTkrmUo,5,2,Soulive - Firsts Street (Cover),404,-2.55016666667,0,,False,True,True,False,3,,,,,
 Mp5RNeZ7xtQ,1,2,Soulive - Dig,477,-75.5501666667,0,,True,True,False,False,2,,,,,

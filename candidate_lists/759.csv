@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 nu4FhROoizA,1,2,Zoku: Japanese Drum by Kodo,431,-186.826666667,0,reject,True,True,False,False,2,,,,,
 rO5xqlG3WVw,4,2,Beyond Reality - So You Think You Can Dance Recap 7/09/09,448,-203.826666667,0,reject,True,True,False,False,2,,,,,
-UxTvo-zf608,2,1,Making the Fuchi and Kashira  forging a japanese sword ep 11,439,-194.826666667,0,,True,True,False,False,2,,,,,
-vHop0KacXnc,3,1,Marcus Chambers Ant Fittings... Fuchi Kashira Menuki,346,-101.82666666700001,0,,True,True,False,False,2,,,,,
+UxTvo-zf608,2,1,Making the Fuchi and Kashira  forging a japanese sword ep 11,439,-194.826666667,0,reject,True,True,False,False,2,,,,,
+vHop0KacXnc,3,1,Marcus Chambers Ant Fittings... Fuchi Kashira Menuki,346,-101.82666666700001,0,reject,True,True,False,False,2,,,,,
 YAsEC_Iyoso,5,2,!folkbotVScausus,459,-214.826666667,0,,False,True,False,False,1,,,,,
 qFeyPT_0Fvc,6,2,2016/7/16 旭ヶ丘 疾風,289,-44.8266666667,0,,False,True,False,False,1,,,,,
 02p2aZNLl5Q,7,2,20170320　屋台囃子,277,-32.8266666667,0,,False,True,False,False,1,,,,,

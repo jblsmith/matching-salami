@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-qE-5IuqUIP8,0,5,Wayne Shorter-Genesis (1965) HD,705,-0.399166666667,0,potential,True,True,True,False,0,378.9,0.3,0.4,4049.0,7140.0
+qE-5IuqUIP8,0,5,Wayne Shorter-Genesis (1965) HD,705,-0.39916666666699996,0,potential,True,True,True,False,0,378.9,0.3,0.4,4049.0,7140.0
 CRNmmUYavXg,1,4,Wayne Shorter Quartet - Second Genesis,254,450.600833333,0,reject,True,True,False,False,0,,,,,
-Nik5bDW4g5s,7,4,Wayne Shorter - Genesis,710,-5.399166666669999,0,,False,True,False,False,0,,,,,
-G2cx6i2-PtI,8,4,Genesis (Remastered),705,-0.399166666667,0,,False,True,True,False,0,,,,,
+Nik5bDW4g5s,7,4,Wayne Shorter - Genesis,710,-5.399166666669999,0,potential,False,True,False,False,0,378.9,0.4,0.4,3540.0,6326.0
+G2cx6i2-PtI,8,4,Genesis (Remastered),705,-0.39916666666699996,0,,False,True,True,False,0,,,,,
 w6M14OkiSSc,2,3,WAYNE SHORTER - The Albatros,322,382.600833333,0,,True,True,False,False,0,,,,,
 9-aOi9xEjAg,2,3,Wayne Shorter - Black Diamond (Full Album),3764,-3059.39916667,0,,True,True,False,False,0,,,,,
 ZOnLohCkzw0,2,3,Wayne Shorter - I Didn't Know What Time It Was,315,389.600833333,0,,True,True,False,False,0,,,,,

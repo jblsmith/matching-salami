@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-AjGLMcrWrS8,0,5,Peter Tosh - Johnny B. Goode (long version),415,0.26855,0,potential,True,True,False,True,100,379.9,0.6,0.4,5272.0,11340.0
 6whTpYzliv4,3,2,Peter Tosh - Mystic man (long version),436,-20.73145,0,reject,True,True,False,False,2,,,,,
-B8-ZBgnzKzU,4,1,JOHNNY B. GOODE 🔷Chuck Berry 🔷 Guitar Lesson,481,-65.73145,0,,True,True,False,False,2,,,,,
-6Q5faVnJf70,5,2,Peter Tosh - Buk-in-hamm palace 12'',462,-46.73145,0,,False,True,False,False,1,,,,,
-ZFo8-JqzSCM,2,5,Chuck Berry - Johnny B. Goode,162,253.26855,0,,True,True,False,False,0,,,,,
+B8-ZBgnzKzU,4,1,JOHNNY B. GOODE 🔷Chuck Berry 🔷 Guitar Lesson,481,-65.73145,0,reject,True,True,False,False,2,,,,,
+6Q5faVnJf70,5,2,Peter Tosh - Buk-in-hamm palace 12'',462,-46.73145,0,matched_792,False,True,False,False,1,,,,,
+AjGLMcrWrS8,0,5,Peter Tosh - Johnny B. Goode (long version),415,0.26855,0,potential,True,True,False,True,0,379.9,0.6,0.4,5272.0,11340.0
+ZFo8-JqzSCM,2,5,Chuck Berry - Johnny B. Goode,162,253.26855,0,reject,True,True,False,False,0,,,,,
 S72FSvBNyPo,1,4,07. Peter Tosh - Peace Treaty (Mama Africa * Album),261,154.26855,0,,True,True,False,False,0,,,,,
 frV3OY1_3B0,2,4,Peter Tosh - Where You Gonna Run (long version),395,20.26855,0,,True,True,False,False,0,,,,,
 -vIzdffJPTc,2,4,PETER TOSH – EQUAL RIGHTS [1977 FULL ALBUM],3110,-2694.73145,0,,True,True,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Cbx7vhaIxi0,0,4,Flow--Sade,274,0.44246875,0,match,True,True,False,True,100,272.2,0.8,0.3,1803.0,46055.0
 UThjql3aJ8E,0,4,Sade ~ Flow ~ Lovers Rock [02],275,-0.55753125,0,,True,True,True,False,9,,,,,
 zxVqY61ZZ20,0,1,Tsuki - Flow,337,-62.55753125,0,,True,True,False,False,7,,,,,
 lKEpQZhx7eM,2,3,Sade - Flow (Audio),275,-0.55753125,0,,True,True,True,False,4,,,,,
@@ -17,6 +16,7 @@ aYKTxNDKKmg,5,2,Sade - Flow (Live) [Audio],303,-28.55753125,0,,False,True,False,
 uVInLJMKOiU,8,2,2Pac feat. Sade - Flow (Blackdaze Remix),285,-10.55753125,0,,False,True,False,False,1,,,,,
 8h6IMYRoCZw,9,1,FLOW BY MIHALY CSIKSZENTMIHALYI | ANIMATED BOOK REVIEW,321,-46.55753125,0,,False,True,False,False,1,,,,,
 uLIcBlnMRig,9,1,Bunny Maloney - Lady Of Magic - Lovers Rock,352,-77.55753125,0,,False,True,False,False,1,,,,,
+Cbx7vhaIxi0,0,4,Flow--Sade,274,0.44246875,0,match,True,True,False,True,0,272.2,0.8,0.3,1803.0,46055.0
 E7XYzgYhELE,1,2,Sade - Lover Rock Full Álbum (1999),3545,-3270.55753125,0,,True,True,False,False,0,,,,,
 GDIzWI6c0VI,2,2,10. Sade - Lover's Rock,255,19.44246875,0,,True,True,False,False,0,,,,,
 TS9eZ3QlEVQ,3,2,Sade Adu ''flow''  Lovers Rock,273,1.44246875,0,,True,True,False,True,0,,,,,

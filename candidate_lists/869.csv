@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Pjvod68IDsQ,0,3,oh ji re kesariyo hazari gul ro phool  0061430379011,312,-140.924125,0,reject,True,True,False,False,7,,,,,
 rtdipxClxaw,2,5,Tony Gatlif-Oh Kesario Hazari Gul Ro Phool,176,-4.924125,0,reject,True,True,True,False,4,,,,,
-rL4FcN9OKLY,5,2,Daoud Langa - Oh Kesario Hazari Gul Ro Phool,176,-4.924125,0,,False,True,True,False,3,,,,,
-elztitrHISI,4,5,Oh Kesario Hazari Gul Ro Phool  _vectorzero's remix,218,-46.924125,0,,True,True,False,False,2,,,,,
-d4nDKpGZdNw,1,3,केसरिया हजारी गुल रो फूल | Banna Banni Song | Marwadi Song,562,-390.924125,0,,True,True,False,False,2,,,,,
+rL4FcN9OKLY,5,2,Daoud Langa - Oh Kesario Hazari Gul Ro Phool,176,-4.924125,0,potential,False,True,True,False,3,140.7,29.5,28.7,912.0,2279.0
+elztitrHISI,4,5,Oh Kesario Hazari Gul Ro Phool  _vectorzero's remix,218,-46.924125,0,matched_1539,True,True,False,False,2,,,,,
+d4nDKpGZdNw,1,3,केसरिया हजारी गुल रो फूल | Banna Banni Song | Marwadi Song,562,-390.924125,0,reject,True,True,False,False,2,,,,,
 C379_1azQiw,3,3,Banno Mharo Kesariyo | Kapil Jangir Ft. Roje Khan & Anupriya Lakhawat | Latest Rajasthani Song,285,-113.924125,0,,True,True,False,False,2,,,,,
 Nw4hK4oCfuQ,4,3,Champa methi super hit song kesariyo hazari gul ro ful,418,-246.924125,0,,True,True,False,False,2,,,,,
 Fq1jRdYOO2g,5,3,Kesariyo Hajari Gul Ro Phul | Dharmi Gogaji Ro Byav | Rajasthani Popular Gogaji Marriage song,595,-423.924125,0,,False,True,False,False,1,,,,,

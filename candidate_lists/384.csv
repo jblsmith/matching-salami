@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-0qjzWSZ1mpI,0,3,I Ran Away~ The Arrogant Worms,211,-21.24015,0,match,True,True,False,False,107,184.3,4.2,0.4,2913.0,3161.0
 QJwapshgPvU,0,4,I Ran Away,190,-0.24015,0,,True,True,True,False,9,,,,,
+0qjzWSZ1mpI,0,3,I Ran Away~ The Arrogant Worms,211,-21.24015,0,match,True,True,False,False,7,184.3,4.2,0.4,2913.0,3161.0
 UM8NSrSKqWA,3,3,I Ran Away,192,-2.24015,0,,True,True,True,False,4,,,,,
 7Z9P2ynefn4,1,4,The Arrogant Worms - I Ran Away,317,-127.24015,0,,True,True,False,False,2,,,,,
 JHHno0i_kcw,4,3,"Arrogant Worms ""I Ran Away"" Live in Prince George 2012-03-14",296,-106.24015,0,,True,True,False,False,2,,,,,

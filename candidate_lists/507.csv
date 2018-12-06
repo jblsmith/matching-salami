@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-P_FeSOb-z8Q,0,5,Donald Byrd - Weasil,537,3.68245833333,0,potential,True,True,False,True,100,379.8,0.6,0.5,5155.0,9607.0
 oG9egmOknr8,3,4,The Weasil (Donald Byrd) The Phil Wilkinson Organ Trio w/ Telmo Fernandez,570,-29.317541666700002,0,reject,True,True,False,False,2,,,,,
-Gy1mhJYqv0s,18,2,Weasil ✧ Donald Byrd,542,-1.3175416666700002,0,,False,False,True,False,2,,,,,
+Gy1mhJYqv0s,18,2,Weasil ✧ Donald Byrd,542,-1.3175416666700002,0,potential,False,False,True,False,2,179.4,0.7,0.4,1834.0,7326.0
 nPdepRlmySA,5,3,¨The Weasil¨  (Donald Byrd)  by The Phil Wilkinson Organ Trio w/ Telmo Fernandez,554,-13.3175416667,0,,False,True,False,False,1,,,,,
 omqat9lUijQ,8,3,Donald Byrd - Fufu,579,-38.3175416667,0,,False,True,False,False,1,,,,,
+P_FeSOb-z8Q,0,5,Donald Byrd - Weasil,537,3.68245833333,0,potential,True,True,False,True,0,379.8,0.6,0.5,5155.0,9607.0
 IKUUlRWRYqo,1,5,Donald Byrd   Weasil,537,3.68245833333,0,,True,True,False,True,0,,,,,
 vRRouasfWEc,0,4,"Donald Byrd - Fancy free (1970) (US, Jazz, Jazz Fusion)",2353,-1812.31754167,0,,True,True,False,False,0,,,,,
 lHnjxPZGEmM,2,4,Donald Byrd ~ Fancy Free,720,-179.317541667,0,,True,True,False,False,0,,,,,

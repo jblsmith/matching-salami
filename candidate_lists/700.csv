@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-cwF_PRpy6yI,0,3,The Black Crowes - Sometimes Salvation,302,-25.546125,0,potential,True,True,False,False,107,173.0,120.2,98.0,30.0,596.0
 kY_H-fRJ11o,0,5,Black Crowes & Gov´t Mule - Sometimes Salvation.flv,281,-4.546125,0,reject,True,True,True,False,9,,,,,
-qOi4Mh_rmWo,0,5,The Black Crowes - Sometimes Salvation,284,-7.546125,0,,True,True,False,False,7,,,,,
-HbD9epjbr7M,5,5,Sometimes Salvation,277,-0.546125,0,,False,True,True,False,3,,,,,
-Y_Nz0n9-UvQ,9,1,The Black Crowes - Sting Me,280,-3.546125,0,,False,True,True,False,3,,,,,
+qOi4Mh_rmWo,0,5,The Black Crowes - Sometimes Salvation,284,-7.546125,0,reject,True,True,False,False,7,,,,,
+cwF_PRpy6yI,0,3,The Black Crowes - Sometimes Salvation,302,-25.546125,0,potential,True,True,False,False,7,173.0,120.2,98.0,30.0,596.0
+HbD9epjbr7M,5,5,Sometimes Salvation,277,-0.546125,0,reject,False,True,True,False,3,,,,,
+Y_Nz0n9-UvQ,9,1,The Black Crowes - Sting Me,280,-3.546125,0,reject,False,True,True,False,3,,,,,
 MPzJWd-PJ48,2,5,The Black Crowes - Sometimes Salvation - 1992,291,-14.546125,0,,True,True,False,False,2,,,,,
 6_YFlDOcfC0,2,5,Sometimes Salvation,284,-7.546125,0,,True,True,False,False,2,,,,,
 eenEmSXPV7A,2,3,Sometimes Salvation,310,-33.546125,0,,True,True,False,False,2,,,,,

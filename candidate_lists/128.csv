@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-WieyrIDEghQ,0,5,"Suite in D Major: IV. The Prince of Denmark's March ""Trumpet Voluntary""",125,1.0275,0,potential,True,True,False,True,100,119.7,0.8,0.5,1813.0,2043.0
 z1088E6E2fY,0,5,Jeremiah Clarke - The Prince of Denmark's March (Lovely Rendition),181,-54.9725,0,reject,True,True,False,False,7,,,,,
-bRrss4kBi2M,1,5,Jeremiah Clarke - Trumpet Voluntary,181,-54.9725,0,,True,True,False,False,2,,,,,
-n1n7WeuHCog,3,4,Prince of Denmark's March / Trumpet Voluntary - Jeremiah Clarke,180,-53.9725,0,,True,True,False,False,2,,,,,
-X8tD_yIXHV4,1,3,"Suite in D Major: IV. The Prince of Denmark's March, ""Trumpet Voluntary"" (version for organ)",176,-49.9725,0,,True,True,False,False,2,,,,,
-ew-5kL8DvyE,1,3,"Jeremiah Clarke - Suite in D major, IV. The Prince of Denmark's March, Trumpet Voluntary",171,-44.9725,0,,True,True,False,False,2,,,,,
+bRrss4kBi2M,1,5,Jeremiah Clarke - Trumpet Voluntary,181,-54.9725,0,reject,True,True,False,False,2,,,,,
+n1n7WeuHCog,3,4,Prince of Denmark's March / Trumpet Voluntary - Jeremiah Clarke,180,-53.9725,0,reject,True,True,False,False,2,,,,,
+X8tD_yIXHV4,1,3,"Suite in D Major: IV. The Prince of Denmark's March, ""Trumpet Voluntary"" (version for organ)",176,-49.9725,0,reject,True,True,False,False,2,,,,,
+ew-5kL8DvyE,1,3,"Jeremiah Clarke - Suite in D major, IV. The Prince of Denmark's March, Trumpet Voluntary",171,-44.9725,0,reject,True,True,False,False,2,,,,,
 S3-rkkcVxp0,2,3,JEREMIAH CLARKE - THE PRINCE OF DENMARK'S MARCH (TRUMPET VOLUNTARY) - THE ORGAN OF HULL CITY HALL,171,-44.9725,0,,True,True,False,False,2,,,,,
 1l6wSYj3c2w,4,2,Trumpet Voluntary Suite in D Major (Prince of Denmark's March),180,-53.9725,0,,True,True,False,False,2,,,,,
 BTh5DyYaqU8,5,3,"Suite in D Major: IV. The Prince of Denmark's March, ""Trumpet Voluntary""",145,-18.9725,0,,False,True,False,False,1,,,,,
@@ -13,6 +12,7 @@ ogFav6WAkOI,8,3,"Trumpet Voluntary Suite in D Major (Prince of Denmark's March) 
 eC8xWDoGP8s,6,2,Prince of Denmark's March - Frank Fezishin Trumpet,211,-84.9725,0,,False,True,False,False,1,,,,,
 zayvH9Jtvwo,6,2,BAROQUE TRUMPET TUNES (Handel Purcell Clarke Charpentier Mouret),563,-436.9725,0,,False,True,False,False,1,,,,,
 jtaJLxlb4Uk,7,2,"Suite in D Major: IV. The Prince of Denmark's March, ""Trumpet Voluntary"" (version for organ)",221,-94.9725,0,,False,True,False,False,1,,,,,
+WieyrIDEghQ,0,5,"Suite in D Major: IV. The Prince of Denmark's March ""Trumpet Voluntary""",125,1.0275,0,potential,True,True,False,True,0,119.7,0.8,0.5,1813.0,2043.0
 Jo50XHZ2jNc,1,5,"Suite in D Major: IV. The Prince of Denmark's March, ""Trumpet Voluntary""",88,38.0275,0,,True,True,False,False,0,,,,,
 imwY0lmJvpk,8,3,"Suite in D Major: IV. The Prince of Denmark's March ""Trumpet Voluntary""",125,1.0275,0,,False,True,False,True,0,,,,,
 Le2h1HM4RHQ,11,3,"Suite in D Major: IV. The Prince of Denmark's March, ""Trumpet Voluntary"" (arr. B. Phillips)",115,11.0275,0,,False,False,False,False,0,,,,,

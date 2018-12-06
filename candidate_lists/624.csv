@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-uZD3z7hbDKs,4,2,The Temptations - Masterpiece,267,2.34857142857,0,match,True,True,False,True,100,261.0,0.4,0.4,2174.0,3452.0
 9Y3EmiTfGBc,0,1,Amazing CHOCOLATE  CAKES  Compilation! Tempered & Modeling Chocolate,376,-106.651428571,0,,True,True,False,False,7,,,,,
 PuO4UOPUsRA,1,1,Best Banned Commercials Compilation #1,595,-325.651428571,0,,True,True,False,False,2,,,,,
 6dZ6eVGtvME,2,1,"Jessie J - Masterpiece (ft a 10 years old girl picked from the crowd) at Electric Castle, Romania",568,-298.651428571,0,,True,True,False,False,2,,,,,
@@ -11,6 +10,7 @@ U3z5NKskK60,0,2,The Temptations - Masterpiece,815,-545.651428571,0,,True,True,Fa
 CMzXt4rwVoQ,1,2,MASTERPIECE   THE TEMPTATIONS 1973,822,-552.651428571,0,,True,True,False,False,0,,,,,
 vEZpde-RMe0,2,2,MASTERPIECE / THE TEMPTATIONS,192,77.3485714286,0,,True,True,False,False,0,,,,,
 L820I0eY6D0,3,2,"Temptations - Masterpiece (1973) Uncut Full Album, Long Version. CD",2549,-2279.65142857,0,,True,True,False,False,0,,,,,
+uZD3z7hbDKs,4,2,The Temptations - Masterpiece,267,2.34857142857,0,match,True,True,False,True,0,261.0,0.4,0.4,2174.0,3452.0
 rIY9LnymfpQ,5,2,The Temptations - Masterpiece 1973 (Remastered audio),267,2.34857142857,0,,False,True,False,True,0,,,,,
 LCkppB9FS3s,6,2,Masterpiece,830,-560.651428571,0,,False,True,False,False,0,,,,,
 BY3qusaQWlk,7,2,The Temptations - Masterpiece (Single Version),263,6.34857142857,0,,False,True,False,False,0,,,,,

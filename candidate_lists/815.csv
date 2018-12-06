@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-qqkMbulVTbI,0,5,Al vaiven de mi carreta - Afro Cuban All Stars,461,2.33391666667,0,potential,True,True,False,True,100,380.0,0.3,0.3,6139.0,11546.0
 EvpOkY_lZIE,6,3,Afro Cuban All Star Al Vaiven de mi Carreta,464,-0.6660833333330001,0,potential,False,True,True,False,3,380.0,0.3,0.3,6221.0,11825.0
 jQLCMbxoZ0g,14,2,Afro Cuban All Stars - Al Vaiven De Mi Carreta,464,-0.6660833333330001,0,,False,False,True,False,2,,,,,
 IOriR_y_Lyw,9,1,Afro Cuban All Stars   amor verdadero,482,-18.666083333299998,0,,False,True,False,False,1,,,,,
+qqkMbulVTbI,0,5,Al vaiven de mi carreta - Afro Cuban All Stars,461,2.33391666667,0,potential,True,True,False,True,0,380.0,0.3,0.3,6139.0,11546.0
 HGhn95ZF4yg,1,5,AL VAIVEN DE MI CARRETA.  AFRO CUBAN ALL STAR Caanta Pedrito Calvo,652,-188.666083333,0,,True,True,False,False,0,,,,,
 fyl7DBinP_c,0,4,"Cuba, Afro Cuban All Stars, ´Al vaivén de mi carreta`, Ibrahim Ferrer, coachman 2",460,3.33391666667,0,,True,True,False,True,0,,,,,
 _LrjKqFPM0E,1,4,Al Vaivén De Mi Carreta,463,0.33391666666700004,0,,True,True,False,True,0,,,,,

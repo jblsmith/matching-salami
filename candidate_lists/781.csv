@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-trn1f-IDfro,0,3,Miss Platnum - Give Me The Food (Videoclip),215,-29.386666666700002,0,potential,True,True,False,False,107,160.7,37.5,10.4,253.0,16132.0
+trn1f-IDfro,0,3,Miss Platnum - Give Me The Food (Videoclip),215,-29.386666666700002,0,potential,True,True,False,False,7,160.7,37.5,10.4,253.0,16132.0
 CkuUZE-ghVc,0,2,Mss Platnum & Shantel - Give Me the Food (Bucovina Dub).mp3,269,-83.3866666667,0,reject,True,True,False,False,7,,,,,
-AI40TN8sekA,1,3,Give me the Food [Lyrics],186,-0.386666666667,0,,True,True,True,False,4,,,,,
+AI40TN8sekA,1,3,Give me the Food [Lyrics],186,-0.386666666667,0,match,True,True,True,False,4,184.8,0.5,0.0,2863.0,31988.0
 J0uOIA5-CKE,3,3,Miss Platnum - Give Me The Food (Live),221,-35.3866666667,0,,True,True,False,False,2,,,,,
 8RTyHpLdMrQ,4,3,Give Me The Food,191,-5.386666666669999,0,,True,True,False,False,2,,,,,
 FQppH7bx9wA,1,2,Miss Platnum - Mercedes Benz,210,-24.386666666700002,0,,True,True,False,False,2,,,,,

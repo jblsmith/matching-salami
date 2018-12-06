@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Ofk9VzsuF1E,0,2,狐火　盲読　　　DJ6月remix,200,-15.0008,0,reject,True,True,False,False,7,,,,,
 jDXReZXvEyo,0,2,SKY-HI / 何様 feat. ぼくのりりっくのぼうよみ (Prod.SKY-HI),204,-19.0008,0,reject,True,True,False,False,7,,,,,
-rJwx5LWc7Bs,0,1,清木場俊介 例えば‥ボクが。byトラックドライバーさん,330,-145.0008,0,,True,True,False,False,7,,,,,
-7hqfYyGiBHg,2,2,yeah!!!Setztonder 2008.02.24@MARCUS-Why not?-,188,-3.0008,0,,True,True,True,False,4,,,,,
-PjL088aDRxY,5,1,Bonus Track (ボナストラック) - One OK Rock (ワンオクロック) [Eng sub + 歌詞付き),186,-1.0008,0,,False,True,True,False,3,,,,,
+rJwx5LWc7Bs,0,1,清木場俊介 例えば‥ボクが。byトラックドライバーさん,330,-145.0008,0,reject,True,True,False,False,7,,,,,
+7hqfYyGiBHg,2,2,yeah!!!Setztonder 2008.02.24@MARCUS-Why not?-,188,-3.0008,0,reject,True,True,True,False,4,,,,,
+PjL088aDRxY,5,1,Bonus Track (ボナストラック) - One OK Rock (ワンオクロック) [Eng sub + 歌詞付き),186,-1.0008,0,reject,False,True,True,False,3,,,,,
 SAlD7NfDS7U,1,1,【C93：3日目 東ポ32-b】『僕と先輩のオートマティスム』トラックリスト,233,-48.0008,0,,True,True,False,False,2,,,,,
 AGgKZHIDK4w,2,1,B'z ALONE (Cover),363,-178.0008,0,,True,True,False,False,2,,,,,
 xkJj2Gawznc,3,1,for you～「ボク、運命の人です」劇中曲,373,-188.0008,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 H-Snr7T6BeY,1,1,"Faust, Act V: Ballet. Dance of the Trojan Maidens",129,-8.706083333330001,0,reject,True,True,False,False,2,,,,,
 aTIG5gmYIGY,4,1,Faust: Dance of the Nubian Slaves,157,-36.7060833333,0,reject,True,True,False,False,2,,,,,
-Q4AyTdRoDHQ,5,1,Faust Ballet Music: Nubian Girls / Cleopatra / Phryme's Dance,269,-148.70608333299998,0,,False,True,False,False,1,,,,,
-xV_F5BvL9zA,7,1,"Faust, Act V: Ballet. Bacchanale and Dance of Phryne",140,-19.7060833333,0,,False,True,False,False,1,,,,,
-nQqfM3TgUII,9,1,Faust: Dance of the Nubian Slaves and Phryne's Dance: Faust: Dance of the Nubian Slaves and...,316,-195.70608333299998,0,,False,True,False,False,1,,,,,
+Q4AyTdRoDHQ,5,1,Faust Ballet Music: Nubian Girls / Cleopatra / Phryme's Dance,269,-148.70608333299998,0,reject,False,True,False,False,1,,,,,
+xV_F5BvL9zA,7,1,"Faust, Act V: Ballet. Bacchanale and Dance of Phryne",140,-19.7060833333,0,reject,False,True,False,False,1,,,,,
+nQqfM3TgUII,9,1,Faust: Dance of the Nubian Slaves and Phryne's Dance: Faust: Dance of the Nubian Slaves and...,316,-195.70608333299998,0,reject,False,True,False,False,1,,,,,
 fr8adoP0R8o,0,1,"Faust, Act V: Ballet. Dance of the Trojan Maidens",120,0.293916666667,0,,True,True,False,True,0,,,,,
 JnvJZ5dBTUU,2,1,Faust - Ballet Music: The Trojan Maidens,95,25.2939166667,0,,True,True,False,False,0,,,,,
 0F8FTkzBWXE,3,1,Act IV: Ballet Music: Dance of the Nubian Slaves - Dance Antique - Dance of the Trojan Maidens...,747,-626.706083333,0,,True,True,False,False,0,,,,,

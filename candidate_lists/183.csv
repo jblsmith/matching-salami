@@ -1,14 +1,14 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Xk9awBJxZDM,0,3,Tom Krause - Der Vogelfänger bin ich ja - Mozart - Die Zauberflöte 432 Hz,163,-1.92895833333,0,potential,True,True,True,False,109,135.4,13.9,12.8,33.0,75.0
+Xk9awBJxZDM,0,3,Tom Krause - Der Vogelfänger bin ich ja - Mozart - Die Zauberflöte 432 Hz,163,-1.92895833333,0,potential,True,True,True,False,9,135.4,13.9,12.8,33.0,75.0
 82PcRpCK23c,1,1,"Bryn Terfel; ""Der Vogelfänger bin ich ja""; Die Zauberflöte; Wolfgang Amadeus Mozart",165,-3.92895833333,0,reject,True,True,True,False,4,,,,,
-A8-qxhHAd9o,7,1,"Sir Thomas Allen; ""Der Vogelfänger bin ich ja""; Die Zauberflöte Wolfgang Amadeus Mozart",164,-2.92895833333,0,,False,True,True,False,3,,,,,
-hBfVpuvQElI,2,2,100 Singers - In Memoriam: TOM KRAUSE,270,-108.928958333,0,,True,True,False,False,2,,,,,
-aKZ5LddOIVA,2,1,"Tom Krause - Auf dem Flusse, Die Winterreise",212,-50.9289583333,0,,True,True,False,False,2,,,,,
+A8-qxhHAd9o,7,1,"Sir Thomas Allen; ""Der Vogelfänger bin ich ja""; Die Zauberflöte Wolfgang Amadeus Mozart",164,-2.92895833333,0,reject,False,True,True,False,3,,,,,
+hBfVpuvQElI,2,2,100 Singers - In Memoriam: TOM KRAUSE,270,-108.928958333,0,reject,True,True,False,False,2,,,,,
+aKZ5LddOIVA,2,1,"Tom Krause - Auf dem Flusse, Die Winterreise",212,-50.9289583333,0,reject,True,True,False,False,2,,,,,
 Ub1qKZH4pwk,3,1,Reencuentro con Tom Krause Ateneo 2013,439,-277.92895833299997,0,,True,True,False,False,2,,,,,
 7Z7Xe9UvnRk,3,1,Mozart: Die Zauberflöte - Der Vogelfänger bin ich ja,169,-7.928958333330001,0,,True,True,False,False,2,,,,,
 RnM67_qp1uU,3,1,"Stuart Burrows; ""Dies Bildnis ist bezaubernd schön""; Die Zauberflöte; Wolfgang Amadeus Mozart",254,-92.9289583333,0,,True,True,False,False,2,,,,,
 DpMCRXyW7nk,4,1,Hermann Prey - Der Vogelfaenger bin ich ja - Geneva / Genf,170,-8.92895833333,0,,True,True,False,False,2,,,,,
-YZTM1-WAFdk,11,1,"Wolfgang Amadeus Mozart - DIE ZAUBERFLÖTE - ""Der Vogelfänger bin ich ja"" (Walter Berry)",162,-0.9289583333329999,0,,False,False,True,False,2,,,,,
+YZTM1-WAFdk,11,1,"Wolfgang Amadeus Mozart - DIE ZAUBERFLÖTE - ""Der Vogelfänger bin ich ja"" (Walter Berry)",162,-0.928958333333,0,,False,False,True,False,2,,,,,
 V9OVMetumao,5,2,"Teresa Berganza y Tom Krause ""Il core vi dono"" Cosí fan tutte, Mozart",252,-90.9289583333,0,,False,True,False,False,1,,,,,
 7ltHXP2w2So,6,2,"Der Vogelfänger bin ich ja from ""The Magic Flute"" featuring Pete Landers",203,-41.9289583333,0,,False,True,False,False,1,,,,,
 ObSDthDE5A8,5,1,"Tom Krause, Amonasro,  Savonlinna Opera Festival",197,-35.9289583333,0,,False,True,False,False,1,,,,,

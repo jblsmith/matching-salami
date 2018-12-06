@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-DsCMWDwc7Kg,0,4,Matisyahu - Refuge-Live at Stubb's,244,-1.78733333333,0,match,True,True,True,False,109,241.6,0.3,0.1,3125.0,3408.0
+DsCMWDwc7Kg,0,4,Matisyahu - Refuge-Live at Stubb's,244,-1.78733333333,0,match,True,True,True,False,9,241.6,0.3,0.1,3125.0,3408.0
 ZpnL8QqsG34,0,1,Refuge - Sing Up,261,-18.787333333299998,0,,True,True,False,False,7,,,,,
 H5mmo7U-DQk,9,2,Matisyahu - Chop 'Em Down (Live at Stubb's),246,-3.78733333333,0,,False,True,True,False,3,,,,,
 _nhAsxuzWgU,9,1,"Refuge - , Live in USA",246,-3.78733333333,0,,False,True,True,False,3,,,,,
@@ -17,9 +17,9 @@ l9BbT90NrXg,6,1,Refuge (lyrics) by NCC (Anthem of Grace - 2015),337,-94.78733333
 0LOlkxLcgNA,8,1,Finding Favour - Refuge (Official Lyric Video),264,-21.787333333299998,0,,False,True,False,False,1,,,,,
 iCX8Q4zhFsE,1,4,Matisyahu - Refuge,208,34.2126666667,0,,True,True,False,False,0,,,,,
 BJxz-T9ZvmE,1,4,MATISYAHU - Refuge & BeatBox,210,32.2126666667,0,,True,True,False,False,0,,,,,
-4Ui6ovJ2bAs,1,4,Matisyahu  -  Refuge,242,0.21266666666700001,0,,True,True,False,True,0,,,,,
+4Ui6ovJ2bAs,1,4,Matisyahu  -  Refuge,242,0.212666666667,0,,True,True,False,True,0,,,,,
 aiJxR5WSvNM,2,4,Matisyahu - Refuge,208,34.2126666667,0,,True,True,False,False,0,,,,,
-3bJR7dNdBZ8,4,4,Refuge (Live),242,0.21266666666700001,0,,True,True,False,True,0,,,,,
+3bJR7dNdBZ8,4,4,Refuge (Live),242,0.212666666667,0,,True,True,False,True,0,,,,,
 -08WHePGKeM,7,4,Matisyahu -  Lord Raise Me Up,233,9.21266666667,0,,False,True,False,False,0,,,,,
 Lj_wxqVkDsY,6,3,Matisyahu - Refuge,210,32.2126666667,0,,False,True,False,False,0,,,,,
 MWN2v_knFjg,8,3,Refuge,208,34.2126666667,0,,False,True,False,False,0,,,,,
@@ -28,7 +28,7 @@ zb1EzWr-TaI,10,2,"Matisyahu - ""Dispatch The Troops"" (Acoustic) - 02 Academy, L
 eL2a04YMpEs,10,2,Matisyahu 2004 - Refuge,208,34.2126666667,0,,False,False,False,False,0,,,,,
 pX1ft8Z-fqM,11,2,Matisyahu - Short nigun.,108,134.212666667,0,,False,False,False,False,0,,,,,
 4oI2aWfq3qU,12,2,Matisyahu - Chop em Down,359,-116.78733333299999,0,,False,False,False,False,0,,,,,
-lWspbRW-5HE,13,2,MATISYAHU: REFUGE,242,0.21266666666700001,0,,False,False,False,True,0,,,,,
+lWspbRW-5HE,13,2,MATISYAHU: REFUGE,242,0.212666666667,0,,False,False,False,True,0,,,,,
 QD495Npwhuc,14,2,We Will Walk ~ Matisyahu,208,34.2126666667,0,,False,False,False,False,0,,,,,
 mSyGIsulAMA,15,2,Matisyahu   Refuge,208,34.2126666667,0,,False,False,False,False,0,,,,,
 -w1Va4DqDWs,16,2,Matisyahu - King Without A Crown (Live At Stubb's Version),290,-47.7873333333,0,,False,False,False,False,0,,,,,

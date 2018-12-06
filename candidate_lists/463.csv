@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-rmQY7aNQ9IA,0,3,Sam Morgan's Jazz Band - Bogalusa Strut,179,-0.708958333333,0,match,True,True,True,False,109,173.3,0.2,0.3,4335.0,4909.0
 1OdrL-yC_xk,0,5,Bogalousa Strut,180,-1.70895833333,0,,True,True,True,False,9,,,,,
+rmQY7aNQ9IA,0,3,Sam Morgan's Jazz Band - Bogalusa Strut,179,-0.708958333333,0,match,True,True,True,False,9,173.3,0.2,0.3,4335.0,4909.0
 VeqFg0YZjKM,4,3,Bogalusa Strut,179,-0.708958333333,0,,True,True,True,False,4,,,,,
 s3TRnSDe43M,3,2,Sam Morgans Jazz Band - Bogalusa Strut,179,-0.708958333333,0,,True,True,True,False,4,,,,,
 Nqih0lf2zjg,7,2,Bogalousa Strut,181,-2.70895833333,0,,False,True,True,False,3,,,,,

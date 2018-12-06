@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7yjbxX31QLY,1,3,Gerardo Nuñez - Sevilla,229,-0.872625,0,match,True,True,True,False,104,218.6,0.6,0.4,2458.0,3032.0
 -BkLRT627B4,0,1,Viva Flamenco y Olé. Rumba y Sevillanas,417,-188.872625,0,,True,True,False,False,7,,,,,
+7yjbxX31QLY,1,3,Gerardo Nuñez - Sevilla,229,-0.872625,0,match,True,True,True,False,4,218.6,0.6,0.4,2458.0,3032.0
 lwyUspSQ3bM,3,3,Gerardo Nunez & Ulf Wakenius - Sevilla,279,-50.872625,0,,True,True,False,False,2,,,,,
 KX7n4uqLyGc,4,2,Sevilla,279,-50.872625,0,,True,True,False,False,2,,,,,
 3hqGQOD3VxY,2,1,Viva Flamenco,563,-334.872625,0,,True,True,False,False,2,,,,,

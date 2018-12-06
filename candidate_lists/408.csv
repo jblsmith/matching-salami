@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-61XXShTo22E,0,4,Come As You Are,371,-0.296291666667,0,match,True,True,True,False,109,359.1,1.1,1.3,3760.0,5703.0
+61XXShTo22E,0,4,Come As You Are,371,-0.296291666667,0,match,True,True,True,False,9,359.1,1.1,1.3,3760.0,5703.0
 EGeKFDzfqsU,1,2,Charlie Hunter Trio - Come As You Are (Mash up cover),372,-1.2962916666700002,0,,True,True,True,False,4,,,,,
 oKpnXu-C4D0,17,1,Charlie Hunter Live - Someday We'll All Be Free,372,-1.2962916666700002,0,,False,False,True,False,2,,,,,
 -kJSZtv6i5c,5,1,The Battle Front Project - Come as you are (Nirvana Cover) Live in North Gate,540,-169.29629166700002,0,,False,True,False,False,1,,,,,

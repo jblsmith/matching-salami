@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-yUqnTAEMsuk,0,4,Donald Byrd - Rock & Roll Again,370,-0.08,0,match,True,True,True,False,109,366.0,0.4,0.3,3830.0,5484.0
+yUqnTAEMsuk,0,4,Donald Byrd - Rock & Roll Again,370,-0.08,0,match,True,True,True,False,9,366.0,0.4,0.3,3830.0,5484.0
 T-DRjT7h03w,1,4,Rock And Roll Again,370,-0.08,0,,True,True,True,False,4,,,,,
 tX9Eup3Brtk,3,3,Donald Byrd   Think Twice,373,-3.08,0,,True,True,True,False,4,,,,,
 o7djcuvqzis,9,3,Donald Byrd - Sister Love,372,-2.08,0,,False,True,True,False,3,,,,,

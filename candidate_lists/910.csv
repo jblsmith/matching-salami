@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-oPE8m_Xt6yg,0,4,Maria Rivas * Mapale,196,0.257958333333,0,match,True,True,False,True,100,192.6,0.4,0.6,2685.0,3226.0
 3UzbhuSl5OE,0,1,"Salsa, Salsa Choke, Bachata, Merengue, Cumbia - in 7 minutes",425,-228.742041667,0,,True,True,False,False,7,,,,,
 a9YOxL_Lg2I,1,3,Adios Carcelero y Carcel * Maria Rivas / latin Venezuela,197,-0.7420416666670001,0,,True,True,True,False,4,,,,,
 xxv6aX7_wNI,2,2,Como lo haces tú - María Rivas - Video,346,-149.742041667,0,,True,True,False,False,2,,,,,
@@ -21,6 +20,7 @@ ApVA7cgWq5k,6,1,Fall in love with Mapalé Lingerie,278,-81.7420416667,0,,False,T
 hhhVTxcx3Lc,7,1,MAPALE,329,-132.742041667,0,,False,True,False,False,1,,,,,
 mJg-IpblfXc,8,1,Colombian folk dance: Mapalé - Agrupación Artística Danzar,251,-54.742041666700004,0,,False,True,False,False,1,,,,,
 W7G_yhHIGkM,9,1,Moviendo la cadera - Oro Solido -  Dikla Damty,302,-105.74204166700001,0,,False,True,False,False,1,,,,,
+oPE8m_Xt6yg,0,4,Maria Rivas * Mapale,196,0.257958333333,0,match,True,True,False,True,0,192.6,0.4,0.6,2685.0,3226.0
 U2bQaXpdCZE,0,2,MAPALE ORIGINAL,138,58.257958333299996,0,,True,True,False,False,0,,,,,
 WxBWYV--zRY,1,2,María Rivas - Mapalé - 1994 - Disco Completo,3205,-3008.74204167,0,,True,True,False,False,0,,,,,
 aw6m4JQHR_w,4,2,Carreteando en enero - Maria Rivas,173,23.2579583333,0,,True,True,False,False,0,,,,,

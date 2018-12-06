@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-dzIK_dsViLI,0,4,Maceo Parker Over the Rainbow,261,-4.973875,0,match,True,True,True,False,109,251.4,1.2,0.6,1564.0,1687.0
+dzIK_dsViLI,0,4,Maceo Parker Over the Rainbow,261,-4.973875,0,match,True,True,True,False,9,251.4,1.2,0.6,1564.0,1687.0
 IuaeInuDXAo,2,2,Maceo Parker - Over The Rainbow,257,-0.973875,0,,True,True,True,False,4,,,,,
 weYniwcGcuU,8,2,Maceo Parker - We're on the move,261,-4.973875,0,,False,True,True,False,3,,,,,
 KZKG5HR8Y4A,9,2,Maceo Parker - Uptown Up,257,-0.973875,0,,False,True,True,False,3,,,,,

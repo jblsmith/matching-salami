@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-uErKOv1wb_k,0,5,"Franz Joseph Haydn, Symphony No. 96 in D major, Hob.I:96, ""The Miracle"", I. Adagio - Allegro",393,0.0645,0,match,True,True,False,True,100,379.7,1.0,0.4,3704.0,4327.0
 rAINvN2a5zs,2,4,"Symphony No. 100 in G Major, Hob. I:100 ""Military"": I. Adagio - Allegro",471,-77.9355,0,,True,True,False,False,2,,,,,
 voK-j853noA,2,2,"Franz Joseph Haydn, Symphony No. 104 in D major, Hob.I:104, ""London"", I. Adagio - Allegro",502,-108.9355,0,,True,True,False,False,2,,,,,
 sJ1ipt6W3Vs,2,1,"Haydn: Symphony No.96 In D Major, Hob.I:96 - ""The Miracle"" - 1. Adagio - Allegro",430,-36.9355,0,,True,True,False,False,2,,,,,
@@ -12,6 +11,7 @@ u0ru-uzpldc,8,3,"Symphony No. 101 in D Major, Hob. I:101 ""The Clock"": I. Adagi
 29SEqGImmUM,6,1,"Haydn: Symphony No.96 in D Major, Hob.I:96 - ""The Miracle"" - 1. Adagio - Allegro",583,-189.9355,0,,False,True,False,False,1,,,,,
 Sy4yN8MIIHs,6,1,"Haydn: Symphony No.96 In D Major, Hob.I:96 - ""The Miracle"" - 1. Adagio - Allegro",434,-40.9355,0,,False,True,False,False,1,,,,,
 Y9ulTfqMnOg,7,1,"Symphony No.96 in D major, 'The Miracle' : I Adagio - Allegro",586,-192.9355,0,,False,True,False,False,1,,,,,
+uErKOv1wb_k,0,5,"Franz Joseph Haydn, Symphony No. 96 in D major, Hob.I:96, ""The Miracle"", I. Adagio - Allegro",393,0.0645,0,match,True,True,False,True,0,379.7,1.0,0.4,3704.0,4327.0
 n0-NL0Il57k,1,5,"Symphony No. 96 in D Major, Hob. I:96 ""The Miracle"": I. Adagio - Allegro",393,0.0645,0,,True,True,False,True,0,,,,,
 V49X4yx0gJo,2,4,"Symphony No. 100 in G Major, Hob. I:100 ""Military"": IV. Finale: Presto",325,68.0645,0,,True,True,False,False,0,,,,,
 fdAXryEJKRI,3,4,"Symphony No. 101 in D Major, Hob. I:101 ""The Clock"": IV. Finale: Vivace",279,114.0645,0,,True,True,False,False,0,,,,,

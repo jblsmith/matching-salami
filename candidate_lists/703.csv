@@ -1,10 +1,10 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7Gx1Pv02w3Q,0,3,Joan Osborne - What If God Was One Of Us,291,29.914291666700002,0,potential,True,True,False,False,100,237.2,0.7,2.1,1997.0,3375.0
 Vc8OlqyxtBQ,1,4,One Of Us,321,-0.0857083333333,0,match,True,True,True,False,4,311.3,2.3,1.8,4527.0,6955.0
 hDr35HCy0K0,5,1,Joan Osborne - One of Us,322,-1.08570833333,0,,False,True,True,False,3,,,,,
 pWy6XGPodmw,7,2,One of US - Joan Osborne [AUDIO ONLY],326,-5.08570833333,0,,False,True,False,False,1,,,,,
 JSSEZkCdjQY,5,1,Joan Osborne - One of us (album version),327,-6.08570833333,0,,False,True,False,False,1,,,,,
 xZEO1Lug25s,0,4,Joan Osborne - One of Us,304,16.914291666700002,0,,True,True,False,False,0,,,,,
+7Gx1Pv02w3Q,0,3,Joan Osborne - What If God Was One Of Us,291,29.914291666700002,0,potential,True,True,False,False,0,237.2,0.7,2.1,1997.0,3375.0
 LPPmqwnVBXo,1,3,Joan Osborne - One Of Us Lyrics,300,20.914291666700002,0,,True,True,False,False,0,,,,,
 RZutkEZB2lI,1,3,"Jоаn Оsbornе ‎"" Rеlish "" Full Album HD",3678,-3357.08570833,0,,True,True,False,False,0,,,,,
 7K1hckf1C3I,3,3,"Joan Osborne - One Of Us - 1996-03-19, Live @ Harald Schmidt Show",254,66.9142916667,0,,True,True,False,False,0,,,,,

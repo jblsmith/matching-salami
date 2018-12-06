@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 3ozQN7nI0OU,0,3,Sara Baras farruca,460,-173.46285,0,reject,True,True,False,False,7,,,,,
 z9DyXigL-LU,0,1,SARA BARAS farruca,416,-129.46285,0,reject,True,True,False,False,7,,,,,
-r0kU1dDtLXM,0,1,"Sarah Baras, Flamenco, Madrid",306,-19.46285,0,,True,True,False,False,7,,,,,
-lt0P41f01AA,1,1,"FLAMENCO 1.995 -Carlos Saura- (Escena: ""Farruca"" con Joaquín Cortés)",355,-68.46285,0,,True,True,False,False,2,,,,,
-Y1jIw6_FLXU,2,1,sara baras baile por farruca,413,-126.46285,0,,True,True,False,False,2,,,,,
+r0kU1dDtLXM,0,1,"Sarah Baras, Flamenco, Madrid",306,-19.46285,0,reject,True,True,False,False,7,,,,,
+lt0P41f01AA,1,1,"FLAMENCO 1.995 -Carlos Saura- (Escena: ""Farruca"" con Joaquín Cortés)",355,-68.46285,0,reject,True,True,False,False,2,,,,,
+Y1jIw6_FLXU,2,1,sara baras baile por farruca,413,-126.46285,0,reject,True,True,False,False,2,,,,,
 mjDFkhvlDg8,6,1,Sara Baras por Alegrías (1989) | Flamenco en Canal Sur,377,-90.46285,0,,False,True,False,False,1,,,,,
 zRH0SJl_x4w,8,1,Sara Baras   El Albacin  Iberia,304,-17.46285,0,,False,True,False,False,1,,,,,
 3OCuZiXh6Bg,9,1,Farruca Peña Pepe Alconchel 14-10-17,565,-278.46285,0,,False,True,False,False,1,,,,,

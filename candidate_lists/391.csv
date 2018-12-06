@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-6SX06KpPnZk,8,5,"Loaded, Leather, Moonroof- Samuel Zeitler (Don Ross)",328,-1.80895833333,0,reject,False,True,True,False,3,,,,,
+6SX06KpPnZk,8,5,"Loaded, Leather, Moonroof- Samuel Zeitler (Don Ross)",328,-1.8089583333300001,0,reject,False,True,True,False,3,,,,,
 irmJpz-syJQ,2,5,"The 16th Heartstring Concert : Charles Ahn, Loaded, Leather, Moonroof (Don Ross)",466,-139.808958333,0,reject,True,True,False,False,2,,,,,
-vg5TaS4EIVE,5,3,"Don Ross, Andy McKee, Michael Manring - www.candyrat.com",343,-16.808958333299998,0,,False,True,False,False,1,,,,,
-ip111lXjDSs,0,5,"Don Ross - Loaded, Leather, Moonroof - www.candyrat.com",291,35.1910416667,0,,True,True,False,False,0,,,,,
-YtbSq8pOR9U,1,5,"Loaded, Leather, Moonroof (Don Ross)",312,14.1910416667,0,,True,True,False,False,0,,,,,
+vg5TaS4EIVE,5,3,"Don Ross, Andy McKee, Michael Manring - www.candyrat.com",343,-16.808958333299998,0,reject,False,True,False,False,1,,,,,
+ip111lXjDSs,0,5,"Don Ross - Loaded, Leather, Moonroof - www.candyrat.com",291,35.1910416667,0,reject,True,True,False,False,0,,,,,
+YtbSq8pOR9U,1,5,"Loaded, Leather, Moonroof (Don Ross)",312,14.1910416667,0,reject,True,True,False,False,0,,,,,
 BbU0Eh-oHi0,2,5,Loaded Leather Moonroof / Don Ross,271,55.1910416667,0,,True,True,False,False,0,,,,,
 u8yiBHJgahA,3,5,"Don ross-Loaded, Leather, Moonroof (Cover)",288,38.1910416667,0,,True,True,False,False,0,,,,,
 ODC8r7OX_5o,4,5,"Don Ross Loaded,Leather,Moonroof",206,120.19104166700001,0,,True,True,False,False,0,,,,,

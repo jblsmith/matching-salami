@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 XYeFGBDKkwA,4,3,"Bob And Marcia Young, Gifted And Black",189,-0.3698125,0,reject,True,True,True,False,4,,,,,
 B4nSd0qN53E,8,2,To Be Young Gifted and Black,189,-0.3698125,0,reject,False,True,True,False,3,,,,,
-15dC8md6TQQ,2,3,"Bob & Marcia - Young, Gifted & Black (Slayd5000)",207,-18.3698125,0,,True,True,False,False,2,,,,,
-MM52p6q5GaI,3,3,"BOB & MARCIA ""Young, Gifted & Black"" Garance Reggae Festival, France 2012",236,-47.3698125,0,,True,True,False,False,2,,,,,
-PdyVpHzYvdk,12,2,BOB & MARCIA - YOUNG GIFTED & BLACK,192,-3.3698125,0,,False,False,True,False,2,,,,,
+15dC8md6TQQ,2,3,"Bob & Marcia - Young, Gifted & Black (Slayd5000)",207,-18.3698125,0,potential,True,True,False,False,2,146.5,32.2,25.4,593.0,1288.0
+MM52p6q5GaI,3,3,"BOB & MARCIA ""Young, Gifted & Black"" Garance Reggae Festival, France 2012",236,-47.3698125,0,reject,True,True,False,False,2,,,,,
+PdyVpHzYvdk,12,2,BOB & MARCIA - YOUNG GIFTED & BLACK,192,-3.3698125,0,reject,False,False,True,False,2,,,,,
 1gdI0hlYRPw,19,2,YOUNG GIFTED AND BLACK,189,-0.3698125,0,,False,False,True,False,2,,,,,
 5EfxIlyi0hA,1,1,"Bob Andy & Marcia Griffiths ""Young Gifted & Black""",364,-175.3698125,0,,True,True,False,False,2,,,,,
 qFidgjq9rIo,2,1,"Aretha Franklin-Young, Gifted, and Black",215,-26.3698125,0,,True,True,False,False,2,,,,,

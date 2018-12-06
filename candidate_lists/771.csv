@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Hjko_jzpfpQ,0,3,djeli mara - šaban bajramovič,268,-71.0133333333,0,potential,True,True,False,False,7,19.4,194.7,129.9,142.0,1190.0
 PXWITBZsjc0,1,3,Saban Bajramovic-Djeli mara,259,-62.0133333333,0,reject,True,True,False,False,2,,,,,
-TYRZjnqPJ_Y,1,3,Saban Bajramovic Djeli Mara,259,-62.0133333333,0,,True,True,False,False,2,,,,,
-vr2m3uuaae8,4,3,Saban Bajramovic Djeli Mara,259,-62.0133333333,0,,True,True,False,False,2,,,,,
-9ehmzxP6UZU,4,3,DJeli Mara,268,-71.0133333333,0,,True,True,False,False,2,,,,,
+TYRZjnqPJ_Y,1,3,Saban Bajramovic Djeli Mara,259,-62.0133333333,0,reject,True,True,False,False,2,,,,,
+vr2m3uuaae8,4,3,Saban Bajramovic Djeli Mara,259,-62.0133333333,0,reject,True,True,False,False,2,,,,,
+9ehmzxP6UZU,4,3,DJeli Mara,268,-71.0133333333,0,potential,True,True,False,False,2,43.7,170.7,106.0,160.0,1499.0
 sq70Tu0azhU,3,2,Šaban Bajramović - Hanuma / Ðeli Mara (Mesečina) - Sava Centar 2006 (2-6),515,-318.013333333,0,,True,True,False,False,2,,,,,
 kAobLTCA8QM,3,1,Gipsy Aleksici - Djeli Mara,221,-24.0133333333,0,,True,True,False,False,2,,,,,
 j52kxnm8W-I,5,3,"Nadya and Giga's 101 candles Orkestra - ""Djeli Mara""",225,-28.0133333333,0,,False,True,False,False,1,,,,,

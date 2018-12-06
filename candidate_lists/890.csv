@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-lk-E0VbgxkU,0,5,Der Alter Bulgar,355,0.160833333333,0,match,True,True,False,True,100,346.6,1.0,1.0,5439.0,6156.0
 I3NXApQe-c8,3,4,Besarabye (sung in Yiddish) - Brave Old World & Itzkhak Perlman - Klezmer יצחק פרלמן - כליזמר,419,-63.8391666667,0,,True,True,False,False,2,,,,,
 865L1KJX4GQ,2,2,Der Alter Bulgar - Shtetl Klezmer,385,-29.839166666700002,0,,True,True,False,False,2,,,,,
 -SeBQ9DspKs,5,2,Fisherlid (Yiddish) - The Klezmatics & Itzkhak Perlman - Klezmer יצחק פרלמן - פֿישערליד - כליזמר,388,-32.8391666667,0,,False,True,False,False,1,,,,,
 rr_aybdAURM,5,1,Various Artists - Der Alter Bulgar,406,-50.8391666667,0,,False,True,False,False,1,,,,,
+lk-E0VbgxkU,0,5,Der Alter Bulgar,355,0.160833333333,0,match,True,True,False,True,0,346.6,1.0,1.0,5439.0,6156.0
 mjQ27N4YD6U,1,5,Der alter Bulgar,355,0.160833333333,0,,True,True,False,True,0,,,,,
 sPWSp4upk3c,2,4,Der heyser Bulgar,235,120.160833333,0,,True,True,False,False,0,,,,,
 L8gmX0zCk80,5,4,Simkhes Toyre Time (sung in Yiddish)- The Klezmatics & Itzkhak Perlman - Klezmer יצחק פרלמן - כליזמר,205,150.160833333,0,,False,True,False,False,0,,,,,

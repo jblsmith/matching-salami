@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-0vqgdSsfqPs,0,5,R.E.M. - Imitation Of Life (Official Music Video),238,0.497958333333,0,match,True,True,False,True,100,230.4,3.4,0.1,2841.0,7232.0
 xAOH-m6nans,2,4,R.E.M.  -  Imitation Of Life (Alternate Mix),290,-51.5020416667,0,,True,True,False,False,2,,,,,
 JC8bqDCpsHc,2,3,"R.E.M. - ""Imitation Of Life""",255,-16.502041666700002,0,,True,True,False,False,2,,,,,
 udn8Nj_7zjg,3,3,"R.E.M. - ""Imitation Of Life"" [Live from Austin, TX]",317,-78.5020416667,0,,True,True,False,False,2,,,,,
@@ -8,6 +7,7 @@ jRA4HxREuVg,17,1,R.E.M. – Imitation of Life (How To Play On Piano Tutorial),24
 L1xzTRqov-w,8,2,REM - Imitation Of Life - 15-05-2001 - Letterman Show,253,-14.5020416667,0,,False,True,False,False,1,,,,,
 hcIEPmLFPBk,8,1,"TCM Race & Hollywood ""Imitation of Life""",302,-63.5020416667,0,,False,True,False,False,1,,,,,
 EgXyFmqCixA,9,1,Imitation of Life,257,-18.502041666700002,0,,False,True,False,False,1,,,,,
+0vqgdSsfqPs,0,5,R.E.M. - Imitation Of Life (Official Music Video),238,0.497958333333,0,match,True,True,False,True,0,230.4,3.4,0.1,2841.0,7232.0
 GkfiCDv4Jbk,1,5,R.E.M. - Imitation Of Life (HQ+Lyrics),237,1.49795833333,0,,True,True,False,True,0,,,,,
 pwIqS5aa2vQ,4,4,Imitation Of Life,237,1.49795833333,0,,True,True,False,True,0,,,,,
 U_rgL9YD004,5,4,"R. E. M. : ""IMITATION OF LIFE"" (2001 Official, Unedited - Edited)",238,0.497958333333,0,,False,True,False,True,0,,,,,

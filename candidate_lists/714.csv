@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 MmkPIBwS8eQ,0,4,Holy miss moley got me a live one (House of 1000 Corpses),58,-41.6995833333,0,potential,True,True,False,False,7,13.3,42.1,0.1,50.0,51.0
 xEt5dEOcW0I,0,1,Uncle Buck (8/10) Movie CLIP - Moley Russel's Wart (1989) HD,205,-188.699583333,0,reject,True,True,False,False,7,,,,,
-2J9C6AA1Le8,2,2,06 - Holy Miss Moley,17,-0.6995833333329999,0,,True,True,True,False,4,,,,,
+2J9C6AA1Le8,2,2,06 - Holy Miss Moley,17,-0.6995833333329999,0,potential,True,True,True,False,4,15.3,0.3,0.1,151.0,153.0
 r7znngls6TE,5,1,House of 1000 Corpses - 03 - Saddle Up The Mule (Soundtrack),17,-0.6995833333329999,0,,False,True,True,False,3,,,,,
 SLGObENZD88,7,1,House of 1000 Corpses - 23 - Dr. Satan (Soundtrack),19,-2.69958333333,0,,False,True,True,False,3,,,,,
 Eds4c60enjM,3,4,Devolution Audio   House of 1000 Corpses,112,-95.6995833333,0,,True,True,False,False,2,,,,,
@@ -18,7 +18,7 @@ Wxo_5gNakBA,4,1,She's Out of My League (6/9) Movie CLIP - Honesty (2010) HD,163,
 4aQDOUbErNg,4,1,Olly Murs - Troublemaker ft. Flo Rida,185,-168.699583333,0,,True,True,False,False,2,,,,,
 OiRQOpC0nhg,4,1,House of 1000 Corpses (2003 Movie) Teaser Trailer,71,-54.6995833333,0,,True,True,False,False,2,,,,,
 k9aezzV7WQI,15,1,Rockin' Crazy World 20 Sec Promo,20,-3.69958333333,0,,False,False,True,False,2,,,,,
-jnzbQf1NoQE,18,1,(This is Hell!) House of 1000 Corpses,18,-1.69958333333,0,,False,False,True,False,2,,,,,
+jnzbQf1NoQE,18,1,(This is Hell!) House of 1000 Corpses,18,-1.6995833333300001,0,,False,False,True,False,2,,,,,
 ujEbejephNM,5,2,The Devil's Rejects (9/10) Movie CLIP - Chicken F***er (2005) HD,149,-132.699583333,0,,False,True,False,False,1,,,,,
 gFL270Gndlw,7,2,Our grandpa stand up comedian,54,-37.6995833333,0,,False,True,False,False,1,,,,,
 AK_jm3Hz1Wk,5,1,Little Richard - Good Golly Miss Molly (Muhammad Ali's 50th Birthday),209,-192.699583333,0,,False,True,False,False,1,,,,,

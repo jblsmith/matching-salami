@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-j7OxdZdIofo,0,4,Chatterbox,146,-5.1478125,0,potential,True,True,False,False,107,124.8,11.0,11.0,686.0,6498.0
+j7OxdZdIofo,0,4,Chatterbox,146,-5.1478125,0,potential,True,True,False,False,7,124.8,11.0,11.0,686.0,6498.0
 Xlpmj9flI8o,0,2,Albert Collins   ~  ''Chatterbox''&''Baby What You Want Me To Do / Rock Me Baby'' 1969,402,-261.1478125,0,potential,True,True,False,False,7,116.8,2.0,1.9,651.0,7091.0
 OGVkIVWJ0i8,0,1,How To Make A Chatterbox / Fortune Teller,309,-168.1478125,0,,True,True,False,False,7,,,,,
 4_tQV2iP-gE,3,2,Junkey Monkey,142,-1.1478125,0,,True,True,True,False,4,,,,,

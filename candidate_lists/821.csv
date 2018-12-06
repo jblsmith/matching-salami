@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 7BuAGPv4G84,0,3,Sexteto Habanero -La Loma De Belen,190,-6.04575,0,reject,True,True,False,False,7,,,,,
 mAuT6d1c6nI,0,2,A LA LOMA DE BELEN - Miguel Quintana,385,-201.04575,0,reject,True,True,False,False,7,,,,,
-aDQXomIwllA,8,2,Loma de Belen,184,-0.04575,0,,False,True,True,False,3,,,,,
-x5ufzxQbtBA,1,3,Ignacio Pineiro - A La Loma De Belen -1929 - Foto-Video.mp4,222,-38.04575,0,,True,True,False,False,2,,,,,
-X05OptLUIRo,11,2,Loma de Belen,185,-1.04575,0,,False,False,True,False,2,,,,,
+aDQXomIwllA,8,2,Loma de Belen,184,-0.04575,0,reject,False,True,True,False,3,,,,,
+x5ufzxQbtBA,1,3,Ignacio Pineiro - A La Loma De Belen -1929 - Foto-Video.mp4,222,-38.04575,0,reject,True,True,False,False,2,,,,,
+X05OptLUIRo,11,2,Loma de Belen,185,-1.04575,0,reject,False,False,True,False,2,,,,,
 PB1-pWwUxBk,11,2,Loma De Belen,185,-1.04575,0,,False,False,True,False,2,,,,,
 9UjrS02f_3w,16,2,Loma de Belén (Son),184,-0.04575,0,,False,False,True,False,2,,,,,
 rESz4Tsq5Gk,2,1,EXITOS QUILLEROS - LA LOMA DE BELEN - CACHAO - DESCARGA SALSERA,284,-100.04575,0,,True,True,False,False,2,,,,,

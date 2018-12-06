@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-tBcFPlkkMO8,0,2,"Kill Bill Vol. 1 OST - Bill, Sophie & Kiddo - You' re My Wicked Life (Dialogue) - (Track 15) - HD",75,-0.551,0,potential,True,True,True,False,109,55.6,0.8,0.6,260.0,263.0
+tBcFPlkkMO8,0,2,"Kill Bill Vol. 1 OST - Bill, Sophie & Kiddo - You' re My Wicked Life (Dialogue) - (Track 15) - HD",75,-0.551,0,potential,True,True,True,False,9,55.6,0.8,0.6,260.0,263.0
 QsaG8rJGlyQ,0,3,Kill Bill: Vol. 2 (6/12) Movie CLIP - Budd Meets the Black Mamba (2004) HD,163,-88.551,0,reject,True,True,False,False,7,,,,,
-EIvzKJTqrbg,0,2,"Pulp Fiction | ""Do You Read The Bible?"" - Script to Screen",582,-507.551,0,,True,True,False,False,7,,,,,
-x2WK_eWihdU,1,4,Ezekiel 25:17 - Pulp Fiction (3/12) Movie CLIP (1994) HD,148,-73.551,0,,True,True,False,False,2,,,,,
-7T7dDVagEzY,1,3,Kill Bill Vol. 1 | The Bride vs. Sophie Fatale | Trunk Scene,166,-91.551,0,,True,True,False,False,2,,,,,
+EIvzKJTqrbg,0,2,"Pulp Fiction | ""Do You Read The Bible?"" - Script to Screen",582,-507.551,0,reject,True,True,False,False,7,,,,,
+x2WK_eWihdU,1,4,Ezekiel 25:17 - Pulp Fiction (3/12) Movie CLIP (1994) HD,148,-73.551,0,matched_718,True,True,False,False,2,,,,,
+7T7dDVagEzY,1,3,Kill Bill Vol. 1 | The Bride vs. Sophie Fatale | Trunk Scene,166,-91.551,0,reject,True,True,False,False,2,,,,,
 ocSNP4P3_fc,2,3,Kill Bill Vol. 1 OST - Ode To O-Ren Ishii - The RZA - (Track 6) - HD,126,-51.551,0,,True,True,False,False,2,,,,,
 rqZ6HEKPdMA,4,2,kill bill S.978,170,-95.551,0,,True,True,False,False,2,,,,,
 Xv7eeMikM_w,1,1,"Good Will Hunting | ‘The Best Part of My Day’ (HD) - Ben Affleck, Matt Damon | MIRAMAX",195,-120.551,0,,True,True,False,False,2,,,,,
@@ -58,7 +58,7 @@ ugVzOnrCQ7Q,14,1,10 Big Pimp Jones - Car Chase 92 [Freestyle Records],170,-95.55
 YhpvB2ZF1PA,15,1,As Long As You're Mine - Wicked The Musical,228,-153.55100000000004,0,,False,False,False,False,0,,,,,
 pkXgSNm6Fes,15,1,The Meaning of Chess in Movies,333,-258.551,0,,False,False,False,False,0,,,,,
 3TCi7qiIPHo,15,1,Grand Duel - Kill Bill vol.1,204,-129.55100000000002,0,,False,False,False,False,0,,,,,
-UfLAh08YsPg,16,1,Be more chill: the musical (animatic version),4498,-4423.5509999999995,0,,False,False,False,False,0,,,,,
+UfLAh08YsPg,16,1,Be more chill: the musical (animatic version),4498,-4423.551,0,,False,False,False,False,0,,,,,
 EtrkC6mm6b8,16,1,Kill Bill Vol. 1 [OST] #2 - That Certain Female,183,-108.551,0,,False,False,False,False,0,,,,,
 4B9D5hTyiLM,17,1,Good for you //Dear Evan Hansen Animatic//,351,-276.551,0,,False,False,False,False,0,,,,,
 A9FLqDZDDsg,17,1,"Pulp Fiction Soundtrack - Girl, You'll Be A Woman Soon",190,-115.551,0,,False,False,False,False,0,,,,,

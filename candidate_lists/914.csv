@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-t2WG15hkH8M,0,4,Africando - Pepita (feat. Boncana Maïga & Hector Casanova) [audio],307.0,-1.2106,0,match,True,True,True,False,109,300.8,0.3,0.3,4647.0,9235.0
+t2WG15hkH8M,0,4,Africando - Pepita (feat. Boncana Maïga & Hector Casanova) [audio],307.0,-1.2106,0,match,True,True,True,False,9,300.8,0.3,0.3,4647.0,9235.0
 xAVY3GVK89s,0,4,Pepita (feat. Boncana Maïga & Hector Casanova),306.0,-0.2106,0,,True,True,True,False,9,,,,,
 n4VnIllwvXE,4,2,Mandali (feat. Medoune Diallo),307.0,-1.2106,0,,True,True,True,False,4,,,,,
 JT1yNLAFQQk,13,4,Africando - Ayo nene (audio),306.0,-0.2106,0,,False,False,True,False,2,,,,,

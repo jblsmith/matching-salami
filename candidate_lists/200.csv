@@ -1,8 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-k3hs1TXBhV8,0,1,String Quartet in F major Op. 3 No. 5 Hob. III: 17 - II. Andante cantabile ['Serenade'],208,0.64,0,potential,True,True,False,True,100,133.0,1.0,1.0,879.0,1332.0
 XFxdUSbrrCE,0,1,Serenade in C major for Strings Op.48: III. Élégie (Larghetto elegiaco),474,-265.36,0,reject,True,True,False,False,7,,,,,
-6jmQ2IXtdTE,0,1,"Roman Hoffstetter:  String Quartet in F Major, Op.3 No.5 II:Andante Cantabile",237,-28.36,0,,True,True,False,False,7,,,,,
-ylxR6-wyghE,8,2,Serenade,209,-0.36,0,,False,True,True,False,3,,,,,
+6jmQ2IXtdTE,0,1,"Roman Hoffstetter:  String Quartet in F Major, Op.3 No.5 II:Andante Cantabile",237,-28.36,0,reject,True,True,False,False,7,,,,,
+ylxR6-wyghE,8,2,Serenade,209,-0.36,0,potential,False,True,True,False,3,197.6,1.0,1.0,2515.0,2828.0
 I80NhE_adIE,1,1,Serenade in E major Op.22: V. Finale. Allegro vivace,338,-129.36,0,,True,True,False,False,2,,,,,
 USEQ6pgXqhA,1,1,ROMAN HOFFSTETTER  *  Haydn's Serenade *  For String Op.3 No. 5  *  Early Summer,281,-72.36,0,,True,True,False,False,2,,,,,
 Pi0m8ZzFZPQ,2,1,Serenade No. 7 in D major K.250 Haffner: VIII. Adagio - Allegro assai,514,-305.36,0,,True,True,False,False,2,,,,,
@@ -23,7 +22,8 @@ qciHRTKyLXA,6,1,Herrmann:Serenade:JuniorQuartet@EncoreMusicProjectsInternational
 xHRWgtgpQn4,7,1,"String Quartet In F, Op. 3/5: 2. Andante Cantabile, ""Serenade""",239,-30.36,0,,False,True,False,False,1,,,,,
 KHKFBsJegD4,8,1,"Serenade No.6 in D major K.239 ""Serenata notturna"": III. Rondeau. Allegretto",313,-104.36,0,,False,True,False,False,1,,,,,
 m1NEH385YeE,8,1,' Joseph Haydn ' : Serenade (Andante Cantabile from String Quartet Op. 3 No. 5),387,-178.36,0,,False,True,False,False,1,,,,,
-fFlYoYAamoc,0,1,"Bernstein's Serenade with Anne Akiko Meyers, VSO & Ennio Morricone's 'Love' Encore",2286,-2077.36,0,,True,True,False,False,0,,,,,
+fFlYoYAamoc,0,1,"Bernstein's Serenade with Anne Akiko Meyers, VSO & Ennio Morricone's 'Love' Encore",2286,-2077.36,0,reject,True,True,False,False,0,,,,,
+k3hs1TXBhV8,0,1,String Quartet in F major Op. 3 No. 5 Hob. III: 17 - II. Andante cantabile ['Serenade'],208,0.64,0,potential,True,True,False,True,0,133.0,1.0,1.0,879.0,1332.0
 lwyVu-NNP98,1,1,TWICE Mina & Momo - Encore (Serenade version),17,191.64,0,,True,True,False,False,0,,,,,
 FTDtc5Rty4I,2,1,Bernstein Serenade,1993,-1784.36,0,,True,True,False,False,0,,,,,
 Ar1AEoYwBWM,5,1,Horowitz plays Debussy 'Serenade for the doll',202,6.64,0,,False,True,False,False,0,,,,,

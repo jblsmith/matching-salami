@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-oRdxUFDoQe0,0,3,Michael Jackson - Beat It (Official Video),298,-39.5733333333,0,potential,True,True,False,False,107,188.3,87.3,64.7,856.0,3493.0
+oRdxUFDoQe0,0,3,Michael Jackson - Beat It (Official Video),298,-39.5733333333,0,potential,True,True,False,False,7,188.3,87.3,64.7,856.0,3493.0
 8si-p69gGLY,0,2,Best Ever Challenge Compilation #besteverchallenge,318,-59.5733333333,0,reject,True,True,False,False,7,,,,,
-RClz8myPLcY,4,1,Beat It but every time Michael Jackson says beat it I add a new layer of Every Michael Jackson Grunt,260,-1.5733333333300001,0,,True,True,True,False,4,,,,,
-HSNKIdy5HJQ,7,3,Michael Jackson - Beat It (Lyrics),261,-2.57333333333,0,,False,True,True,False,3,,,,,
+RClz8myPLcY,4,1,Beat It but every time Michael Jackson says beat it I add a new layer of Every Michael Jackson Grunt,260,-1.57333333333,0,matched_1614,True,True,True,False,4,,,,,
+HSNKIdy5HJQ,7,3,Michael Jackson - Beat It (Lyrics),261,-2.57333333333,0,match,False,True,True,False,3,254.5,0.2,0.1,2963.0,6975.0
 Xz-WKZnK_5Y,2,3,Michael Jackson   Beat It   Live In Munich   HIStory World Tour,411,-152.573333333,0,,True,True,False,False,2,,,,,
 _6_AIu1Aw0Q,3,3,Michael Jackson - Beat It - Live Auckland 1996 - HD,483,-224.573333333,0,,True,True,False,False,2,,,,,
 XDD9LpLyGiQ,11,3,Michael Jackson Beat It [Audio HQ],259,-0.5733333333330001,0,,False,False,True,False,2,,,,,
@@ -55,7 +55,7 @@ nSEaiwy2nMQ,13,1,Jackson Fire Remix Challenge Best Lit Dances Compilation 🔥 #
 uFT4yqhNvDc,14,1,Beat It rehearsals (August 2018),80,178.426666667,0,,False,False,False,False,0,,,,,
 miIWm1_FVyg,14,1,When KRUMPERS Go BEASTMODE | Dance Battle Compilation 🔥,625,-366.57333333300005,0,,False,False,False,False,0,,,,,
 x1BhtMRtOW4,14,1,Guess The Michael Jackson Song Beat - VLOGMAS DAY 3 - Lucy Universe,516,-257.573333333,0,,False,False,False,False,0,,,,,
-Ckiw-NLw8zY,15,1,Ben Phillips PRANK Compilation  [3 Hour],10819,-10560.573333299999,0,,False,False,False,False,0,,,,,
+Ckiw-NLw8zY,15,1,Ben Phillips PRANK Compilation  [3 Hour],10819,-10560.5733333,0,,False,False,False,False,0,,,,,
 Bjbb496HGFM,15,1,"ONE GUY, 22 VOICES (Sam Smith, Michael Jackson, Bruno Mars, iFunny Famous Singer Impressions)",248,10.4266666667,0,,False,False,False,False,0,,,,,
 f2_OvoMzVTU,16,1,"""Weird Al"" Yankovic's ""Eat It"" vs. Michael Jackson's ""Beat It""",209,49.4266666667,0,,False,False,False,False,0,,,,,
 idwCnmdmZrA,16,1,Chris Beat Challenge Dance Compilation #chrisbeatchallenge #beatdance,361,-102.573333333,0,,False,False,False,False,0,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-oCojYVfs-Tg,0,4,Sarah Harmer - You Were Here,295,-1.5404375,0,match,True,True,True,False,109,289.6,1.6,0.4,2296.0,2554.0
+oCojYVfs-Tg,0,4,Sarah Harmer - You Were Here,295,-1.5404375,0,match,True,True,True,False,9,289.6,1.6,0.4,2296.0,2554.0
 VS9A98_9EbQ,9,4,Sarah Harmer  -  Goin' Out,298,-4.5404375,0,,False,True,True,False,3,,,,,
 MR2zX-ZZlmA,7,2,SARAH HARMER  Goin´out,297,-3.5404375,0,,False,True,True,False,3,,,,,
 d82YW-OjLKY,3,4,sarah harmer - lodestar,327,-33.5404375,0,,True,True,False,False,2,,,,,

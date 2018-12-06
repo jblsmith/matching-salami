@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Tkw9jAGL-nQ,0,3,"Symphony in F Major, J-C 32: I. Presto",175,-115.44079166700001,0,potential,True,True,False,False,7,56.3,0.2,0.2,633.0,1201.0
 KNJqxVS73lU,0,3,"Giovanni Battista Sammartini: Sinfonia for strings & b.c. in C major (J-C 7) / Milan, 1730c",585,-525.440791667,0,reject,True,True,False,False,7,,,,,
-L8L1qiVBCTc,0,1,"Symphony in F Major, J-C 32: I. Presto",154,-94.4407916667,0,,True,True,False,False,7,,,,,
-W8MratH51eY,0,1,Yelawolf - American You,217,-157.440791667,0,,True,True,False,False,7,,,,,
-qJTACzwRvTI,2,2,"Symphony in F Major, J-C 36: III. Allegro",119,-59.4407916667,0,,True,True,False,False,2,,,,,
+L8L1qiVBCTc,0,1,"Symphony in F Major, J-C 32: I. Presto",154,-94.4407916667,0,reject,True,True,False,False,7,,,,,
+W8MratH51eY,0,1,Yelawolf - American You,217,-157.440791667,0,reject,True,True,False,False,7,,,,,
+qJTACzwRvTI,2,2,"Symphony in F Major, J-C 36: III. Allegro",119,-59.4407916667,0,reject,True,True,False,False,2,,,,,
 Pjy3i1-j41o,3,2,"Symphony in C Minor, J-C 9: II. Affettuoso",411,-351.440791667,0,,True,True,False,False,2,,,,,
 q2WyKlkqaOY,4,2,"Symphony in C Minor, J-C 9: III. Allegro",154,-94.4407916667,0,,True,True,False,False,2,,,,,
 yZFdtrqxqvw,1,1,"Sammartini: Sinfonia in F, I",169,-109.44079166700001,0,,True,True,False,False,2,,,,,

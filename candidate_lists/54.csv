@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-zfR0IKFRvdw,0,3,Luther Guitar Junior Johnson-Ain't Treating Me Right,176,2.33795,0,match,True,True,False,True,108,172.2,0.2,0.4,2028.0,2335.0
 ll5yg7c5ROQ,1,3,Luther 'Guitar Junior' Johnson - Ain't Treatin' Me Right,181,-2.66205,0,,True,True,True,False,4,,,,,
 jCev7U1oeHA,3,3,Stealing Chickens (Live),240,-61.66205,0,,True,True,False,False,2,,,,,
 q92tK4dhf9E,2,2,"Luther ""Guitar Junior"" Johnson - Nobody Wants To Lose",323,-144.66205,0,,True,True,False,False,2,,,,,
@@ -9,13 +8,14 @@ cG2U0e2wzUs,3,2,Luther 'Guitar Jr' Johnson ~ ''Nobody Wants To Loose'' (1976),33
 DY0tsKCB4lc,4,1,Aint No Stopping Us Now Mcfadden and Whitehead,240,-61.66205,0,,True,True,False,False,2,,,,,
 VtNN3l-FYuM,5,2,Luther ''Guitar Junior'' Johnson - If The Blues Was Whiskey (Kostas A~171),334,-155.66205,0,,False,True,False,False,1,,,,,
 v8Yowjp7kzM,5,2,"Luther ""Guitar Junior"" Johnson - I Can't Stop",327,-148.66205,0,,False,True,False,False,1,,,,,
-e_vjdoan1fI,6,2,Mac Curtis You Ain't Treating Me Right UK Parlophone 78 Rockabilly,145,33.33795,0,,False,True,False,False,1,,,,,
 HTwkKk-zTtk,8,2,Look What You Done,234,-55.66205,0,,False,True,False,False,1,,,,,
 OJjTsMZX-4Q,9,2,Luther 'Guitar Junior' Johnson - Hard Times Have Surely Come (Kostas A~171),208,-29.66205,0,,False,True,False,False,1,,,,,
 I2n_mKo8Fb4,7,1,"LUTHER JOHNSON Jr. (Itta Bena, Mississippi, U.S.A) - Luther's Boogie (instr.)",205,-26.66205,0,,False,True,False,False,1,,,,,
 mqkkLB-62-A,9,1,LUTHER JOHNSON - BIG LEGGED WOMAN,262,-83.66205,0,,False,True,False,False,1,,,,,
+zfR0IKFRvdw,0,3,Luther Guitar Junior Johnson-Ain't Treating Me Right,176,2.33795,0,match,True,True,False,True,0,172.2,0.2,0.4,2028.0,2335.0
 hwgN-LmKkPk,10,3,Walkin' the Dog; Guitar Junior.wmv,266,-87.66205,0,,False,False,False,False,0,,,,,
 bG5xIG7EKFc,15,3,Luther Guitar Jr Johnson   Suffer So Hard With The Blues,375,-196.66205,0,,False,False,False,False,0,,,,,
+e_vjdoan1fI,6,2,Mac Curtis You Ain't Treating Me Right UK Parlophone 78 Rockabilly,145,33.33795,0,,False,True,False,False,0,,,,,
 3DdN-ny2X8w,9,2,"Luther Guitar Junior Johnson & the Night Hawks - Montreux Jazz Festival, Switzerland. 1982",1326,-1147.66205,0,,False,True,False,False,0,,,,,
 Y96BDY5cJQA,11,2,"Luther ""Guitar Junior"" Johnson and the Magic Rockers Live @ Barnful Of Blues 8/3/13",302,-123.66205,0,,False,False,False,False,0,,,,,
 -HrKq20qanY,11,2,Luther 'Guitar Jr.' Johnson - Walkin' The Dog,259,-80.66205,0,,False,False,False,False,0,,,,,

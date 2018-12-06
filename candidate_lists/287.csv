@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-orx6EstWsl8,0,4,"William Primrose plays Paganini ""La Campanella""",242,0.364083333333,0,match,True,True,False,True,100,235.4,0.5,0.5,3722.0,3915.0
 jERzLseoAOM,0,1,Paganini: La Campanella (Vanessa Mae),318,-75.6359166667,0,,True,True,False,False,7,,,,,
 C6_jHuYVH-w,4,4,"Violin Concerto No. 2 in B Minor, Op. 7: ""La Campanella"", Rondo à la clochette",244,-1.63591666667,0,,True,True,True,False,4,,,,,
 mW-cUufPBRk,1,4,"PAGANINI “La campanella,” from Concerto No. 2 in B minor, Op. 7 (arr. William Primrose)",335,-92.6359166667,0,,True,True,False,False,2,,,,,
@@ -19,6 +18,7 @@ LJNWB-jMhB4,6,1,Paganini Kreisler - La Campanella,354,-111.635916667,0,,False,Tr
 YaxHZxvmSwQ,7,1,Salvatore Accardo plays La Campanella by Paganini,539,-296.635916667,0,,False,True,False,False,1,,,,,
 rZg8-JXIO0k,8,1,La Campanella by Niccolò Paganini - Nikita Zimin -XVIII World Sax Congress 2018 #adolphesax,397,-154.635916667,0,,False,True,False,False,1,,,,,
 7Oia13wK_zU,9,1,N. Paganini–W. Primrose: La Campanella,356,-113.635916667,0,,False,True,False,False,1,,,,,
+orx6EstWsl8,0,4,"William Primrose plays Paganini ""La Campanella""",242,0.364083333333,0,match,True,True,False,True,0,235.4,0.5,0.5,3722.0,3915.0
 hn3RYzDuQcE,6,4,William Primrose Plays Paganini Caprice 24,183,59.3640833333,0,,False,True,False,False,0,,,,,
 rdSaX26nzX8,10,4,Paganini: La Campanella on Viola!,344,-101.635916667,0,,False,False,False,False,0,,,,,
 5h_vKqq32BA,12,4,Paganini La Campanella,294,-51.6359166667,0,,False,False,False,False,0,,,,,

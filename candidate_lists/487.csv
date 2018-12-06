@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-csuhzZPLlaU,0,2,Stan Getz - Manha De Carnaval (Morning Of The Carnival),352,-2.06366666667,0,potential,True,True,True,False,109,296.3,4.1,0.5,1817.0,2432.0
 L6Bdc_fGSvk,0,3,Stan Getz - Manha de Carnival,351,-1.06366666667,0,match,True,True,True,False,9,344.6,1.3,0.3,2844.0,3216.0
+csuhzZPLlaU,0,2,Stan Getz - Manha De Carnaval (Morning Of The Carnival),352,-2.06366666667,0,potential,True,True,True,False,9,296.3,4.1,0.5,1817.0,2432.0
 FM97agVI50E,2,2,Luiz Bonfá : Manha De Carnaval / Scene Du Lever Du Soleil,354,-4.06366666667,0,,True,True,True,False,4,,,,,
 6jHNFepEK3Y,3,2,Manha De Carnaval (Morning Of Carnival),351,-1.06366666667,0,,True,True,True,False,4,,,,,
 MKPqulbJCXA,5,3,Manha De Carnaval (Morning of the Carnival),351,-1.06366666667,0,,False,True,True,False,3,,,,,
@@ -20,7 +20,7 @@ zx4vsiJtgb4,0,3,Manha De Carnival,347,2.93633333333,0,,True,True,False,True,0,,,
 Vgo9av539gU,4,3,Astrud Gilberto - Manha De Carnabal,179,170.936333333,0,,True,True,False,False,0,,,,,
 VZCpLplIx1I,1,2,Perry Como and Luiz Bonfa - Manha de Carnaval,183,166.936333333,0,,True,True,False,False,0,,,,,
 8WefB0GeWgs,1,2,"Stan Getz, Enoch Light and Luiz Bonifa - Big Band Bossa Nova (Not Now Music) [Full Album]",5704,-5354.06366667,0,,True,True,False,False,0,,,,,
-ydh54emjwMo,2,2,Stan Getz - Manha De Carnival (Morning Of Carnival),348,1.9363333333300001,0,,True,True,False,True,0,,,,,
+ydh54emjwMo,2,2,Stan Getz - Manha De Carnival (Morning Of Carnival),348,1.93633333333,0,,True,True,False,True,0,,,,,
 otEVRVrHzXQ,2,2,Manha De Carnaval (Morning of the Carnival),178,171.936333333,0,,True,True,False,False,0,,,,,
 hEoZNpL_04Q,3,2,Manha de Carnival (Morning of Carnival),349,0.936333333333,0,,True,True,False,True,0,,,,,
 nVkDfnGobmI,3,2,Manhã De Carnaval!,179,170.936333333,0,,True,True,False,False,0,,,,,
@@ -38,9 +38,9 @@ Rvg3pIlkrw0,6,1,09  Manha de Carnaval ( Morning of carnival )   /   Luiz  Bonfa 
 7tqGzkFy5fI,6,1,Manhã de Carnaval (Morning of the Carnival),177,172.936333333,0,,False,True,False,False,0,,,,,
 -8xL9xlIHVM,7,1,Luiz Bonfá e Tom Jobim - Manhã de Carnaval,186,163.936333333,0,,False,True,False,False,0,,,,,
 YmgcLPGpkIY,7,1,Manha De Carnaval from Black Orpheus (Morning of the Carnival),178,171.936333333,0,,False,True,False,False,0,,,,,
-DLuDMi6ZHaU,8,1,Morning of Carnival - Manha de Carnaval,348,1.9363333333300001,0,,False,True,False,True,0,,,,,
+DLuDMi6ZHaU,8,1,Morning of Carnival - Manha de Carnaval,348,1.93633333333,0,,False,True,False,True,0,,,,,
 2_4PwKoO5_A,8,1,Manhã de Carnaval,97,252.936333333,0,,False,True,False,False,0,,,,,
-C2NXtZFvyfs,8,1,"Manha De Carnaval (Morning of the Carnival) (Recorded in New York, August 27 & 28, 1962)",348,1.9363333333300001,0,,False,True,False,True,0,,,,,
+C2NXtZFvyfs,8,1,"Manha De Carnaval (Morning of the Carnival) (Recorded in New York, August 27 & 28, 1962)",348,1.93633333333,0,,False,True,False,True,0,,,,,
 HgR7YJpOoPE,9,1,Baden Powell - Manha de Carnaval (1970),157,192.936333333,0,,False,True,False,False,0,,,,,
 EQN0wH9H0Bc,9,1,Black Orpheus (Manhã de Carnaval),196,153.936333333,0,,False,True,False,False,0,,,,,
 wzlN5PV_ODA,9,1,Stan Getz / Balanco no Samba,182,167.936333333,0,,False,True,False,False,0,,,,,

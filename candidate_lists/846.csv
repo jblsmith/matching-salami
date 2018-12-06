@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 XCwoKMN0fCo,0,2,Que Dios La Perdone,259,-3.2351,0,reject,True,True,True,False,9,,,,,
 u0bp1Ss9WiQ,7,1,Mi sobrina me ase pregonar,272,-16.2351,0,reject,False,True,False,False,1,,,,,
--LtaqSgCyrI,8,1,12) Diosa de la Trasformacion - Las Pastillas Del Abuelo,359,-103.2351,0,,False,True,False,False,1,,,,,
-6LxJWP4CWmE,0,2,Lo Acaba De Pregonar - Fandangos,160,95.7649,0,,True,True,False,False,0,,,,,
-cuD_qK-ToD0,0,1,Me Pongo a Pregonar,254,1.7649,0,,True,True,False,True,0,,,,,
+-LtaqSgCyrI,8,1,12) Diosa de la Trasformacion - Las Pastillas Del Abuelo,359,-103.2351,0,reject,False,True,False,False,1,,,,,
+6LxJWP4CWmE,0,2,Lo Acaba De Pregonar - Fandangos,160,95.7649,0,reject,True,True,False,False,0,,,,,
+cuD_qK-ToD0,0,1,Me Pongo a Pregonar,254,1.7649,0,potential,True,True,False,True,0,185.8,61.0,61.5,870.0,1273.0
 2Sr8ITVQ7Kk,1,1,Me Pongo a Pregonar,254,1.7649,0,,True,True,False,True,0,,,,,
 PcptvDXl0ys,1,1,♥ Planchando el foami para darle forma. :),107,148.7649,0,,True,True,False,False,0,,,,,
 dOn2Z94lcYA,2,1,Me Pongo a Pregonar,242,13.7649,0,,True,True,False,False,0,,,,,

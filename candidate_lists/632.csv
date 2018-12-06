@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-IcBduw4vCxY,0,3,Bunny Wailer - Rise and Shine,318,2.6008,0,match,True,True,False,True,100,314.8,0.4,0.4,2731.0,3795.0
 vADIa2ykZNc,0,1,12'' Bunny Wailer - Rise & Shine (& Dub),592,-271.3992,0,,True,True,False,False,7,,,,,
 XejpB_jvbkM,0,1,BUNNY WAILER - Rockers (Retrospective),354,-33.3992,0,,True,True,False,False,7,,,,,
 0rzLTyAlHj0,1,3,BUNNY WAILER - RISE AND SHINE,343,-22.3992,0,,True,True,False,False,2,,,,,
@@ -12,6 +11,7 @@ s_JDMXnrvpY,6,1,Peter Tosh and Neville Livingston * Till Your Well Runs Dry,374,
 CtVtvm0jcMI,6,1,Decollage -  Les Balayeurs Du Desert w/ Art by Mark Ryden,326,-5.3992,0,,False,True,False,False,1,,,,,
 pIxFn5pQFZE,7,1,BUNNY WAILER - Dash Wey The Vial (Liberation),326,-5.3992,0,,False,True,False,False,1,,,,,
 jrRVUZv1bjo,9,1,"BUNNY WAILER - Roots,Radics,Rockers,Reggae (Retrospective)",332,-11.3992,0,,False,True,False,False,1,,,,,
+IcBduw4vCxY,0,3,Bunny Wailer - Rise and Shine,318,2.6008,0,match,True,True,False,True,0,314.8,0.4,0.4,2731.0,3795.0
 ohfEM-5w1lU,4,2,BUNNY WAILER - LIBERATION [1988 FULL ALBUM],2730,-2409.3992,0,,True,True,False,False,0,,,,,
 H1ISo6FWLwM,5,2,BUNNY WAILER - Soul Rocking Party,301,19.6008,0,,False,True,False,False,0,,,,,
 7mkxqqlSt70,5,2,BUNNY WAILER - ROOTS RADICS ROCKERS REGGAE,299,21.6008,0,,False,True,False,False,0,,,,,

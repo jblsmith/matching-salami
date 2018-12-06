@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 WlOeIGi_sDI,0,5,The Klezmorim - Sherele (Little Scissors Dance),184,-55.19025,0,reject,True,True,False,False,7,,,,,
 CUP3LVzpWAU,0,3,Sherele (The mean wedding),216,-87.19025,0,reject,True,True,False,False,7,,,,,
-N17B_bTUMPU,3,4,"The Klezmorim - Yoshke, Yoshke",149,-20.19025,0,,True,True,False,False,2,,,,,
-gJHifUYKKPc,1,3,"The Klezmorim ""Sherele""  (Little Scissors Dance)",186,-57.19025,0,,True,True,False,False,2,,,,,
-eHj8DVRxiHs,1,2,The Klezmorim - Fidl Volach (Violin Melody),181,-52.19025,0,,True,True,False,False,2,,,,,
+N17B_bTUMPU,3,4,"The Klezmorim - Yoshke, Yoshke",149,-20.19025,0,reject,True,True,False,False,2,,,,,
+gJHifUYKKPc,1,3,"The Klezmorim ""Sherele""  (Little Scissors Dance)",186,-57.19025,0,reject,True,True,False,False,2,,,,,
+eHj8DVRxiHs,1,2,The Klezmorim - Fidl Volach (Violin Melody),181,-52.19025,0,reject,True,True,False,False,2,,,,,
 TdrRd2S41C8,2,2,Sherele,186,-57.19025,0,,True,True,False,False,2,,,,,
 5HYSj3iMRkQ,2,2,The Klezmorim - Doina,205,-76.19025,0,,True,True,False,False,2,,,,,
 NKPuDW-e4os,4,2,The Klezmorim - Kacerac,147,-18.19025,0,,True,True,False,False,2,,,,,

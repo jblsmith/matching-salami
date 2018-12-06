@@ -1,9 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-xypmAwADnd4,1,3,Tito Puente - Mambo Gallego.wmv,170,3.6359,0,potential,True,True,False,True,100,86.5,73.9,73.0,384.0,1336.0
 g4e1LfmYcFA,0,3,Mambo Gallego by Tito Puente,311,-137.3641,0,reject,True,True,False,False,7,,,,,
-bjTCFqdtIIU,0,2,Tito Puente - Hong Kong Mambo * Salsa Rhythm On-2 Timing Video,229,-55.3641,0,,True,True,False,False,7,,,,,
-_TNg284V-0A,1,3,"Mambo Gallego (mambo) T.Puente - Conjunto Casino, trompeta: Jorge Varona, 1960",203,-29.3641,0,,True,True,False,False,2,,,,,
-jB0Y8hulSCk,2,3,"""Mambo Gallego (D-Code)"" by Tito Puente",239,-65.3641,0,,True,True,False,False,2,,,,,
+bjTCFqdtIIU,0,2,Tito Puente - Hong Kong Mambo * Salsa Rhythm On-2 Timing Video,229,-55.3641,0,reject,True,True,False,False,7,,,,,
+_TNg284V-0A,1,3,"Mambo Gallego (mambo) T.Puente - Conjunto Casino, trompeta: Jorge Varona, 1960",203,-29.3641,0,reject,True,True,False,False,2,,,,,
+jB0Y8hulSCk,2,3,"""Mambo Gallego (D-Code)"" by Tito Puente",239,-65.3641,0,potential,True,True,False,False,2,45.1,146.8,14.7,23.0,528.0
 upDkas0_WpU,2,3,Mambo Gallego (D Code Mix) - Adult Swim Bump Music,235,-61.3641,0,,True,True,False,False,2,,,,,
 o291h-rUV_Y,3,3,Tito Puente  Mambo Gallego,311,-137.3641,0,,True,True,False,False,2,,,,,
 5PqKfvsVZhU,1,2,Tito Puente - Ran Kan Kan (LatinJockey Old vs. New Remix),183,-9.3641,0,,True,True,False,False,2,,,,,
@@ -16,6 +15,7 @@ HUYxyXUtByk,8,2,Mambo Gallego,311,-137.3641,0,,False,True,False,False,1,,,,,
 R1XyI2dzWW0,6,1,Gallego Ft. Joilen y Tony Black – Viejita No Llores,238,-64.3641,0,,False,True,False,False,1,,,,,
 SErtBWDmuOM,9,1,Mambo Gallego a Baila Conmigo,218,-44.3641,0,,False,True,False,False,1,,,,,
 QIlNYOAYUsw,9,1,A Horse named Chicken Gets to Breed.,236,-62.3641,0,,False,True,False,False,1,,,,,
+xypmAwADnd4,1,3,Tito Puente - Mambo Gallego.wmv,170,3.6359,0,potential,True,True,False,True,0,86.5,73.9,73.0,384.0,1336.0
 4SYOKnCp9k8,5,3,Tito Puente And His Orchestra: Mambo Gallego,171,2.6359,0,,False,True,False,True,0,,,,,
 3hLhIPORSvs,10,3,Mambo Gallego,167,6.6359,0,,False,False,False,False,0,,,,,
 fNxs9GZ9uFA,16,3,MAMBO GALLEGO-TITO PUENTE AND HIS ORCHESTRA,309,-135.3641,0,,False,False,False,False,0,,,,,

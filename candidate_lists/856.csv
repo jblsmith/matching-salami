@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 VMm8YG5_1ls,1,1,Shai Maestro Trio - Improvisatie (Live @Bimhuis Amsterdam),565,-174.991833333,0,reject,True,True,False,False,2,,,,,
 Kj3e7AIB0r4,2,1,Deep Tribe - Ghost Dance [Official Music Video] Wülfpack Records 2015,422,-31.9918333333,0,reject,True,True,False,False,2,,,,,
-oCFGO6c7XAA,4,1,Kayne West and the Ghost Dance.,518,-127.99183333299999,0,,True,True,False,False,2,,,,,
-fKkdqLfF34A,7,1,Theodosii Spassov & Tigran Hamasyan / Duckling Soup,462,-71.9918333333,0,,False,True,False,False,1,,,,,
-rzt7dF5jwhs,8,1,"Mick Karn with Richard Barbieri, Steve Jansen and Steve Wilson - Sleepers Awake live",477,-86.9918333333,0,,False,True,False,False,1,,,,,
+oCFGO6c7XAA,4,1,Kayne West and the Ghost Dance.,518,-127.99183333299999,0,reject,True,True,False,False,2,,,,,
+fKkdqLfF34A,7,1,Theodosii Spassov & Tigran Hamasyan / Duckling Soup,462,-71.9918333333,0,reject,False,True,False,False,1,,,,,
+rzt7dF5jwhs,8,1,"Mick Karn with Richard Barbieri, Steve Jansen and Steve Wilson - Sleepers Awake live",477,-86.9918333333,0,reject,False,True,False,False,1,,,,,
 JDgnlKPoRBc,9,1,Loewenhertz - Irgendwann (Single Preview),420,-29.9918333333,0,,False,True,False,False,1,,,,,
 Kcht9mkPuZw,0,3,Paradox Trio - Hora Attik (klezmer),300,90.0081666667,0,,True,True,False,False,0,,,,,
 WP3m_IrFoH0,2,3,Wakening / Будник,180,210.008166667,0,,True,True,False,False,0,,,,,

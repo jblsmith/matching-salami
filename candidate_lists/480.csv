@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-9r31Vlw4MkY,0,4,My Funny Valentine (Live),338,-0.184458333333,0,match,True,True,True,False,109,336.9,0.1,0.1,4627.0,5571.0
+9r31Vlw4MkY,0,4,My Funny Valentine (Live),338,-0.184458333333,0,match,True,True,True,False,9,336.9,0.1,0.1,4627.0,5571.0
 wPn7TERvg0Q,10,1,art pepper - my funny valentine.wmv,339,-1.1844583333299998,0,,False,False,True,False,2,,,,,
 qP0Yy9OfAXs,13,1,My funny valentine (Danzon),340,-2.18445833333,0,,False,False,True,False,2,,,,,
 3CGmjtbW_fI,13,1,My Funny Valentine ( Richard Rodgers and Lorenz Hart ).  Ruby Braff & Ellis Larkins.,338,-0.184458333333,0,,False,False,True,False,2,,,,,
@@ -57,7 +57,7 @@ E-bKlOm8_9U,14,1,My Funny Valentine~ 1937 Richard Rodgers and Lorenz Hart musica
 ct2Pl8DhxEY,14,1,"My Funny Valentine, Barbra Streisand",143,194.81554166700002,0,,False,False,False,False,0,,,,,
 x-bPBu7I03g,15,1,My Funny Valentine,550,-212.18445833299998,0,,False,False,False,False,0,,,,,
 08KCWS749dU,15,1,Rodgers & Hart - My Funny Valentine - Jane Krakowski,118,219.81554166700002,0,,False,False,False,False,0,,,,,
-Eey585Dvueg,15,1,Jazz All Days: Bill Evans,29820,-29482.184458300002,0,,False,False,False,False,0,,,,,
+Eey585Dvueg,15,1,Jazz All Days: Bill Evans,29820,-29482.1844583,0,,False,False,False,False,0,,,,,
 WZ6Px1T3L48,16,1,My Funny Valentine - Belfast Jazz & Blues,355,-17.1844583333,0,,False,False,False,False,0,,,,,
 shlrP_ZOa7o,16,1,"""My Funny Valentine"" by Richard Rodgers & Lorenz Hart",265,72.8155416667,0,,False,False,False,False,0,,,,,
 1TGExVu7SfY,16,1,Rickie Lee Jones - My Funny Valentine,226,111.815541667,0,,False,False,False,False,0,,,,,

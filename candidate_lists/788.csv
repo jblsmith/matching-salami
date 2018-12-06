@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 bZCT8H-Hpbc,3,3,Highland Sword Dance,184,-8.09145,0,reject,True,True,False,False,2,,,,,
 sDP5Vhm9o84,2,2,Scottish Bagpipe Band and Highland Dance   Kelowna BC   YouTube,422,-246.09145,0,reject,True,True,False,False,2,,,,,
-DrYL7U9ra8c,3,2,78 RPM - Scots Guards Pipers - Sword Dance (1912),181,-5.09145,0,,True,True,False,False,2,,,,,
-zxQA8iZDPmQ,4,2,Strathspeys & Reels: On Evil,200,-24.09145,0,,True,True,False,False,2,,,,,
-S6zEn_SxnD8,5,3,SDCCS 2018 Gillie Callum Choreography,182,-6.09145,0,,False,True,False,False,1,,,,,
+DrYL7U9ra8c,3,2,78 RPM - Scots Guards Pipers - Sword Dance (1912),181,-5.09145,0,reject,True,True,False,False,2,,,,,
+zxQA8iZDPmQ,4,2,Strathspeys & Reels: On Evil,200,-24.09145,0,reject,True,True,False,False,2,,,,,
+S6zEn_SxnD8,5,3,SDCCS 2018 Gillie Callum Choreography,182,-6.09145,0,reject,False,True,False,False,1,,,,,
 BsE1vibY2h4,6,3,2010 Gillie Callum Choreography - Saskatoon,225,-49.09145,0,,False,True,False,False,1,,,,,
 d9moA6y5NV0,6,2,⚡️The Black Watch⚡️Roses Of Prince Charlie⚡️Ye Jacobite by Name⚡️,274,-98.09145,0,,False,True,False,False,1,,,,,
 LfxV3uXTEHU,8,2,Broadsword Medley,411,-235.09145,0,,False,True,False,False,1,,,,,

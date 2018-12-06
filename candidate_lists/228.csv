@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-x2VfPAlJfVA,1,5,Nos autem. Introito (Modo IV) (Remasterizado),177,0.7632916666670001,0,match,True,True,False,True,100,170.7,0.4,1.3,1030.0,1065.0
 0VAe5fYJzAo,0,3,"Benedictine Monks of Santo Domingo de Silos, Da pacem, introit in mode 1 ( Chant II )",196,-18.236708333299998,0,,True,True,False,False,7,,,,,
 dESoLm7dph0,0,2,Introitus: Nos autem gloriari,347,-169.236708333,0,,True,True,False,False,7,,,,,
 -LULYhsQH4E,0,2,01 Nos autem - Le migliori opere del Canto gregoriano.wmv,185,-7.236708333330001,0,,True,True,False,False,7,,,,,
 5T2zdCfMXfc,3,4,De Silos Nos Autem - Best Gregorian Chant.wmv,182,-4.23670833333,0,,True,True,True,False,4,,,,,
-hTt4gQdk4Ko,9,2,Nos Auten. Introito (Modo IV) (1999 Remastered Version),178,-0.23670833333299998,0,,False,True,True,False,3,,,,,
+hTt4gQdk4Ko,9,2,Nos Auten. Introito (Modo IV) (1999 Remastered Version),178,-0.236708333333,0,,False,True,True,False,3,,,,,
 XeO2cWyB1Xg,2,4,"Canto Gregoriano 1/5, Puer natus est nobis, Santo Domingo de Silos",227,-49.2367083333,0,,True,True,False,False,2,,,,,
 w-hXnVgrvvA,2,3,Gregorian Chant from Spain (Santo Domingo de Silos),313,-135.236708333,0,,True,True,False,False,2,,,,,
 wmsvSX6UsC8,1,2,Introitus - Nos autem gloriari,372,-194.236708333,0,,True,True,False,False,2,,,,,
@@ -20,6 +19,7 @@ DTh4cKl85iM,7,1,"Nos autem gloriari | St. Cecilia Choir, Boston",206,-28.2367083
 XF-HOd52ycc,7,1,Nos autem.wmv,183,-5.23670833333,0,,False,True,False,False,1,,,,,
 F4DcSitAKY4,8,1,"Con Armonium, studio canto Gregoriano, NOS AUTEM GLORIARI, Giovanni Vianini, Milano, Italia",227,-49.2367083333,0,,False,True,False,False,1,,,,,
 V3qisQyhxIc,9,1,Chant Nos autem,332,-154.236708333,0,,False,True,False,False,1,,,,,
+x2VfPAlJfVA,1,5,Nos autem. Introito (Modo IV) (Remasterizado),177,0.7632916666670001,0,match,True,True,False,True,0,170.7,0.4,1.3,1030.0,1065.0
 80huwSN0Lvw,4,3,"Benedictine Monks of Santo Domingo de Silos, Haec dies quam fecit Dominus Chant II",173,4.76329166667,0,,True,True,False,True,0,,,,,
 eC6OKIYXBxQ,6,3,Gregorian Chants from Assisi -  Medieval Lauds,3229,-3051.23670833,0,,False,True,False,False,0,,,,,
 n1wnGLSPZ0U,8,3,Veni sancte spiritus. Secuencia (Modo I) (Remasterizado),167,10.7632916667,0,,False,True,False,False,0,,,,,

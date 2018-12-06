@@ -1,14 +1,14 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
--99j6DeuwUI,2,3,"Ravel: String Quartet In F Major, M.35 - 3. Très lent",547,-2.94775,0,potential,True,True,True,False,104,377.9,5.9,2.2,4443.0,7235.0
+-99j6DeuwUI,2,3,"Ravel: String Quartet In F Major, M.35 - 3. Très lent",547,-2.94775,0,potential,True,True,True,False,4,377.9,5.9,2.2,4443.0,7235.0
 OFEg6zsOOQU,4,3,"Ravel: String Quartet In F Major, M.35 - 3. Très lent",545,-0.94775,0,potential,True,True,True,False,4,335.2,1.3,2.1,1621.0,4700.0
 j_LH9kiIxjg,1,2,String Quartet in F Major: III. Très lent,588,-43.94775,0,,True,True,False,False,2,,,,,
 7eiYB3ERkKs,4,2,String Quartet in F Major: III. Très lent,561,-16.94775,0,,True,True,False,False,2,,,,,
-dVURtE9kmbA,0,5,Hagen Quartet - Maurice Ravel - String Quartet in F - Très lent (3/4),543,1.05225,0,,True,True,False,True,0,,,,,
 ieRQyyPowH0,0,5,Maurice Ravel - String Quartet in F major,1725,-1180.94775,0,,True,True,False,False,0,,,,,
+dVURtE9kmbA,0,5,Hagen Quartet - Maurice Ravel - String Quartet in F - Très lent (3/4),543,1.05225,0,,True,True,False,True,0,,,,,
 OLlN87PpywA,0,3,Maurice Ravel String Quartet in F major / Quartetto Italiano (1967/2016),1786,-1241.94775,0,,True,True,False,False,0,,,,,
-npT_q46AoS8,5,3,"Ravel: String Quartet In F Major, M.35 - 2. Assez vif. Très rythmé",395,149.05225,0,,False,True,False,False,0,,,,,
 z88tW-2bzfk,5,3,"Maurice Ravel, String Quartet, Melos Quartett",1715,-1170.94775,0,,False,True,False,False,0,,,,,
 sm7ol8kZwSU,5,3,String Quartet in F Major - Maurice Ravel [HD],1659,-1114.94775,0,,False,True,False,False,0,,,,,
+npT_q46AoS8,5,3,"Ravel: String Quartet In F Major, M.35 - 2. Assez vif. Très rythmé",395,149.05225,0,,False,True,False,False,0,,,,,
 7DRZVxxQ5OY,7,3,"Ravel: String Quartet In F Major, M.35 - 3. Très lent",507,37.05225,0,,False,True,False,False,0,,,,,
 VlosBnfQCXo,8,3,Maurice Ravel: Quatuor à cordes en fa majeur (Arcanto Quartett),1703,-1158.94775,0,,False,True,False,False,0,,,,,
 YTj-lNiF3LQ,10,3,"Ravel: String Quartet In F Major, M.35 - 2. Assez vif. Très rythmé",396,148.05225,0,,False,False,False,False,0,,,,,
@@ -17,8 +17,8 @@ UJxEQnUQKg8,2,2,Emerson String Quartet: The complete String quartet in F major (
 2NnHjHzFzds,3,2,String Quartet in F Major (Ravel) iii. Très lent,536,8.05225,0,,True,True,False,False,0,,,,,
 5j23LWHMYH8,3,2,Ravel String Quartet in F III. Très lent - Belcea Quartet.,516,28.05225,0,,True,True,False,False,0,,,,,
 chcUI6WoDjs,6,2,"String Quartet in F Major, M. 35: III. Tres Lent",479,65.05225,0,,False,True,False,False,0,,,,,
-ZyvZPKrSWwM,7,2,"Quartet in G Minor, Op. 10, L. 85: Très lent",523,21.05225,0,,False,True,False,False,0,,,,,
 DYCDDJNgGx4,7,2,"Maurice Ravel - String Quartet, I-II",852,-307.94775,0,,False,True,False,False,0,,,,,
+ZyvZPKrSWwM,7,2,"Quartet in G Minor, Op. 10, L. 85: Très lent",523,21.05225,0,,False,True,False,False,0,,,,,
 CSY5MY9Jl_k,8,2,"Ravel: String Quartet In F Major, M.35 - 2. Assez vif. Très rythmé",411,133.05225,0,,False,True,False,False,0,,,,,
 gfLMh19GMyA,10,2,String Quartet in F: III. Très lent,520,24.05225,0,,False,False,False,False,0,,,,,
 gsHMH7Fmv98,13,2,"Beethoven - String quartet in A minor, op 132 - 3rd mvmt (part 2)",315,229.05225,0,,False,False,False,False,0,,,,,

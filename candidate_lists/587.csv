@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-pCY7s6rNWWU,0,5,I Need More Time,196,-0.65635,0,match,True,True,True,False,109,189.9,0.4,0.3,3445.0,4520.0
+pCY7s6rNWWU,0,5,I Need More Time,196,-0.65635,0,match,True,True,True,False,9,189.9,0.4,0.3,3445.0,4520.0
 1TjJ7xZm--0,0,2,The Meters - I Need More Time,196,-0.65635,0,,True,True,True,False,9,,,,,
 dBhhNrBimys,1,2,The Meters - I Need More Time,196,-0.65635,0,,True,True,True,False,4,,,,,
 Y71UW5jF1r4,9,1,I Need More Time - The Meters,196,-0.65635,0,,False,True,True,False,3,,,,,

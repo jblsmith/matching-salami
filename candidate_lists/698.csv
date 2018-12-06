@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Cz-UQU-Sm0w,0,1,Why Japanese Don't Date (Interview),338,-121.98705,0,reject,True,True,False,False,7,,,,,
 AAjZ5f8wBAc,5,1,Central Singapore  - Matsuri Festival - Japanese Music & Dance Week P3/11,221,-4.98705,0,reject,False,True,True,False,3,,,,,
-zT576ZCNVhs,2,2,SAMANTHA Stollenwerck - Oblivious(official music video),251,-34.98705,0,,True,True,False,False,2,,,,,
-mQm25ftVJgw,3,2,Samantha Stollenwerck - Carefree Music Video,244,-27.98705,0,,True,True,False,False,2,,,,,
-yLbcknQLUdA,4,2,"""Is This My Life"" by Samantha Stollenwerck",229,-12.98705,0,,True,True,False,False,2,,,,,
+zT576ZCNVhs,2,2,SAMANTHA Stollenwerck - Oblivious(official music video),251,-34.98705,0,reject,True,True,False,False,2,,,,,
+mQm25ftVJgw,3,2,Samantha Stollenwerck - Carefree Music Video,244,-27.98705,0,reject,True,True,False,False,2,,,,,
+yLbcknQLUdA,4,2,"""Is This My Life"" by Samantha Stollenwerck",229,-12.98705,0,reject,True,True,False,False,2,,,,,
 vdqyGn4T6zM,2,1,GINA CHAVEZ - GOTTA GET (BalconyTV),392,-175.98705,0,,True,True,False,False,2,,,,,
 dHePoMNeWo8,3,1,Sexless in Japan - BBC News,224,-7.98705,0,,True,True,False,False,2,,,,,
 toGm0v6pK9Y,5,2,"""Icicles"" Park City TV, Sundance Film Festival Samantha Stollenwerck",428,-211.98705,0,,False,True,False,False,1,,,,,

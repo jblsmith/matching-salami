@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
--_pwGMYEBTA,0,3,Red Dragon - Hol' A Fresh [Best Quality],235,1.460375,0,reject,True,True,False,True,100,,,,,
 gwsv7iOXKHg,1,3,Red Dragon - Hol A Fresh,257,-20.539625,0,reject,True,True,False,False,2,,,,,
-VT2PG8jpJTc,2,1,Dominick - Boy George,323,-86.539625,0,,True,True,False,False,2,,,,,
-UX6K7waag5Q,17,1,Wiz Khalifa - We Dem Boyz [Official Video],238,-1.539625,0,,False,False,True,False,2,,,,,
-kE6Wijpvlgo,8,1,"Busta Rhymes - Girlfriend (Extended Version) ft. Vybz Kartel, Tory Lanez",449,-212.539625,0,,False,True,False,False,1,,,,,
+VT2PG8jpJTc,2,1,Dominick - Boy George,323,-86.539625,0,reject,True,True,False,False,2,,,,,
+UX6K7waag5Q,17,1,Wiz Khalifa - We Dem Boyz [Official Video],238,-1.539625,0,reject,False,False,True,False,2,,,,,
+kE6Wijpvlgo,8,1,"Busta Rhymes - Girlfriend (Extended Version) ft. Vybz Kartel, Tory Lanez",449,-212.539625,0,reject,False,True,False,False,1,,,,,
+-_pwGMYEBTA,0,3,Red Dragon - Hol' A Fresh [Best Quality],235,1.460375,0,reject,True,True,False,True,0,,,,,
 z5lAWWphMK8,1,3,Shabba Ranks - Fresh!,190,46.460375,0,,True,True,False,False,0,,,,,
 slV2GhaLwDE,2,3,RED DRAGON - FRESH,196,40.460375,0,,True,True,False,False,0,,,,,
 jox8L0cfFJs,2,3,"Fresh Riddim Aka Hol A Fresh riddim mix 1988 (King Jammys,Techniques) Mix By Djeasy",1609,-1372.539625,0,,True,True,False,False,0,,,,,

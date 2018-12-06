@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-uPh_7tSEc4w,1,3,M.POLLINI - DEBUSSY ETUDE no.9 Pour les notes repetees(Book Two),193,-0.94775,0,match,True,True,True,False,104,187.9,2.6,1.3,1320.0,1430.0
+uPh_7tSEc4w,1,3,M.POLLINI - DEBUSSY ETUDE no.9 Pour les notes repetees(Book Two),193,-0.94775,0,match,True,True,True,False,4,187.9,2.6,1.3,1320.0,1430.0
 U7FBjDMWPKY,2,2,"Debussy: 12 Etudes, L.136 - 9. Pour les Notes répétées",193,-0.94775,0,,True,True,True,False,4,,,,,
 ITmhD4ACWBk,3,2,"Claude Debussy Etudes livre 2 n° 8 ""Pour les agréments"" - Piano : Muriel Chemin",384,-191.94775,0,,True,True,False,False,2,,,,,
 kBJzwpzNAhQ,4,2,"Claude Debussy Etudes livre 2 n° 12 ""Pour les accords"" - Piano : Muriel Chemin",347,-154.94775,0,,True,True,False,False,2,,,,,

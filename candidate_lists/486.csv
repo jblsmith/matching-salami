@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-4QXGeuNRHLE,1,5,Stan Getz & Charlie Byrd - Samba Dees Days,216,0.920833333333,0,match,True,True,False,True,100,209.9,3.7,0.3,2246.0,2433.0
 NUW9ontCnRg,1,5,Stan Getz/Charlie Bird samba deez days,220,-3.07916666667,0,,True,True,True,False,4,,,,,
 _PuOzaADCLs,7,4,Samba Dees Days,218,-1.0791666666700002,0,,False,True,True,False,3,,,,,
 NmA2YosdLQo,8,4,Samba Dees Days,217,-0.0791666666667,0,,False,True,True,False,3,,,,,
@@ -9,6 +8,7 @@ EUW8TuryrHw,18,1,Samba Dees Days,217,-0.0791666666667,0,,False,False,True,False,
 txch6trLwjY,5,4,"Stan Getz & Charlie Byrd ""Samba Dees Days"" - Rega P3 / Ortofon MC-3 Turbo HOMC",224,-7.079166666669999,0,,False,True,False,False,1,,,,,
 Ycsq41vNfxE,9,2,"Vinyl Room Vinyl Spin - Denon VL12 Prime - ""Samba Dees Days"" Stan Getz & Charlie Byrd",224,-7.079166666669999,0,,False,True,False,False,1,,,,,
 rmzrNVV3xKo,0,5,Stan Getz - Samba Dees Days,213,3.92083333333,0,,True,True,False,True,0,,,,,
+4QXGeuNRHLE,1,5,Stan Getz & Charlie Byrd - Samba Dees Days,216,0.920833333333,0,match,True,True,False,True,0,209.9,3.7,0.3,2246.0,2433.0
 mDFmvlcp2Pg,3,5,Stan Getz ~ Samba Dees Days,212,4.92083333333,0,,True,True,False,True,0,,,,,
 7J8SUXkBHrY,4,5,Stan Getz - Samba Dees Days (feat. Charlie Byrd),214,2.92083333333,0,,True,True,False,True,0,,,,,
 9iUEKZtH2s8,5,5,Samba Dees Days,213,3.92083333333,0,,False,True,False,True,0,,,,,

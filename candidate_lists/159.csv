@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-OVG0zcgcNok,0,4,"Mozart: Symphony No.33 in B flat, K.319 - 2. Andante moderato",267,1.9045,0,match,True,True,False,True,100,261.2,1.5,1.5,3055.0,3310.0
 C9k67A58cfo,6,3,"Mozart: Symphony No.29 in A, K.201 - 4. Allegro con spirito",271,-2.0955,0,,False,True,True,False,3,,,,,
 8-YWderFRes,2,3,"Symphony No. 39 in E-Flat Major, K. 543: II. Andante con moto",506,-237.0955,0,,True,True,False,False,2,,,,,
 fpI6SL8mGRs,2,3,"Mozart: Symphony No.29 in A, K.201 - 1. Allegro moderato",456,-187.0955,0,,True,True,False,False,2,,,,,
@@ -16,6 +15,7 @@ xqxFcJio-I8,7,1,"Mozart: Symphony No. 33 in B flat major, K.319 - 1. Allegro ass
 bdAy0gY0XUo,8,1,Wolfgang Amadeus Mozart - Symphony No. 33 in B Flat Major KV. 319: II. Andante moderato,278,-9.0955,0,,False,True,False,False,1,,,,,
 30aY_MwE27k,9,1,"Mozart: Symphony No.33 in B flat, K.319 - 2. Andante moderato",325,-56.0955,0,,False,True,False,False,1,,,,,
 dzO6qtwN3k0,9,1,"Symphony No. 33 in B-Flat Major, K. 319: II. Andante moderato",290,-21.0955,0,,False,True,False,False,1,,,,,
+OVG0zcgcNok,0,4,"Mozart: Symphony No.33 in B flat, K.319 - 2. Andante moderato",267,1.9045,0,match,True,True,False,True,0,261.2,1.5,1.5,3055.0,3310.0
 8l8_ywlG_E4,1,3,"Mozart: Symphony No.33 in B flat, K.319 - 3. Menuetto",205,63.9045,0,,True,True,False,False,0,,,,,
 VNnanC-feRY,5,3,"Mozart: Symphony No.29 in A, K.201 - 3. Menuetto",228,40.9045,0,,False,True,False,False,0,,,,,
 9_KbJMG2kAw,7,3,"Mozart: Symphony No.31 in D, K.297 - ""Paris"" - 2a. Andante (Version of the 1st Edition)",237,31.9045,0,,False,True,False,False,0,,,,,

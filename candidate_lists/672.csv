@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-oJyc9uAlzxs,0,3,Johnny Winter - Prodigal Son,259,-1.0,0,match,True,True,True,False,109,250.6,0.6,0.5,3416.0,3928.0
+oJyc9uAlzxs,0,3,Johnny Winter - Prodigal Son,259,-1.0,0,match,True,True,True,False,9,250.6,0.6,0.5,3416.0,3928.0
 HbcjERkcF80,4,3,Johnny Winter / Prodigal Son,258,0.0,0,,True,True,True,True,5,,,,,
 1V-9gvGzGdM,3,3,Johnny Winter - Stone County - Live,259,-1.0,0,,True,True,True,False,4,,,,,
 DcqJnbgqXDo,1,3,Johnny Winter - Medicine Man,274,-16.0,0,,True,True,False,False,2,,,,,

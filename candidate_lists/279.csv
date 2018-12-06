@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 RvW9cUCuPQI,0,3,"Teresa BERGANZA sings ""Una voce poco fa""",375,-4.92325,0,reject,True,True,True,False,9,,,,,
 pEHPFx7xhCM,0,1,"Il barbiere di Siviglia: ""Una voce poco fa""",375,-4.92325,0,reject,True,True,True,False,9,,,,,
-4FwZKjFJ-qo,0,1,Kathleen Battle - Rossini: Una voce poco fa,406,-35.92325,0,,True,True,False,False,7,,,,,
-1lhUrhtHRPc,17,2,Teresa BERGANZA sings 'Una voce poco fa',375,-4.92325,0,,False,False,True,False,2,,,,,
-i8CcmMXWmaA,2,1,"ANNA MOFFO - ""Una voce poco fa""  Barber of Seville ~ Rossini",405,-34.92325,0,,True,True,False,False,2,,,,,
+4FwZKjFJ-qo,0,1,Kathleen Battle - Rossini: Una voce poco fa,406,-35.92325,0,reject,True,True,False,False,7,,,,,
+1lhUrhtHRPc,17,2,Teresa BERGANZA sings 'Una voce poco fa',375,-4.92325,0,reject,False,False,True,False,2,,,,,
+i8CcmMXWmaA,2,1,"ANNA MOFFO - ""Una voce poco fa""  Barber of Seville ~ Rossini",405,-34.92325,0,reject,True,True,False,False,2,,,,,
 fZuyjruXkzE,3,1,"Elina Garanca; ""Una voce poco fa""; Il barbiere di Sivglia; Gioachino Rossini",387,-16.92325,0,,True,True,False,False,2,,,,,
 SihOzlaft9s,5,2,"Rossini, Una voce poco fa (Teresa Berganza)",450,-79.92325,0,,False,True,False,False,1,,,,,
 qnfoL0Lp_kQ,5,1,"Diana Damrau; ""Una voce poco fa""; Il barbiere di Siviglia; Gioachino Rossini",405,-34.92325,0,,False,True,False,False,1,,,,,

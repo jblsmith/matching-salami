@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-NNhe9NUSZ94,0,5,Gidon Kremer   Soledad,469,1.0211875,0,potential,True,True,False,True,100,379.9,0.4,0.4,2996.0,3946.0
 1nlzJaWUv64,1,1,"Astor Piazzolla ""SOLEDAD"".",475,-4.9788125,0,reject,True,True,True,False,4,,,,,
-PPMYtJVf2nU,7,1,Astor Piazzolla - Soledad (HQ audio),471,-0.9788125,0,,False,True,True,False,3,,,,,
-syaAgninQPM,16,2,Gidon Kremer - Histoire Du Tango : Cafe 1930,475,-4.9788125,0,,False,False,True,False,2,,,,,
-5QH2pAgFYAk,10,1,Astor Piazzolla - Soledad,475,-4.9788125,0,,False,False,True,False,2,,,,,
-27rITuXVWec,6,2,Quinteto Astor Piazzolla - Soledad,487,-16.9788125,0,,False,True,False,False,1,,,,,
+PPMYtJVf2nU,7,1,Astor Piazzolla - Soledad (HQ audio),471,-0.9788125,0,reject,False,True,True,False,3,,,,,
+syaAgninQPM,16,2,Gidon Kremer - Histoire Du Tango : Cafe 1930,475,-4.9788125,0,matched_934,False,False,True,False,2,,,,,
+5QH2pAgFYAk,10,1,Astor Piazzolla - Soledad,475,-4.9788125,0,reject,False,False,True,False,2,,,,,
+27rITuXVWec,6,2,Quinteto Astor Piazzolla - Soledad,487,-16.9788125,0,reject,False,True,False,False,1,,,,,
 az2BiQffOXw,5,1,Soledad - Piazzolla | Yo-Yo Ma,547,-76.9788125,0,,False,True,False,False,1,,,,,
+NNhe9NUSZ94,0,5,Gidon Kremer   Soledad,469,1.0211875,0,potential,True,True,False,True,0,379.9,0.4,0.4,2996.0,3946.0
 ahCSXjxxRDc,0,5,Soledad,467,3.0211875,0,,True,True,False,True,0,,,,,
 Gg__yDK-0rk,0,4,oblivion -  Gidon Kremer - Astor Piazzolla,374,96.0211875,0,,True,True,False,False,0,,,,,
 g9BeceNk2Ps,1,4,Soledad,467,3.0211875,0,,True,True,False,True,0,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-HIe4u8nBfh0,0,2,Rock My Soul - Golden Gate Quartet,125,-2.17225,0,potential,True,True,True,False,109,115.9,2.1,0.1,1251.0,1317.0
+HIe4u8nBfh0,0,2,Rock My Soul - Golden Gate Quartet,125,-2.17225,0,potential,True,True,True,False,9,115.9,2.1,0.1,1251.0,1317.0
 R1-qv4XLI2I,0,1,Freddie Starr and the Jordanaires Rock my Soul,145,-22.17225,0,reject,True,True,False,False,7,,,,,
-u9Dg-g7t2l4,0,1,Disturbed  - The Sound Of Silence [Official Music Video],259,-136.17225,0,,True,True,False,False,7,,,,,
-Gxbdr72kkvQ,0,1,Golden Gate Quartet - Jezebel,170,-47.17225,0,,True,True,False,False,7,,,,,
-hwxPt1Knua8,2,2,Rock My Soul,124,-1.17225,0,,True,True,True,False,4,,,,,
+u9Dg-g7t2l4,0,1,Disturbed  - The Sound Of Silence [Official Music Video],259,-136.17225,0,reject,True,True,False,False,7,,,,,
+Gxbdr72kkvQ,0,1,Golden Gate Quartet - Jezebel,170,-47.17225,0,reject,True,True,False,False,7,,,,,
+hwxPt1Knua8,2,2,Rock My Soul,124,-1.17225,0,potential,True,True,True,False,4,115.8,0.5,0.1,782.0,850.0
 YGtDuNkng1A,3,2,Rock My Soul,123,-0.17225,0,,True,True,True,False,4,,,,,
 w3hcADn5rt8,6,2,Rock My Soul,123,-0.17225,0,,False,True,True,False,3,,,,,
 cZOvG4NEatY,7,2,Rock My Soul,125,-2.17225,0,,False,True,True,False,3,,,,,

@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-8oBwR49sUxs,0,5,Suitcase Song,153,0.6836875,0,potential,True,True,False,True,100,145.9,0.9,0.9,1450.0,1487.0
 PETKythiMbs,0,3,Nellie McKay - Suitcase Song,216,-62.3163125,0,reject,True,True,False,False,7,,,,,
-PSP6_BrEzqs,0,1,Sia - Suitcase / Nothing To Say (Lyrics),195,-41.3163125,0,,True,True,False,False,7,,,,,
-RovTPFxiG-0,2,5,"Nellie McKay - ""Suitcase Song""",285,-131.3163125,0,,True,True,False,False,2,,,,,
-DKR8nBw421g,2,5,"""Suitcase Song"" - Nellie McKay - 3/23/2013 - Venetian Room, Fairmont Hotel, San Francisco, CA",235,-81.3163125,0,,True,True,False,False,2,,,,,
-y_Zy3rDErDU,2,4,Nellie McKay - Just One Of Those Things,337,-183.3163125,0,,True,True,False,False,2,,,,,
+PSP6_BrEzqs,0,1,Sia - Suitcase / Nothing To Say (Lyrics),195,-41.3163125,0,reject,True,True,False,False,7,,,,,
+RovTPFxiG-0,2,5,"Nellie McKay - ""Suitcase Song""",285,-131.3163125,0,reject,True,True,False,False,2,,,,,
+DKR8nBw421g,2,5,"""Suitcase Song"" - Nellie McKay - 3/23/2013 - Venetian Room, Fairmont Hotel, San Francisco, CA",235,-81.3163125,0,reject,True,True,False,False,2,,,,,
+y_Zy3rDErDU,2,4,Nellie McKay - Just One Of Those Things,337,-183.3163125,0,reject,True,True,False,False,2,,,,,
 C_PBxZYPL_Q,2,4,Nellie McKay - The Dog Song,187,-33.3163125,0,,True,True,False,False,2,,,,,
 uO1o5OskEH8,4,4,Inner Peace,172,-18.3163125,0,,True,True,False,False,2,,,,,
 Y2-fgSLqfZQ,4,3,Nellie McKay: Suitcase Song (2014-03-10),164,-10.3163125,0,,True,True,False,False,2,,,,,
@@ -24,6 +23,7 @@ ROpnpsKslJE,6,1,"Nellie McKay - medley from ""Silent Spring"" (eTown webisode #3
 n4kNggoB22M,7,1,Sia - Suitcase (Audio) From the ''Ballerina'' Original Soundtrack,195,-41.3163125,0,,False,True,False,False,1,,,,,
 G8KFY3-TlOY,7,1,Nellie McKay -  Manhattan Avenue,218,-64.3163125,0,,False,True,False,False,1,,,,,
 QWi_XRcsv2g,8,1,I'm Surprised To See Your Suitcase At The Door...,322,-168.3163125,0,,False,True,False,False,1,,,,,
+8oBwR49sUxs,0,5,Suitcase Song,153,0.6836875,0,potential,True,True,False,True,0,145.9,0.9,0.9,1450.0,1487.0
 W-KCLxu90s4,1,4,Nellie McKay Get Away From Me EPK,631,-477.3163125,0,,True,True,False,False,0,,,,,
 OI5uH2SFBOc,12,4,David - Nellie McKay - Doctor Who,180,-26.3163125,0,,False,False,False,False,0,,,,,
 Xkz_hpU8yi4,10,3,Nellie McKay - The In Crowd,266,-112.3163125,0,,False,False,False,False,0,,,,,

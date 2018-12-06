@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-f72G0huGCzA,0,2,Gerry Mulligan Concert Jazz Band - Weep,364,-3.92815,0,match,True,True,True,False,109,351.6,0.4,0.9,3351.0,3628.0
+f72G0huGCzA,0,2,Gerry Mulligan Concert Jazz Band - Weep,364,-3.92815,0,match,True,True,True,False,9,351.6,0.4,0.9,3351.0,3628.0
 F3-NJwFQyXE,1,2,Gerry Mulligan Concert Jazz Band - Weep,364,-3.92815,0,,True,True,True,False,4,,,,,
 meU_LFcsOr4,2,2,Gerry Mulligan Concert Jazz Band - All About Rosie,587,-226.92815,0,,True,True,False,False,2,,,,,
 dxsnRfUYWOk,10,2,Gerry Mulligan - Weep,362,-1.92815,0,,False,False,True,False,2,,,,,

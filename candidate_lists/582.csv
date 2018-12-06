@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-8H6YEpH0iII,0,4,Liquid Soul Cabbage Roll,288,-0.992625,0,match,True,True,True,False,109,281.9,0.5,0.5,3720.0,6607.0
+8H6YEpH0iII,0,4,Liquid Soul Cabbage Roll,288,-0.992625,0,match,True,True,True,False,9,281.9,0.5,0.5,3720.0,6607.0
 BfBs63l5mWc,9,2,Liquid Soul   This And That,289,-1.992625,0,,False,True,True,False,3,,,,,
 _PE24-nz7fI,5,1,"Cabbage Rolls recipe, easy  to follow, tasty, vegan,healty",289,-1.992625,0,,False,True,True,False,3,,,,,
 hboxT9c5Tns,2,4,Liquid Soul - Salt Peanuts.m4v,293,-5.992625,0,,True,True,False,False,2,,,,,

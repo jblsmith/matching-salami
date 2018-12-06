@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Vf464UZrMLE,0,3,Edith Piaf- Le droit d'aimer,241,-38.36815,0,reject,True,True,False,False,7,,,,,
 g0BhwCk0y3A,0,3,Edith Piaf - L'hymne à l'amour (paroles),209,-6.36815,0,reject,True,True,False,False,7,,,,,
-OsW0_6tOy3M,0,1,Jacques Sauveur Jean- Le Droit d'aimer (PAWOL),380,-177.36815,0,,True,True,False,False,7,,,,,
-yiwQBs6q3-c,1,3,Edith Piaf - Le droit d'aimer,203,-0.36815,0,,True,True,True,False,4,,,,,
+OsW0_6tOy3M,0,1,Jacques Sauveur Jean- Le Droit d'aimer (PAWOL),380,-177.36815,0,reject,True,True,False,False,7,,,,,
+yiwQBs6q3-c,1,3,Edith Piaf - Le droit d'aimer,203,-0.36815,0,match,True,True,True,False,4,198.4,0.6,0.6,1470.0,1722.0
 uve0XC3ll1A,5,2,Édith Piaf - Le Droit d'aimer,203,-0.36815,0,,False,True,True,False,3,,,,,
 mCog_OTKjjE,1,3,Daniel Levi - l'envie d'aimer ( les dix commandements),308,-105.36815,0,,True,True,False,False,2,,,,,
 PC9_4Z_t2Lw,3,3,Edith Piaf - Le droit d'aimer (Audio officiel),215,-12.36815,0,,True,True,False,False,2,,,,,

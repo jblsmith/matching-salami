@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Di16W_std0c,0,3,Miles Davis - All of You,424,-0.476708333333,0,potential,True,True,True,False,109,379.7,0.3,0.3,4319.0,5524.0
+Di16W_std0c,0,3,Miles Davis - All of You,424,-0.476708333333,0,potential,True,True,True,False,9,379.7,0.3,0.3,4319.0,5524.0
 MOm17yw__6U,0,1,Wes Montgomery - Round Midnight,487,-63.476708333299996,0,reject,True,True,False,False,7,,,,,
-cyQ7Q_BAZW0,1,1,All Of You,424,-0.476708333333,0,,True,True,True,False,4,,,,,
+cyQ7Q_BAZW0,1,1,All Of You,424,-0.476708333333,0,potential,True,True,True,False,4,380.0,0.4,0.3,4909.0,6139.0
 59LwyoeivKY,2,1,All of You (Remastered),424,-0.476708333333,0,,True,True,True,False,4,,,,,
 0H4TQ4Q6My0,5,1,All of You (Remastered),424,-0.476708333333,0,,False,True,True,False,3,,,,,
 cbi0_JCGTuk,7,1,Rick James - Mary-Go-Round 1980 (Remastered audio),426,-2.47670833333,0,,False,True,True,False,3,,,,,

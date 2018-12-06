@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 6h2DqK1n3fM,0,3,Wohi Khuda Hai - Hamd - Nusrat Fateh Ali Khan - HD,388,1340.2612,0,reject,True,True,False,False,0,,,,,
 hsOEJfy5jX0,0,2,YA HAYYO YA QAYYUM - Hamd in Raga Ahir Bhairav - Ustad Nusrat Fateh Ali Khan,1729,-0.7388,0,potential,True,True,True,False,0,380.0,761.6,0.4,5540.0,77878.0
-by3zlP2gzo0,2,2,Nusrat Fateh Ali Khan Sab Vird Karo Allah Allah Live,332,1396.2612,0,,True,True,False,False,0,,,,,
-FwsqYOBEkCY,5,2,Qawwali Hamd  Nusrat Fateh Ali Khan,892,836.2612,0,,False,True,False,False,0,,,,,
-HbzbNDfIqXs,0,1,Nusrat Fateh Ali Khan (Hamd),341,1387.2612,0,,True,True,False,False,0,,,,,
+by3zlP2gzo0,2,2,Nusrat Fateh Ali Khan Sab Vird Karo Allah Allah Live,332,1396.2612,0,reject,True,True,False,False,0,,,,,
+FwsqYOBEkCY,5,2,Qawwali Hamd  Nusrat Fateh Ali Khan,892,836.2612,0,reject,False,True,False,False,0,,,,,
+HbzbNDfIqXs,0,1,Nusrat Fateh Ali Khan (Hamd),341,1387.2612,0,reject,True,True,False,False,0,,,,,
 WYYuuVai99w,0,1,Hamd : Ilahi Mai Hoon Buss Khatawar Tera By Hafiz Muhammad Ashfaq,510,1218.2612,0,,True,True,False,False,0,,,,,
 ee4mqSpY2SA,0,1,Nusrat Fateh Ali Khan en concert à Paris,1722,6.2612,0,,True,True,False,False,0,,,,,
 sCXUB1BysJ4,1,1,Traditional Hand Tattoo - Skin Art: EP5,273,1455.2612,0,,True,True,False,False,0,,,,,

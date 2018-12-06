@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 oLBofWYNug4,0,2,king chronic airplanes cover.wmv,135,96.1333333333,0,reject,True,True,False,False,0,,,,,
 wHNXTieURaI,1,2,barrio populaire & dj kapata ma pitom ost-klub 1.AVI,100,131.133333333,0,reject,True,True,False,False,0,,,,,
-4Z9WVZddH9w,2,2,ZEITGEIST: MOVING FORWARD | OFFICIAL RELEASE | 2011,9685,-9453.86666667,0,,True,True,False,False,0,,,,,
-1Tj-A67_5gM,3,2,3000+ Portuguese Words with Pronunciation,5003,-4771.86666667,0,,True,True,False,False,0,,,,,
-lEWoO_ojMks,0,1,"Gojko i Juzni Vetar - Paznja, paznja (Audio 2005)",195,36.1333333333,0,,True,True,False,False,0,,,,,
+4Z9WVZddH9w,2,2,ZEITGEIST: MOVING FORWARD | OFFICIAL RELEASE | 2011,9685,-9453.86666667,0,matched_727,True,True,False,False,0,,,,,
+1Tj-A67_5gM,3,2,3000+ Portuguese Words with Pronunciation,5003,-4771.86666667,0,reject,True,True,False,False,0,,,,,
+lEWoO_ojMks,0,1,"Gojko i Juzni Vetar - Paznja, paznja (Audio 2005)",195,36.1333333333,0,matched_575,True,True,False,False,0,,,,,
 236TR8V_jCg,0,1,Club BALKAN EL TEKKIA MILANO,120,111.133333333,0,,True,True,False,False,0,,,,,
 qdOtHveilq0,1,1,🚨 PAŽNJA PAŽNJA 🚨,715,-483.86666666699995,0,,True,True,False,False,0,,,,,
 W8w_OgvapB8,1,1,"IF""Balkan Culture Days"" Pefkohori /Hanioti, May 2018.",91,140.133333333,0,,True,True,False,False,0,,,,,

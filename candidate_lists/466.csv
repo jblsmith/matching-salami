@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Y8do5iMTEQI,0,2,Bob Crosby's Bob Cats - Five Point Blues (1938),191,-5.8702,0,potential,True,True,False,False,7,38.8,14.4,8.5,46.0,292.0
 Q7Ufm0AkOAc,1,1,Five Point Blues,231,-45.8702,0,reject,True,True,False,False,2,,,,,
-9OaMciHP3kk,4,1,Five Point Blues,217,-31.8702,0,,True,True,False,False,2,,,,,
-a7HaWzhwwwY,6,2,World's Greatest JazzBand:Yank Lawson/Bob Haggart - Royal Garden Blues,221,-35.8702,0,,False,True,False,False,1,,,,,
-Djy_IFN9uEI,7,2,World's Greatest JazzBand:Yank Lawson/Bob Haggart - Bourbon Street Parade,278,-92.8702,0,,False,True,False,False,1,,,,,
+9OaMciHP3kk,4,1,Five Point Blues,217,-31.8702,0,reject,True,True,False,False,2,,,,,
+a7HaWzhwwwY,6,2,World's Greatest JazzBand:Yank Lawson/Bob Haggart - Royal Garden Blues,221,-35.8702,0,reject,False,True,False,False,1,,,,,
+Djy_IFN9uEI,7,2,World's Greatest JazzBand:Yank Lawson/Bob Haggart - Bourbon Street Parade,278,-92.8702,0,reject,False,True,False,False,1,,,,,
 YfsLO14t5Es,5,1,Five Point Blues,217,-31.8702,0,,False,True,False,False,1,,,,,
 pHfhsoEbghw,0,3,FIVE POINT BLUES by Bob Crosbys Bob Cats w/Yank Lawson 1938,179,6.1298,0,,True,True,False,False,0,,,,,
 Ehnkyet3qIY,1,3,Five Point Blues,185,0.1298,0,,True,True,False,True,0,,,,,

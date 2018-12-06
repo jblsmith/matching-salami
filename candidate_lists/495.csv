@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-i3LrtMzAIec,0,5,Wynton Marsalis - Love and Broken Hearts,462,-1.29333333333,0,potential,True,True,True,False,109,379.6,0.7,0.7,2383.0,3013.0
+i3LrtMzAIec,0,5,Wynton Marsalis - Love and Broken Hearts,462,-1.29333333333,0,potential,True,True,True,False,9,379.6,0.7,0.7,2383.0,3013.0
 vUIFZ4PWW5w,2,5,Wynton Marsalis with Jennifer Sanon Love and Broken Hearts,463,-2.29333333333,0,potential,True,True,True,False,4,379.6,0.9,0.7,1571.0,2094.0
 QuD6vSSqfT4,9,2,Wynton Marsalis - Glad To be Unhappy,463,-2.29333333333,0,,False,True,True,False,3,,,,,
 pGU1u-cREa4,11,2,Jennifer Sanon  -  Love And Broken Hearts,461,-0.293333333333,0,,False,False,True,False,2,,,,,

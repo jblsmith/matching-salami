@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 ChrMbTEuDDs,0,4,Stan Getz & Bill Evans - Night And Day,411,-16.2636666667,0,reject,True,True,False,False,7,,,,,
 pcRZVZSHfJo,1,4,Bill Evans Trio - Night And Day,454,-59.263666666700004,0,reject,True,True,False,False,2,,,,,
-ZmarzXL8Z3I,3,4,Night And Day,406,-11.2636666667,0,,True,True,False,False,2,,,,,
-9bUYT6I_6Z8,1,2,Stan Getz & Bill Evans_Night and Day,405,-10.263666666699999,0,,True,True,False,False,2,,,,,
-N3xeX3MqJew,2,2,Bill Evans - Night And Day (Everybody Digs Bill Evans),456,-61.263666666700004,0,,True,True,False,False,2,,,,,
+ZmarzXL8Z3I,3,4,Night And Day,406,-11.2636666667,0,reject,True,True,False,False,2,,,,,
+9bUYT6I_6Z8,1,2,Stan Getz & Bill Evans_Night and Day,405,-10.263666666699999,0,reject,True,True,False,False,2,,,,,
+N3xeX3MqJew,2,2,Bill Evans - Night And Day (Everybody Digs Bill Evans),456,-61.263666666700004,0,reject,True,True,False,False,2,,,,,
 wjQaLkUuDi4,2,2,"Night And Day (Live At Jazzhus Montmartre, Copenhagen / March 5th 1991)",565,-170.263666667,0,,True,True,False,False,2,,,,,
 osq6YytthRc,11,2,11  Night and day (  alternate take )   /   Stan Getz & Bill Evans  ( Cd reissue bonus tracks ),395,-0.263666666667,0,,False,False,True,False,2,,,,,
 JUwtVCnJRpE,16,1,Night And Day (Alternate Take),399,-4.26366666667,0,,False,False,True,False,2,,,,,

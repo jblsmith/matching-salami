@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 EClgs596H-0,0,2,"Centro Social Conima, 1986: Manuelita",288,-152.86854166700002,0,reject,True,True,False,False,7,,,,,
 H4S0ME8Xyc0,0,1,Rozi Plain - 'Actually' (Official Video),184,-48.868541666700004,0,reject,True,True,False,False,7,,,,,
-CW_asvJ4xec,1,2,Sikuris Centro Social Conima,195,-59.868541666700004,0,,True,True,False,False,2,,,,,
-xHlQMofQ3w4,2,2,Manuelita,180,-44.868541666700004,0,,True,True,False,False,2,,,,,
-q15CsjCYY3g,3,2,"Orquesta de Tango Mario Abramovich, Centro Cultural Nº2 Manuelita",425,-289.868541667,0,,True,True,False,False,2,,,,,
+CW_asvJ4xec,1,2,Sikuris Centro Social Conima,195,-59.868541666700004,0,reject,True,True,False,False,2,,,,,
+xHlQMofQ3w4,2,2,Manuelita,180,-44.868541666700004,0,reject,True,True,False,False,2,,,,,
+q15CsjCYY3g,3,2,"Orquesta de Tango Mario Abramovich, Centro Cultural Nº2 Manuelita",425,-289.868541667,0,reject,True,True,False,False,2,,,,,
 T-F5PhYsvi4,4,2,Manuelita Song,152,-16.8685416667,0,,True,True,False,False,2,,,,,
 xVWNOVoqWvI,4,2,SIKURIS KATARI DE MADRID - EN ARGUEDASNINCHICK 2011,509,-373.868541667,0,,True,True,False,False,2,,,,,
 aC7520msssk,1,1,LA TORTUGA MANUELITA - with English subtitles,210,-74.8685416667,0,,True,True,False,False,2,,,,,

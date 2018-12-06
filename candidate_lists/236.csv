@@ -1,12 +1,12 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-1Pf1xgdzKyY,0,2,"Bell, Bonne, Sage",146,-0.9420416666670001,0,match,True,True,True,False,109,138.2,0.9,0.2,2271.0,2522.0
+1Pf1xgdzKyY,0,2,"Bell, Bonne, Sage",146,-0.942041666667,0,match,True,True,True,False,9,138.2,0.9,0.2,2271.0,2522.0
 I-k11GGpYjk,0,1,"baude cordier BELLE, BONE, SAGE",275,-129.942041667,0,,True,True,False,False,7,,,,,
 pWG52B98hhk,1,1,Johannes Ciconia - Gli atti col dançar,180,-34.9420416667,0,,True,True,False,False,2,,,,,
 LNKiFrMMSlQ,1,1,"Baude Cordier - Belle, bonne, sage",274,-128.942041667,0,,True,True,False,False,2,,,,,
 6445ubPHOHk,2,1,Quant Theseus_Ne Quier Veoir,372,-226.942041667,0,,True,True,False,False,2,,,,,
 6TuuC0ZcskE,2,1,"Baude Cordier: Belle, bonne, sage",263,-117.94204166700001,0,,True,True,False,False,2,,,,,
 w3NYJ32dmtM,3,1,Tout Par Compas,238,-92.9420416667,0,,True,True,False,False,2,,,,,
-iaeOWdXM4Pg,3,1,"Baude Cordier: Circle Canon, ""Tout par compas"" (MANUSCRIPT ANIMATION)",155,-9.942041666669999,0,,True,True,False,False,2,,,,,
+iaeOWdXM4Pg,3,1,"Baude Cordier: Circle Canon, ""Tout par compas"" (MANUSCRIPT ANIMATION)",155,-9.94204166667,0,,True,True,False,False,2,,,,,
 _dHwHtwsuAM,4,1,Johannes Ciconia - Poy che morir,293,-147.942041667,0,,True,True,False,False,2,,,,,
 wazIqH6a5i4,4,1,Belle Bonne Sage,226,-80.9420416667,0,,True,True,False,False,2,,,,,
 FrNK4yJLf0k,14,1,"Boude Cordier Rondeau, Belle Bone sage",147,-1.94204166667,0,,False,False,True,False,2,,,,,
@@ -27,7 +27,7 @@ uJZ8THm_0Jo,9,1,"CIA Covert Action in the Cold War: Iran, Jamaica, Chile, Cuba, 
 10WmFYiMnoI,11,1,This is Everything: Gigi Gorgeous Trailer,686,-540.942041667,0,,False,False,False,False,0,,,,,
 xhBRJdg2vzI,11,1,Baude Cordier - Tout par compas suy composés,144,1.05795833333,0,,False,False,False,True,0,,,,,
 xGvrBgLhQ-U,12,1,V.M. Kwen Khan Khu: Incógnitas Develadas sobre el Camino Secreto // Entrevista N11 (con Subtítulos),8840,-8694.94204167,0,,False,False,False,False,0,,,,,
-5mudwvw45c4,12,1,Baude Cordier : Tout par compas suy composes,143,2.0579583333300002,0,,False,False,False,True,0,,,,,
+5mudwvw45c4,12,1,Baude Cordier : Tout par compas suy composes,143,2.05795833333,0,,False,False,False,True,0,,,,,
 styLx-iWwC8,13,1,"""Marching to Zion"" Full Movie with subtitles",6508,-6362.94204167,0,,False,False,False,False,0,,,,,
 mQD-GKsCzEo,13,1,"Belle, bonne, sage - Ars Subtilior - Instrumental version",91,54.0579583333,0,,False,False,False,False,0,,,,,
 qKKA_wMQJKI,14,1,Managing the Beatles: Brian Epstein Interview,1708,-1562.94204167,0,,False,False,False,False,0,,,,,

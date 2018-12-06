@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 K1CRnf1LDBQ,0,3,Kilfenora Reels from old Kilfenora band,178,-2.56165,0,reject,True,True,True,False,9,,,,,
 OQmjdYTFvJw,0,2,Kilfenora Céilí Band play reels: Traditional Irish Music from LiveTrad.com,204,-28.56165,0,reject,True,True,False,False,7,,,,,
-RhvAUy2h6m0,1,5,"The Kilfenora Céilí Band - Kitty's reels (Ireland, 2009)",226,-50.56165,0,,True,True,False,False,2,,,,,
-yXmhUiA0woE,2,5,Kitty's Reels,227,-51.56165,0,,True,True,False,False,2,,,,,
-zMaFG34xzZk,3,4,Kilfenora Céilí Band Clip 3: Traditional Irish Music from LiveTrad.com,359,-183.56165,0,,True,True,False,False,2,,,,,
+RhvAUy2h6m0,1,5,"The Kilfenora Céilí Band - Kitty's reels (Ireland, 2009)",226,-50.56165,0,matched_1620,True,True,False,False,2,,,,,
+yXmhUiA0woE,2,5,Kitty's Reels,227,-51.56165,0,matched_1620,True,True,False,False,2,,,,,
+zMaFG34xzZk,3,4,Kilfenora Céilí Band Clip 3: Traditional Irish Music from LiveTrad.com,359,-183.56165,0,reject,True,True,False,False,2,,,,,
 hY_4uK5VSdM,2,3,Kilfenora Céilí Band with Dancing: Traditional Irish Music from LiveTrad.com,344,-168.56165,0,,True,True,False,False,2,,,,,
 6TuRrZRv2K0,4,3,The Kilfenora Céilí Band at the Fleadh Nua: Traditional Irish Music from LiveTrad.com,204,-28.56165,0,,True,True,False,False,2,,,,,
 CaLi7pN0Y2E,15,1,The Kilfenora Céilí Band with dancer Deirdra Kiely: Traditional Irish Music from LiveTrad.com,177,-1.56165,0,,False,False,True,False,2,,,,,

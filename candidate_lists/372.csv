@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 ei7pz6axpxg,6,1,Thug Life Compilation,246,-0.6057,0,reject,False,True,True,False,3,,,,,
 vOW1InBeqUA,7,1,Voice Crack Compilation,246,-0.6057,0,reject,False,True,True,False,3,,,,,
-3w_I8gnuY04,3,3,Flight of the Conchords - It's Business Time,439,-193.6057,0,,True,True,False,False,2,,,,,
-RqkmoTSN1YE,4,3,"Flight of the Conchords - Business Time - Dallas, TX 10-26-2016",418,-172.6057,0,,True,True,False,False,2,,,,,
-Cc-BSxo_fmA,2,1,The Dan Band Movie Performances,343,-97.6057,0,,True,True,False,False,2,,,,,
+3w_I8gnuY04,3,3,Flight of the Conchords - It's Business Time,439,-193.6057,0,reject,True,True,False,False,2,,,,,
+RqkmoTSN1YE,4,3,"Flight of the Conchords - Business Time - Dallas, TX 10-26-2016",418,-172.6057,0,reject,True,True,False,False,2,,,,,
+Cc-BSxo_fmA,2,1,The Dan Band Movie Performances,343,-97.6057,0,reject,True,True,False,False,2,,,,,
 Co9mW_9hH2g,4,1,"Axis of Awesome - 4 Four Chord Song, 40 Songs, Same Chords",331,-85.6057,0,,True,True,False,False,2,,,,,
 9jLDZjMF3tk,5,3,Flight of the Conchords - The Most Beautiful Girl (In The Room),267,-21.6057,0,,False,True,False,False,1,,,,,
 pfNUgnTB8-E,6,3,Flight of the Conchord 09 08 05 Live on Conan,306,-60.6057,0,,False,True,False,False,1,,,,,

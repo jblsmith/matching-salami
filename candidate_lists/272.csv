@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-xH_JkLJoBpI,7,2,"R. Strauss: Piano Sonata in B minor - III. Scherzo, Trio",158,2.86204166667,0,match,False,True,False,True,100,154.3,1.3,0.4,1425.0,1696.0
 NOMHZwfGuvw,0,3,"Piano Sonata in B Minor, Op. 5, TrV 103: II. Adagio cantabile",403,-242.137958333,0,,True,True,False,False,7,,,,,
 aVP5Dyzs8yA,0,2,R. Strauss: Piano Sonata in B minor - II. Adagio cantabile,402,-241.137958333,0,,True,True,False,False,7,,,,,
 8LFg-LUBkFM,0,2,"Fünf Klavierstücke, Op. 3: II. Allegro vivace scherzando (Remastered)",187,-26.1379583333,0,,True,True,False,False,7,,,,,
@@ -22,6 +21,7 @@ w8ZfDEIZJOU,8,1,"Piano Sonata in B minor, Op. 5: II. Adagio cantabile",358,-197.
 BuN3yCmHb_U,9,1,"Yundi - Beethoven, Adagio Cantabile (from Sonata Pathétique No. 8, op. 13)",330,-169.137958333,0,,False,True,False,False,1,,,,,
 BNfIIVoB_vQ,9,1,Grieg op.7 Sonata 4th.mov -- Azusa Ichijo,453,-292.137958333,0,,False,True,False,False,1,,,,,
 qlGK9QWWvfw,0,2,STRAUSS (Richard) Sonata in B minor op. 5 Klaviersonate h-Moll Tibor Szász (1990 April 7 complete),1626,-1465.13795833,0,,True,True,False,False,0,,,,,
+xH_JkLJoBpI,7,2,"R. Strauss: Piano Sonata in B minor - III. Scherzo, Trio",158,2.86204166667,0,match,False,True,False,True,0,154.3,1.3,0.4,1425.0,1696.0
 DikfQ_1n8nI,14,2,"Richard Strauss - Sonata in b minor, Op. 5 (part 1/3)",481,-320.137958333,0,,False,False,False,False,0,,,,,
 p6UCRauAXBY,1,1,"Richard Strauss - Sonata for Piano in B Minor, Op. 5 (1881-82) [Score-Video]",1549,-1388.13795833,0,,True,True,False,False,0,,,,,
 4Tr0otuiQuU,1,1,Beethoven - Moonlight Sonata (FULL),900,-739.137958333,0,,True,True,False,False,0,,,,,

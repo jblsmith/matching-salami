@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 uPafy7n6E4I,0,3,Solo songs with lyre accompaniment,485,-375.36408333300005,0,potential,True,True,False,False,7,103.9,372.4,0.8,988.0,1167.0
 -rxgAh1bnHU,0,1,A Million Dreams Lyrics,268,-158.364083333,0,reject,True,True,False,False,7,,,,,
-0W3ncXKGM0k,1,1,Imagine Dragons – Whatever It Takes (Lyrics) 🎵,205,-95.3640833333,0,,True,True,False,False,2,,,,,
-YlnQMZLFou8,2,1,Oh! Had I Jubal's Lyre Piano Accompaniment Handel Karaoke A Major High Key,183,-73.3640833333,0,,True,True,False,False,2,,,,,
-y8AWFf7EAc4,2,1,Jeff Buckley - Hallelujah (Official Video),394,-284.364083333,0,,True,True,False,False,2,,,,,
+0W3ncXKGM0k,1,1,Imagine Dragons – Whatever It Takes (Lyrics) 🎵,205,-95.3640833333,0,reject,True,True,False,False,2,,,,,
+YlnQMZLFou8,2,1,Oh! Had I Jubal's Lyre Piano Accompaniment Handel Karaoke A Major High Key,183,-73.3640833333,0,reject,True,True,False,False,2,,,,,
+y8AWFf7EAc4,2,1,Jeff Buckley - Hallelujah (Official Video),394,-284.364083333,0,reject,True,True,False,False,2,,,,,
 u3BAA2S_M5M,3,1,Count on Me Bruno Mars Notes,197,-87.3640833333,0,,True,True,False,False,2,,,,,
 30OaM6b48k8,3,1,Joy to the World with Lyrics | Christmas Carol & Song | Children Love to Sing,130,-20.364083333299998,0,,True,True,False,False,2,,,,,
 IxHPZZ3f5ak,4,1,My Heart Will Go On Celine Dion,273,-163.364083333,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Zt9AEuocC_Q,0,3,John Field - Nocturne No.8 in A Major played by John O'Conor,250,-10.9273333333,0,match,True,True,False,False,107,232.2,0.7,0.3,715.0,1040.0
+Zt9AEuocC_Q,0,3,John Field - Nocturne No.8 in A Major played by John O'Conor,250,-10.9273333333,0,match,True,True,False,False,7,232.2,0.7,0.3,715.0,1040.0
 5Q2H3U9wWcg,0,3,John Field- Nocturne no. 8 A Major Andante,250,-10.9273333333,0,,True,True,False,False,7,,,,,
 VlF94w_qffo,2,3,John Field - Nocturne No.4 in A Major played by John O'Conor,330,-90.9273333333,0,,True,True,False,False,2,,,,,
 IVoPTK7f2D4,4,3,John Field - Nocturne no. 4 in A major SCORE,330,-90.9273333333,0,,True,True,False,False,2,,,,,
@@ -13,7 +13,7 @@ zeXH7owqLEY,9,1,Nocturne No. 4 in A major by John Field,394,-154.92733333299998,
 lqU7DEytXm8,5,3,John Field - Nocturne No.5 in B flat Major played by John O'Conor,190,49.0726666667,0,,False,True,False,False,0,,,,,
 Q6KC_dUGBmA,6,3,VIII. Nocturne in A major: Andante,239,0.0726666666666,0,,False,True,False,True,0,,,,,
 HcceTpBhMEE,13,3,"John Field - 4 Nocturnes, Miceal O'Rourke",1111,-871.927333333,0,,False,False,False,False,0,,,,,
-ocpSe3m5WC4,3,2,John Field - Nocturne No.13 in D Minor played by John O'Conor,230,9.072666666669999,0,,True,True,False,False,0,,,,,
+ocpSe3m5WC4,3,2,John Field - Nocturne No.13 in D Minor played by John O'Conor,230,9.07266666667,0,,True,True,False,False,0,,,,,
 8kxhETLjJQ8,4,2,John Field - Nocturne No.10 in E Minor played by John O'Conor,200,39.0726666667,0,,True,True,False,False,0,,,,,
 Lnp2cGMcmig,5,2,John Field ‒ 18 Nocturnes,10504,-10264.927333299998,0,,False,True,False,False,0,,,,,
 ani2iwisCBQ,8,2,John Field - Nocturne No.12 in G Major played by Jon O'Conor,140,99.0726666667,0,,False,True,False,False,0,,,,,

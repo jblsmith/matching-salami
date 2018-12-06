@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-TdYErPJlIjY,1,2,Pulp Fiction Soundtrack - Vincent & Jules - Royale With Cheese (Dialogue) - (Track 2) - HD,103,2.30666666667,0,potential,True,True,False,True,100,99.9,1.8,1.6,1079.0,1100.0
 6Pkq_eBHXJ4,0,5,Royale With Cheese - Pulp Fiction (2/12) Movie CLIP (1994) HD,152,-46.6933333333,0,potential,True,True,False,False,7,96.3,2.2,4.3,847.0,871.0
 ab7eVVG3I8s,1,5,"Pulp Fiction | 'Royale w/ Cheese' (HD) - John Travolta, Samuel L. Jackson | MIRAMAX",110,-4.69333333333,0,,True,True,True,False,4,,,,,
 Mnb_3ibUp38,2,5,"Pulp Fiction | 'Big Kahuna Burger' (HD) - Samuel L. Jackson, John Travolta | MIRAMAX",251,-145.693333333,0,,True,True,False,False,2,,,,,
@@ -21,6 +20,7 @@ zzTMaYwaEPw,15,3,Pulp Fiction - Hamburger Scene (Full Scene),388,-282.693333333,
 wu1cN2hF0WY,16,3,Royale With Cheese Spoof from Pulp Fiction,85,20.3066666667,0,,False,False,False,False,0,,,,,
 ghNip1rs71Y,16,3,Royale with Cheese Remix,141,-35.6933333333,0,,False,False,False,False,0,,,,,
 3JP1SifxHCY,17,3,Royale with cheese,139,-33.6933333333,0,,False,False,False,False,0,,,,,
+TdYErPJlIjY,1,2,Pulp Fiction Soundtrack - Vincent & Jules - Royale With Cheese (Dialogue) - (Track 2) - HD,103,2.30666666667,0,potential,True,True,False,True,0,99.9,1.8,1.6,1079.0,1100.0
 I_4tsxcPwfk,5,2,Royale With Cheese - Pulp Fiction Theme,105,0.30666666666700004,0,,False,True,False,True,0,,,,,
 oEeSmAqYNdk,7,2,Pulp Fiction 1994 soundtrack Full OST,2481,-2375.69333333,0,,False,True,False,False,0,,,,,
 sKacya7yR7k,8,2,02. Royale With Cheese (Pulp Fiction Soundtrack),105,0.30666666666700004,0,,False,True,False,True,0,,,,,

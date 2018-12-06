@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-u-neICCDaTY,0,4,"The 7 Last Words of Christ, Op. 51: Sonata I: Pater, dimitte illis, non enim sciunt, quid...",436,0.19266666666700002,0,potential,True,True,False,True,100,378.3,1.3,1.2,5124.0,6792.0
-wvh9yt3_3rc,2,1,Primrose Quartet Plays The Seven Last Words of Christ: II,438,-1.8073333333300001,0,reject,True,True,True,False,4,,,,,
-oBsZKF3mcv8,1,1,Joseph Haydn: The Seven Last Words of Our Saviour on the Cross (Jordi Savall),4071,-3634.80733333,0,,True,True,False,False,0,,,,,
-Q_G7R2RKkkA,3,1,The Seven Last Words Of Christ - Evangelium - Hodie Mecum Eris In Paradiso,72,364.19266666699997,0,,True,True,False,False,0,,,,,
-ch1yjwBkixM,4,1,"The First Word: Father forgive them, for they don't know what they do",187,249.192666667,0,,True,True,False,False,0,,,,,
+wvh9yt3_3rc,2,1,Primrose Quartet Plays The Seven Last Words of Christ: II,438,-1.80733333333,0,reject,True,True,True,False,4,,,,,
+u-neICCDaTY,0,4,"The 7 Last Words of Christ, Op. 51: Sonata I: Pater, dimitte illis, non enim sciunt, quid...",436,0.192666666667,0,potential,True,True,False,True,0,378.3,1.3,1.2,5124.0,6792.0
+oBsZKF3mcv8,1,1,Joseph Haydn: The Seven Last Words of Our Saviour on the Cross (Jordi Savall),4071,-3634.80733333,0,reject,True,True,False,False,0,,,,,
+Q_G7R2RKkkA,3,1,The Seven Last Words Of Christ - Evangelium - Hodie Mecum Eris In Paradiso,72,364.19266666699997,0,reject,True,True,False,False,0,,,,,
+ch1yjwBkixM,4,1,"The First Word: Father forgive them, for they don't know what they do",187,249.192666667,0,reject,True,True,False,False,0,,,,,

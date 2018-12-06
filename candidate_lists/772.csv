@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 4bEsmq-JaxM,3,2,Truba I Covek,296,-6.115975,0,reject,True,True,False,False,2,,,,,
 TOmIlSM-vjw,6,2,Felix Lajko & Boban Markovic Orkestar - Felix Kolo,421,-131.115975,0,reject,False,True,False,False,1,,,,,
-OYn-o9LpYD4,0,5,Boban Markovic - Mladino Kolo,163,126.884025,0,,True,True,False,False,0,,,,,
-tTnlgHn1hi0,1,4,Mrak Kolo Boban Marko Markovic Orchestra,271,18.884025,0,,True,True,False,False,0,,,,,
-67N0ZZBrGX0,1,4,Boban Markovic - Lekovito Kolo // Trubaci Balkan,184,105.884025,0,,True,True,False,False,0,,,,,
+OYn-o9LpYD4,0,5,Boban Markovic - Mladino Kolo,163,126.884025,0,potential,True,True,False,False,0,138.6,21.7,22.6,3190.0,5028.0
+tTnlgHn1hi0,1,4,Mrak Kolo Boban Marko Markovic Orchestra,271,18.884025,0,reject,True,True,False,False,0,,,,,
+67N0ZZBrGX0,1,4,Boban Markovic - Lekovito Kolo // Trubaci Balkan,184,105.884025,0,reject,True,True,False,False,0,,,,,
 A4ZugYD5g4Y,0,3,Orkestar Dejana Ilica - Mladino kolo // Official audio 2013,177,112.884025,0,,True,True,False,False,0,,,,,
 g_lNiLfw9Ko,1,2,Danilo Obradovic - Kolo zlatna truba - (Audio 2012),156,133.884025,0,,True,True,False,False,0,,,,,
 q7cUQ3B_EiE,2,2,Boban Markovic Orkestar @Wiener Festwochen 2016 - Bistra reka,232,57.884025,0,,True,True,False,False,0,,,,,

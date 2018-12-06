@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-vy1V5LHXWbg,0,3,Ozzy Osbourne - Crazy Train (1980),298,-1.8445,0,match,True,True,True,False,109,286.2,0.7,0.5,1971.0,6163.0
+vy1V5LHXWbg,0,3,Ozzy Osbourne - Crazy Train (1980),298,-1.8445,0,match,True,True,True,False,9,286.2,0.7,0.5,1971.0,6163.0
 bwDpAfFzcRQ,0,5,Ozzy Osbourne - Crazy Train (Speak Of The Devil),338,-41.8445,0,,True,True,False,False,7,,,,,
 H-PQeWJ2ZC8,3,3,Crazy Train LIVE Randy Rhoads   HQ Best Quality from After Hours TV show performance.,329,-32.8445,0,,True,True,False,False,2,,,,,
 tNB4nA8o5O0,4,3,Ozzy Osbourne    Crazy Train(Ozzfest 2010),343,-46.8445,0,,True,True,False,False,2,,,,,

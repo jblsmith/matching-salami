@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 q3eOFLHYbbs,0,2,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",107,-2.92815,0,reject,True,True,True,False,9,,,,,
 Vf2WauYZePE,4,2,"Requiem Mass in D Minor, K. 626: Sanctus",109,-4.92815,0,reject,True,True,True,False,4,,,,,
-fXfu5tsNxXk,1,2,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",119,-14.92815,0,,True,True,False,False,2,,,,,
-ywBCPAdVlxQ,2,2,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",111,-6.92815,0,,True,True,False,False,2,,,,,
-0CdqnhrEhNY,14,1,"Mozart: Requiem in D minor, K.626 (compl. by Franz Xaver Süssmayer) - 5. Sanctus",106,-1.92815,0,,False,False,True,False,2,,,,,
+fXfu5tsNxXk,1,2,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",119,-14.92815,0,reject,True,True,False,False,2,,,,,
+ywBCPAdVlxQ,2,2,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",111,-6.92815,0,reject,True,True,False,False,2,,,,,
+0CdqnhrEhNY,14,1,"Mozart: Requiem in D minor, K.626 (compl. by Franz Xaver Süssmayer) - 5. Sanctus",106,-1.92815,0,reject,False,False,True,False,2,,,,,
 J4ZRj2oQzp8,16,1,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",105,-0.92815,0,,False,False,True,False,2,,,,,
 X-iEEbjMfyk,9,2,"Mozart: Requiem In D Minor, K.626 - 5. Sanctus",112,-7.92815,0,,False,True,False,False,1,,,,,
 X1ozhRctdbg,3,2,"Requiem in D Minor, K. 626: 5. Sanctus",99,5.07185,0,,True,True,False,False,0,,,,,

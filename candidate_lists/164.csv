@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-djrPX6OdlKE,0,4,"Symphony No. 39 in E-Flat Major, K. 543: I. Adagio - Allegro",565,-0.232625,0,potential,True,True,True,False,109,377.0,1.1,1.0,4782.0,7882.0
+djrPX6OdlKE,0,4,"Symphony No. 39 in E-Flat Major, K. 543: I. Adagio - Allegro",565,-0.232625,0,potential,True,True,True,False,9,377.0,1.1,1.0,4782.0,7882.0
 pCn8YVg59Vw,2,3,"Symphony No. 39 in E-Flat Major, K. 543: II. Andante",585,-20.232625,0,reject,True,True,False,False,2,,,,,
 SHMY1p8dfgs,7,1,Mozart - Symphony No. 39 in E flat Major(K. 543) IV. Allegro,571,-6.232625,0,,False,True,False,False,1,,,,,
 -SdrxfC3GMg,7,1,"Symphony No. 39 in E-Flat Major, K. 543: I. Adagio - Allegro",579,-14.232625,0,,False,True,False,False,1,,,,,
@@ -10,10 +10,10 @@ fIWrcJ2158E,4,3,"Symphony No. 40 in G Minor, K. 550: III. Menuetto: Allegro",254
 XcialQ3b-aQ,4,3,"Symphony No. 40 in G Minor, K. 550: IV. Allegro assai",435,129.767375,0,,True,True,False,False,0,,,,,
 TsPYZbuRdKE,6,3,"Symphony No. 40 in G Minor, K. 550: I. Molto allegro",476,88.767375,0,,False,True,False,False,0,,,,,
 r873245gVAA,7,3,"Symphony No. 40 in G Minor, K. 550: II. Andante",476,88.767375,0,,False,True,False,False,0,,,,,
-H0x_dCrKd4w,0,2,"Mozart - Symphony No. 39 in E flat, K. 543 [complete]",1699,-1134.232625,0,,True,True,False,False,0,,,,,
+H0x_dCrKd4w,0,2,"Mozart - Symphony No. 39 in E flat, K. 543 [complete]",1699,-1134.232625,0,reject,True,True,False,False,0,,,,,
 d-6OjMeU5jA,3,2,"Symphony No. 39 in E-Flat Major, K. 543: I. Adagio - Allegro",506,58.767375,0,,True,True,False,False,0,,,,,
-rM1LA_bngMQ,0,1,"Mozart - Symphony No. 39 in E flat major, K. 543 {Schmidt-Isserstedt}",1785,-1220.232625,0,,True,True,False,False,0,,,,,
-JR-eBWqmJEw,1,1,Mozart - Symphony No. 39 in E flat Major(K. 543) I. Adagio - Allegro,679,-114.232625,0,,True,True,False,False,0,,,,,
+rM1LA_bngMQ,0,1,"Mozart - Symphony No. 39 in E flat major, K. 543 {Schmidt-Isserstedt}",1785,-1220.232625,0,reject,True,True,False,False,0,,,,,
+JR-eBWqmJEw,1,1,Mozart - Symphony No. 39 in E flat Major(K. 543) I. Adagio - Allegro,679,-114.232625,0,reject,True,True,False,False,0,,,,,
 C-G7bEvyBPs,1,1,"Symphony No. 39 in E-Flat Major, K. 543: I. Adagio - Allegro (Live)",738,-173.232625,0,,True,True,False,False,0,,,,,
 k16t0zdgeuI,2,1,"Mozart - Symphony No. 39 in E-flat major, K. 543",1520,-955.232625,0,,True,True,False,False,0,,,,,
 pShalO-Ajgc,2,1,Harnoncourt conducts Mozart: Symphonies No. 39 - 41,6648,-6083.232625,0,,True,True,False,False,0,,,,,

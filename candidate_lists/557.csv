@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-31AxHeYEDxc,0,3,Norah Jones - Broken,205,-3.98666666667,0,match,True,True,True,False,109,192.4,0.7,0.4,981.0,1092.0
+31AxHeYEDxc,0,3,Norah Jones - Broken,205,-3.98666666667,0,match,True,True,True,False,9,192.4,0.7,0.4,981.0,1092.0
 V6iKSUoUN48,0,1,Avicii - Broken Arrows,254,-52.9866666667,0,,True,True,False,False,7,,,,,
 cu5raonpE7c,6,3,Norah Jones-Broken,204,-2.98666666667,0,,False,True,True,False,3,,,,,
 HqiuqX-AMsA,7,1,broken,205,-3.98666666667,0,,False,True,True,False,3,,,,,
@@ -19,7 +19,7 @@ QpcXcOQxkQk,17,1,Moon Taxi - Not Too Late (Official Video),203,-1.98666666667,0,
 ZEk6vEQBuns,5,4,Broken Norah Jones,215,-13.986666666700001,0,,False,True,False,False,1,,,,,
 26PAgklYYvo,6,2,James Morrison - Broken Strings ft. Nelly Furtado,260,-58.9866666667,0,,False,True,False,False,1,,,,,
 XOV_IKDGHuk,9,2,Norah Jones - Broken (Live @ Olympia),247,-45.9866666667,0,,False,True,False,False,1,,,,,
-lL2ZwXj1tXM,5,1,Three Days Grace - Never Too Late,211,-9.986666666669999,0,,False,True,False,False,1,,,,,
+lL2ZwXj1tXM,5,1,Three Days Grace - Never Too Late,211,-9.98666666667,0,,False,True,False,False,1,,,,,
 yncgpuc0odE,8,1,「Nightcore」→ Broken (ft.  Anson Seabra),269,-67.9866666667,0,,False,True,False,False,1,,,,,
 T_pgNZi17qg,9,1,Digga - Broken,250,-48.9866666667,0,,False,True,False,False,1,,,,,
 ljXSjIph5ZM,9,1,Niall Horan - Too Much To Ask (Official),226,-24.9866666667,0,,False,True,False,False,1,,,,,
@@ -38,7 +38,7 @@ AO9OQZzxKlQ,15,2,Norah Jones - Broken @ Madison Square Garden 04-18-07,174,27.01
 B_-Uc1HhSdw,15,2,Norah Jones - How Many Times Have You Broken My Heart (Live at Farm Aid 25),240,-38.9866666667,0,,False,False,False,False,0,,,,,
 ytey5MczNCg,17,2,Broken - Norah Jones cover,219,-17.9866666667,0,,False,False,False,False,0,,,,,
 wr0j_ejOBlw,19,2,Norah Jones - Broken (Live),207,-5.98666666667,0,,False,False,False,False,0,,,,,
-pJqVTlHYVlc,0,1,Lund- Broken (Lyric video),200,1.0133333333299999,0,,True,True,False,True,0,,,,,
+pJqVTlHYVlc,0,1,Lund- Broken (Lyric video),200,1.01333333333,0,,True,True,False,True,0,,,,,
 CL9nntNOlSw,0,1,Not Too Late - Norah Jones [Full Album 2007],2765,-2563.98666667,0,,True,True,False,False,0,,,,,
 fcdx8HMwNWY,5,1,Nightcore - broken (Lyrics),175,26.0133333333,0,,False,True,False,False,0,,,,,
 zoGRUyuWMK8,5,1,Wake Me Up,167,34.0133333333,0,,False,True,False,False,0,,,,,
@@ -53,7 +53,7 @@ JXmUYdOVJtc,12,1,Beyoncé - Broken-Hearted Girl (Video),279,-77.9866666667,0,,Fa
 ge6iJRM779U,12,1,Norah Jones - Happy Pills (Later with Jools Holland),210,-8.986666666669999,0,,False,False,False,False,0,,,,,
 Tu99_cMlSw4,13,1,Broken But Beautiful | Official Trailer | Vikrant Massey & Harleen Sethi | #ALTBalajiOriginal,157,44.0133333333,0,,False,False,False,False,0,,,,,
 9bL6MJJ2ZKY,13,1,Mr. Mercedes - T Bone Burnett - It's Not Too Late,175,26.0133333333,0,,False,False,False,False,0,,,,,
-lV5OnGB1k6I,13,1,Norah Jones - Not too late,211,-9.986666666669999,0,,False,False,False,False,0,,,,,
+lV5OnGB1k6I,13,1,Norah Jones - Not too late,211,-9.98666666667,0,,False,False,False,False,0,,,,,
 f1QGnq9jUU0,14,1,Evanescence - My Heart Is Broken,228,-26.9866666667,0,,False,False,False,False,0,,,,,
 Ym2t1_O1_V8,14,1,Not Too Late - Norah Jones [Full Album 2006],2840,-2638.98666667,0,,False,False,False,False,0,,,,,
 bQMq5dO8Vb4,15,1,Jake Bugg - Broken,252,-50.9866666667,0,,False,False,False,False,0,,,,,

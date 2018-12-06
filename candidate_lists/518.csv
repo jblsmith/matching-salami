@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-5NXI9v7Rhzw,0,4,Wynton Marsalis - Little Bird,261,3.04575,0,match,True,True,False,True,100,258.6,0.4,0.3,2641.0,2901.0
 pr1Azm5eLs8,1,2,Wynton & Ellis Marsalis Ft Germaine Bazzle - Little Birdie- Loogie (Bass),265,-0.95425,0,,True,True,True,False,4,,,,,
 6dUYy1lrTow,7,1,Charlie Brown,265,-0.95425,0,,False,True,True,False,3,,,,,
 0W_gg2XRSCo,2,3,Joe Cool's Blues (Snoopy's Return),569,-304.95425,0,,True,True,False,False,2,,,,,
@@ -15,6 +14,7 @@ GZBEvOWUiLo,6,1,"Ellis Marsalis - Oh, Good Grief",299,-34.95425,0,,False,True,Fa
 vdIgXQnsthA,9,1,Wynton Marsalis - Girls,352,-87.95425,0,,False,True,False,False,1,,,,,
 ooCnoAvoS0o,9,1,Joe Aguirre-Joe Cool (Tribute to Charlie Brown's Teacher),576,-311.95425,0,,False,True,False,False,1,,,,,
 7JuYJxf_jIA,9,1,On Peanuts Playground,290,-25.95425,0,,False,True,False,False,1,,,,,
+5NXI9v7Rhzw,0,4,Wynton Marsalis - Little Bird,261,3.04575,0,match,True,True,False,True,0,258.6,0.4,0.3,2641.0,2901.0
 2AhMI7MU_Zk,1,4,Little Birdie,262,2.04575,0,,True,True,False,True,0,,,,,
 JMMDe31iZk4,2,3,Vince Guaraldi - Little Birdie,196,68.04575,0,,True,True,False,False,0,,,,,
 CqUuySOiFXU,2,3,Little Birdie - A Charlie Brown Thanksgiving,186,78.04575,0,,True,True,False,False,0,,,,,

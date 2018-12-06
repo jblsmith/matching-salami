@@ -1,12 +1,12 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-hoKqcW6NiCQ,1,5,Blashpheming Barry,5,0.04,0,potential,True,True,False,True,100,4.0,0.2,0.0,49.0,49.0
 tmA9xe8VpFc,0,2,Lenny Mclean in Lock Stock,364,-358.96,0,matched_616,True,True,False,False,7,,,,,
-sHREJwFhWqE,2,3,Spyro DarkLarus - A Blasphemous Effigy Of Him Who Had Been Denys Barry (Neoclassical Darkwave music),267,-261.96,0,,True,True,False,False,2,,,,,
-GsX5KlYkr1g,3,3,Lock Stock and Two Smoking Barrels Directors Cut Scene Barry and the two Scousers,68,-62.96,0,,True,True,False,False,2,,,,,
-6bZ5-P5CvSQ,4,3,"HER DESPAIR ""Blaspheme With Me"" Official Video",305,-299.96,0,,True,True,False,False,2,,,,,
-axNFqtghyg8,2,2,"Lock, Stock and Two Smoking Barrels",570,-564.96,0,,True,True,False,False,2,,,,,
+sHREJwFhWqE,2,3,Spyro DarkLarus - A Blasphemous Effigy Of Him Who Had Been Denys Barry (Neoclassical Darkwave music),267,-261.96,0,reject,True,True,False,False,2,,,,,
+GsX5KlYkr1g,3,3,Lock Stock and Two Smoking Barrels Directors Cut Scene Barry and the two Scousers,68,-62.96,0,reject,True,True,False,False,2,,,,,
+6bZ5-P5CvSQ,4,3,"HER DESPAIR ""Blaspheme With Me"" Official Video",305,-299.96,0,reject,True,True,False,False,2,,,,,
+axNFqtghyg8,2,2,"Lock, Stock and Two Smoking Barrels",570,-564.96,0,reject,True,True,False,False,2,,,,,
 b-h7LvET2QY,7,3,barry talbot vs weymouth police PT 3 more at later date,430,-424.96,0,,False,True,False,False,1,,,,,
 tpHY98hRVpU,9,3,"the ""Hail Barry""",290,-284.96,0,,False,True,False,False,1,,,,,
+hoKqcW6NiCQ,1,5,Blashpheming Barry,5,0.04,0,potential,True,True,False,True,0,4.0,0.2,0.0,49.0,49.0
 dWUE_WcsttM,0,3,More Blasphemy Spewed Out Against Our Jesus!,893,-887.96,0,,True,True,False,False,0,,,,,
 XVEPS5-0oeM,1,3,Witches!!!  I Call Judgment On You for Blaspheming the Almighty God!!!!!,900,-894.96,0,,True,True,False,False,0,,,,,
 8MC3upiJV5A,5,3,"BEWARE of Alan Horvath Cult, Folks",899,-893.96,0,,False,True,False,False,0,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-BFRnXE6kl74,0,5,Paris Hilton - Stars are Blind w/lyrics,238,-0.364081632653,0,match,True,True,True,False,109,235.5,0.6,0.6,3288.0,6802.0
+BFRnXE6kl74,0,5,Paris Hilton - Stars are Blind w/lyrics,238,-0.364081632653,0,match,True,True,True,False,9,235.5,0.6,0.6,3288.0,6802.0
 Rav4SoymhwA,2,5,Paris Hilton - Stars Are Blind,238,-0.364081632653,0,,True,True,True,False,4,,,,,
 bKxf77j8VaI,5,5,Stars Are Blind- Paris Hilton (lyrics),238,-0.364081632653,0,,False,True,True,False,3,,,,,
 iWX5Z0SjUkY,8,2,Stars are blind(Male version)-Paris Hilton,239,-1.3640816326499998,0,,False,True,True,False,3,,,,,

@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-fZR3ZfesIIw,0,3,Harry Belafonte - Jump In The Line,222,-0.053875,0,potential,True,True,True,False,109,152.2,25.5,25.5,263.0,951.0
+fZR3ZfesIIw,0,3,Harry Belafonte - Jump In The Line,222,-0.053875,0,potential,True,True,True,False,9,152.2,25.5,25.5,263.0,951.0
 h1VaeqyTpgY,0,1,Sounds Like Music Compilation #1,367,-145.053875,0,reject,True,True,False,False,7,,,,,
-uJIFSB8owlM,2,4,Rita Hayworth jumps in the line,223,-1.053875,0,,True,True,True,False,4,,,,,
+uJIFSB8owlM,2,4,Rita Hayworth jumps in the line,223,-1.053875,0,match,True,True,True,False,4,218.1,0.4,0.2,3472.0,3825.0
 5wMieP_c2HA,4,3,Jump In The Line - Harry Belafonte (Lyrics),222,-0.053875,0,,True,True,True,False,4,,,,,
 s-sLBB18PBE,4,1,"Jump In Line (shake, Shake Señora) (karaoke-Version) As Made Famous By: Harry Belafonte",222,-0.053875,0,,True,True,True,False,4,,,,,
 e2BWd2S-vA0,2,3,Harry Belafonte - Jump in the line,233,-11.053875,0,,True,True,False,False,2,,,,,

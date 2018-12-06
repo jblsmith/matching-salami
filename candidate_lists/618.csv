@@ -1,7 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-COiIC3A0ROM,0,5,Al Green-Lets Stay Together,199,1.51591836735,0,potential,True,True,False,True,100,177.7,0.7,0.7,1112.0,6338.0
 uSu6tcbMOu0,2,5,Al Green - Let's Stay Together,247,-46.484081632700004,0,reject,True,True,False,False,2,,,,,
-fNWqSez_6VA,3,5,Al Green - Let's Stay Together (lyrics),220,-19.4840816327,0,,True,True,False,False,2,,,,,
+fNWqSez_6VA,3,5,Al Green - Let's Stay Together (lyrics),220,-19.4840816327,0,potential,True,True,False,False,2,97.9,77.4,69.1,118.0,2274.0
 OexA8i9K1e0,1,3,Let's Stay Together Tina Turner (HD),319,-118.48408163299999,0,,True,True,False,False,2,,,,,
 cz59mvrSVmM,3,2,Al Green feat David Gilmour - Let's stay together (subtitulada),242,-41.4840816327,0,,True,True,False,False,2,,,,,
 Lus8OTnLo7w,5,4,Al Green - Let's stay together,228,-27.4840816327,0,,False,True,False,False,1,,,,,
@@ -13,6 +12,7 @@ BuOSXt5ltSc,7,2,Tim Johnson Jr - Let's Stay Together (Al Green cover) [The Four]
 JxLvbx5-mfU,7,1,Seal - Let's Stay Together [Audio],223,-22.4840816327,0,,False,True,False,False,1,,,,,
 Y9FK-Ny5fuc,9,1,LET'S STAY TOGETHER - Tina Turner (Celebrate!),356,-155.484081633,0,,False,True,False,False,1,,,,,
 NNoEqwQTIkQ,9,1,01 Al Green- Let's Stay Together (Long Version),292,-91.48408163270001,0,,False,True,False,False,1,,,,,
+COiIC3A0ROM,0,5,Al Green-Lets Stay Together,199,1.51591836735,0,potential,True,True,False,True,0,177.7,0.7,0.7,1112.0,6338.0
 XXx6RDzR6eM,1,5,Al Green - Let's Stay Together (Official Audio),200,0.515918367347,0,,True,True,False,True,0,,,,,
 csZV3w_nscg,1,4,The Best of Al Green - Greatest Hits (Full Album Stream) [30 Minutes],2126,-1925.48408163,0,,True,True,False,False,0,,,,,
 MVzYxqG9N1c,2,4,Al Green-Let's stay Together(Live),196,4.51591836735,0,,True,True,False,True,0,,,,,

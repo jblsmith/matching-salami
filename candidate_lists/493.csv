@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-TqIrcCbEJbk,0,2,Oliver Jones- Round Midnight,159,-0.358333333333,0,match,True,True,True,False,109,153.3,0.5,0.4,1184.0,1234.0
 O8dThj6TprQ,0,4,Round Midnight,159,-0.358333333333,0,,True,True,True,False,9,,,,,
+TqIrcCbEJbk,0,2,Oliver Jones- Round Midnight,159,-0.358333333333,0,match,True,True,True,False,9,153.3,0.5,0.4,1184.0,1234.0
 -yg7aZpIXRI,0,1,Thelonious Monk Quartet - 'Round Midnight,414,-255.358333333,0,,True,True,False,False,7,,,,,
 Hd1Pg48s06c,1,2,oliver jones round midnight AVI,159,-0.358333333333,0,,True,True,True,False,4,,,,,
 iqNUSZDbNKk,1,4,All The Things You Are,430,-271.358333333,0,,True,True,False,False,2,,,,,
@@ -45,7 +45,7 @@ IKayR1oqC7w,9,1,Thelonious Monk - 'round Midnight,1063,-904.358333333,0,,False,T
 KaLnmgKvWnM,9,1,Life on the Mississippi By Mark Twain [Part 1/5] VideoBook,9548,-9389.35833333,0,,False,True,False,False,0,,,,,
 N7yazIH4rAI,10,1,"Oscar Peterson""Round Midnight""(T.Monk),Piano Solo .",320,-161.358333333,0,,False,False,False,False,0,,,,,
 V4nwXWr9y7o,10,1,100 KING vs 100 Battle Machine Clash of Clans Gameplay | Max Barbarian king vs Max Battle Machine,616,-457.358333333,0,,False,False,False,False,0,,,,,
-Yj2RwZ7jPGs,10,1,Santa Cruz Board of Supervisor 05/22/18,12243,-12084.358333299999,0,,False,False,False,False,0,,,,,
+Yj2RwZ7jPGs,10,1,Santa Cruz Board of Supervisor 05/22/18,12243,-12084.3583333,0,,False,False,False,False,0,,,,,
 LRgkZ7JDWNk,11,1,Thelonious Monk - The Composer : 'Round Midnight  (1998 Full Album HQ),4300,-4141.35833333,0,,False,False,False,False,0,,,,,
 UUtdkm09EbA,11,1,Diane Schuur - Louisiana Sunday Afternoon,292,-133.358333333,0,,False,False,False,False,0,,,,,
 UyJIuz99_oo,11,1,David Copperfield Audiobook by Charles Dickens | Audiobook with Subtitles  | Part 2,23100,-22941.3583333,0,,False,False,False,False,0,,,,,

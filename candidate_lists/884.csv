@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 8ITbs-gSiTc,2,3,Ali Akbar Khan : Rag Zila Kafi : Sarod,574,-173.647333333,0,reject,True,True,False,False,2,,,,,
 rnEeZTphC-U,13,3,"Raga :Zila Kafi in ""Zila Kafi - Ustad Amjad Ali Khan""",401,-0.647333333333,0,potential,False,False,True,False,2,378.9,1.5,1.4,3021.0,5492.0
-7QU_BDywPzo,7,2,Maestro Amjad Ali Khan Live Performance at Royal Opera House - Raga Zila Kafi,538,-137.647333333,0,,False,True,False,False,1,,,,,
-wEdDBssEiH4,9,1,Abhishek Borkar - Raag Zila Kafi,572,-171.647333333,0,,False,True,False,False,1,,,,,
-n0Ylnm3kpQk,0,3,Raag Zila Kafi by Ustad Amjad Ali Khan,1501,-1100.64733333,0,,True,True,False,False,0,,,,,
+7QU_BDywPzo,7,2,Maestro Amjad Ali Khan Live Performance at Royal Opera House - Raga Zila Kafi,538,-137.647333333,0,reject,False,True,False,False,1,,,,,
+wEdDBssEiH4,9,1,Abhishek Borkar - Raag Zila Kafi,572,-171.647333333,0,reject,False,True,False,False,1,,,,,
+n0Ylnm3kpQk,0,3,Raag Zila Kafi by Ustad Amjad Ali Khan,1501,-1100.64733333,0,reject,True,True,False,False,0,,,,,
 eti8F8z_2zw,0,3,Ustad Ali Akbar Khan- Raag Zila Kafi,1137,-736.647333333,0,,True,True,False,False,0,,,,,
 CymhMjxJXN4,1,3,Raga Zila Kafi | Amjad Ali Khan  (Album: Portrait of a Legend  - Amjad Ali Khan),773,-372.647333333,0,,True,True,False,False,0,,,,,
 lwozQl9071U,2,3,Raga Zila Kafi - Sarod Virtuoso Amjad Ali Khan,739,-338.647333333,0,,True,True,False,False,0,,,,,

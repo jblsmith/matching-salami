@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 om9EP8CvofE,0,1,Lonely Road,323,-0.93635,0,reject,True,True,True,False,9,,,,,
 kHMvdvx8uf8,1,1,"Jeff Floyd - I Found Love On A Lonely Highway ""www.getbluesinfo.com""",454,-131.93635,0,reject,True,True,False,False,2,,,,,
-4E4MXe1zCrA,1,1,"Kirk Jay Wows with Rascal Flatts' ""Bless the Broken Road"" - The Voice 2018 Blind Auditions",370,-47.93635,0,,True,True,False,False,2,,,,,
-Ca_MVDe9XUY,3,1,John B Wood Band - Lonely Road,344,-21.93635,0,,True,True,False,False,2,,,,,
-EqPtz5qN7HM,7,2,Eagles - Hotel California (Lyrics),390,-67.93635,0,,False,True,False,False,1,,,,,
+4E4MXe1zCrA,1,1,"Kirk Jay Wows with Rascal Flatts' ""Bless the Broken Road"" - The Voice 2018 Blind Auditions",370,-47.93635,0,reject,True,True,False,False,2,,,,,
+Ca_MVDe9XUY,3,1,John B Wood Band - Lonely Road,344,-21.93635,0,reject,True,True,False,False,2,,,,,
+EqPtz5qN7HM,7,2,Eagles - Hotel California (Lyrics),390,-67.93635,0,reject,False,True,False,False,1,,,,,
 lhpY9mQh80M,5,1,johnny adams - feel the beat...(1979).wmv - YouTube.flv,393,-70.93635,0,,False,True,False,False,1,,,,,
 nOubjLM9Cbc,8,1,Michael Kiwanuka - Cold Little Heart,380,-57.93635,0,,False,True,False,False,1,,,,,
 GI6CfKcMhjY,0,2,Jack Sparrow (feat. Michael Bolton),197,125.06365,0,,True,True,False,False,0,,,,,

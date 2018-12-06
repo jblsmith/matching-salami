@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-DC0q1GrcviM,1,2,Julie London - Go Slow (1995 Digital Remaster),134.0,1.1053,0,match,True,True,False,True,100,130.8,0.2,0.5,1143.0,1165.0
 VWZkRNEULi4,0,2,Julie London - Go Slow,174.0,-38.8947,0,,True,True,False,False,7,,,,,
 9jIwHPirlLk,0,1,Nolan feat  Amber Jolene ~ Go Slow Finnebassen Remix,504.0,-368.8947,0,,True,True,False,False,7,,,,,
 wy0aK8yJ4jU,3,2,Julie London - Go Slow,136.0,-0.8947,0,,True,True,True,False,4,,,,,
@@ -24,6 +23,7 @@ orN6OvaY9eY,7,1,HAIM - Go Slow (Acoustic w/ Warby Parker),200.0,-64.8947,0,,Fals
 a8IMFYaTKrQ,8,1,HAIM - Go slow,258.0,-122.8947,0,,False,True,False,False,1,,,,,
 DpFJuB7gfKU,0,4,Julie London - Go Slow,133.0,2.1053,0,,True,True,False,True,0,,,,,
 sEBA41c26I4,1,4,Go Slow (Remastered),135.0,0.1053,0,,True,True,False,True,0,,,,,
+DC0q1GrcviM,1,2,Julie London - Go Slow (1995 Digital Remaster),134.0,1.1053,0,match,True,True,False,True,0,130.8,0.2,0.5,1143.0,1165.0
 w8GmUUGmTAU,3,2,Ultra Louge   Rhapsodesia  FULL ALBUM,2833.0,-2697.8947,0,,True,True,False,False,0,,,,,
 7TkRah-Rark,5,2,Julie London ‎– Go Slow,135.0,0.1053,0,,False,True,False,True,0,,,,,
 g6zVR8Du7aI,8,2,Go Slow (Remastered),135.0,0.1053,0,,False,True,False,True,0,,,,,

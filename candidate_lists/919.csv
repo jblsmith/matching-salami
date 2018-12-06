@@ -1,8 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
--RngRJDDEPk,2,3,11 Studies in Noise and Dialectic: No. 4. We Workers Have Strength,53,5.566541666669999,0,potential,True,True,False,False,100,50.2,0.2,0.7,492.0,504.0
 4klQEj-lzBg,0,3,We Workers Have the Strength and Power,124,-65.4334583333,0,reject,True,True,False,False,7,,,,,
-QYE2lYuxHww,0,2,WE SPEAK LIFE | Official Planetshakers Music Video,443,-384.43345833300003,0,,True,True,False,False,7,,,,,
-jZCOkxdlV4Q,1,3,We Workers Are Powerful,107,-48.4334583333,0,,True,True,False,False,2,,,,,
+QYE2lYuxHww,0,2,WE SPEAK LIFE | Official Planetshakers Music Video,443,-384.43345833300003,0,reject,True,True,False,False,7,,,,,
+jZCOkxdlV4Q,1,3,We Workers Are Powerful,107,-48.4334583333,0,potential,True,True,False,False,2,25.7,27.1,26.8,39.0,76.0
 UhIsx0UOVuQ,3,3,We Workers are Powerful,195,-136.433458333,0,,True,True,False,False,2,,,,,
 VC8-Sbiy9ps,4,3,We Workers Are Powerful,113,-54.4334583333,0,,True,True,False,False,2,,,,,
 B_cwxviBPgw,1,2,Flight Brigade - Where Eagles Dare (Official Video),228,-169.433458333,0,,True,True,False,False,2,,,,,
@@ -17,6 +16,7 @@ fp0StuYviqI,9,3,People Punching BOXING MACHINE (0-999!!),466,-407.43345833300003
 Vqrnu1U1xJA,7,2,Cardi B Plans to Take Baby on Tour with Bruno Mars,185,-126.43345833299999,0,,False,True,False,False,1,,,,,
 wPflq6u9YWk,8,2,"New York City - Video Tour of SoHo, Manhattan",299,-240.433458333,0,,False,True,False,False,1,,,,,
 -GFeRcBImxw,8,1,How Powerful is Poland ? -  Polish Military Power 2018,270,-211.433458333,0,,False,True,False,False,1,,,,,
+-RngRJDDEPk,2,3,11 Studies in Noise and Dialectic: No. 4. We Workers Have Strength,53,5.566541666669999,0,potential,True,True,False,False,0,50.2,0.2,0.7,492.0,504.0
 Wcf5b3mENJU,10,3,STRUGGLE makes you STRONGER - Motivational Video,332,-273.433458333,0,,False,False,False,False,0,,,,,
 tJj0mEBnU_o,11,3,CREATIVE WORKERS IN ACTION. YOU’VE NEVER SEEN ANYTHING LIKE THIS BEFORE,601,-542.433458333,0,,False,False,False,False,0,,,,,
 494dUevcqJM,12,3,PEOPLE ARE AWESOME (FAST WORKERS EDITION),141,-82.4334583333,0,,False,False,False,False,0,,,,,

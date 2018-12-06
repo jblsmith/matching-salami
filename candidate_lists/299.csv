@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 R9K1oXuxGfQ,0,2,The Bartered Bride Overture,389,-317.999166667,0,potential,True,True,False,False,7,66.7,79.9,0.2,785.0,882.0
 QLUm_yvnyo4,0,2,"Bedrich Smetana－Overture from ""The Bartered Bride""",426,-354.999166667,0,reject,True,True,False,False,7,,,,,
-8wSWVC7Y4YA,1,2,"The Bartered Bride, JB 1:100: Overture (Remastered)",389,-317.999166667,0,,True,True,False,False,2,,,,,
+8wSWVC7Y4YA,1,2,"The Bartered Bride, JB 1:100: Overture (Remastered)",389,-317.999166667,0,potential,True,True,False,False,2,67.4,81.1,0.3,756.0,865.0
 BccDhlkzSSY,1,2,"The Bartered Bride, JB 1:100: Overture",390,-318.999166667,0,,True,True,False,False,2,,,,,
 B_5UJo9Iy5Q,4,2,"Three Dances from The Bartered Bride, JB 1:100: Polka",297,-225.999166667,0,,True,True,False,False,2,,,,,
 xTUHPhYF2J8,1,1,Bedrich Smetana - The Bartered Bride - Overture,398,-326.999166667,0,,True,True,False,False,2,,,,,

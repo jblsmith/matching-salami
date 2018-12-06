@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-jpG9l5_Yri4,0,2,"J.S. Bach: Fantasia cromatica in D Minor, BWV 903 (Arr. Kodály)",458,0.057166666666699985,0,potential,True,True,False,True,100,378.6,1.6,1.2,6735.0,8164.0
 W3G_kyDy8IY,0,1,Fantasia Cromatica BWV 903 - Johann  Sebastian Bach,550,-91.9428333333,0,reject,True,True,False,False,7,,,,,
-O9j2fNPRiZ8,3,1,Max Baillie viola: Bach Chromatic Fantasy,591,-132.94283333299998,0,,True,True,False,False,2,,,,,
-CZv8_B3Aa70,5,1,Bach Fantasia Cromatica BWV903 (trabscription by Zoltan Kadaly),521,-62.9428333333,0,,False,True,False,False,1,,,,,
-iUacOGVllww,6,1,"Fantasia cromatica (after J.S. Bach's Chromatic Fantasia and Fugue in D Minor, BWV 903)",518,-59.9428333333,0,,False,True,False,False,1,,,,,
-O6hvZ7-QX8k,7,1,"Fantasia Cromatica in D Minor, BWV 903",575,-116.942833333,0,,False,True,False,False,1,,,,,
+O9j2fNPRiZ8,3,1,Max Baillie viola: Bach Chromatic Fantasy,591,-132.94283333299998,0,reject,True,True,False,False,2,,,,,
+CZv8_B3Aa70,5,1,Bach Fantasia Cromatica BWV903 (trabscription by Zoltan Kadaly),521,-62.9428333333,0,reject,False,True,False,False,1,,,,,
+iUacOGVllww,6,1,"Fantasia cromatica (after J.S. Bach's Chromatic Fantasia and Fugue in D Minor, BWV 903)",518,-59.9428333333,0,reject,False,True,False,False,1,,,,,
+O6hvZ7-QX8k,7,1,"Fantasia Cromatica in D Minor, BWV 903",575,-116.942833333,0,reject,False,True,False,False,1,,,,,
 vE5zhfU_8hI,8,1,"Fantasia cromatica (after J.S. Bach's Chromatic Fantasia and Fugue in D Minor, BWV 903)",469,-10.9428333333,0,,False,True,False,False,1,,,,,
+jpG9l5_Yri4,0,2,"J.S. Bach: Fantasia cromatica in D Minor, BWV 903 (Arr. Kodály)",458,0.057166666666699985,0,potential,True,True,False,True,0,378.6,1.6,1.2,6735.0,8164.0
 3PzYWh3mues,0,1,Brahms - Scherzo from the FAE Sonata - Viola Transcription,322,136.05716666700002,0,,True,True,False,False,0,,,,,
 vEYyFxa3gHM,1,1,Ernest Bloch Suite hebraique Rhapsodie for Viola,408,50.0571666667,0,,True,True,False,False,0,,,,,
 ug4_-EvG_-Y,2,1,Bach Cromatic Fantasia and Fugue - BWV 903 - for Guitar - Christophe Dejour,930,-471.942833333,0,,True,True,False,False,0,,,,,

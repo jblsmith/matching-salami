@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XZHF6SDWtU8,0,5,Buena Vista Social Club - El Cuarto de Tula,448,-2.08979166667,0,potential,True,True,True,False,109,379.5,2.6,0.4,6420.0,15210.0
+XZHF6SDWtU8,0,5,Buena Vista Social Club - El Cuarto de Tula,448,-2.08979166667,0,potential,True,True,True,False,9,379.5,2.6,0.4,6420.0,15210.0
 bbB1QkUlIWc,4,3,El Cuarto de Tula,450,-4.08979166667,0,reject,True,True,True,False,4,,,,,
-dXfcfJE8Q4Y,1,2,Buena Vista Social Club - El cuarto de Tula,447,-1.08979166667,0,,True,True,True,False,4,,,,,
+dXfcfJE8Q4Y,1,2,Buena Vista Social Club - El cuarto de Tula,447,-1.08979166667,0,potential,True,True,True,False,4,379.6,0.4,0.4,6400.0,14714.0
 gaKKELQWhbs,7,2,Buena Vista Social Club - El Cuarto De Tula,448,-2.08979166667,0,,False,True,True,False,3,,,,,
 90UMybLAUS8,2,4,El Cuarto De Tula (Live),481,-35.0897916667,0,,True,True,False,False,2,,,,,
 HMn0vGIa-hg,3,3,"How To Play Piano: ""EL CUARTO DE TULA"" by SERGIO SIABA Piano Tutorial by Ramin Yousefi",544,-98.0897916667,0,,True,True,False,False,2,,,,,

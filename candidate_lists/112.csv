@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-MbB_sbRjoAI,1,2,"Anner Bylsma; Bach Cello Suite 3, Prelude",188,-0.36241666666699995,0,match,True,True,True,False,104,178.6,0.6,0.5,2834.0,2954.0
 m0dWyGsroNI,0,1,Bach - Cello Suite No.3 i-Prelude,270,-82.3624166667,0,,True,True,False,False,7,,,,,
 h9H9LolWt3I,0,1,"Suite No. 3 in C Major, BWV 1009: I.Prelude",219,-31.3624166667,0,,True,True,False,False,7,,,,,
 eXWhlmU448Y,0,1,"Anner Bylsma; Bach Cello Suite 6, Prelude",283,-95.3624166667,0,,True,True,False,False,7,,,,,
+MbB_sbRjoAI,1,2,"Anner Bylsma; Bach Cello Suite 3, Prelude",188,-0.362416666667,0,match,True,True,True,False,4,178.6,0.6,0.5,2834.0,2954.0
 mocyuJ7Pjpw,3,3,Bach Masterclass: Prelude from Suite No. 3 - Musings with Inbal Segev,552,-364.362416667,0,,True,True,False,False,2,,,,,
 T9JiIe3ETlQ,4,3,"Unaccompanied Cello Suite No. 3 in C Major, BWV 1009: I. Prélude",194,-6.36241666667,0,,True,True,False,False,2,,,,,
 T4LGi6fgLNc,2,2,Bach - Suites Solo Cello - Suite 3 in C major - 4/6,300,-112.362416667,0,,True,True,False,False,2,,,,,

@@ -1,8 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-fi2wHYRCR8Q,0,5,Slim Smith & The Uniques  -  My Conversation,209,10.0105625,0,potential,True,True,False,False,100,37.1,1.0,0.9,59.0,584.0
 obtZXnA42VE,0,3,THE UNIQUES - My Conversation,223,-3.9894375,0,reject,True,True,True,False,9,,,,,
-H1O5hGhTwUc,4,3,My Conversation,224,-4.9894375,0,,True,True,True,False,4,,,,,
-g0cyMAFiH8c,6,3,Slim Smith & The Uniques - My Conversation ( guitar),223,-3.9894375,0,,False,True,True,False,3,,,,,
+H1O5hGhTwUc,4,3,My Conversation,224,-4.9894375,0,reject,True,True,True,False,4,,,,,
+g0cyMAFiH8c,6,3,Slim Smith & The Uniques - My Conversation ( guitar),223,-3.9894375,0,potential,False,True,True,False,3,38.1,35.9,31.3,59.0,808.0
 8iECspcvPLM,7,2,The Uniques - My Conversation,223,-3.9894375,0,,False,True,True,False,3,,,,,
 Spvk7tADPaA,2,3,My Conversation The Uniques & Slim Smith & Tribute To Slim Smith Tyrone Downie,431,-211.9894375,0,,True,True,False,False,2,,,,,
 fpDL7ARLipA,1,2,Dennis Brown - Ten against One (My Conversation Riddim),227,-7.9894375,0,,True,True,False,False,2,,,,,
@@ -18,6 +17,7 @@ EC767lL1kQA,5,1,A Conversation With My 13 Year-Old Self: 10 YEARS LATER,433,-213
 HAqsxax7V2Y,5,1,The Uniques - Lessons Of Love,247,-27.9894375,0,,False,True,False,False,1,,,,,
 g0xNGmjbPb8,7,1,Dennis Brown - My Conversation,234,-14.9894375,0,,False,True,False,False,1,,,,,
 XFGAQrEUaeU,8,1,A Conversation With My 12 Year Old Self: 20th Anniversary Edition,227,-7.9894375,0,,False,True,False,False,1,,,,,
+fi2wHYRCR8Q,0,5,Slim Smith & The Uniques  -  My Conversation,209,10.0105625,0,potential,True,True,False,False,0,37.1,1.0,0.9,59.0,584.0
 OH1_km9ZTv4,2,3,The Uniques - My Conversation,208,11.0105625,0,,True,True,False,False,0,,,,,
 aQK56auX_To,3,2,10. Simmer Down - The Wailers (The Story Of Jamaican Music) CD1,169,50.0105625,0,,True,True,False,False,0,,,,,
 6E4BoPjJuRk,4,2,11. Man in the Street - Don Drummond (The Story Of Jamaican Music) CD1,204,15.0105625,0,,True,True,False,False,0,,,,,

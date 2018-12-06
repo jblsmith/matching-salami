@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-BVF2H3s_Mk0,0,4,A tribute to someone - Herbie Hancock,525,0.06125,0,potential,True,True,False,True,100,379.3,0.6,0.5,4977.0,7290.0
 YzlUJPTtRCY,2,4,Herbie Hancock The 36th Annual Kennedy Center Honors,583,-57.93875,0,reject,True,True,False,False,2,,,,,
-sd5o-uIhgPY,1,3,Herbie Hancock - A Tribute to Miles [Full Album],3511,-2985.93875,0,,True,True,False,False,0,,,,,
-d9lCGJ8WorI,2,3,"Herbie Hancock, Marcus Miller, Wayne Shorter - Tribute to Miles - LIVE HD",629,-103.93875,0,,True,True,False,False,0,,,,,
-5g6AyjnS82I,3,3,Snoop Dogg's Tribute to Herbie Hancock at the 2013 Kennedy Center Honors,174,351.06125,0,,True,True,False,False,0,,,,,
+BVF2H3s_Mk0,0,4,A tribute to someone - Herbie Hancock,525,0.06125,0,potential,True,True,False,True,0,379.3,0.6,0.5,4977.0,7290.0
+sd5o-uIhgPY,1,3,Herbie Hancock - A Tribute to Miles [Full Album],3511,-2985.93875,0,reject,True,True,False,False,0,,,,,
+d9lCGJ8WorI,2,3,"Herbie Hancock, Marcus Miller, Wayne Shorter - Tribute to Miles - LIVE HD",629,-103.93875,0,reject,True,True,False,False,0,,,,,
+5g6AyjnS82I,3,3,Snoop Dogg's Tribute to Herbie Hancock at the 2013 Kennedy Center Honors,174,351.06125,0,reject,True,True,False,False,0,,,,,
 N3C73IiGsWg,4,3,Herbie Hancock - A Tribute to Miles Davis (München 1992),1799,-1273.93875,0,,True,True,False,False,0,,,,,
 dEWNUJuoJlA,6,3,Herbie Hancock and Esperanza Spalding Honor Sting - Fragile,135,390.06125,0,,False,True,False,False,0,,,,,
 OHF2gQN2bMo,8,3,INDRA LESMANA Collaboration Project -Tribute to Herbie Hancock,759,-233.93875,0,,False,True,False,False,0,,,,,

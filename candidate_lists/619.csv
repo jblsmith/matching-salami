@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-t3TBmE2NkWY,0,3,You can't stand alone Wilson Pickett,170,-2.0326875,0,potential,True,True,True,False,109,148.8,0.6,0.4,527.0,680.0
+t3TBmE2NkWY,0,3,You can't stand alone Wilson Pickett,170,-2.0326875,0,potential,True,True,True,False,9,148.8,0.6,0.4,527.0,680.0
 bKSwNSa_URE,2,3,You Can't Stand Alone,172,-4.0326875,0,match,True,True,True,False,4,166.2,0.6,0.2,727.0,846.0
 Bj0g8gC5NHs,3,3,Wilson Pickett - You Can't Stand Alone,172,-4.0326875,0,,True,True,True,False,4,,,,,
 zvMOzxMmfTw,4,2,Wilson Pickett - You Can't Stand Alone [1967],168,-0.0326875,0,,True,True,True,False,4,,,,,

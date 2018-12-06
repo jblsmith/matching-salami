@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-byQKvmvu-II,0,5,"Summertime / Shantung Cabbage (Live ""Undead"" Version)",359,0.2359,0,match,True,True,False,True,100,358.2,0.1,0.0,3800.0,4487.0
 1Y7v5z9V_FM,1,5,Summertime / Shantung Cabbage (Live),366,-6.7641,0,,True,True,False,False,2,,,,,
 QYABhwdI8fA,3,5,Spider In My Web (Live “Undead” Version / 1968),458,-98.7641,0,,True,True,False,False,2,,,,,
 -o_Fxr84CQY,14,3,I May Be Wrong but I Won't Be Wrong Always (Live),362,-2.7641,0,,False,False,True,False,2,,,,,
 9fXubUqXmG8,19,1,Spoonful,363,-3.7641,0,,False,False,True,False,2,,,,,
+byQKvmvu-II,0,5,"Summertime / Shantung Cabbage (Live ""Undead"" Version)",359,0.2359,0,match,True,True,False,True,0,358.2,0.1,0.0,3800.0,4487.0
 tI-q8z4SY9M,2,5,Ten years after - Summertime,354,5.2359,0,,True,True,False,False,0,,,,,
 ZdZpuddSbjM,4,5,Garrard 301 Ten Years After Undead 1969 original Deram record,354,5.2359,0,,True,True,False,False,0,,,,,
 3PJJMampN0I,6,5,Skoobly-Oobly-Doobob,104,255.2359,0,,False,True,False,False,0,,,,,

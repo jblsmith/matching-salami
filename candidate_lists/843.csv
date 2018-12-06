@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-lsRre2LuQYI,0,5,Eduardo Rodriguez - Cantarela,239,-0.05795833333330001,0,match,True,True,True,False,109,233.4,0.5,0.5,2792.0,3982.0
+lsRre2LuQYI,0,5,Eduardo Rodriguez - Cantarela,239,-0.05795833333330001,0,match,True,True,True,False,9,233.4,0.5,0.5,2792.0,3982.0
 vvRXkRHRS1E,2,3,Cómo preparar una Salsa de Champiñones,587,-348.05795833300004,0,,True,True,False,False,2,,,,,
 4jb-o7qNsRI,1,3,"Amorcito, Dúo Patria",119,119.94204166700001,0,,True,True,False,False,0,,,,,
 67bdbP_k5oQ,2,3,Abrecaminos Gurises - Cancion del Iguazú - Agustina Rodríguez,164,74.9420416667,0,,True,True,False,False,0,,,,,

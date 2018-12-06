@@ -1,12 +1,12 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7whwQCLZ5tU,0,5,kelis - attention (ft. raphael saadiq - Tasty,205,-0.666666666667,0,match,True,True,True,False,109,201.6,0.5,0.3,945.0,18536.0
-_fPTSzxN6io,5,5,ATTENTION : KELIS,206,-1.6666666666699999,0,,False,True,True,False,3,,,,,
+7whwQCLZ5tU,0,5,kelis - attention (ft. raphael saadiq - Tasty,205,-0.666666666667,0,match,True,True,True,False,9,201.6,0.5,0.3,945.0,18536.0
+_fPTSzxN6io,5,5,ATTENTION : KELIS,206,-1.66666666667,0,,False,True,True,False,3,,,,,
 c2RwlmOEdAY,1,5,kelis - glow (ft. raphael saadiq) - Tasty,240,-35.6666666667,0,,True,True,False,False,2,,,,,
 Kbm_fq7TZXQ,3,5,kelis ft. raphael saadiq glow with lyrics,270,-65.6666666667,0,,True,True,False,False,2,,,,,
 oLJlfwZ-xZ8,3,1,Big K.R.I.T. - Soul Food (Explicit) ft. Raphael Saadiq,256,-51.6666666667,0,,True,True,False,False,2,,,,,
 ik_h_J7YFHk,4,1,Big K.R.I.T. - Pay Attention (Explicit) ft. Rico Love,253,-48.6666666667,0,,True,True,False,False,2,,,,,
 I7DL68AUjzw,10,1,Keep it down- Kelis,207,-2.66666666667,0,,False,False,True,False,2,,,,,
-Qkxesq_gOhY,5,5,Kelis -  Harlem Streets (feat. Raphael Saadiq),214,-9.666666666669999,0,,False,True,False,False,1,,,,,
+Qkxesq_gOhY,5,5,Kelis -  Harlem Streets (feat. Raphael Saadiq),214,-9.66666666667,0,,False,True,False,False,1,,,,,
 T4ZnP4ssvhg,7,5,kelis   Glow feat  Raphael Saadiq,245,-40.6666666667,0,,False,True,False,False,1,,,,,
 CiCHAQfIFHU,8,5,Kelis - Glow (feat. Raphael Saddiq).wmv,238,-33.6666666667,0,,False,True,False,False,1,,,,,
 iJbfUSliURs,5,2,Kelis - Trilogy,243,-38.6666666667,0,,False,True,False,False,1,,,,,
@@ -17,7 +17,7 @@ wAsoj_IF6Qk,6,1,"Raphael Saadiq, Tha Boogie & Cool Kids from Los Angeles 2009 Ro
 kO1uFExx_9Y,7,1,(Instrumental) Raphael Saadiq - Faithful,249,-44.6666666667,0,,False,True,False,False,1,,,,,
 HCPWfsqRLX4,9,1,Kelis- Circus,278,-73.6666666667,0,,False,True,False,False,1,,,,,
 gxweug4-Hkg,1,5,Kelis - Attention,198,6.333333333330001,0,,True,True,False,False,0,,,,,
-WVPgIKijDbM,4,5,Attention,204,0.33333333333299997,0,,True,True,False,True,0,,,,,
+WVPgIKijDbM,4,5,Attention,204,0.333333333333,0,,True,True,False,True,0,,,,,
 PzKnv3cOPCg,10,4,Kelis feat.Nas In Public,276,-71.6666666667,0,,False,False,False,False,0,,,,,
 bsWAI2omYJg,10,4,Kelis - Stick Up,232,-27.6666666667,0,,False,False,False,False,0,,,,,
 ruVr84PLpOU,10,3,Kelis - Glow ft Raphael Saadiq,241,-36.6666666667,0,,False,False,False,False,0,,,,,
@@ -41,5 +41,5 @@ Gqlt7LTJots,18,1,Kelis - Glow (K2 Re-Edit 2012),370,-165.66666666700002,0,,False
 bNuuFaCJ4go,18,1,Kelis - Marathon,278,-73.6666666667,0,,False,False,False,False,0,,,,,
 TZNCkrLdwLY,19,1,kelis - mars - Kaleidoscope,316,-111.666666667,0,,False,False,False,False,0,,,,,
 pfHUgt_D2yY,19,1,Big K.R.I.T. ft. E-40 & Wiz Khalifa - Mind Control [Thizzler.com],245,-40.6666666667,0,,False,False,False,False,0,,,,,
-BSC5kMhbTso,19,1,KELIS - ATTENTION (PASSION MARKS),204,0.33333333333299997,0,,False,False,False,True,0,,,,,
+BSC5kMhbTso,19,1,KELIS - ATTENTION (PASSION MARKS),204,0.333333333333,0,,False,False,False,True,0,,,,,
 hwYqp3TVwIo,19,1,Glow,240,-35.6666666667,0,,False,False,False,False,0,,,,,

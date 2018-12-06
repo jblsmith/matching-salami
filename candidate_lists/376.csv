@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-X_-q9xeOgG4,0,4,Monty Python - Always Look On The Bright Side Of Life (Official Lyric Video),219,-2.601625,0,match,True,True,True,False,109,209.3,7.8,1.4,2545.0,4625.0
+X_-q9xeOgG4,0,4,Monty Python - Always Look On The Bright Side Of Life (Official Lyric Video),219,-2.601625,0,match,True,True,True,False,9,209.3,7.8,1.4,2545.0,4625.0
 2UQrD-04VEA,0,3,Monty Python Always Look On The Bright Side Of Life 01,218,-1.601625,0,,True,True,True,False,9,,,,,
 HvkFODTnf3w,9,3,Monty Python - Always Look On The Bright Side Of Life,220,-3.601625,0,,False,True,True,False,3,,,,,
 JrdEMERq8MA,1,5,Always Look on the Bright Side of Life Sing-Along - Monty Python,229,-12.601625,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 0u72XtsM6oU,0,4,Hole - Berry,166,-4.4849375,0,reject,True,True,True,False,9,,,,,
 4elZww9PTtc,0,4,Berry,166,-4.4849375,0,reject,True,True,True,False,9,,,,,
-Si0ZHJdlu9M,0,1,Maleek Berry - Kontrol (Official Video),209,-47.4849375,0,,True,True,False,False,7,,,,,
-2fSuBdPVJe0,2,4,Hole/Berry,166,-4.4849375,0,,True,True,True,False,4,,,,,
-V0TZgJpB1tg,4,2,Hole - Berry (12/12/1991),162,-0.4849375,0,,True,True,True,False,4,,,,,
+Si0ZHJdlu9M,0,1,Maleek Berry - Kontrol (Official Video),209,-47.4849375,0,reject,True,True,False,False,7,,,,,
+2fSuBdPVJe0,2,4,Hole/Berry,166,-4.4849375,0,reject,True,True,True,False,4,,,,,
+V0TZgJpB1tg,4,2,Hole - Berry (12/12/1991),162,-0.4849375,0,reject,True,True,True,False,4,,,,,
 tQDDVC7Fwbc,7,4,Hole - Berry,165,-3.4849375,0,,False,True,True,False,3,,,,,
 4L-Awh1jM5I,9,2,Hole - Berry Traducida al español,163,-1.4849375,0,,False,True,True,False,3,,,,,
 Uorv_BXiuOM,3,3,Hole - Berry (7/15/1991 CBGB's) Part 3/7,197,-35.4849375,0,,True,True,False,False,2,,,,,

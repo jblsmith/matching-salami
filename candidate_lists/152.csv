@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-6FjqgK5Wmwg,0,4,Eccles: Viola Sonata in G minor - I. Largo,223,0.059625,0,match,True,True,False,True,100,216.5,3.7,3.3,3214.0,3514.0
 eW0L5e9yc4U,0,1,Eccles - Sonata in G minor - I. Largo,238,-14.940375,0,,True,True,False,False,7,,,,,
 nI5NYRz7EQw,1,1,Henry Eccles - Sonata in G Minor for Violoncello and Continuo,444,-220.940375,0,,True,True,False,False,2,,,,,
 Ec2ayW7UVLg,2,1,"Sonata in G Minor, Largo & Allegro, H. Eccles",355,-131.940375,0,,True,True,False,False,2,,,,,
@@ -10,6 +9,7 @@ RxhxvVakSNM,6,1,"Michel Blavet: Flute Sonata in D Major op. 2/5, ""La Chauvet"" 
 IPxj7UGfeWA,7,1,"Eccles, Sonata in G Minor",580,-356.940375,0,,False,True,False,False,1,,,,,
 OhI0kBpVTbQ,7,1,"Sonata for Cello & Piano No. 1 in E Minor, Op. 38 (Transcription for Viola) : III. Allegro",389,-165.940375,0,,False,True,False,False,1,,,,,
 j65JPXaVL2U,9,1,"George Milanovich - Henry Eccles - Sonata for Viola and Piano, g-moll",530,-306.940375,0,,False,True,False,False,1,,,,,
+6FjqgK5Wmwg,0,4,Eccles: Viola Sonata in G minor - I. Largo,223,0.059625,0,match,True,True,False,True,0,216.5,3.7,3.3,3214.0,3514.0
 5RKqIWearig,1,1,"Sonatas  for strings by Gerald Israel, Haendel Sonata in G min New orchestration",870,-646.940375,0,,True,True,False,False,0,,,,,
 jKQ0Is-AJic,2,1,Sonata in D Major: I. Adagio,154,69.059625,0,,True,True,False,False,0,,,,,
 kS7PM1w1k_s,3,1,Henry Eccles Sonata G minore MOV I Largo For Doublebass,222,1.059625,0,,True,True,False,True,0,,,,,

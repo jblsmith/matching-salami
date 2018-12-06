@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 bhvU7Y7qKnw,0,2,"YO SOY 14-04-14 CAFE TACUBA RUBEN ALBARRAN  ""INGRATA"" [YO SOY 2015]",454,-264.4816875,0,reject,True,True,False,False,7,,,,,
 Bl5lqIKzG_Q,0,1,ADAN Y EVA REMIX - PAULO LONDRA ✘ DJ ALEX [FIESTERO REMIX],195,-5.4816875,0,reject,True,True,False,False,7,,,,,
-1Nr_tqkMsJs,0,1,Calle 13 - Ojos Color Sol ft. Silvio Rodríguez,214,-24.4816875,0,,True,True,False,False,7,,,,,
-t0DeJ5HeG8o,1,2,Calle 13 - No Hay Nadie Como Tú (Video) ft. Café Tacuba,256,-66.4816875,0,,True,True,False,False,2,,,,,
-cB7gPzorDz0,2,2,Quiero ver - Café Tacuba,214,-24.4816875,0,,True,True,False,False,2,,,,,
+1Nr_tqkMsJs,0,1,Calle 13 - Ojos Color Sol ft. Silvio Rodríguez,214,-24.4816875,0,reject,True,True,False,False,7,,,,,
+t0DeJ5HeG8o,1,2,Calle 13 - No Hay Nadie Como Tú (Video) ft. Café Tacuba,256,-66.4816875,0,matched_380,True,True,False,False,2,,,,,
+cB7gPzorDz0,2,2,Quiero ver - Café Tacuba,214,-24.4816875,0,reject,True,True,False,False,2,,,,,
 AS5N1g_haI8,3,2,Café Tacuba + Calle 13 - Vamonos + Nadie como tú (vivo),334,-144.4816875,0,,True,True,False,False,2,,,,,
 2ulISKNfj4o,4,2,Café Tacuba - Cómo Te Extraño,424,-234.4816875,0,,True,True,False,False,2,,,,,
 UjqXKgk5b18,4,2,"Residente, Dillon Francis - Sexo (Official Video) ft. iLe",210,-20.4816875,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-AvIHdDbPvgU,12,2,"M. De Sainte-Colombe, Le Père : Les Pleures (Tombeau Les Regrets) Savall, Kuijken",250,-0.1388,0,match,False,False,True,False,102,245.5,0.8,1.6,1317.0,1494.0
 9fXQ7Su4KZ8,0,1,Jordi Savall. Les Regrets,467,-217.1388,0,,True,True,False,False,7,,,,,
 90RJhDcETYw,3,2,"Les Pleurs (Mr. de Sainte Colombe, version viole seule de Jordi Savall)",250,-0.1388,0,,True,True,True,False,4,,,,,
 M1yklkFr55Y,1,1,06. Les Pleurs for solo basse de viole,251,-1.1388,0,,True,True,True,False,4,,,,,
@@ -7,6 +6,7 @@ OXjbf1fz9-I,2,4,Ste Colombe : Tombeau Les regrets,405,-155.1388,0,,True,True,Fal
 O13-ypV71IQ,3,3,Le Sieur de Sainte Colombe: Concert XLIV – TOMBEAU LES REGRETS,510,-260.1388,0,,True,True,False,False,2,,,,,
 BtpYVzW4Ic8,4,3,"Concert à deux violes ""La Retour"" (Mr. de Sainte Colombe)",504,-254.1388,0,,True,True,False,False,2,,,,,
 Zc1BxtF-Wq4,4,2,Sainte-Colombe - Suite for Solo Viola da Gamba - Mov. 1-2/5,376,-126.1388,0,,True,True,False,False,2,,,,,
+AvIHdDbPvgU,12,2,"M. De Sainte-Colombe, Le Père : Les Pleures (Tombeau Les Regrets) Savall, Kuijken",250,-0.1388,0,match,False,False,True,False,2,245.5,0.8,1.6,1317.0,1494.0
 jExlDh5FRnU,5,2,Tous les Matins du Monde Soundtrack - Marin Marais - La Rêveuse (1991),269,-19.1388,0,,False,True,False,False,1,,,,,
 e8l7mVC2fhQ,5,2,"Sainte-Colombe : Concert pour 2 violes égales n°41 ""Le Retour"" (Atsushi Sakai / Marion Martineau)",436,-186.1388,0,,False,True,False,False,1,,,,,
 YE3PjjDvuaA,9,2,"Sieur de Saint-Colombe, Concerts à Deux Violes Esgales Alia Vox  2SACD  AVSA9885",350,-100.1388,0,,False,True,False,False,1,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-rvAN2MNfflg,0,2,Louis Armstrong & Duke Ellington - The Mooche,219,-0.146083333333,0,match,True,True,True,False,109,209.3,0.5,0.5,1327.0,1414.0
+rvAN2MNfflg,0,2,Louis Armstrong & Duke Ellington - The Mooche,219,-0.146083333333,0,match,True,True,True,False,9,209.3,0.5,0.5,1327.0,1414.0
 KyTfgNY0kVM,1,4,The Mooche (1990 Remastered Version),219,-0.146083333333,0,,True,True,True,False,4,,,,,
 H4_cP9uLcTc,2,3,The Mooche (Remastered 2017),220,-1.1460833333299998,0,,True,True,True,False,4,,,,,
 _2ykBbuJKpI,3,3,The Mooche,219,-0.146083333333,0,,True,True,True,False,4,,,,,
@@ -16,7 +16,7 @@ NdCFbWB2Zeg,4,1,"Duke Ellington ""The Mooche"" Ellington/Mills 1928",276,-57.146
 4OzBLVI1zBA,10,1,The Mooche (feat. Louis Armstrong),219,-0.146083333333,0,,False,False,True,False,2,,,,,
 EyeUJOjua2I,11,1,The Mooche,219,-0.146083333333,0,,False,False,True,False,2,,,,,
 p74fekNW8OA,16,1,The Mooche,223,-4.14608333333,0,,False,False,True,False,2,,,,,
-KzxGuX-g_8E,5,3,The Mooche,228,-9.146083333330001,0,,False,True,False,False,1,,,,,
+KzxGuX-g_8E,5,3,The Mooche,228,-9.14608333333,0,,False,True,False,False,1,,,,,
 0OoEzcTY2Ho,7,1,Evan Christopher - The Mooche (Duke Ellington) - The Duc des Lombards' Sessions #1,413,-194.14608333299998,0,,False,True,False,False,1,,,,,
 kTZQZBG4diY,8,1,The Mooche (Live),354,-135.14608333299998,0,,False,True,False,False,1,,,,,
 tv9lHnXkjOU,8,1,Solitude (1990 Remastered Version),293,-74.1460833333,0,,False,True,False,False,1,,,,,

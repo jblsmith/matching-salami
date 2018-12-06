@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-I4Jk8NIhWrY,0,4,Johnny Too Bad,183,2.91345,0,potential,True,True,False,True,100,137.8,40.2,40.5,920.0,3187.0
 OPP5rlXTo9E,0,3,Johnny Too Bad,191,-5.08655,0,potential,True,True,False,False,7,137.6,0.4,0.4,336.0,1820.0
 y5YDlz44Smc,0,2,Johnny Too Bad,348,-162.08655,0,,True,True,False,False,7,,,,,
 XgkZwUDt98o,1,2,The Slickers- Johnny too bad,190,-4.08655,0,,True,True,True,False,4,,,,,
@@ -25,6 +24,7 @@ a0zertJkPZI,9,2,Johnny Too Bad,237,-51.08655,0,,False,True,False,False,1,,,,,
 Ts9hzzcsUVs,5,1,Say Yuh Bad (Johnny You Too Bad),220,-34.08655,0,,False,True,False,False,1,,,,,
 v0iR5WTL4S8,6,1,The Slickers - Johnny Too Bad (Break Through Version),204,-18.08655,0,,False,True,False,False,1,,,,,
 7Znh0OM9jiA,6,1,Jimmy Cliff - The Harder They Come,193,-7.08655,0,,False,True,False,False,1,,,,,
+I4Jk8NIhWrY,0,4,Johnny Too Bad,183,2.91345,0,potential,True,True,False,True,0,137.8,40.2,40.5,920.0,3187.0
 lRm7j2UL3YY,0,2,The Slickers - Johnny Too Bad,181,4.91345,0,,True,True,False,True,0,,,,,
 eqFWXwZz-sY,8,2,Johnny Too Bad,184,1.91345,0,,False,True,False,True,0,,,,,
 4TZhc76BOcg,11,2,The Slickers - Johnny Too Bad,192,-6.08655,0,,False,False,False,False,0,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-QrWK5XWuGpk,0,5,Derek and the Dominos - Anyday,397,-0.2768,0,match,True,True,True,False,109,380.0,0.5,0.4,6222.0,11099.0
+QrWK5XWuGpk,0,5,Derek and the Dominos - Anyday,397,-0.2768,0,match,True,True,True,False,9,380.0,0.5,0.4,6222.0,11099.0
 yuJMgY8L0dk,0,1,Eric Clapton - Layla And Other Assorted Love Songs - 06 - Anyday,397,-0.2768,0,,True,True,True,False,9,,,,,
 pQ3vPUfZIM8,1,5,Derek And The Dominos - Anyday,398,-1.2768,0,,True,True,True,False,4,,,,,
 jiwktkw_rqE,3,1,"Susan Tedeschi, Derek Truck (Any Day)",397,-0.2768,0,,True,True,True,False,4,,,,,

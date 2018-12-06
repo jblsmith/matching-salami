@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ZmKrD39Q79w,0,5,"Les Négresses Vertes ""Marcelle Ratafia""",191,-0.38446875,0,match,True,True,True,False,109,189.1,0.7,0.5,2891.0,13688.0
+ZmKrD39Q79w,0,5,"Les Négresses Vertes ""Marcelle Ratafia""",191,-0.38446875,0,match,True,True,True,False,9,189.1,0.7,0.5,2891.0,13688.0
 L28We5wbb4s,1,5,Les Négresses Vertes - Marcelle Ratafia,192,-1.38446875,0,,True,True,True,False,4,,,,,
 Y2HdyEdUXHc,3,5,Marcelle Ratafia,191,-0.38446875,0,,True,True,True,False,4,,,,,
 k69MqP51y2I,8,3,Marcelle Ratafia (live Manchester 1989),191,-0.38446875,0,,False,True,True,False,3,,,,,
@@ -36,7 +36,7 @@ BtGJz_Wmfps,9,1,Merci Marcelle#9 - VNR nettoie au Kärcher!,79,111.61553125,0,,F
 1gXXoQJVphw,9,1,La Danse des Négresses Vertes,186,4.61553125,0,,False,True,False,True,0,,,,,
 E1XWfAvB3rc,10,1,Comment identifier les cépages du champagne et du ratafia ?,122,68.61553125,0,,False,False,False,False,0,,,,,
 zuzLtyr_bAs,10,1,Les Négresses Vertes - Mlah Tour 2018 - 2,998,-807.38446875,0,,False,False,False,False,0,,,,,
-2ZaYHmFUu5Y,11,1,Ratafia TV - Segueix la 37a Festa de la Ratafia en directe. #FestaRatafia,18483,-18292.384468700002,0,,False,False,False,False,0,,,,,
+2ZaYHmFUu5Y,11,1,Ratafia TV - Segueix la 37a Festa de la Ratafia en directe. #FestaRatafia,18483,-18292.3844687,0,,False,False,False,False,0,,,,,
 U_KZau9xl_8,12,1,Merci Marcelle - Plus jamais seulâbre,80,110.61553125,0,,False,False,False,False,0,,,,,
 nAnHSxH8sLk,13,1,Naissance d'un Ratafia / Birth of Ratafia,150,40.61553125,0,,False,False,False,False,0,,,,,
 YyKJhta3klM,13,1,"Les Négresses Vertes - Les rablablas, les roubliblis",196,-5.38446875,0,,False,False,False,False,0,,,,,

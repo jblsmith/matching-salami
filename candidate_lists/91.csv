@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-eBD2AY2w07Q,0,1,André Jolivet: Rhapsodie à sept (1957) / Jolivet,1073,-659.19425,0,reject,True,True,False,False,6,,,,,
-F-4DnBxKfzQ,0,1,Conception for trumpet and orchestra,500,-86.19425,0,reject,True,True,False,False,6,,,,,
-Feiq_x724x0,1,1,Jolivet  Rhapsodie à sept (1957),1136,-722.19425,0,reject,True,True,False,False,1,,,,,
-_8nRDFxPCQM,2,1,Rhapsodie à 7: Résolu,407,6.80575,0,reject,True,True,False,False,1,,,,,
-I0N1bEru7DE,3,1,Rhapsodie à 7: Résolu,407,6.80575,0,reject,True,True,False,False,1,,,,,
-ydyAVnPZwHg,4,1,André Jolivet  Ballet des étoiles 1941Ensemble Erwartung  Dir Bernard Desgraupes 1990 Adda 581171,407,6.80575,0,reject,True,True,False,False,1,,,,,
+F-4DnBxKfzQ,0,1,Conception for trumpet and orchestra,500,-86.19425,0,reject,True,True,False,False,7,,,,,
+eBD2AY2w07Q,0,1,André Jolivet: Rhapsodie à sept (1957) / Jolivet,1073,-659.19425,0,reject,True,True,False,False,0,,,,,
+Feiq_x724x0,1,1,Jolivet  Rhapsodie à sept (1957),1136,-722.19425,0,reject,True,True,False,False,0,,,,,
+_8nRDFxPCQM,2,1,Rhapsodie à 7: Résolu,407,6.80575,0,reject,True,True,False,False,0,,,,,
+I0N1bEru7DE,3,1,Rhapsodie à 7: Résolu,407,6.80575,0,reject,True,True,False,False,0,,,,,
+ydyAVnPZwHg,4,1,André Jolivet  Ballet des étoiles 1941Ensemble Erwartung  Dir Bernard Desgraupes 1990 Adda 581171,407,6.80575,0,reject,True,True,False,False,0,,,,,

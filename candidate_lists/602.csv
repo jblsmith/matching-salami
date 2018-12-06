@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-rUtBx3r-acE,0,4,I Said I Wasn't Gonna Tell Nobody,185,0.521666666667,0,match,True,True,False,True,100,178.4,0.4,0.3,3543.0,4146.0
 l6_HO_sRo_c,0,1,Angie Primm - Said I Wasn't Gonna Tell Nobody [Live],395,-209.478333333,0,,True,True,False,False,7,,,,,
 etMrS-ZUJ5s,1,4,Medley,274,-88.4783333333,0,,True,True,False,False,2,,,,,
 LUXBZin7y-w,2,4,Glory Train,238,-52.4783333333,0,,True,True,False,False,2,,,,,
@@ -9,6 +8,7 @@ KNw04iBZnR8,1,1,"""Said I wasn't Gonna tell Nobody"" sung by the Brooklyn Tabern
 LnZdMoemVGU,4,1,Said I Wasn't Gonna Tell Nobody -Alex Bradford,360,-174.478333333,0,,True,True,False,False,2,,,,,
 uDb0sdB9bx8,7,1,Brown Baptist Youth Choir singing Said I Wasn't Gonna Tell Nobody,245,-59.4783333333,0,,False,True,False,False,1,,,,,
 yBGYxwol3cs,8,1,Albion Jazz Band - I Said I Wasn't Gonna Tell Nobody,340,-154.478333333,0,,False,True,False,False,1,,,,,
+rUtBx3r-acE,0,4,I Said I Wasn't Gonna Tell Nobody,185,0.521666666667,0,match,True,True,False,True,0,178.4,0.4,0.3,3543.0,4146.0
 d2sxu9y6BXs,2,1,I Said I Wasn't Gonna Tell Nobody - Gospel Legends Volume 1 Bobby Jones,138,47.5216666667,0,,True,True,False,False,0,,,,,
 NcROPqhzOKA,3,1,Said I Wasn't Gonna Tell Nobody,652,-466.478333333,0,,True,True,False,False,0,,,,,
 w-V_BgQaJpY,5,1,Said I Wasn't Gonna Tell Nobody   Gospel Legends,169,16.5216666667,0,,False,True,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-5V_WWsTYlK8,1,3,Mayeya no juegues con los santos - Septeto Nacional de Ignacio Piñeiro / Discos Fuentes,175,1.64,0,potential,True,True,False,True,100,44.1,115.8,117.1,104.0,527.0
 DGhEN4sn4gg,0,3,"Mayeya,No Juegues Con Los Santos  Septeto Nacional De Ignacio Piñeiro",185,-8.36,0,potential,True,True,False,False,7,44.1,118.0,117.1,112.0,534.0
 7kFJ6cIdjPA,3,3,"Mayeya, No Juegues Con Los Santos",177,-0.36,0,,True,True,True,False,4,,,,,
 sphjsErjpIY,5,3,Mayeya No Juegues Con los Santos,177,-0.36,0,,False,True,True,False,3,,,,,
@@ -11,6 +10,7 @@ XbMBm-TlOVE,6,3,Humberto y Su Son En Taya ft Gilito - Anda No Juegues Con Los Sa
 FK3B6m_ZwTo,5,1,Nostalgia Cubana - Anacaona y Mercedita Valdez - Mayeya no juegues con los Santos,350,-173.36,0,,False,True,False,False,1,,,,,
 uzu3WlOaMSA,7,1,gema y pavel mayeya,365,-188.36,0,,False,True,False,False,1,,,,,
 SwOcVej9_lM,8,1,"Leticia Herrera,Mayeya",330,-153.36,0,,False,True,False,False,1,,,,,
+5V_WWsTYlK8,1,3,Mayeya no juegues con los santos - Septeto Nacional de Ignacio Piñeiro / Discos Fuentes,175,1.64,0,potential,True,True,False,True,0,44.1,115.8,117.1,104.0,527.0
 ghaDBMkavJs,2,3,4Ignacio Piñeiro y Su Septeto Nacional – Mayeya No Juegues con los Santos,173,3.64,0,,True,True,False,True,0,,,,,
 SYUYTFO50pI,6,3,"Septeto Nacional De Ignacio Pineiro - Mayeya, No Juegues Con Los Santos",173,3.64,0,,False,True,False,True,0,,,,,
 18f-AOVR1rM,8,3,"Mayeya, No Juegues Con Los Santos - Original",176,0.64,0,,False,True,False,True,0,,,,,

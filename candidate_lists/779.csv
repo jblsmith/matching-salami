@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 pRBXGp8_sG4,0,3,Kries - Ivo i Mara - 02 Kolende,316,-119.026666667,0,reject,True,True,False,False,7,,,,,
 G1pweh9_8sI,2,1,Dječaci - Stvar sa Sašom iz TBF-a (feat. Suludi Oblak),312,-115.026666667,0,reject,True,True,False,False,2,,,,,
-gHeAEOyf3ZM,4,1,Dalmatino - Cvit od kamena,236,-39.0266666667,0,,True,True,False,False,2,,,,,
-7F0a4VxrWpM,6,1,BOBAN RAJOVIĆ - KIŠA LIJE (OFFICIAL VIDEO),206,-9.02666666667,0,,False,True,False,False,1,,,,,
-0TxIy5viN00,9,1,"JENCARLOS, Llevame al cielo -mixt + letra.HD (srpski u opisu)",216,-19.026666666700002,0,,False,True,False,False,1,,,,,
+gHeAEOyf3ZM,4,1,Dalmatino - Cvit od kamena,236,-39.0266666667,0,reject,True,True,False,False,2,,,,,
+7F0a4VxrWpM,6,1,BOBAN RAJOVIĆ - KIŠA LIJE (OFFICIAL VIDEO),206,-9.02666666667,0,reject,False,True,False,False,1,,,,,
+0TxIy5viN00,9,1,"JENCARLOS, Llevame al cielo -mixt + letra.HD (srpski u opisu)",216,-19.026666666700002,0,reject,False,True,False,False,1,,,,,
 EkmW3uZic4c,0,1,"Padavine, Kiša, Sneg, Grad, Inje, Rosa, Slana, Poledica, kako nastaje ?",94,102.973333333,0,,True,True,False,False,0,,,,,
 ehBB6txA34o,0,1,JUICE COLUCCI LIVE IN PARADISO VICENZA !!!!!! 12.9.2015.,40,156.973333333,0,,True,True,False,False,0,,,,,
 7ML9H1-GE5E,1,1,JENNIE (BLACKPINK) - 'SOLO' LYRICS (Eng/Rom/Han),168,28.973333333299998,0,,True,True,False,False,0,,,,,

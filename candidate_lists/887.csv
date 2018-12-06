@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-u5OyNA5kJrs,0,2,purna das baul  agun pani,281,-2.2735,0,reject,True,True,True,False,109,,,,,
+u5OyNA5kJrs,0,2,purna das baul  agun pani,281,-2.2735,0,reject,True,True,True,False,9,,,,,
 nLzV5l0Enww,0,1,Agun Pani | Asif Akbar | Mousumi Hamid | Bangla new song 2018,346,-67.2735,0,reject,True,True,False,False,7,,,,,
-OzAaxi6qXA8,1,2,purna das baul  agun pani,281,-2.2735,0,,True,True,True,False,4,,,,,
-4oXFxbJ8mNE,3,2,Agun Pani,280,-1.2735,0,,True,True,True,False,4,,,,,
-SsZDVedJpaU,2,2,Purna Das Baul,453,-174.2735,0,,True,True,False,False,2,,,,,
+OzAaxi6qXA8,1,2,purna das baul  agun pani,281,-2.2735,0,reject,True,True,True,False,4,,,,,
+4oXFxbJ8mNE,3,2,Agun Pani,280,-1.2735,0,potential,True,True,True,False,4,137.4,86.8,87.9,92.0,4466.0
+SsZDVedJpaU,2,2,Purna Das Baul,453,-174.2735,0,reject,True,True,False,False,2,,,,,
 7PTuIz3PuUE,11,2,Live show with Baul Samrat Purnadas Baul ji 😊😊😊,282,-3.2735,0,,False,False,True,False,2,,,,,
 AYNwpiQ09Js,1,1,"AB Perez Ft. QBA, Push El Asesino, Nuco, Toser, Maniako & SHow Loko-No Me La Toquen | Video Oficial",356,-77.2735,0,,True,True,False,False,2,,,,,
 wklpJVWL9D0,4,1,Bangla Song | Agun Pani Batash Pani Misaiya | Singer Momtaz | Momtaz Video Song,363,-84.2735,0,,True,True,False,False,2,,,,,

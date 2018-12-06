@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-vt8PNSpie5g,5,2,Placido Domingo - Flower song - Carmen,248,-10.93875,0,match,False,True,False,False,101,229.9,5.0,0.5,2020.0,2134.0
 jNgyhZFkgbo,0,3,"Plácido Domingo - La Fleur Que Tu M'Avais Jetée, Live in Vienna, 1978",408,-170.93875,0,,True,True,False,False,7,,,,,
 knIT3lieJd4,0,2,Luciano Pavarotti - La Fleur Que Tu M'avais Jetée,272,-34.93875,0,,True,True,False,False,7,,,,,
 zLXwaq5j5eQ,1,2,Placido Domingo - La fleur que tu m´avais jetee,239,-1.93875,0,,True,True,True,False,4,,,,,
@@ -10,6 +9,7 @@ V1dafrlt10w,3,2,"Carmen – The Flower Song (Jonas Kaufmann, The Royal Opera)",2
 up1LDob-SNc,4,2,"Placido Domingo - ""La Fleur que tu m'avais jetee""",252,-14.93875,0,,True,True,False,False,2,,,,,
 Hy8-QGmMeO8,2,1,Rolando Villazón - Bizet: La fleur que tu m'avais jetée,256,-18.93875,0,,True,True,False,False,2,,,,,
 txIrDNOJcj8,4,1,La Fleur que tu m'avais jétée - Roberto Alagna (DVD Carmen),266,-28.93875,0,,True,True,False,False,2,,,,,
+vt8PNSpie5g,5,2,Placido Domingo - Flower song - Carmen,248,-10.93875,0,match,False,True,False,False,1,229.9,5.0,0.5,2020.0,2134.0
 X4GHAhrmgeM,8,2,Placido Domingo : La fleur que tu m'avais jetee,506,-268.93875,0,,False,True,False,False,1,,,,,
 g8Q8YoPUt60,9,1,"Jonas Kaufmann; ""La fleur que tu m'avais jetée""; Carmen; Georges Bizet",262,-24.93875,0,,False,True,False,False,1,,,,,
 vHnl29pnSuc,1,3,Plácido Domingo - Bizet - La fleur que tu m'avais jetée - Carmen (Official video),180,57.06125,0,,True,True,False,False,0,,,,,

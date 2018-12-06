@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-41p1Fcq9liI,1,4,Cafe 1930 (from Histoire du Tango),472,3.0366875,0,potential,True,True,False,True,100,379.5,0.5,0.5,3726.0,5084.0
 2HPlrTBoDTA,3,3,Astor Piazzolla - Café 1930 (History of Tango) for Violin and Guitar,497,-21.9633125,0,reject,True,True,False,False,2,,,,,
-l6zr2twSlig,2,2,Astor Piazzolla - Cafe 1930,526,-50.9633125,0,,True,True,False,False,2,,,,,
-u1g8vTHbvVQ,8,2,Gidon Kremer & Kremerata Baltica: Astor Piazzolla - Oblivion,485,-9.9633125,0,,False,True,False,False,1,,,,,
-C7iWzlS_NnY,8,2,2012 Schlern Music Festival - Sergey & Lusine Khachatryan - Piazzolla: Café 1930,586,-110.9633125,0,,False,True,False,False,1,,,,,
-U977i1gnkuE,7,1,Flute & Guitar Music: Cafe 1930 by Astor Piazzola,484,-8.9633125,0,,False,True,False,False,1,,,,,
+l6zr2twSlig,2,2,Astor Piazzolla - Cafe 1930,526,-50.9633125,0,matched_933,True,True,False,False,2,,,,,
+u1g8vTHbvVQ,8,2,Gidon Kremer & Kremerata Baltica: Astor Piazzolla - Oblivion,485,-9.9633125,0,reject,False,True,False,False,1,,,,,
+C7iWzlS_NnY,8,2,2012 Schlern Music Festival - Sergey & Lusine Khachatryan - Piazzolla: Café 1930,586,-110.9633125,0,reject,False,True,False,False,1,,,,,
+U977i1gnkuE,7,1,Flute & Guitar Music: Cafe 1930 by Astor Piazzola,484,-8.9633125,0,reject,False,True,False,False,1,,,,,
 qhGIIV6PCvA,0,4,Cafe 1930 (from Histoire du Tango),472,3.0366875,0,,True,True,False,True,0,,,,,
+41p1Fcq9liI,1,4,Cafe 1930 (from Histoire du Tango),472,3.0366875,0,potential,True,True,False,True,0,379.5,0.5,0.5,3726.0,5084.0
 b6Wl13RJQi4,9,4,History of the Tango(All four movements) -- Astor Piazzolla       Erdong Li & Eric Tsai,1286,-810.9633125,0,,False,True,False,False,0,,,,,
 uAod7jdjXAo,0,3,"Gidon Kremer - Historie Du Tango Cafe 1930, Bandoneón/arrangement: Per Arne Glorvigen",437,38.0366875,0,,True,True,False,False,0,,,,,
 Gg__yDK-0rk,0,3,oblivion -  Gidon Kremer - Astor Piazzolla,374,101.0366875,0,,True,True,False,False,0,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-PMigXnXMhQ4,0,3,"Harry Belafonte - ""Banana Boat Song (Day O)"" - 1956",187,-0.27675,0,potential,True,True,True,False,109,154.2,5.4,4.0,978.0,1348.0
+PMigXnXMhQ4,0,3,"Harry Belafonte - ""Banana Boat Song (Day O)"" - 1956",187,-0.27675,0,potential,True,True,True,False,9,154.2,5.4,4.0,978.0,1348.0
 hpuwILAUgoc,3,5,Day-O The Banana Boat Song,191,-4.27675,0,potential,True,True,True,False,4,138.0,28.6,29.2,581.0,939.0
 6Tou8-Cz8is,1,3,Harry Belafonte - Banana Boat Song (Day-O),190,-3.27675,0,,True,True,True,False,4,,,,,
 0a1GJ1zDEEg,6,2,♪ Harry Belafonte - Day-O (The Banana Boat Song) +Lyrics |,188,-1.27675,0,,False,True,True,False,3,,,,,

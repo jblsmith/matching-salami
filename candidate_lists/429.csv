@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Mg4eOHc3Rpg,0,3,Charlie Parker - Scrapple from the apple,184,-4.068625,0,match,True,True,True,False,109,175.2,0.5,0.2,2224.0,2464.0
+Mg4eOHc3Rpg,0,3,Charlie Parker - Scrapple from the apple,184,-4.068625,0,match,True,True,True,False,9,175.2,0.5,0.2,2224.0,2464.0
 ldBNWA_fYDg,0,2,Yardbird Suite (Play-Along),351,-171.068625,0,,True,True,False,False,7,,,,,
 Df9_76_e_bw,4,2,Charlie Parker - The Gypsy - The Complete Savoy & Dial Master Takes,182,-2.068625,0,,True,True,True,False,4,,,,,
 3TZWn7E2i0I,5,2,Charlie Parker - Relaxin' At Camarillo - The Complete Savoy & Dial Master Takes,182,-2.068625,0,,False,True,True,False,3,,,,,

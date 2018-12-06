@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Qa23_R2gE84,0,1,"Orontea, Act II: Act II Scene 17: Intorno all' idol mio (Orontea)",441,-358.60979166699997,0,reject,True,True,False,False,7,,,,,
 mOy3h8FboGc,1,1,"Cesti : Orontea, opera (Intorno all'idol mio e scena XVII)",430,-347.60979166699997,0,reject,True,True,False,False,2,,,,,
-uQkGJVv_XiU,2,1,"Orontea, Act II, Scene 17: ""Intorno all'idol mio"" (Arranged for Voice and Piano)",188,-105.60979166700001,0,,True,True,False,False,2,,,,,
-ovAswHgtYsI,3,1,"Orontea, Act II: Intorno all'idol mio",210,-127.60979166700001,0,,True,True,False,False,2,,,,,
-8v3zutNlfZY,4,1,"Orontea, Act 2: ""Intorno a l'idol mio"" (Orontea) (Orch. Murez & Langot)",234,-151.609791667,0,,True,True,False,False,2,,,,,
+uQkGJVv_XiU,2,1,"Orontea, Act II, Scene 17: ""Intorno all'idol mio"" (Arranged for Voice and Piano)",188,-105.60979166700001,0,reject,True,True,False,False,2,,,,,
+ovAswHgtYsI,3,1,"Orontea, Act II: Intorno all'idol mio",210,-127.60979166700001,0,reject,True,True,False,False,2,,,,,
+8v3zutNlfZY,4,1,"Orontea, Act 2: ""Intorno a l'idol mio"" (Orontea) (Orch. Murez & Langot)",234,-151.609791667,0,reject,True,True,False,False,2,,,,,
 OQ89JaHQ6LY,5,1,Cesti: Orontea - Intorno all'idol mio,228,-145.609791667,0,,False,True,False,False,1,,,,,
 gtkQN0I05a8,7,1,"Orontea, Act II: Act II Scene 9: Vengo, cor mio (Corindo, Silandra)",131,-48.6097916667,0,,False,True,False,False,1,,,,,
 J1-ubz-w6ks,8,1,Porgi amor / Intorno all'idol mio: Keren Ortiz,455,-372.60979166699997,0,,False,True,False,False,1,,,,,

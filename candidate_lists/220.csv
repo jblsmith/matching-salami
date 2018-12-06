@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 TAUY4jA1jgM,0,3,Gracieusette - Cotton-eyed Joe,227,-102.99670833299999,0,reject,True,True,False,False,7,,,,,
 fct3nNUty8Q,0,1,Gracieusette / Cotton-Eyed Joe,227,-102.99670833299999,0,reject,True,True,False,False,7,,,,,
-WFcIA-b32yA,0,1,Jehan de Lescurel: Abundance de felonnie,306,-181.996708333,0,,True,True,False,False,7,,,,,
-fyV2waeVo2c,1,1,Jehan de Lescurel - Gracïeusette,154,-29.9967083333,0,,True,True,False,False,2,,,,,
-NNqP8PwlzvE,2,1,Bransles,188,-63.9967083333,0,,True,True,False,False,2,,,,,
+WFcIA-b32yA,0,1,Jehan de Lescurel: Abundance de felonnie,306,-181.996708333,0,reject,True,True,False,False,7,,,,,
+fyV2waeVo2c,1,1,Jehan de Lescurel - Gracïeusette,154,-29.9967083333,0,reject,True,True,False,False,2,,,,,
+NNqP8PwlzvE,2,1,Bransles,188,-63.9967083333,0,reject,True,True,False,False,2,,,,,
 wefkk0io9vg,2,1,Jehannot de Lescurel   Abundance de Felonnie,171,-46.9967083333,0,,True,True,False,False,2,,,,,
 W4KeLzjzRaU,3,1,Contre Le Temps / Back-Door Man,336,-211.996708333,0,,True,True,False,False,2,,,,,
 3tuimFE3yig,3,1,"Jehan de Lescurel: Amour, voulés-vous accorder",280,-155.996708333,0,,True,True,False,False,2,,,,,

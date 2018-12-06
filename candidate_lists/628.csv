@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-OHgFs4Oxuc4,0,3,The Drifters - Money Honey,177,-0.0204,0,potential,True,True,True,False,109,44.9,111.4,110.1,134.0,538.0
+OHgFs4Oxuc4,0,3,The Drifters - Money Honey,177,-0.0204,0,potential,True,True,True,False,9,44.9,111.4,110.1,134.0,538.0
 fn-VA-ywtPU,0,1,Money Honey (FULL VIDEO) Aardee I Rupan Bal I Latest Punjabi Song 2018 l Saaz Records,236,-59.0204,0,reject,True,True,False,False,7,,,,,
-Zj2cK8wymIA,0,1,Cardi B - Money (Official Audio),184,-7.0204,0,,True,True,False,False,7,,,,,
-N8oNHMNCSjQ,1,2,Clyde McPhatter & The Drifters - Money Honey (1953),177,-0.0204,0,,True,True,True,False,4,,,,,
+Zj2cK8wymIA,0,1,Cardi B - Money (Official Audio),184,-7.0204,0,reject,True,True,False,False,7,,,,,
+N8oNHMNCSjQ,1,2,Clyde McPhatter & The Drifters - Money Honey (1953),177,-0.0204,0,potential,True,True,True,False,4,117.5,23.4,21.5,120.0,481.0
 t894PfkoNHE,2,2,"THE DRIFTERS - ""MONEY HONEY""  (1953)",177,-0.0204,0,,True,True,True,False,4,,,,,
 W-Y0gUW5rc0,4,2,Money Honey by Clyde McPhatter and The Drifters,178,-1.0204,0,,True,True,True,False,4,,,,,
 lTgTtvO8cCY,1,1,Money Honey,181,-4.0204,0,,True,True,True,False,4,,,,,

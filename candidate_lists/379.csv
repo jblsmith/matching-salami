@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-QlXhHQQFCfk,0,4,Horizon,208,0.326208333333,0,match,True,True,False,True,100,200.9,0.7,0.7,4017.0,4430.0
 ZsYKC0fn4y0,2,3,Video Game Horizon,211,-2.67379166667,0,,True,True,True,False,4,,,,,
 d1WdbJ23vv4,7,3,Kill the Dog Next Door,212,-3.67379166667,0,,False,True,True,False,3,,,,,
 T5Xx3MdqdgM,1,1,Horizon Zero Dawn - E3 2016 Gameplay Video | Only on PS4,517,-308.673791667,0,,True,True,False,False,2,,,,,
@@ -12,6 +11,7 @@ JW9DnG0BjWs,6,1,Cannabis récréatif SQDC #12: Houndstooth (Candyland),477,-268.
 BlbtlEhRk1I,7,1,DJI Focus Handwheel unboxing test,599,-390.673791667,0,,False,True,False,False,1,,,,,
 DvBcGbiEPYQ,8,1,Gratin de crozets jambon comté- recette thermomix tm5,296,-87.6737916667,0,,False,True,False,False,1,,,,,
 Lu80_7KYXOo,9,1,"Seven Lions, Tritonal & Kill The Noise feat. HALIENE - Horizon",271,-62.6737916667,0,,False,True,False,False,1,,,,,
+QlXhHQQFCfk,0,4,Horizon,208,0.326208333333,0,match,True,True,False,True,0,200.9,0.7,0.7,4017.0,4430.0
 7BOeiY90PLQ,0,4,Arrogant worms - C'est Cheese - full album,2422,-2213.67379167,0,,True,True,False,False,0,,,,,
 xgun4yFSsuU,3,4,History is Made by Stupid People,159,49.3262083333,0,,True,True,False,False,0,,,,,
 KDu_oHvTGCc,2,3,Dangerous,169,39.3262083333,0,,True,True,False,False,0,,,,,

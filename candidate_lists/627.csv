@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-kHQiYI6Rj8o,0,3,Aretha Franklin - Try Matty's,149,-0.859625,0,match,True,True,True,False,109,141.1,5.2,5.2,649.0,720.0
+kHQiYI6Rj8o,0,3,Aretha Franklin - Try Matty's,149,-0.859625,0,match,True,True,True,False,9,141.1,5.2,5.2,649.0,720.0
 1bGRtL3fspo,1,3,Aretha Franklin - Try Matty's,150,-1.859625,0,,True,True,True,False,4,,,,,
 OI7cc5hcpYU,3,3,Try Matty's,152,-3.859625,0,,True,True,True,False,4,,,,,
 7aC0KaDgeRY,4,3,Try Matty's,152,-3.859625,0,,True,True,True,False,4,,,,,

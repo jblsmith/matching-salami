@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 XZHF6SDWtU8,1,4,Buena Vista Social Club - El Cuarto de Tula,448,-179.487375,0,matched_819,True,True,False,False,2,,,,,
 82vTpMHyLBA,3,3,"Caballo Viejo - Army Field Band (Jazz Ambassadors ""Son Tropical"")",319,-50.487375,0,reject,True,True,False,False,2,,,,,
-UXMyK6hbQZc,5,3,AfroCubism - 'Al vaiven de mi caretta',304,-35.487375,0,,False,True,False,False,1,,,,,
-6xNhmr734v4,5,1,World Music a Global Journey Track 9: Soneros Son / Afro-Cuban Son,286,-17.487375,0,,False,True,False,False,1,,,,,
-Qx6Ml3MlsGQ,5,1,Cuban Son - Son de la Loma,291,-22.487375,0,,False,True,False,False,1,,,,,
+UXMyK6hbQZc,5,3,AfroCubism - 'Al vaiven de mi caretta',304,-35.487375,0,reject,False,True,False,False,1,,,,,
+6xNhmr734v4,5,1,World Music a Global Journey Track 9: Soneros Son / Afro-Cuban Son,286,-17.487375,0,reject,False,True,False,False,1,,,,,
+Qx6Ml3MlsGQ,5,1,Cuban Son - Son de la Loma,291,-22.487375,0,reject,False,True,False,False,1,,,,,
 yqdWaWAlZ0s,6,1,Orishas - Cuba Isla Bella (Official Video),321,-52.487375,0,,False,True,False,False,1,,,,,
 nT7NwmRNyec,6,1,Los 5 Del Son - Idilio,447,-178.487375,0,,False,True,False,False,1,,,,,
 k8CnNWtfr9s,7,1,Los 5 Del Son - Costumbres,345,-76.487375,0,,False,True,False,False,1,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-4jKix2DFlnA,2,1,Rolling Stones Factory Girl (Live),150,17.7061,0,potential,True,True,False,False,100,147.7,0.9,0.4,1537.0,1714.0
 f0CeVPI27JE,0,2,The Rolling Stones - Flashpoint - Factory Girl,168,-0.2939,0,match,True,True,True,False,9,165.5,0.3,0.1,1732.0,1915.0
 OpYxVPDV91I,1,1,Factory Girl (Live / Remastered 2009),168,-0.2939,0,,True,True,True,False,4,,,,,
 Z3ohHIfOkJ8,2,2,"Glastonbury Girl The Rolling Stones, lyrics, subtítulos en español, live",200,-32.2939,0,,True,True,False,False,2,,,,,
@@ -29,6 +28,7 @@ pU1QPI7ezOY,17,2,rolling stones factory girl,155,12.7061,0,,False,False,False,Fa
 gKnUqVOyhSQ,18,2,Giuseppe Grasso - Factory Girl - The Rolling Stones,145,22.7061,0,,False,False,False,False,0,,,,,
 AlZ1o1EIA9s,0,1,The Rolling Stones - Factory Girl (Official Lyric Video),131,36.7061,0,,True,True,False,False,0,,,,,
 SQB6BrlUZQc,0,1,Rolling Stones 50 & Counting #10,23,144.7061,0,,True,True,False,False,0,,,,,
+4jKix2DFlnA,2,1,Rolling Stones Factory Girl (Live),150,17.7061,0,potential,True,True,False,False,0,147.7,0.9,0.4,1537.0,1714.0
 gwt2y7wNTKg,6,1,Factory Girl - Rolling Stones,134,33.7061,0,,False,True,False,False,0,,,,,
 Kl5dTF4rMlM,7,1,Rolling Stones - Factory girl (+ Russian  movie),131,36.7061,0,,False,True,False,False,0,,,,,
 lbdDEgZd1mk,7,1,"Factory Girl,The Rolling Stones",132,35.7061,0,,False,True,False,False,0,,,,,

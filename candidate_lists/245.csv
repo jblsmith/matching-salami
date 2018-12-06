@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-PKoEYfMEyxE,0,5,Gregorian Chant for Good Friday: Responsorium Graduale,247,-0.325708333333,0,match,True,True,True,False,109,237.3,2.1,2.2,2670.0,3956.0
+PKoEYfMEyxE,0,5,Gregorian Chant for Good Friday: Responsorium Graduale,247,-0.325708333333,0,match,True,True,True,False,9,237.3,2.1,2.2,2670.0,3956.0
 L4L33OWlmKA,1,3,Gregorian Chant for Good Friday: Responsorium-Graduale: Christus factus est,249,-2.32570833333,0,,True,True,True,False,4,,,,,
 lQkk0nEWgj0,7,3,In passione e morte domini: Responsorium - Graduale. Christus factus est,249,-2.32570833333,0,,False,True,True,False,3,,,,,
 3hrxAwIrp8U,3,3,Gregorian Chant for Good Friday: Improperia: Popule meus,305,-58.3257083333,0,,True,True,False,False,2,,,,,

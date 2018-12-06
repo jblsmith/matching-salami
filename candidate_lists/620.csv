@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 tN7oG4Fg1PY,0,2,Otis Redding - Chain Gang,179,-1.315125,0,reject,True,True,True,False,9,,,,,
 8akJBtulVvQ,1,2,Otis redding   chain gang,181,-3.315125,0,potential,True,True,True,False,4,152.9,0.3,0.1,1282.0,2642.0
-yFYit7O-4Ek,2,2,Chain Gang,180,-2.315125,0,,True,True,True,False,4,,,,,
+yFYit7O-4Ek,2,2,Chain Gang,180,-2.315125,0,potential,True,True,True,False,4,149.4,0.3,0.1,1227.0,2537.0
 b38XPR45rF4,4,2,Otis Redding - Chain Gang,181,-3.315125,0,,True,True,True,False,4,,,,,
 hrcUNChhOP0,4,2,Aretha Franklin   Chain of Fools,180,-2.315125,0,,True,True,True,False,4,,,,,
 radFwHzD-PM,2,1,Pretenders - Back On The Chain Gang (1982),223,-45.315125,0,,True,True,False,False,2,,,,,

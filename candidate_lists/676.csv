@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-H315jc_iHcI,0,5,The Loner - Neil Young,230,3.82,0,potential,True,True,False,True,100,152.6,16.8,17.0,1101.0,2933.0
 6gcPdeL4Dnc,0,1,Gary Moore - The Loner [HD],278,-44.18,0,reject,True,True,False,False,7,,,,,
-tsbZH1VEJ6I,1,4,Neil Young  - The Loner  ( Sub - Español ),366,-132.18,0,,True,True,False,False,2,,,,,
-X7oAKUIToqo,2,4,Neil Young & Crazy Horse - The Loner,298,-64.18,0,,True,True,False,False,2,,,,,
-OMrLaZffeOI,2,4,Neil Young The Loner Live 2002,248,-14.18,0,,True,True,False,False,2,,,,,
-j4xQj__3qFM,4,4,Neil Young - The Loner 1968 Live at Canterbury House,284,-50.18,0,,True,True,False,False,2,,,,,
+tsbZH1VEJ6I,1,4,Neil Young  - The Loner  ( Sub - Español ),366,-132.18,0,reject,True,True,False,False,2,,,,,
+X7oAKUIToqo,2,4,Neil Young & Crazy Horse - The Loner,298,-64.18,0,reject,True,True,False,False,2,,,,,
+OMrLaZffeOI,2,4,Neil Young The Loner Live 2002,248,-14.18,0,reject,True,True,False,False,2,,,,,
+j4xQj__3qFM,4,4,Neil Young - The Loner 1968 Live at Canterbury House,284,-50.18,0,reject,True,True,False,False,2,,,,,
 wiWGBc96kJ0,16,4,Neil Young - The Loner [Vinyl Spin],238,-4.18,0,,False,False,True,False,2,,,,,
 OAeQjuTVmbU,1,1,Gary Moore - The Loner,360,-126.18,0,,True,True,False,False,2,,,,,
 9e9AyDXx19Q,3,1,Gary Moore - The Loner Cover,252,-18.18,0,,True,True,False,False,2,,,,,
@@ -15,6 +14,7 @@ XLbIbrKVGSk,6,1,Loner - Motivational Video,244,-10.18,0,,False,True,False,False,
 AqzYkAgAogU,7,1,Gary Moore - The Loner (Backing Track),280,-46.18,0,,False,True,False,False,1,,,,,
 EcPM-a3fiI4,8,1,[Jack Thammarat] “The Loner” - A Tribute To Gary Moore,278,-44.18,0,,False,True,False,False,1,,,,,
 H4alJduU4Wo,9,1,RW - The Loner (Backing Tracks),281,-47.18,0,,False,True,False,False,1,,,,,
+H315jc_iHcI,0,5,The Loner - Neil Young,230,3.82,0,potential,True,True,False,True,0,152.6,16.8,17.0,1101.0,2933.0
 rX5bDqk7Qmo,2,4,The Loner (Remastered),232,1.82,0,,True,True,False,True,0,,,,,
 2lhSWLImJeU,6,4,Neil Young - The loner (lyrics on clip),230,3.82,0,,False,True,False,True,0,,,,,
 weuwOQoyVOg,6,4,Ty Segall - The Loner (Neil Young),214,19.82,0,,False,True,False,False,0,,,,,

@@ -1,7 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-foZEWL4PpqQ,7,4,Dizzy Gillespie and His Orchestra - Cool Breeze,166,2.07185,0,potential,False,True,False,True,100,78.6,57.4,57.3,52.0,616.0
 wxCyuU1Fo3s,0,1,Big Youth - Cool Breeze,213,-44.92815,0,reject,True,True,False,False,7,,,,,
-bRQEq2UvuMQ,1,3,Dizzy Gillespie & His Orchestra - Cool Breeze - 1947,203,-34.92815,0,,True,True,False,False,2,,,,,
+bRQEq2UvuMQ,1,3,Dizzy Gillespie & His Orchestra - Cool Breeze - 1947,203,-34.92815,0,potential,True,True,False,False,2,120.2,20.2,15.2,72.0,695.0
 DDa_seifR3A,4,3,Dizzy Gillespie Orchestra - Cool Breeze,520,-351.92815,0,,True,True,False,False,2,,,,,
 tpZQTy2JqiQ,4,3,Dizzy Gillespie & Lee Morgan - 1958 – Dizzy In Greece - 06 Cool Breeze,298,-129.92815,0,,True,True,False,False,2,,,,,
 Gy9Fun9CuZ4,1,1,Cool Breeze (feat. OutKast & GOODIE MOB) - Watch For The Hook (Official Music Video),271,-102.92815,0,,True,True,False,False,2,,,,,
@@ -22,6 +21,7 @@ muajm5EByCs,8,1,Cool Breeze,293,-124.92815,0,,False,True,False,False,1,,,,,
 qQvrc74jTck,9,1,Dizzy Gillespie - Coast to coast,196,-27.92815,0,,False,True,False,False,1,,,,,
 p2BBreCDAGI,0,4,Dizzy Gillespie - Cool breeze,627,-458.92815,0,,True,True,False,False,0,,,,,
 ZNQi9-wau6U,4,4,Dizzy Gillespie Orchestra - Cool breeze,623,-454.92815,0,,True,True,False,False,0,,,,,
+foZEWL4PpqQ,7,4,Dizzy Gillespie and His Orchestra - Cool Breeze,166,2.07185,0,potential,False,True,False,True,0,78.6,57.4,57.3,52.0,616.0
 Yq4o3qIgMgQ,0,3,Dizzy Gillespie And His Orchestra   Cool Breeze,642,-473.92815,0,,True,True,False,False,0,,,,,
 QjekWmDtRIE,0,3,Dizzy Gillespie Big Band In South America - Cool Breeze,640,-471.92815,0,,True,True,False,False,0,,,,,
 tUpf5GPIoOQ,3,3,Cool Breeze,168,0.07185,0,,True,True,False,True,0,,,,,

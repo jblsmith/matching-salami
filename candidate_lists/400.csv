@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-H4s9R8vYx1Y,0,5,Laurindo Almeida & The Danzaneros - Big Town,164,0.25795,0,match,True,True,False,True,100,158.5,0.6,0.5,1494.0,1623.0
 gbmF8GpBQzg,6,2,Big Town,165,-0.74205,0,,False,True,True,False,3,,,,,
 wCy08tcVg5I,3,2,Count Basie - From Russia With Love,257,-92.74205,0,,True,True,False,False,2,,,,,
 WQFq7PTsAzw,10,2,"Laurindo Almeida, The Danzaneros - The Suspense Cha Cha",166,-1.74205,0,,False,False,True,False,2,,,,,
@@ -9,6 +8,7 @@ xdM3q7H30Qo,18,1,No Hesitation - Storm Millian [@StormMillian] Prouced By Wisper
 MMoOyjK7LKc,6,2,The Woman,187,-22.74205,0,,False,True,False,False,1,,,,,
 fJspIfHuNkM,7,2,Leroy Holmes - Search For Vulcan,173,-8.74205,0,,False,True,False,False,1,,,,,
 zjAGJDzSDYE,8,1,Greighwolfe - Big Town,172,-7.74205,0,,False,True,False,False,1,,,,,
+H4s9R8vYx1Y,0,5,Laurindo Almeida & The Danzaneros - Big Town,164,0.25795,0,match,True,True,False,True,0,158.5,0.6,0.5,1494.0,1623.0
 7CCgK4jGycU,1,5,The Big Town (Remastered),164,0.25795,0,,True,True,False,True,0,,,,,
 6UvoTrD20jU,1,3,"Laurindo Almeida, The Danzaneros - Big Town",164,0.25795,0,,True,True,False,True,0,,,,,
 BOUHvP38Tmw,2,3,Big Town,164,0.25795,0,,True,True,False,True,0,,,,,

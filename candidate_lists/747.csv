@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-nzZ8LrqMvB0,1,3,Al Mouaad,234,-0.5733333333330001,0,match,True,True,True,False,104,228.4,0.2,0.1,4308.0,9960.0
 aWpU1NdjB2E,0,5,Al Mouaad,234,-0.5733333333330001,0,,True,True,True,False,9,,,,,
 mDW-nPkZuSM,0,5,Bellydance Beats -  al mouaad,234,-0.5733333333330001,0,,True,True,True,False,9,,,,,
 uqtNfg285dE,2,5,Al mouaad,234,-0.5733333333330001,0,,True,True,True,False,4,,,,,
+nzZ8LrqMvB0,1,3,Al Mouaad,234,-0.5733333333330001,0,match,True,True,True,False,4,228.4,0.2,0.1,4308.0,9960.0
 dT4yOKnT52I,3,3,L7a9d - Walou  (Clip Officiel) 2014,302,-68.5733333333,0,,True,True,False,False,2,,,,,
 ULg5EESZ0uo,3,3,saad ibn mouaad al ansary,296,-62.5733333333,0,,True,True,False,False,2,,,,,
 GJ5OISsfDYI,13,3,Halaqua: La science de moustalah al hadith - Cheikh Said Abou Mouaad,236,-2.57333333333,0,,False,False,True,False,2,,,,,

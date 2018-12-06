@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7jRxpgELtPw,0,2,Rage Against The Machine-New Millenium Homes,225,-0.137958333333,0,match,True,True,True,False,109,220.3,0.2,0.1,2865.0,3696.0
 fl6D9TtkFBQ,0,5,New Millennium Homes,225,-0.137958333333,0,,True,True,True,False,9,,,,,
+7jRxpgELtPw,0,2,Rage Against The Machine-New Millenium Homes,225,-0.137958333333,0,match,True,True,True,False,9,220.3,0.2,0.1,2865.0,3696.0
 lRm4I5Q4MmM,2,3,New Millenium Homes - Rage Against The Machine cover by Spankerz,226,-1.1379583333299998,0,,True,True,True,False,4,,,,,
 -6qDCaeAlfM,4,3,Maria,228,-3.13795833333,0,,True,True,True,False,4,,,,,
 3VZeZ-QK2ao,1,2,Rage Against the Machine - New Millennium Homes,225,-0.137958333333,0,,True,True,True,False,4,,,,,
@@ -11,7 +11,7 @@ I9E5XZsE-Jk,7,2,Rage Against The Machine - New Millenium Homes,226,-1.1379583333
 qBHEmgAqtgY,8,2,RATM - New Millennium Homes (studio version),225,-0.137958333333,0,,False,True,True,False,3,,,,,
 tgaAYb4C--8,5,1,New Millennium Homes - Rage against the machine - The battle of Los Angeles,227,-2.13795833333,0,,False,True,True,False,3,,,,,
 _A-0xwOYbgc,9,1,new millennium homes,225,-0.137958333333,0,,False,True,True,False,3,,,,,
-qm7ych5qH14,1,4,"Rage Against The Machine - Testify - Live At Finsbury Park, London / 2010",234,-9.137958333330001,0,,True,True,False,False,2,,,,,
+qm7ych5qH14,1,4,"Rage Against The Machine - Testify - Live At Finsbury Park, London / 2010",234,-9.13795833333,0,,True,True,False,False,2,,,,,
 Q_MgVl2FFzk,3,2,Rage Against the Machine: Killing in the Name (Good Song),315,-90.1379583333,0,,True,True,False,False,2,,,,,
 skVAw1NkuYA,4,2,Rage Against the Machine - Clampdown 1991,244,-19.1379583333,0,,True,True,False,False,2,,,,,
 D6-qmIy4Ero,10,1,Rage Against the Machine - New Millennium Homes (HQ Guitar Cover) [HD] with tabs,226,-1.1379583333299998,0,,False,False,True,False,2,,,,,
@@ -49,7 +49,7 @@ qXCFYrnD_a0,13,1,RATM - No Shelter,246,-21.1379583333,0,,False,False,False,False
 NK6J4elXKXw,13,1,The Narrows (Demo),276,-51.1379583333,0,,False,False,False,False,0,,,,,
 5YUPjZCZ5XI,14,1,Settle For Nothing,287,-62.1379583333,0,,False,False,False,False,0,,,,,
 2TJQfMuNacs,14,1,"Know Your Enemy (Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000)",318,-93.1379583333,0,,False,False,False,False,0,,,,,
-5t3LuT0RJ3s,15,1,Rage Against The Machine - New Millenium Homes,234,-9.137958333330001,0,,False,False,False,False,0,,,,,
+5t3LuT0RJ3s,15,1,Rage Against The Machine - New Millenium Homes,234,-9.13795833333,0,,False,False,False,False,0,,,,,
 9GV0Y-emgxY,15,1,Voice of the Voiceless,152,72.8620416667,0,,False,False,False,False,0,,,,,
 sPq8uwEa45k,16,1,New Millenium Homes by Rage Against The Machine (Cover),265,-40.1379583333,0,,False,False,False,False,0,,,,,
 hWMhWhuD_Mo,16,1,"Bulls on Parade (Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000)",318,-93.1379583333,0,,False,False,False,False,0,,,,,

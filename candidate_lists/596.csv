@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 EE3Ms93Egrc,0,3,Mahalia Jackson - It's So Wonderful (to Know That Jesus is Mine),189,-9.5388,0,reject,True,True,False,False,7,,,,,
 oU6qoZSkkH8,2,2,Mahalia Jackson - Wait Until My Change Comes,181,-1.5388,0,reject,True,True,True,False,4,,,,,
-bjsLhEdWaT8,5,2,To Me It's So Wonderful,182,-2.5388,0,,False,True,True,False,3,,,,,
-8VjVt0kUh7s,5,1,"To Me, It's Wonderful",184,-4.5388,0,,False,True,True,False,3,,,,,
-5RFKYIISwEo,1,3,To Me Its So Wonderful lyrics - special singing,436,-256.5388,0,,True,True,False,False,2,,,,,
+bjsLhEdWaT8,5,2,To Me It's So Wonderful,182,-2.5388,0,potential,False,True,True,False,3,123.2,45.8,45.7,346.0,685.0
+8VjVt0kUh7s,5,1,"To Me, It's Wonderful",184,-4.5388,0,reject,False,True,True,False,3,,,,,
+5RFKYIISwEo,1,3,To Me Its So Wonderful lyrics - special singing,436,-256.5388,0,reject,True,True,False,False,2,,,,,
 f7lTpVg5eAE,4,3,To Me Its So Wonderful,187,-7.5388,0,,True,True,False,False,2,,,,,
 3u1X1P3SqF4,4,3,"Wesley Pritchard, Tanya Goodman Sykes, Jeanne Johnson, Jake Hess - To Me It's So Wonderful [Live]",205,-25.5388,0,,True,True,False,False,2,,,,,
 RKBiqCa23ew,2,2,Mahalia Jackson in concert part 7 To me it's wonderful,236,-56.5388,0,,True,True,False,False,2,,,,,

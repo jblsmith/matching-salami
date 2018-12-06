@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-2WZiQXPVWho,0,5,Tracy Chapman - Subcity (1989),314,-1.41875,0,match,True,True,True,False,109,309.5,0.5,0.7,2995.0,11913.0
+2WZiQXPVWho,0,5,Tracy Chapman - Subcity (1989),314,-1.41875,0,match,True,True,True,False,9,309.5,0.5,0.7,2995.0,11913.0
 A0-DBWBs6zo,1,5,Tracy Chapman - Subcity (1989),315,-2.41875,0,,True,True,True,False,4,,,,,
 36YzN_pahM8,3,5,SubCity Tracy Chapman,315,-2.41875,0,,True,True,True,False,4,,,,,
 QEMBo24TX4I,6,5,Tracy Chapman- Subcity,315,-2.41875,0,,False,True,True,False,3,,,,,

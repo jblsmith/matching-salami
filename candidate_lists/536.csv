@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
--x-S-HzntaY,0,3,"Nevada City, Californea",402,-0.288958333333,0,potential,True,True,True,False,109,380.0,0.4,0.4,5148.0,38331.0
+-x-S-HzntaY,0,3,"Nevada City, Californea",402,-0.288958333333,0,potential,True,True,True,False,9,380.0,0.4,0.4,5148.0,38331.0
 dtFAey_fwhE,1,2,Utah Phillips with Nancy Spencer -Opera and Nevada Jane,525,-123.288958333,0,reject,True,True,False,False,2,,,,,
-ZGDCcI4WL8A,6,2,Utah Phillips,418,-16.2889583333,0,,False,True,False,False,1,,,,,
-34HdeEe6cHI,7,2,"Utah's Place, A Legacy",517,-115.288958333,0,,False,True,False,False,1,,,,,
-Rg8ov0ffixM,7,1,"DESTINATION POKEMON GO! Covered Bridge at South Yuba River State Park Near Yuba City, California!",430,-28.2889583333,0,,False,True,False,False,1,,,,,
+ZGDCcI4WL8A,6,2,Utah Phillips,418,-16.2889583333,0,reject,False,True,False,False,1,,,,,
+34HdeEe6cHI,7,2,"Utah's Place, A Legacy",517,-115.288958333,0,reject,False,True,False,False,1,,,,,
+Rg8ov0ffixM,7,1,"DESTINATION POKEMON GO! Covered Bridge at South Yuba River State Park Near Yuba City, California!",430,-28.2889583333,0,reject,False,True,False,False,1,,,,,
 WYgyOA2wHvA,2,2,Nevada Jane,159,242.71104166700002,0,,True,True,False,False,0,,,,,
 Z--U4HZdaFU,2,2,Utah Phillips Interview: Homeless Shelter a Real Lifesaver,396,5.711041666669999,0,,True,True,False,False,0,,,,,
 45zEo2Nz5Ac,4,2,"Utah Phillips ""Serving Humanity Through Music""",112,289.711041667,0,,True,True,False,False,0,,,,,

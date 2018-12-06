@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-SuHC4h2w64U,1,3,"Requiem, Op.48 (1993 Remastered Version) : VI. Libera me",266,0.187791666667,0,match,True,True,False,True,100,261.4,4.6,4.6,2934.0,3112.0
 IRRMTbAne20,0,2,"Fauré - Requiem, Op. 48 - Libera Me",278,-11.8122083333,0,,True,True,False,False,7,,,,,
 RRbt3p_pa7s,5,2,"Faure , Requiem, Op 48, Libera me, Soprano, Voice over",269,-2.81220833333,0,,False,True,True,False,3,,,,,
 7WvHDrcA084,7,2,"Faure Requiem - Libera me - David Bizic, Accentus, Laurence Equilbey",270,-3.81220833333,0,,False,True,True,False,3,,,,,
@@ -15,6 +14,7 @@ YuY3SfGm5L4,7,3,"Requiem, Op.48 (1993 Remastered Version) : II. Offertoire",488,
 yQAfZaKqe-I,6,2,Fauré - Requiem - Libera me,274,-7.812208333330001,0,,False,True,False,False,1,,,,,
 _YWrzxYHEXQ,8,1,"José van Dam; ""Libera me""; Requiem; Op. 48; Gabriel Fauré",373,-106.81220833299999,0,,False,True,False,False,1,,,,,
 nYC2uyxSC60,0,5,"Gabriel Fauré - Requiem in D minor, Op. 48 (complete)",2135,-1868.81220833,0,,True,True,False,False,0,,,,,
+SuHC4h2w64U,1,3,"Requiem, Op.48 (1993 Remastered Version) : VI. Libera me",266,0.187791666667,0,match,True,True,False,True,0,261.4,4.6,4.6,2934.0,3112.0
 7bQRcfdybNc,2,3,"Requiem, Op.48 (1993 Remastered Version) : VII. In Paradisum",224,42.1877916667,0,,True,True,False,False,0,,,,,
 m7eK8TuAmeE,3,3,"Requiem, Op.48 (1993 Remastered Version) : IV. Pie Jesu",241,25.1877916667,0,,True,True,False,False,0,,,,,
 Wo_9bt_NWfs,6,3,"Requiem, Op.48 (1993 Remastered Version) : III. Sanctus",205,61.1877916667,0,,False,True,False,False,0,,,,,

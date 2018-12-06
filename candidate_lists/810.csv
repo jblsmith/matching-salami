@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XzQSNJBozNY,0,5,Georges Brassens - Rien À Jeter,240,-1.13333333333,0,match,True,True,True,False,109,228.7,0.3,0.4,1957.0,2259.0
+XzQSNJBozNY,0,5,Georges Brassens - Rien À Jeter,240,-1.13333333333,0,match,True,True,True,False,9,228.7,0.3,0.4,1957.0,2259.0
 25EdKQcPGNs,1,5,Georges Brassens - Rien à jeter,239,-0.133333333333,0,,True,True,True,False,4,,,,,
 yX9e-3sFGlk,2,5,Rien à jeter,240,-1.13333333333,0,,True,True,True,False,4,,,,,
 KJL1guoz5ZQ,4,3,Rien à jeter,241,-2.13333333333,0,,True,True,True,False,4,,,,,

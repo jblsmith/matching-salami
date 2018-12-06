@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-f5Hbh_-IRs8,4,3,West End Blues - Louis Armstrong,260,-2.43265,0,potential,True,True,True,False,104,196.6,7.2,2.4,389.0,822.0
+f5Hbh_-IRs8,4,3,West End Blues - Louis Armstrong,260,-2.43265,0,potential,True,True,True,False,4,196.6,7.2,2.4,389.0,822.0
 Ojs6_2pZVME,10,3,Louis Armstrong - West End Blues (High Quality - Remastered),258,-0.43265,0,match,False,False,True,False,2,247.6,0.2,2.3,1300.0,1425.0
 nym81fzg-To,5,3,Wynton Marsallis - West End Blues - Jon Faddis - 8/17/1990 - Newport Casino (Official),306,-48.43265,0,,False,True,False,False,1,,,,,
 Cw3rdEadW6s,5,3,Superband - West End Blues,318,-60.43265,0,,False,True,False,False,1,,,,,

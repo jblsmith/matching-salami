@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-q81Rt1isA5c,6,2,Bogle Dance,181,-4.1249375,0,potential,False,True,True,False,103,134.1,1.4,2.6,111.0,5215.0
 XAFjEV-6eiY,0,3,Buju Banton - Bogle [Best Quality],220,-43.1249375,0,potential,True,True,False,False,7,135.3,1.0,1.2,84.0,6290.0
 EmQMZvds680,0,3,Buju Banton - Bogle,221,-44.1249375,0,,True,True,False,False,7,,,,,
 x5fX0CdESMk,0,1,Vanguard Founder Jack Bogle's Market Forecast,372,-195.1249375,0,,True,True,False,False,7,,,,,
+q81Rt1isA5c,6,2,Bogle Dance,181,-4.1249375,0,potential,False,True,True,False,3,134.1,1.4,2.6,111.0,5215.0
 -aPSmONzXPs,9,1,"Buju Banton ""Too Bad""",179,-2.1249375,0,,False,True,True,False,3,,,,,
 ZUYIxs1We9o,1,3,Buju Banton   Bogle,222,-45.1249375,0,,True,True,False,False,2,,,,,
 6ygzDLa6wXE,1,2,Mr Wackey - Bogle Dance,182,-5.1249375,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Tg66IYsZJwQ,0,3,Hicaz Dolap - Esin Engin & Orchestra - Arabic Music,214,-0.36529166666699997,0,match,True,True,True,False,109,207.4,0.6,0.5,3634.0,4179.0
+Tg66IYsZJwQ,0,3,Hicaz Dolap - Esin Engin & Orchestra - Arabic Music,214,-0.365291666667,0,match,True,True,True,False,9,207.4,0.6,0.5,3634.0,4179.0
 h8rITS0Wwk8,0,1,Laço Tayfa - Hicaz Dolap (HQ sound),290,-76.3652916667,0,,True,True,False,False,7,,,,,
 HyQOXvA8GCY,0,1,Jazz Compilation,572,-358.36529166699995,0,,True,True,False,False,7,,,,,
 uxjRdLjIXE4,4,2,Hicaz Dolap,216,-2.36529166667,0,,True,True,True,False,4,,,,,

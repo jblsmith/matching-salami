@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-wyLXrWwpsXQ,0,3,rob zombie - in the hands of death burn baby burn (lyrics),253,-0.293333333333,0,match,True,True,True,False,109,249.9,0.4,0.3,1564.0,5512.0
 4KIjT2xEwVc,0,5,Rob Zombie - Hands of Death (Burn Baby Burn) (w/Alice Cooper),253,-0.293333333333,0,,True,True,True,False,9,,,,,
+wyLXrWwpsXQ,0,3,rob zombie - in the hands of death burn baby burn (lyrics),253,-0.293333333333,0,match,True,True,True,False,9,249.9,0.4,0.3,1564.0,5512.0
 XzX9JMYJQcs,0,5,Rob Zombie & Alice Cooper - Hands Of Death (Burn Baby Burn),266,-13.2933333333,0,,True,True,False,False,7,,,,,
 24czg0hNVhA,2,5,Rob Zombie and Alice Cooper - Hands Of Death (Burn Baby Burn) (co-written by Charlie Clouser),253,-0.293333333333,0,,True,True,True,False,4,,,,,
 NO_yVnUl34A,3,3,Rob Zombie - Hands Of Death (Burn Baby Burn),412,-159.293333333,0,,True,True,False,False,2,,,,,

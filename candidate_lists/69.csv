@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-z2GpKXFFek4,0,3,"Symphony No. 9 in E-Flat Major, Op. 70: IV. Largo",188,0.395125,0,match,True,True,False,True,100,187.7,0.2,0.2,1351.0,1420.0
 xO0I5N9Ry2M,3,3,"Symphony No. 9 in E-Flat Major, Op. 70: III. Presto",189,-0.604875,0,,True,True,True,False,4,,,,,
 QdgnRTI8RHw,1,3,"Symphony No. 9 in E-Flat Major, Op. 70: V. Allegretto",398,-209.604875,0,,True,True,False,False,2,,,,,
 uaj_dixUNRM,4,3,Symphony No. 1 in F Minor: Allegro,298,-109.604875,0,,True,True,False,False,2,,,,,
@@ -11,6 +10,7 @@ LoQQgaHYFVQ,5,2,"Symphony No. 14, Op. 135: I. De profundis",285,-96.604875,0,,Fa
 D0bQQglMWi4,7,1,III. Larghetto: Molto espressivo,564,-375.604875,0,,False,True,False,False,1,,,,,
 Fndortj-M_U,7,1,"Shostakovich : Symphony No. 9 in E-flat major,- IV. Largo",220,-31.604875,0,,False,True,False,False,1,,,,,
 JrgW4Ezhsgw,9,1,Shostakovich. Symphony No. 9 Es-dir op. 70 IV. Largo,306,-117.604875,0,,False,True,False,False,1,,,,,
+z2GpKXFFek4,0,3,"Symphony No. 9 in E-Flat Major, Op. 70: IV. Largo",188,0.395125,0,match,True,True,False,True,0,187.7,0.2,0.2,1351.0,1420.0
 e5oqj2XtR0I,2,3,"Symphony No. 5 in D Minor, Op. 47: III. Largo",895,-706.604875,0,,True,True,False,False,0,,,,,
 9HhtzMXv_HA,2,3,"Symphony No. 5 in D Minor, Op. 47: IV. Allegro non troppo",688,-499.604875,0,,True,True,False,False,0,,,,,
 qynu8yNiTrY,0,2,Dmitri Shostakovich - Symphony No. 9 [With score] (Reupload),1439,-1250.604875,0,,True,True,False,False,0,,,,,

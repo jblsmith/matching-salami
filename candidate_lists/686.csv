@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-6-LUuAn5Obc,0,2,Danzig - Bodies,272,-8.1894375,0,potential,True,True,False,False,107,171.4,31.9,33.2,113.0,1096.0
+6-LUuAn5Obc,0,2,Danzig - Bodies,272,-8.1894375,0,potential,True,True,False,False,7,171.4,31.9,33.2,113.0,1096.0
 fN0ltQ9FLDc,1,2,Bodies,264,-0.1894375,0,potential,True,True,True,False,4,121.0,25.9,26.2,67.0,950.0
 Ca9OX9tFeEs,2,2,Danzig - How The Gods Kill,353,-89.1894375,0,,True,True,False,False,2,,,,,
 kREle_uGckw,4,2,Danzig - Dirty Black Summer,303,-39.1894375,0,,True,True,False,False,2,,,,,

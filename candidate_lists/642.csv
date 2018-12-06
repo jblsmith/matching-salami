@@ -1,8 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-f4MRmEPNUxY,0,2,Inner Circle - Bad Boys,217,12.4,0,potential,True,True,False,False,100,211.7,1.2,5.3,1934.0,5332.0
 on9TXY8kYyk,0,3,Inner Circle- Bad Boys,271,-41.6,0,reject,True,True,False,False,7,,,,,
-IlTHR0dr648,0,1,Bad Boy Dance Challenge Musically Compilation | Popular Dances #badboy,472,-242.6,0,,True,True,False,False,7,,,,,
-wSZP8TR__LQ,2,2,Inner circle -  bad boys lyrics,230,-0.6,0,,True,True,True,False,4,,,,,
+IlTHR0dr648,0,1,Bad Boy Dance Challenge Musically Compilation | Popular Dances #badboy,472,-242.6,0,reject,True,True,False,False,7,,,,,
+wSZP8TR__LQ,2,2,Inner circle -  bad boys lyrics,230,-0.6,0,match,True,True,True,False,4,227.1,0.6,0.2,2670.0,6748.0
 bBD8M3WFrAw,3,2,Bad Boys (Theme From Cops),230,-0.6,0,,True,True,True,False,4,,,,,
 Xx0blzRFQRs,9,2,Bad Boys (Theme from COPS),230,-0.6,0,,False,True,True,False,3,,,,,
 KOdiGzkF-8A,4,2,Inner Circle - Bad Boys (Theme from COPS),342,-112.6,0,,True,True,False,False,2,,,,,
@@ -16,6 +15,7 @@ Wh-coxOjoPQ,4,1,Ultimate Bad Friends Compilation (October 2014) || FailArmy,359,
 EVMXaZrVKc4,8,1,Bad Boys II - Street Shootout Scene (1440p),300,-70.6,0,,False,True,False,False,1,,,,,
 f8HtmFtGSQo,1,4,Bad Boys Theme Song [HD] (HD Audio),222,7.4,0,,True,True,False,False,0,,,,,
 EimfRBK5yx0,12,3,COPS TV Show - Bad Boys | (Scenes 2017),218,11.4,0,,False,False,False,False,0,,,,,
+f4MRmEPNUxY,0,2,Inner Circle - Bad Boys,217,12.4,0,potential,True,True,False,False,0,211.7,1.2,5.3,1934.0,5332.0
 g3-G31SUjpU,7,2,Inner Circle - Bad Boys (Cops' Theme),226,3.4,0,,False,True,False,True,0,,,,,
 ZtYTsZWWgGw,8,2,Inner Circle - Bad Boys ( Full Album )1993,3453,-3223.6,0,,False,True,False,False,0,,,,,
 g1cBK3kF2bs,11,2,Inner Circle - Bad Boys lyrics,133,96.4,0,,False,False,False,False,0,,,,,

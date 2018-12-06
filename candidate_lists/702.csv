@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-rXKez6O5hno,0,5,Cowboy Junkies_ My Only Guarantee,209,0.04,0,potential,True,True,False,True,100,194.6,0.2,0.2,1077.0,1165.0
 fvRMAqhdPRY,5,2,Spiral Down,214,-4.96,0,reject,False,True,True,False,3,,,,,
-1lRDT-TyPPo,1,2,Cowboy Junkies - Blue Moon Revisited (Song For Elvis),238,-28.96,0,,True,True,False,False,2,,,,,
-T2odlGAxuwQ,2,2,Cowboy Junkies - Misguided Angel (Official Music Video),252,-42.96,0,,True,True,False,False,2,,,,,
-w8vm3udjoao,2,2,Sweet Jane | Cowboy Junkies | Lyrics ☾☀,218,-8.96,0,,True,True,False,False,2,,,,,
-8SwJM5yohb0,3,2,Barns -- Cowboy Junkies -- 200 More Miles,339,-129.96,0,,True,True,False,False,2,,,,,
+1lRDT-TyPPo,1,2,Cowboy Junkies - Blue Moon Revisited (Song For Elvis),238,-28.96,0,reject,True,True,False,False,2,,,,,
+T2odlGAxuwQ,2,2,Cowboy Junkies - Misguided Angel (Official Music Video),252,-42.96,0,reject,True,True,False,False,2,,,,,
+w8vm3udjoao,2,2,Sweet Jane | Cowboy Junkies | Lyrics ☾☀,218,-8.96,0,reject,True,True,False,False,2,,,,,
+8SwJM5yohb0,3,2,Barns -- Cowboy Junkies -- 200 More Miles,339,-129.96,0,reject,True,True,False,False,2,,,,,
 ytQfUzzYdMs,4,2,Cowboy Junkies- Beneath The Gate,250,-40.96,0,,True,True,False,False,2,,,,,
 osgHswt9tI0,4,2,"Cowboy Junkies - ""The Things We Do To Each Other""",238,-28.96,0,,True,True,False,False,2,,,,,
 g02aB_XHVWM,1,1,Cowboy Junkies - Still Lost,285,-75.96,0,,True,True,False,False,2,,,,,
@@ -23,6 +22,7 @@ EmTz7EAYLrs,8,1,Ride of the Rohirrim,399,-189.96,0,,False,True,False,False,1,,,,
 GtAHdUhtWcE,9,1,Stars of Our Stars - Cowboy Junkies,265,-55.96,0,,False,True,False,False,1,,,,,
 lQ0wR7YejVE,9,1,"Boyz II Men- ""On Bended Knee"" Lyrics on Screen!!",417,-207.96,0,,False,True,False,False,1,,,,,
 8bZNxLAXn0E,9,1,Girl From The North Country - The Waterboys (2002) FLAC HD Video,275,-65.96,0,,False,True,False,False,1,,,,,
+rXKez6O5hno,0,5,Cowboy Junkies_ My Only Guarantee,209,0.04,0,potential,True,True,False,True,0,194.6,0.2,0.2,1077.0,1165.0
 xTiHMi0-gqM,1,3,My Only Guarantee,209,0.04,0,,True,True,False,True,0,,,,,
 vTPGNY-JOS4,2,3,My Only Guarantee,209,0.04,0,,True,True,False,True,0,,,,,
 mLrB0cFaGl8,11,2,Cowboy Junkies -My fall,277,-67.96,0,,False,False,False,False,0,,,,,

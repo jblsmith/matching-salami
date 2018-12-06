@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 _YfQ8aJb-cQ,6,5,Rokudan,378,-4.76241666667,0,reject,False,True,True,False,3,,,,,
 kbtPdsrR6Xg,3,5,Koku Shakuhachi solo by Ronnie Nyogetsu Reishin Seldin,520,-146.762416667,0,reject,True,True,False,False,2,,,,,
-rGp17p_Du3w,7,5,A Bell Ringing in the Empty Sky,413,-39.7624166667,0,,False,True,False,False,1,,,,,
-vpyvjrC0ek0,9,4,Futaiken Reibo,558,-184.762416667,0,,False,True,False,False,1,,,,,
-XiGJtperaGY,0,5,Koku-Reibo (Bell Ringing in the Empty Sky),920,-546.762416667,0,,True,True,False,False,0,,,,,
+rGp17p_Du3w,7,5,A Bell Ringing in the Empty Sky,413,-39.7624166667,0,reject,False,True,False,False,1,,,,,
+vpyvjrC0ek0,9,4,Futaiken Reibo,558,-184.762416667,0,reject,False,True,False,False,1,,,,,
+XiGJtperaGY,0,5,Koku-Reibo (Bell Ringing in the Empty Sky),920,-546.762416667,0,reject,True,True,False,False,0,,,,,
 1KILSpW70qk,1,5,Gorō Yamaguchi - Kokuu Reibo,920,-546.762416667,0,,True,True,False,False,0,,,,,
 uDs5Mi3o8L0,2,5,Sokaku-Reibo (Depicting the Cranes in Their Nest),779,-405.76241666699997,0,,True,True,False,False,0,,,,,
 A52vRc6kQeM,3,5,A Bell Ringing in the Empty Sky,211,162.237583333,0,,True,True,False,False,0,,,,,

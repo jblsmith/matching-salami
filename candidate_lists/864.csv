@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ChrmO2cF6FE,5,3,Ferenc Santa - Csardas Monti,233,4.60983333333,0,match,False,True,False,True,100,230.5,0.1,0.5,3774.0,4017.0
 ftcvhfhuA10,0,4,Csárdás - Hungarian National Gypsy Orchestra (2011),309,-71.3901666667,0,,True,True,False,False,7,,,,,
 IPYHy8k9Z34,0,2,Csárdás - Vittorio Monti (Violin & Piano),384,-146.39016666700002,0,,True,True,False,False,7,,,,,
 jJphp3nU1PA,0,2,Monti Csárdás (Czardas) Szalai Hungarian Gypsy Band,302,-64.3901666667,0,,True,True,False,False,7,,,,,
@@ -26,6 +25,7 @@ Jxnr7qIVKVs,9,1,"Charlie Siem playing a Hungarian gypsy song ""Csardas"" @ Spin 
 yfF3XAHNBX4,9,1,Csárdás Rhapsody,427,-189.39016666700002,0,,False,True,False,False,1,,,,,
 qVNvvOpshbw,0,3,Ferenc Santa Jr  & his gypsy band - Csardas,3484,-3246.39016667,0,,True,True,False,False,0,,,,,
 9W8TIH4rEa8,2,3,Ferenc Santa and his Gypsy Band - Quick Csardas,74,163.60983333299998,0,,True,True,False,False,0,,,,,
+ChrmO2cF6FE,5,3,Ferenc Santa - Csardas Monti,233,4.60983333333,0,match,False,True,False,True,0,230.5,0.1,0.5,3774.0,4017.0
 BvpfDMSry9g,6,3,Csárdás variációk egy témára - Csárdás variations on a theme,78,159.60983333299998,0,,False,True,False,False,0,,,,,
 NgfXdKFlfxo,7,3,Ferenc Santa Jr  & his gypsy band - Fiery Cardas,166,71.6098333333,0,,False,True,False,False,0,,,,,
 oVnr-9TIMvU,9,3,Düvös csárdás,55,182.60983333299998,0,,False,True,False,False,0,,,,,

@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-l9SqQNgDrgg,0,5,Monty Python - Bruce's Philosophers Song (Bruce's Song) {Official Lyric Video],64,-9.430166666669999,0,potential,True,True,False,False,107,50.1,8.4,0.8,712.0,723.0
+l9SqQNgDrgg,0,5,Monty Python - Bruce's Philosophers Song (Bruce's Song) {Official Lyric Video],64,-9.43016666667,0,potential,True,True,False,False,7,50.1,8.4,0.8,712.0,723.0
 QLodkaDHn4g,0,5,Eric Idle sings the Bruces' philosophers song - Rebels of Oz: Exclusive - BBC Four,74,-19.4301666667,0,reject,True,True,False,False,7,,,,,
-j6AhepWgYg4,2,4,Monty Python Bruce's Philosopher's Song 16,57,-2.43016666667,0,,True,True,True,False,4,,,,,
+j6AhepWgYg4,2,4,Monty Python Bruce's Philosopher's Song 16,57,-2.43016666667,0,potential,True,True,True,False,4,50.2,0.9,0.8,674.0,684.0
 kh66yZj3qlk,1,5,Monty Python   Bruce,198,-143.430166667,0,,True,True,False,False,2,,,,,
 PtgKkifJ0Pw,2,5,The Philosopher's Song - Monty Python Live at the Hollywood Bowl,237,-182.430166667,0,,True,True,False,False,2,,,,,
 L4d-HSP0wEc,2,5,Philosopher's Song | Monty Python Live (Mostly),94,-39.4301666667,0,,True,True,False,False,2,,,,,

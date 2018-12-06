@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7QyywLf00g0,1,3,The Real Moustache (Vono Box DJs Remix),205,-11.2933333333,0,potential,True,True,False,False,102,168.5,21.2,13.7,92.0,6687.0
 TLofZpnvaL0,0,3,Erik Sumo - The Real Moustache (Vono Box DJs rmx),333,-139.293333333,0,reject,True,True,False,False,7,,,,,
-ajBX0mc2-7E,2,3,Erik Sumo - The Real Moustache (Fine Cut Bodies remix),299,-105.29333333299999,0,,True,True,False,False,2,,,,,
-ARuWT1K4X4o,3,3,The Real Moustache (Uko Barter Transaction Mix),273,-79.2933333333,0,,True,True,False,False,2,,,,,
-eykxzaFbO0I,3,3,Dunkelbunt - The Chocolate Butterfly (Vono Box DJs Remix),244,-50.2933333333,0,,True,True,False,False,2,,,,,
+7QyywLf00g0,1,3,The Real Moustache (Vono Box DJs Remix),205,-11.2933333333,0,potential,True,True,False,False,2,168.5,21.2,13.7,92.0,6687.0
+ajBX0mc2-7E,2,3,Erik Sumo - The Real Moustache (Fine Cut Bodies remix),299,-105.29333333299999,0,reject,True,True,False,False,2,,,,,
+ARuWT1K4X4o,3,3,The Real Moustache (Uko Barter Transaction Mix),273,-79.2933333333,0,reject,True,True,False,False,2,,,,,
+eykxzaFbO0I,3,3,Dunkelbunt - The Chocolate Butterfly (Vono Box DJs Remix),244,-50.2933333333,0,reject,True,True,False,False,2,,,,,
 sdqGmpSpuYA,4,3,The Real Moustache (Big Beard Remix),292,-98.2933333333,0,,True,True,False,False,2,,,,,
 iF_1c5Cl3_Q,4,3,The Real Moustache (Kid Loco´s Belleville Stomp Remix),395,-201.293333333,0,,True,True,False,False,2,,,,,
 6W6IGxJLg7I,11,1,Vono Box - Hello Joe,197,-3.29333333333,0,,False,False,True,False,2,,,,,

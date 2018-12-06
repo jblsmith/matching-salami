@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 pnPVExzm0DY,0,3,Tiger Rag - Midlife Jazzband / Swiss Dixie Jazzer,230,-114.4604,0,reject,True,True,False,False,7,,,,,
 89fZGnAdago,0,2,Tiger Rag - The Original Dixieland Jazz Band (1917),187,-71.4604,0,reject,True,True,False,False,7,,,,,
-oz0fk3G7upQ,1,2,Nick LaRocca and The Original Dixieland Jazz Band - Tiger Rag - http://www.Chaylz.com,190,-74.4604,0,,True,True,False,False,2,,,,,
-sUijZC3h5EY,3,2,Heartbeat Dixieland Jazz Band - Tiger Rag,396,-280.4604,0,,True,True,False,False,2,,,,,
-9PCse3O47nc,4,2,"Original Dixieland Jazz Band® ""odjb"" Tiger Rag",372,-256.4604,0,,True,True,False,False,2,,,,,
+oz0fk3G7upQ,1,2,Nick LaRocca and The Original Dixieland Jazz Band - Tiger Rag - http://www.Chaylz.com,190,-74.4604,0,reject,True,True,False,False,2,,,,,
+sUijZC3h5EY,3,2,Heartbeat Dixieland Jazz Band - Tiger Rag,396,-280.4604,0,reject,True,True,False,False,2,,,,,
+9PCse3O47nc,4,2,"Original Dixieland Jazz Band® ""odjb"" Tiger Rag",372,-256.4604,0,reject,True,True,False,False,2,,,,,
 w1NFinLuc8U,4,2,"Original Dixieland Jazz Band ""Tiger Rag"" on Victor 18472 (1918) one of the GREATEST jazz records",189,-73.4604,0,,True,True,False,False,2,,,,,
 bCyCWuC0sOM,4,2,Kansas City Stomp,228,-112.4604,0,,True,True,False,False,2,,,,,
 logRn-mgG_w,14,2,"Tiger Rag by the Original Dixieland Jazz Band, 1917",117,-1.4604,0,,False,False,True,False,2,,,,,

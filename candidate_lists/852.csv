@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-O6LhN_4BSr0,2,5,Dance the Devil Away,443,-8.139625,0,potential,True,True,False,False,102,365.3,9.5,7.2,172.0,17631.0
+O6LhN_4BSr0,2,5,Dance the Devil Away,443,-8.139625,0,potential,True,True,False,False,2,365.3,9.5,7.2,172.0,17631.0
 d79ztq0stpQ,6,5,Baka Beyond - Dance the Devil Away ( 1991 ),443,-8.139625,0,potential,False,True,False,False,1,365.3,9.5,7.2,174.0,18278.0
 PtpIKf2Bt4I,8,3,Outback - What Can I Say,487,-52.139625,0,,False,True,False,False,1,,,,,
 gwVAivsB_GA,0,5,Outback - Dance the Devil Away - Cuban Connections,262,172.860375,0,,True,True,False,False,0,,,,,

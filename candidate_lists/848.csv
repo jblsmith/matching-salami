@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 iUUEljJABjU,0,1,God Hand - Mr. Gold and Mr. Silver,251.0,-24.0481875,0,reject,True,True,False,False,7,,,,,
 0Tm0Nwpah_0,0,1,"Manitas de Plata, 1956: Rumba D'Espana",244.0,-17.0481875,0,reject,True,True,False,False,7,,,,,
-TtRPIdfLlTA,4,2,First TV Show from Manitas de Plata in the world - Part 1... (VERY RARE),324.0,-97.0481875,0,,True,True,False,False,2,,,,,
-kUsZJP3SPcQ,1,1,"Manitas de Plata, du Carnegie Hall au Café de la danse - Archive INA",561.0,-334.0481875,0,,True,True,False,False,2,,,,,
-6YBWB1M_-J8,2,1,Learn To Count with PLAY-DOH Numbers | 1 to 20 | Squishy Glitter Foam | Learn To Count for Children,339.0,-112.0481875,0,,True,True,False,False,2,,,,,
+TtRPIdfLlTA,4,2,First TV Show from Manitas de Plata in the world - Part 1... (VERY RARE),324.0,-97.0481875,0,reject,True,True,False,False,2,,,,,
+kUsZJP3SPcQ,1,1,"Manitas de Plata, du Carnegie Hall au Café de la danse - Archive INA",561.0,-334.0481875,0,reject,True,True,False,False,2,,,,,
+6YBWB1M_-J8,2,1,Learn To Count with PLAY-DOH Numbers | 1 to 20 | Squishy Glitter Foam | Learn To Count for Children,339.0,-112.0481875,0,reject,True,True,False,False,2,,,,,
 ut3_P4drQWw,2,1,Imany - Silver Lining (Clap Your Hands),270.0,-43.0481875,0,,True,True,False,False,2,,,,,
 ESFI2r9IF6k,3,1,Manitas de Plata With Brigitte Bardot,258.0,-31.0481875,0,,True,True,False,False,2,,,,,
 afnPThYATWA,4,1,"ALL ACCESS DAILY: Wilder vs. Fury | Part 3 | Sat, Dec 1 on SHOWTIME PPV",549.0,-322.0481875,0,,True,True,False,False,2,,,,,

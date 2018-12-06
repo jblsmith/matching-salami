@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-PaTbTzrNLkA,0,3,Cantiga de Santa Maria 194: Como o nome da Virgen,316,-1.87754166667,0,match,True,True,True,False,109,308.0,0.4,0.9,2509.0,2747.0
+PaTbTzrNLkA,0,3,Cantiga de Santa Maria 194: Como o nome da Virgen,316,-1.87754166667,0,match,True,True,True,False,9,308.0,0.4,0.9,2509.0,2747.0
 RsSON6n3GXc,1,2,"Ato, évêque de Troyes, O adiutor, Vitraux de Notre Dame en Vaux",372,-57.8775416667,0,,True,True,False,False,2,,,,,
 5RSRFBdY4Fo,5,2,Cantiga de Santa Maria 38: Pois que Deus quis da Virgen,546,-231.877541667,0,,False,True,False,False,1,,,,,
 enFSHQOajsQ,7,2,Cantiga de Santa Maria -- Prologue. The Glorious Virgin,360,-45.8775416667,0,,False,True,False,False,1,,,,,

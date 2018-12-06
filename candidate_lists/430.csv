@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 bMljSGACstQ,0,3,Dizzy Gillespie - Ooh-Shoo-Be-Doo-Bee (Live 1988),300,-104.4996,0,reject,True,True,False,False,7,,,,,
 Sb3vf1YaV0s,2,3,Dizzy Gillespie - Ooh-Shoo-Be-Doo-Bee,197,-1.4996,0,reject,True,True,True,False,4,,,,,
-WlMA6IVn0ME,2,5,Charlie Parker - Ooh Shoobee Doobee / School Days,352,-156.4996,0,,True,True,False,False,2,,,,,
-VLL5JdPWAVc,10,2,"July 18, 1952 ""Ooh Shoo Be Doo Bee"" Joe Carroll & Dizzy Gillespie",196,-0.4996,0,,False,False,True,False,2,,,,,
-qWbgHnzMltI,1,1,Madonna - Shoo-Bee-Doo (Album Version),316,-120.4996,0,,True,True,False,False,2,,,,,
+WlMA6IVn0ME,2,5,Charlie Parker - Ooh Shoobee Doobee / School Days,352,-156.4996,0,reject,True,True,False,False,2,,,,,
+VLL5JdPWAVc,10,2,"July 18, 1952 ""Ooh Shoo Be Doo Bee"" Joe Carroll & Dizzy Gillespie",196,-0.4996,0,reject,False,False,True,False,2,,,,,
+qWbgHnzMltI,1,1,Madonna - Shoo-Bee-Doo (Album Version),316,-120.4996,0,reject,True,True,False,False,2,,,,,
 J_FAtIvdf7w,4,1,Madonna - 07. Shoo-Bee-Doo,318,-122.4996,0,,True,True,False,False,2,,,,,
 ymy7Mj_9FWM,11,1,Dizzy Gillespie - Ooh Shoo Bee Doo Bee (HD) Officiel Seniors Jazz,200,-4.4996,0,,False,False,True,False,2,,,,,
 R-7qaXRA0hU,6,3,Dizzy Gillespie - ooh shoo be doo bee,220,-24.4996,0,,False,True,False,False,1,,,,,

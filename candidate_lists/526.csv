@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Gp9lZBgCW8Q,3,2,Honeysuckle Rose,183,-0.5347,0,match,True,True,True,False,104,177.6,0.2,0.2,3107.0,3208.0
 9TNxqZqCbL0,0,2,Duke Ellington - Honeysuckle Rose,221,-38.5347,0,,True,True,False,False,7,,,,,
 _PMB-wgHM4Y,0,1,Ella Fitzgerald and Count Basie - Honeysuckle Rose - 1979,281,-98.5347,0,,True,True,False,False,7,,,,,
+Gp9lZBgCW8Q,3,2,Honeysuckle Rose,183,-0.5347,0,match,True,True,True,False,4,177.6,0.2,0.2,3107.0,3208.0
 Dbtg3QtzI_0,1,2,"Django Reinhardt & Duke Ellington - Honeysuckle Rose - Chicago, 10.11.1946",225,-42.5347,0,,True,True,False,False,2,,,,,
 yaHFXssbHDA,2,2,Duke Ellington - Honeysuckle Rose,259,-76.5347,0,,True,True,False,False,2,,,,,
 DxSHNRO5tWw,1,1,Sarah Vaughan - Honeysuckle Rose (Live @ Mister Kelly's Chicago) 1957,220,-37.5347,0,,True,True,False,False,2,,,,,

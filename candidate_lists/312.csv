@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-UjCEjVIGzv8,0,2,My Higher Ground,189,-0.6383125,0,match,True,True,True,False,109,185.2,0.3,0.3,2910.0,6965.0
+UjCEjVIGzv8,0,2,My Higher Ground,189,-0.6383125,0,match,True,True,True,False,9,185.2,0.3,0.3,2910.0,6965.0
 fNGBHbfPp4I,0,1,"DREAMEND - ""Cant Take You {Dif}"" live - SXSW 2007",256,-67.6383125,0,,True,True,False,False,7,,,,,
 1JmnVg0x0As,1,2,Words,243,-54.6383125,0,,True,True,False,False,2,,,,,
 80m_iGtyHvE,2,2,Creepin,291,-102.6383125,0,,True,True,False,False,2,,,,,

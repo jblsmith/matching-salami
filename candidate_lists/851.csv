@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-9f21woOt9GE,0,5,Boom-Pam-The Souvlak.,257,-0.242416666667,0,match,True,True,True,False,109,250.4,0.2,0.1,3614.0,22968.0
+9f21woOt9GE,0,5,Boom-Pam-The Souvlak.,257,-0.242416666667,0,match,True,True,True,False,9,250.4,0.2,0.1,3614.0,22968.0
 cr2jw-le8EQ,1,4,The Souvlak,257,-0.242416666667,0,,True,True,True,False,4,,,,,
 Yr-mqTVGxfQ,4,4,Gross (feat. Boom Pam),369,-112.242416667,0,,True,True,False,False,2,,,,,
 qRpDWuiu23c,4,1,The Best Street Food in Athens: Souvlaki,541,-284.242416667,0,,True,True,False,False,2,,,,,

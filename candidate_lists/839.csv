@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-zC93vxw06JY,0,3,Ramon Montoya 1936 Granadina,231,1.51591666667,0,reject,True,True,False,True,100,,,,,
 Vp8mRojDCz0,0,1,Leyendas de Sirenas,236,-3.48408333333,0,reject,True,True,True,False,9,,,,,
-BBi1FyV_OgY,1,3,09 Ramón Montoya   Granadina,234,-1.48408333333,0,,True,True,True,False,4,,,,,
+BBi1FyV_OgY,1,3,09 Ramón Montoya   Granadina,234,-1.48408333333,0,match,True,True,True,False,4,227.7,0.6,0.5,3135.0,3319.0
 o-Ik1HiSjrg,2,3,GRANAÍNA · Ramón Montoya,258,-25.4840833333,0,,True,True,False,False,2,,,,,
 P7Tu8Wd3WPA,5,3,Rondeña de Ramón Montoya (Guitarra flamenca),243,-10.484083333300001,0,,False,True,False,False,1,,,,,
 Vf0Cs1ibTjw,9,3,07 Ramón Montoya   Malagueña,247,-14.4840833333,0,,False,True,False,False,1,,,,,
 iD1_x0Kbhsg,8,1,BAM 104 ramón montoya - rondena,248,-15.4840833333,0,,False,True,False,False,1,,,,,
+zC93vxw06JY,0,3,Ramon Montoya 1936 Granadina,231,1.51591666667,0,reject,True,True,False,True,0,,,,,
 0mTIa6kcnfc,2,3,"Ramón Montoya, La Rosa",189,43.5159166667,0,,True,True,False,False,0,,,,,
 NmDFGyZMvbo,3,3,Ramon Montoya 1936 Taranta,228,4.51591666667,0,,True,True,False,True,0,,,,,
 h1SZXTiEshk,5,3,Ramón Montoya - Soléa,226,6.515916666669999,0,,False,True,False,False,0,,,,,

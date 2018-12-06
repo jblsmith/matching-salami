@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 aspA8WRRTz8,9,3,(Track: 03) Lucinda Williams - Lake Charles,327,-37.6155,0,reject,False,True,False,False,1,,,,,
 UIMn-SJ0XYk,6,2,Track #3 - COMO MIRARTE (Merengue),400,-110.6155,0,reject,False,True,False,False,1,,,,,
-op56AizVYPE,0,3,Track 03 - Giggs - Talking The Hardest (TwoFace Remix) - The Bassline House 2 - CD1,169,120.3845,0,,True,True,False,False,0,,,,,
-xwn5djsvmz8,1,3,Mc Innes - Track 03 2018 NEW CD!!!,192,97.3845,0,,True,True,False,False,0,,,,,
-Cf7UEnQHwFs,2,3,Ostr-track 03,235,54.3845,0,,True,True,False,False,0,,,,,
+op56AizVYPE,0,3,Track 03 - Giggs - Talking The Hardest (TwoFace Remix) - The Bassline House 2 - CD1,169,120.3845,0,reject,True,True,False,False,0,,,,,
+xwn5djsvmz8,1,3,Mc Innes - Track 03 2018 NEW CD!!!,192,97.3845,0,reject,True,True,False,False,0,,,,,
+Cf7UEnQHwFs,2,3,Ostr-track 03,235,54.3845,0,reject,True,True,False,False,0,,,,,
 ZPYgzWLSSxU,3,3,Track 03 - Serendipia,277,12.3845,0,,True,True,False,False,0,,,,,
 7v5TVAHacBE,4,3,Sunset Brothers 2013 Album Track 03,142,147.3845,0,,True,True,False,False,0,,,,,
 2cMcN7VC2OM,5,3,Trance-Track 03,86,203.3845,0,,False,True,False,False,0,,,,,

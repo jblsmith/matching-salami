@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Q-MGARQSCNs,0,5,Wayne Shorter-The Big Push (1965) HD,504,0.058791666666699986,0,potential,True,True,False,True,100,379.7,0.4,0.6,6084.0,8531.0
 B4LBNN-2-28,3,3,"""The Big Push""   Mike Moreno Live at the Blue Whale",580,-75.9412083333,0,reject,True,True,False,False,2,,,,,
-giIFf_a42t4,3,3,The Soothsayer (Rudy Van Gelder Edition / 2007 Digital Remaster),577,-72.9412083333,0,,True,True,False,False,2,,,,,
-UNFfuve42-w,2,2,THE SOOTHSAYER / WAYNE SHORTER,581,-76.9412083333,0,,True,True,False,False,2,,,,,
-hb22FRyNIzY,8,3,The Big Push,579,-74.9412083333,0,,False,True,False,False,1,,,,,
+giIFf_a42t4,3,3,The Soothsayer (Rudy Van Gelder Edition / 2007 Digital Remaster),577,-72.9412083333,0,reject,True,True,False,False,2,,,,,
+UNFfuve42-w,2,2,THE SOOTHSAYER / WAYNE SHORTER,581,-76.9412083333,0,reject,True,True,False,False,2,,,,,
+hb22FRyNIzY,8,3,The Big Push,579,-74.9412083333,0,reject,False,True,False,False,1,,,,,
+Q-MGARQSCNs,0,5,Wayne Shorter-The Big Push (1965) HD,504,0.058791666666699986,0,potential,True,True,False,True,0,379.7,0.4,0.6,6084.0,8531.0
 8_laSspoY0M,0,5,The Big Push (Rudy Van Gelder Edition/Digital Remaster/2007),501,3.05879166667,0,,True,True,False,True,0,,,,,
 x813DWmmFJU,2,5,Ben Saldinger- The Big Push,446,58.0587916667,0,,True,True,False,False,0,,,,,
 bL447Qg7ghY,9,5,The Big Push - Wayne Shorter (ILMEA District 9 Jazz Combo 2014),438,66.0587916667,0,,False,True,False,False,0,,,,,
@@ -42,7 +42,7 @@ JOKn33-q4Ao,15,1,Funkadelic - Maggot Brain [HQ],623,-118.94120833299999,0,,False
 zO98UwkR_q4,16,1,Cornay - The Big Push,324,180.058791667,0,,False,False,False,False,0,,,,,
 dy3FBNEXUOI,16,1,"Wade Barnes and the Bottom Line Jazz Ensemble - The Big Push, Wayne Shorter",104,400.058791667,0,,False,False,False,False,0,,,,,
 LHOT5eKN4c0,16,1,Wayne Shorter - Miyako,305,199.058791667,0,,False,False,False,False,0,,,,,
-Qv7KTdilpXw,16,1,"Dubious Pursuits | Critical Role | Campaign 2, Episode 40",12545,-12040.941208299999,0,,False,False,False,False,0,,,,,
+Qv7KTdilpXw,16,1,"Dubious Pursuits | Critical Role | Campaign 2, Episode 40",12545,-12040.9412083,0,,False,False,False,False,0,,,,,
 xPJUlpQ3Vi0,16,1,Wayne Shorter-Chaos (1965) HD,415,89.0587916667,0,,False,False,False,False,0,,,,,
 EN09HIrqJis,17,1,2015 Jack Bastian Solo on The Big Push by Wayne Shorter,83,421.058791667,0,,False,False,False,False,0,,,,,
 pukq_XJmM-k,17,1,O brother where art thou - prophecy scene,121,383.058791667,0,,False,False,False,False,0,,,,,

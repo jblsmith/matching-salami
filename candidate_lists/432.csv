@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 C2KbBMidnLw,0,4,"Coleman Hawkins - Lover Come Back To Me (part 1) - September 25, 1966",370,658.4147,0,potential,True,True,False,False,0,364.4,1.4,0.5,3223.0,4212.0
 RA5rW-4ceHE,0,2,Coleman Hawkins Quintet - Lover Coeme Back To Me,185,843.4147,0,reject,True,True,False,False,0,,,,,
-HRekFCnwrhM,1,2,"Coleman Hawkins - Quintessence - Live, ""Left Bank Jazz Society"", Baltimore, MD., September 25, 1966",550,478.4147,0,,True,True,False,False,0,,,,,
-QwGxxPpOQp0,2,2,"Coleman Hawkins - Lover Come Back To Me - Live, ""Village Gate"", New York, August 15, 1962",420,608.4147,0,,True,True,False,False,0,,,,,
-GhQUJmhsLDI,3,2,"Coleman Hawkins - Lover Come Back To Me (part 2) - September 25, 1966",665,363.4147,0,,True,True,False,False,0,,,,,
+HRekFCnwrhM,1,2,"Coleman Hawkins - Quintessence - Live, ""Left Bank Jazz Society"", Baltimore, MD., September 25, 1966",550,478.4147,0,reject,True,True,False,False,0,,,,,
+QwGxxPpOQp0,2,2,"Coleman Hawkins - Lover Come Back To Me - Live, ""Village Gate"", New York, August 15, 1962",420,608.4147,0,reject,True,True,False,False,0,,,,,
+GhQUJmhsLDI,3,2,"Coleman Hawkins - Lover Come Back To Me (part 2) - September 25, 1966",665,363.4147,0,potential,True,True,False,False,0,379.7,17.2,0.1,4446.0,11461.0
 H_SdKvwl8uw,4,2,Coleman Hawkins Quintet - Lover Come Back To Me,187,841.4147,0,,True,True,False,False,0,,,,,
 kASyAcCshuA,5,2,"Coleman Hawkins - Lover Come Back To Me - TV Show, New York, poss c. 1958",245,783.4147,0,,False,True,False,False,0,,,,,
 qgI589DgTzA,6,2,Lover Come Back To Me - Coleman Hawkins,184,844.4147,0,,False,True,False,False,0,,,,,

@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-5Pi5ZJZ07ME,0,5,"A Love Supreme, Part 1: Acknowledgement - John Coltrane (1965)",460,10.413083333300001,0,potential,True,True,False,False,100,200.0,159.2,160.5,1323.0,4097.0
 BmbWRZfOgwc,10,3,A Love Supreme: 4th Movement - Psalm - In John Coltrane's words.,472,-1.5869166666699999,0,potential,False,False,True,False,2,166.2,0.3,0.8,139.0,752.0
 nwn2zd8ROlQ,2,2,GREENSLEEVES - The John COLTRANE QUARTET (1961),598,-127.58691666700001,0,,True,True,False,False,2,,,,,
 QRXSqFYhy74,9,2,Part 1: Acknowledgement - John Coltrane (A Love Supreme),487,-16.586916666700002,0,,False,True,False,False,1,,,,,
+5Pi5ZJZ07ME,0,5,"A Love Supreme, Part 1: Acknowledgement - John Coltrane (1965)",460,10.413083333300001,0,potential,True,True,False,False,0,200.0,159.2,160.5,1323.0,4097.0
 ll3CMgiUPuU,0,3,John Coltrane - A Love Supreme [Full Album] (1965),1968,-1497.58691667,0,,True,True,False,False,0,,,,,
 fth9UUa1Mfw,1,3,"A Love Supreme, Pt. 1- Acknowledgement",463,7.41308333333,0,,True,True,False,False,0,,,,,
 tYsRSBf7MN4,3,3,John Coltrane A Love Supreme  Full Album + bonus track,4222,-3751.58691667,0,,True,True,False,False,0,,,,,

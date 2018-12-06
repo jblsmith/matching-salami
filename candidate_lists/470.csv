@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 VW483msh2KI,0,1,Jean-Luc Ponty & Stephane Grappelli - Violin Summit No.2,587,-346.17715,0,reject,True,True,False,False,7,,,,,
 fK9UoxsW3Ns,1,4,"Jean-Luc Ponty, Stephane Grappelli, & Stuff Smith - How High The Moon",301,-60.17715,0,reject,True,True,False,False,2,,,,,
-YvOOzskzvjQ,1,2,Jean-Luc Ponty - Autumn Leaves,554,-313.17715,0,,True,True,False,False,2,,,,,
-69NL48DYutw,19,1,Jean Luc Ponty -  One Take,243,-2.17715,0,,False,False,True,False,2,,,,,
-1RNoG3OWv-U,7,2,"Jean ""Django"" Reinhardt/Stéphane Grappelli composition ~by ""The Hot Club of New Orleans""",395,-154.17715,0,,False,True,False,False,1,,,,,
+YvOOzskzvjQ,1,2,Jean-Luc Ponty - Autumn Leaves,554,-313.17715,0,reject,True,True,False,False,2,,,,,
+69NL48DYutw,19,1,Jean Luc Ponty -  One Take,243,-2.17715,0,reject,False,False,True,False,2,,,,,
+1RNoG3OWv-U,7,2,"Jean ""Django"" Reinhardt/Stéphane Grappelli composition ~by ""The Hot Club of New Orleans""",395,-154.17715,0,reject,False,True,False,False,1,,,,,
 i-2MMr54OLI,8,1,Jacob Szekely Trio 'Antidote' | Live Studio Session,540,-299.17715,0,,False,True,False,False,1,,,,,
 P_lrTmLknNA,0,4,Live in San Francisco Stephane Grapelli,3548,-3307.17715,0,,True,True,False,False,0,,,,,
 4rd0BrPMC88,1,4,Stéphane Grappelli Trio | Umbria Jazz Festival | video 1993 ®,2667,-2426.17715,0,,True,True,False,False,0,,,,,

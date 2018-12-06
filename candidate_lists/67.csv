@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 702knK1mop0,0,1,Berg  Wozzeck  Act III Scene 2,342,-281.892208333,0,reject,True,True,False,False,7,,,,,
 0X4QqqJz2uI,1,2,"Wozzeck, Op. 7: Act III, Scene 3: Tanzt alle - Tanzt nur zu!",181,-120.892208333,0,potential,True,True,False,False,2,56.2,64.8,1.0,486.0,507.0
-KhRwec82Vmk,1,2,"Wozzeck, Op. 7: Act III, Scene 5: Ringel, Ringel, Rosenkranz",315,-254.89220833299999,0,,True,True,False,False,2,,,,,
-E7kSyFWxJoE,3,2,"Wozzeck, Op. 7: Act III, Scene 4: Das Messer? Wo ist das Messer?",289,-228.89220833299999,0,,True,True,False,False,2,,,,,
+KhRwec82Vmk,1,2,"Wozzeck, Op. 7: Act III, Scene 5: Ringel, Ringel, Rosenkranz",315,-254.89220833299999,0,reject,True,True,False,False,2,,,,,
+E7kSyFWxJoE,3,2,"Wozzeck, Op. 7: Act III, Scene 4: Das Messer? Wo ist das Messer?",289,-228.89220833299999,0,reject,True,True,False,False,2,,,,,
 0sOB7jD8g00,4,2,"Wozzeck, Op. 7: Act II, Scene 5: Oh! Oh! Andres! Ich kann nicht schlafen!",262,-201.89220833299999,0,,True,True,False,False,2,,,,,
 8q7fl4sl2R0,1,1,"Berg-  Wozzeck   ""Act 3 Scene 3""",213,-152.89220833299999,0,,True,True,False,False,2,,,,,
 DHb_4zvIHw8,2,1,"Alban Berg, Wozzeck Act 3 Sc 2 + 3",582,-521.892208333,0,,True,True,False,False,2,,,,,
@@ -11,7 +11,7 @@ sWMMhfY3ulY,5,1,"Berg-  Wozzeck   ""Act 3 Scene 4""",331,-270.892208333,0,,False
 vJPD2WTietY,6,1,"Berg Wozzeck Act III, sc. 3",172,-111.892208333,0,,False,True,False,False,1,,,,,
 m9jEzG3xT9M,7,1,"Berg-  Wozzeck   ""Act 3 Scene 5""",385,-324.892208333,0,,False,True,False,False,1,,,,,
 2t6LngwUyr4,9,1,A. BERG:  Wozzeck  Act 3  Scene 2,338,-277.892208333,0,,False,True,False,False,1,,,,,
-bJtRC0qVnXM,0,2,Alban Berg - Wozzeck - Conductor : Pierre Boulez 1/2,2164,-2103.89220833,0,,True,True,False,False,0,,,,,
+bJtRC0qVnXM,0,2,Alban Berg - Wozzeck - Conductor : Pierre Boulez 1/2,2164,-2103.89220833,0,reject,True,True,False,False,0,,,,,
 GVsKHSRDEJM,5,2,"Wozzeck, Op. 7: Act II, Scene 4: Ich hab ein Hemdlein an, das ist nicht mein",630,-569.892208333,0,,False,True,False,False,0,,,,,
 viXMstoz5_Q,3,1,"Berg: Wozzeck - Act III (Abbado; Grundheber, Behrens, et al.) [English Subtitles]",1867,-1806.89220833,0,,True,True,False,False,0,,,,,
 uQI2gU5aslk,8,1,"Wozzeck, Op. 7, Act 3, Scene 3: Transformation Music",10,50.1077916667,0,,False,True,False,False,0,,,,,

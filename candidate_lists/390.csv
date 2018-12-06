@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-5VwPYWQDQXM,1,4,Walk The Lonesome Night (Remastered),150,0.07345,0,match,True,True,False,True,100,146.8,0.5,0.5,649.0,738.0
 TMstrZieLqE,0,4,Jeff Alexander - Music To Be Murdered By (Feat. Alfred Hitchcock),450,-299.92655,0,,True,True,False,False,7,,,,,
 NwpPxlozOqM,0,2,French Guy - Where Was I,168,-17.92655,0,,True,True,False,False,7,,,,,
 z4gSWMEz4Nc,0,1,BTS (방탄소년단) - Sea (바다) (Hidden track from LOVE YOURSELF)  Lyrics [Color Coded Eng],316,-165.92655,0,,True,True,False,False,7,,,,,
@@ -19,6 +18,7 @@ sQVeK7Dt18U,6,1,Foals - Late Night (Solomun Remix),505,-354.92655,0,,False,True,
 pfhIegyiv0Y,7,1,"System Of A Down - Aerials (Including ""Arto - Hidden track"" - HQ)",373,-222.92655,0,,False,True,False,False,1,,,,,
 CFLfMj6YKC0,7,1,Bruno Mars' Best Dance Breaks,571,-420.92655,0,,False,True,False,False,1,,,,,
 BdF41Ne2cnQ,9,1,Kings Of Leon - WALLS (Official Music Video),328,-177.92655,0,,False,True,False,False,1,,,,,
+5VwPYWQDQXM,1,4,Walk The Lonesome Night (Remastered),150,0.07345,0,match,True,True,False,True,0,146.8,0.5,0.5,649.0,738.0
 4JBkmt55aYw,2,2,Shag's Night Birds,74,76.07345,0,,True,True,False,False,0,,,,,
 8w-hAyU-E48,3,2,DAVIDS // R.I.CO // @DRAKE // @MEEKMILL,52,98.07345,0,,True,True,False,False,0,,,,,
 Pag5tLskaeg,9,2,"Lady Without Passport, A   Original Trailer",130,20.07345,0,,False,True,False,False,0,,,,,

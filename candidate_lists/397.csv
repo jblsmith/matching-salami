@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-hj3sWYDKO0A,0,2,Cha Cha Cha D'Amour (Melodie D'Amour),139,0.25875,0,match,True,True,False,True,100,133.6,0.5,0.5,1700.0,1898.0
 6zbjqrIblZc,4,3,DEAN MARTIN - CHA CHA CHA D'AMOUR (MELODIE D'AMOUR),140,-0.74125,0,,True,True,True,False,4,,,,,
 fBpl2bnEKLQ,7,3,CHA CHA CHA D'AMOUR ( DEAN MARTIN COVER ),140,-0.74125,0,,False,True,True,False,3,,,,,
 _Ma239eImR8,9,3,Cha Cha Cha D'amour (Melodie D'amour),140,-0.74125,0,,False,True,True,False,3,,,,,
@@ -28,6 +27,7 @@ xbNeSRJ7WkE,3,3,Dean Martin - Cha Cha Cha D'Amour,139,0.25875,0,,True,True,False
 9CkJ9cGg0QM,5,3,Dean Martin - Cha cha cha d'Amore,137,2.25875,0,,False,True,False,True,0,,,,,
 CeBDk2ZxbyQ,11,3,Ретро 60 е - Дин Мартин - Cha Cha Cha D'Amour (клип),134,5.25875,0,,False,False,False,False,0,,,,,
 cqZmZWJBJkg,15,3,"Cha Cha, Cha D""amour - Din Martin",138,1.25875,0,,False,False,False,True,0,,,,,
+hj3sWYDKO0A,0,2,Cha Cha Cha D'Amour (Melodie D'Amour),139,0.25875,0,match,True,True,False,True,0,133.6,0.5,0.5,1700.0,1898.0
 QjgQiHgMaG8,4,2,Cha Cha Cha,114,25.25875,0,,True,True,False,False,0,,,,,
 PLm1QtV069g,5,2,"Sammy Davis, Jr. - We're Gonna Roll",128,11.25875,0,,False,True,False,False,0,,,,,
 Ib1XTnfY3eQ,6,2,Dean Martin - Cha Cha Cha d'amour (Melodie d'amour),139,0.25875,0,,False,True,False,True,0,,,,,

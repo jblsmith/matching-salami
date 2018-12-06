@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 dv4QxbQ3-ww,0,1,"Weekend Dvd Roundup #1 Mama, Warm Bodies, Last Stand, Hansel & Gretel, Snitch, Oz)",354,-186.4245,0,reject,True,True,False,False,7,,,,,
 aLnZ1NQm2uk,0,1,All About That Bass - Postmodern Jukebox European Tour Version,254,-86.4245,0,reject,True,True,False,False,7,,,,,
-pmG0ZNEPYEY,1,1,Blue Collar Comedy Tour  The Guys' Favorite Jokes Larry the Cable Guy,564,-396.4245,0,,True,True,False,False,2,,,,,
-KtBbyglq37E,1,1,Aretha Franklin - I say a little prayer,214,-46.4245,0,,True,True,False,False,2,,,,,
-jqpAgMxhx30,2,1,Leona Lewis - Run (Official Video),290,-122.4245,0,,True,True,False,False,2,,,,,
+pmG0ZNEPYEY,1,1,Blue Collar Comedy Tour  The Guys' Favorite Jokes Larry the Cable Guy,564,-396.4245,0,reject,True,True,False,False,2,,,,,
+KtBbyglq37E,1,1,Aretha Franklin - I say a little prayer,214,-46.4245,0,reject,True,True,False,False,2,,,,,
+jqpAgMxhx30,2,1,Leona Lewis - Run (Official Video),290,-122.4245,0,reject,True,True,False,False,2,,,,,
 8zSRkr1nQNw,2,1,Cardi B - Be Careful [Official Video],250,-82.4245,0,,True,True,False,False,2,,,,,
 WDZJPJV__bQ,3,1,Beyoncé - Formation,288,-120.4245,0,,True,True,False,False,2,,,,,
 e3h6es6zh1c,4,1,Key & Peele - Office Homophobe,222,-54.4245,0,,True,True,False,False,2,,,,,

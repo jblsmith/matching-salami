@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 _WxfjWnuEno,4,1,The Sting Theme (Joplin - The Entertainer),224,-2.6645,0,reject,True,True,True,False,4,,,,,
 YOoHCkC2gAs,3,2,"Rare Scott Joplin song: ""The Sacred Tree"" from the opera Treemonisha",352,-130.6645,0,reject,True,True,False,False,2,,,,,
-9DyHFonnu2E,4,1,"Tom Brier plays Maple Leaf Rag in A, G, B, and as a waltz in B",454,-232.6645,0,,True,True,False,False,2,,,,,
-NOi9K7yZ6QA,7,3,Scott Joplin Movie Dueling Pianos Competition Scene - 1977,413,-191.6645,0,,False,True,False,False,1,,,,,
-8B0oqgYN7Lo,6,1,RA RA RASPUTIN - Piano Tutorial,289,-67.6645,0,,False,True,False,False,1,,,,,
+9DyHFonnu2E,4,1,"Tom Brier plays Maple Leaf Rag in A, G, B, and as a waltz in B",454,-232.6645,0,reject,True,True,False,False,2,,,,,
+NOi9K7yZ6QA,7,3,Scott Joplin Movie Dueling Pianos Competition Scene - 1977,413,-191.6645,0,reject,False,True,False,False,1,,,,,
+8B0oqgYN7Lo,6,1,RA RA RASPUTIN - Piano Tutorial,289,-67.6645,0,reject,False,True,False,False,1,,,,,
 HgWZkGei-yY,9,1,Prank Call- Piano man,240,-18.6645,0,,False,True,False,False,1,,,,,
 8N-kXBAP_WY,9,1,EUREKA BRASS BAND,310,-88.6645,0,,False,True,False,False,1,,,,,
 bHvA2VwjNuA,0,5,MAPLE LEAF RAG (played by a 14-year-old student of mine),178,43.3355,0,,True,True,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-gBcKAU_L7XE,0,3,SON DE CUBA A PUERTO RICO ISSAC DELGADO,292,2.635125,0,match,True,True,False,True,100,290.4,0.2,0.5,4450.0,5946.0
 jIQHB7Pe0k8,3,2,Son De Cuba A Puerto Rico,296,-1.364875,0,,True,True,True,False,4,,,,,
 VPUDErisMPM,5,3,Son de Cuba a Puerto Rico  Issac Delgado,295,-0.364875,0,,False,True,True,False,3,,,,,
 0ic1Zomfvc8,7,2,"Issac Delgado - ""Son de Cuba a P.R."" 1993",295,-0.364875,0,,False,True,True,False,3,,,,,
@@ -7,6 +6,7 @@ zxJO_liB_mM,10,3,Son de Cuba a Puerto Rico,296,-1.364875,0,,False,False,True,Fal
 yC1jgpquq68,6,2,PUERTO RICO - ISACC DELGADO - JUAN DIAZ,324,-29.364875,0,,False,True,False,False,1,,,,,
 PyGWow6CIA0,6,1,Salsa music- El amor de Puerto Rico song- Orquesta Narvaez,427,-132.364875,0,,False,True,False,False,1,,,,,
 KLN6MC01Ueo,8,1,La Pantera Mambo - Orquesta La 33,379,-84.364875,0,,False,True,False,False,1,,,,,
+gBcKAU_L7XE,0,3,SON DE CUBA A PUERTO RICO ISSAC DELGADO,292,2.635125,0,match,True,True,False,True,0,290.4,0.2,0.5,4450.0,5946.0
 mvV7CH8TU00,1,3,Issac Delgado · Son De Cuba A Puerto Rico,293,1.635125,0,,True,True,False,True,0,,,,,
 Wk4GVih_t6s,2,3,SON DE CUBA A PUERTO RICO.m4v,291,3.635125,0,,True,True,False,True,0,,,,,
 PrxAorH_mZc,6,3,Son de Cuba a Puerto Rico,204,90.635125,0,,False,True,False,False,0,,,,,

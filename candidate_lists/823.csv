@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-d6HdOJu-LMo,0,3,Papa Montero - Conjunto Típico Habanero,166,-1.9771875,0,reject,True,True,True,False,109,,,,,
+d6HdOJu-LMo,0,3,Papa Montero - Conjunto Típico Habanero,166,-1.9771875,0,reject,True,True,True,False,9,,,,,
 WAL-eGlfEpI,0,3,PAPA MONTERO.....MIGUEL QUINTANA,364,-199.9771875,0,reject,True,True,False,False,7,,,,,
-Ytyz_AW1WLw,1,3,Papa Montero,168,-3.9771875,0,,True,True,True,False,4,,,,,
-h7x1ptU3S9U,12,3,Cheo Belén Puig – Papa Montero (Perlas Cubanas),165,-0.9771875,0,,False,False,True,False,2,,,,,
-khixbgn-AvU,2,2,Septeto Habanero - Papa Montero,225,-60.9771875,0,,True,True,False,False,2,,,,,
+Ytyz_AW1WLw,1,3,Papa Montero,168,-3.9771875,0,potential,True,True,True,False,4,148.8,11.8,11.9,159.0,550.0
+h7x1ptU3S9U,12,3,Cheo Belén Puig – Papa Montero (Perlas Cubanas),165,-0.9771875,0,reject,False,False,True,False,2,,,,,
+khixbgn-AvU,2,2,Septeto Habanero - Papa Montero,225,-60.9771875,0,reject,True,True,False,False,2,,,,,
 fN4xgNiGJoE,3,2,🔥PAPA MONTERO por SAOCO - Salsa Premium,400,-235.9771875,0,,True,True,False,False,2,,,,,
 VwRXA7Ja2EA,4,2,Papa Montero,367,-202.9771875,0,,True,True,False,False,2,,,,,
 0dG6h9KxoMk,1,1,Papá Montero - Septeto Habanero,219,-54.9771875,0,,True,True,False,False,2,,,,,

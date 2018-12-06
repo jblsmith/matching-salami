@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 H2-1u8xvk54,0,2,Comptine d'Un Autre Été- Die fabelhafte Welt der Amélie Piano [Large Version 2010],294,-38.8,0,reject,True,True,False,False,7,,,,,
 hG4VQ9PoQp4,8,2,La Dispute,258,-2.8,0,reject,False,True,True,False,3,,,,,
-rdPFnrTSEuM,4,2,Comptine d'un Autre Été - The Wonderful World of Amélie-Performed by Jonas Kvarnström,273,-17.8,0,,True,True,False,False,2,,,,,
-XnuW2x5X92M,1,1,La Dispute - Andria with Lyrics,262,-6.8,0,,True,True,False,False,2,,,,,
-H8IT-xrQRqk,4,1,La Dispute - King Park Lyrics,420,-164.8,0,,True,True,False,False,2,,,,,
+rdPFnrTSEuM,4,2,Comptine d'un Autre Été - The Wonderful World of Amélie-Performed by Jonas Kvarnström,273,-17.8,0,reject,True,True,False,False,2,,,,,
+XnuW2x5X92M,1,1,La Dispute - Andria with Lyrics,262,-6.8,0,reject,True,True,False,False,2,,,,,
+H8IT-xrQRqk,4,1,La Dispute - King Park Lyrics,420,-164.8,0,reject,True,True,False,False,2,,,,,
 ghMKNre5BWE,6,1,La Dispute - Such small Hands & King Park - Stollwerck - Köln - 19.08.2018 - 15&16/16 Full Set,552,-296.8,0,,False,True,False,False,1,,,,,
 vTX8kOv7iAU,7,1,Yann Tiersen - L'Apres Midi (long version),294,-38.8,0,,False,True,False,False,1,,,,,
 bbBw9UzrYOU,0,2,La dispute - Yann Tiersen (piano),134,121.2,0,,True,True,False,False,0,,,,,

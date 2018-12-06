@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Q4PGmsunEHE,0,5,"Al Di Meola, John McLaughlin, Paco De Lucia - Frevo Rasgado - 12/6/1980 (Official)",500,-22.7333333333,0,reject,True,True,False,False,7,,,,,
 HLZvEcxpUjI,3,5,Frevo Rasgado - Paco De Lucia & John McLaughlin,552,-74.7333333333,0,reject,True,True,False,False,2,,,,,
-MjHEtWDqLwA,3,4,Paco de Lucia - John McLaughlin (Frevo Rasgado),516,-38.7333333333,0,,True,True,False,False,2,,,,,
-wqnRMcZyUJU,3,4,Di Meola; McLaughlin; De Lucia - Frevo Rasgado (1980 vinyl rip),483,-5.733333333330001,0,,True,True,False,False,2,,,,,
-1sqBCKqWWJo,6,4,John Mclaughlin & Paco de Lucía - Frevo rasgado (Egberto Gismonti),568,-90.7333333333,0,,False,True,False,False,1,,,,,
+MjHEtWDqLwA,3,4,Paco de Lucia - John McLaughlin (Frevo Rasgado),516,-38.7333333333,0,reject,True,True,False,False,2,,,,,
+wqnRMcZyUJU,3,4,Di Meola; McLaughlin; De Lucia - Frevo Rasgado (1980 vinyl rip),483,-5.733333333330001,0,potential,True,True,False,False,2,68.0,223.4,212.8,199.0,1570.0
+1sqBCKqWWJo,6,4,John Mclaughlin & Paco de Lucía - Frevo rasgado (Egberto Gismonti),568,-90.7333333333,0,reject,False,True,False,False,1,,,,,
 ubQykrTf94s,9,2,"""Frevo Rasgado"" Al Di Meola, John McLaughlin & Paco De Lucia - SL-1200MK2/VM750SH/Jolida JD9-2",518,-40.7333333333,0,,False,True,False,False,1,,,,,
 yO0R0_g2Akg,4,5,Paco De Lucia - Al Di Meola - John Mc Laughlin  -  Frevo  Rasgado,474,3.26666666667,0,,True,True,False,True,0,,,,,
 9-SXt7H-eUk,6,5,Frevo Rasgado Paco de Lucia and John Mclaughlin,427,50.2666666667,0,,False,True,False,False,0,,,,,

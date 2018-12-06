@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-S3anFUuK5JQ,0,2,Britney Spears One Kiss from You Lyrics,206,-0.285708333333,0,match,True,True,True,False,109,201.6,0.4,0.2,2867.0,25278.0
+S3anFUuK5JQ,0,2,Britney Spears One Kiss from You Lyrics,206,-0.285708333333,0,match,True,True,True,False,9,201.6,0.4,0.2,2867.0,25278.0
 ZgJnbSCMkII,1,3,Britney Spears - One Kiss from You (Sub. Español y Lyrics),206,-0.285708333333,0,,True,True,True,False,4,,,,,
 2V6VijMlTLM,2,2,Britney Spears - One Kiss From You Lyrics,206,-0.285708333333,0,,True,True,True,False,4,,,,,
 C7ILGAVbV3g,3,2,One kiss from you - Britney Spears lyrics,208,-2.28570833333,0,,True,True,True,False,4,,,,,
@@ -47,7 +47,7 @@ WGtXlBbWeB4,8,1,Children Of Bodom - Oops I Did It Again!,199,6.714291666669999,0
 qxCCGcMC1Jk,10,1,Anne-Marie - 2002 (Lyrics),187,18.7142916667,0,,False,False,False,False,0,,,,,
 wGjhVLj-ytw,10,1,[I've Just Begun] Having My Fun (Non-Album Bonus Track),202,3.71429166667,0,,False,False,False,True,0,,,,,
 v8ON9mpbm9U,11,1,"Britney Spears - ""One kiss from you"" (LYRICS)",205,0.7142916666670001,0,,False,False,False,True,0,,,,,
-WmnSZptZn3E,11,1,Britney Spears - One Kiss From You (Audio),204,1.7142916666699999,0,,False,False,False,True,0,,,,,
+WmnSZptZn3E,11,1,Britney Spears - One Kiss From You (Audio),204,1.71429166667,0,,False,False,False,True,0,,,,,
 hcZogBLac3w,11,1,"Britney Spears, Connected Video Music",266,-60.2857083333,0,,False,False,False,False,0,,,,,
 vmf8PdqOOY0,12,1,Britney Spears - One Kiss From You,182,23.7142916667,0,,False,False,False,False,0,,,,,
 fV0uCYp6zAg,12,1,My Prerogative (Remastered),214,-8.285708333330001,0,,False,False,False,False,0,,,,,

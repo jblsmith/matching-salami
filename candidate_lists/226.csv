@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 D8hzcpkoh24,0,1,Claude Le Jeune - Reveci venir du printemps,231,-217.70366666700002,0,reject,True,True,False,False,7,,,,,
 Mgy7YfDkefk,1,1,Revecy Venir du Printans,135,-121.70366666700001,0,potential,True,True,False,False,2,12.2,0.5,0.2,124.0,139.0
-J8zQLMxum1s,2,1,Revecy venir du Printemps - The New Swingle Singers,113,-99.7036666667,0,,True,True,False,False,2,,,,,
-n4JZFY7hpRw,3,1,"la béle gloire, le bél honeur doner - Claude Lejeune",175,-161.70366666700002,0,,True,True,False,False,2,,,,,
+J8zQLMxum1s,2,1,Revecy venir du Printemps - The New Swingle Singers,113,-99.7036666667,0,reject,True,True,False,False,2,,,,,
+n4JZFY7hpRw,3,1,"la béle gloire, le bél honeur doner - Claude Lejeune",175,-161.70366666700002,0,reject,True,True,False,False,2,,,,,

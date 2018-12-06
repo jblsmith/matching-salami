@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-I3NXApQe-c8,0,5,Besarabye (sung in Yiddish) - Brave Old World & Itzkhak Perlman - Klezmer יצחק פרלמן - כליזמר,419,0.369833333333,0,potential,True,True,False,True,100,380.0,0.4,0.4,5668.0,6877.0
 oaNOXeJvgvY,6,1,"7:40 Freylach ( Yiddish Traditional ) - Paul Schuberth, Tomas Novak, Christopher Haritzer",470,-50.6301666667,0,reject,False,True,False,False,1,,,,,
-3zD7Xz-KpP8,2,5,Basarabye,419,0.369833333333,0,,True,True,False,True,0,,,,,
+I3NXApQe-c8,0,5,Besarabye (sung in Yiddish) - Brave Old World & Itzkhak Perlman - Klezmer יצחק פרלמן - כליזמר,419,0.369833333333,0,potential,True,True,False,True,0,380.0,0.4,0.4,5668.0,6877.0
+3zD7Xz-KpP8,2,5,Basarabye,419,0.369833333333,0,potential,True,True,False,True,0,380.0,0.4,0.4,5971.0,7281.0
 00-t4Jpxnyo,0,4,Basarabye,419,0.369833333333,0,,True,True,False,True,0,,,,,
 A3Jcs7vrgH4,3,4,Basarabye,419,0.369833333333,0,,True,True,False,True,0,,,,,
 mb-0jd_-4V0,6,4,Ale Brider,226,193.369833333,0,,False,True,False,False,0,,,,,

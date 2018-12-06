@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-f7QzxYAjgNc,0,5,Dusty Springfield - Spooky,164,-8.26666666667,0,match,True,True,False,False,107,152.2,3.2,2.1,1330.0,1723.0
+f7QzxYAjgNc,0,5,Dusty Springfield - Spooky,164,-8.26666666667,0,match,True,True,False,False,7,152.2,3.2,2.1,1330.0,1723.0
 gQATimPYZDw,0,4,Dusty Springfield - Spooky,186,-30.2666666667,0,,True,True,False,False,7,,,,,
 Fola80rQop4,1,3,Dusty Springfield - Spooky,156,-0.266666666667,0,,True,True,True,False,4,,,,,
 8EsCN7-Sxis,8,2,Dusty Springfield ..... Spooky ♥,157,-1.2666666666700002,0,,False,True,True,False,3,,,,,

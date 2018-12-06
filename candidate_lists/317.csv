@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 ym8xmve3bVQ,0,2,Eilen Jewell  -  Back to Dallas,201,-1.75875,0,potential,True,True,True,False,9,188.2,1.6,1.4,2844.0,7913.0
 AyjgWjMk8O8,0,3,Eilen Jewell Back to Dallas,220,-20.75875,0,reject,True,True,False,False,7,,,,,
-_oDM_PWGDoo,0,1,Entrance live at SXSW 2007,387,-187.75875,0,,True,True,False,False,7,,,,,
-OmfliWIZ1jY,3,2,"EILEN JEWELL  ""Back To Dallas""",218,-18.75875,0,,True,True,False,False,2,,,,,
-ypMSc7lb_JM,4,2,"EILEN JEWELL  ""Back To Dallas""",240,-40.75875,0,,True,True,False,False,2,,,,,
+_oDM_PWGDoo,0,1,Entrance live at SXSW 2007,387,-187.75875,0,reject,True,True,False,False,7,,,,,
+OmfliWIZ1jY,3,2,"EILEN JEWELL  ""Back To Dallas""",218,-18.75875,0,reject,True,True,False,False,2,,,,,
+ypMSc7lb_JM,4,2,"EILEN JEWELL  ""Back To Dallas""",240,-40.75875,0,reject,True,True,False,False,2,,,,,
 3zK8bt69HYA,1,1,DALLAS | The Ewing's Return From Europe,226,-26.75875,0,,True,True,False,False,2,,,,,
 uG6oHIySYI4,2,1,Dallas: Bobby Returns.,327,-127.75875,0,,True,True,False,False,2,,,,,
 jQ5-CjS91RY,4,1,"The ""Back to Football"" Halftime presented by the Dallas Cowboys Rhythm & Blue Ft. The Kinjaz!",494,-294.75875,0,,True,True,False,False,2,,,,,

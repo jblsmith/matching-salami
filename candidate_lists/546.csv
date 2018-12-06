@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 uxOzUVSMqRg,9,1,The Specials  /  Tears in My Beer,212,-2.471875,0,reject,False,True,True,False,3,,,,,
 Wp0hWIO8DiU,3,1,Selena Gomez - Good For You (Official Audio) ft. A$AP Rocky,221,-11.471875,0,reject,True,True,False,False,2,,,,,
-bVP_w1rQweE,4,1,Action Bronson feat. Chance The Rapper - Baby Blue [Official Music Video YTMAs],347,-137.471875,0,,True,True,False,False,2,,,,,
-fZPgnFHeG3M,11,1,Sam Smith - Too Good At Goodbyes (Lyrics)(Alicia Moffet & KHS Cover),214,-4.471875,0,,False,False,True,False,2,,,,,
-JXAgv665J14,5,1,Blake Shelton - Boys 'Round Here ft. Pistol Annies & Friends (Official Music Video),232,-22.471875,0,,False,True,False,False,1,,,,,
+bVP_w1rQweE,4,1,Action Bronson feat. Chance The Rapper - Baby Blue [Official Music Video YTMAs],347,-137.471875,0,reject,True,True,False,False,2,,,,,
+fZPgnFHeG3M,11,1,Sam Smith - Too Good At Goodbyes (Lyrics)(Alicia Moffet & KHS Cover),214,-4.471875,0,reject,False,False,True,False,2,,,,,
+JXAgv665J14,5,1,Blake Shelton - Boys 'Round Here ft. Pistol Annies & Friends (Official Music Video),232,-22.471875,0,reject,False,True,False,False,1,,,,,
 CIELYkfoKy8,8,1,Beyoncé - Blow (Video),326,-116.471875,0,,False,True,False,False,1,,,,,
 3DohzUPH8Zo,9,1,Johnny Hobo and The Freight Trains - The Politics Of Holy Shit I Just Cut My Hand On A Broken Bottle,319,-109.471875,0,,False,True,False,False,1,,,,,
 rM8tROzp4Dc,0,1,Hank Williams Jr - Tear In My Beer (Official Music Video),174,35.528125,0,,True,True,False,False,0,,,,,

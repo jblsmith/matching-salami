@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-i_sHjNcIrOs,0,5,Art Blakey & the Jazz Messengers - Politely,371,-6.53958333333,0,match,True,True,False,False,107,359.7,5.7,0.5,5170.0,6971.0
 Wxku9MSYUxM,0,5,Art Blakey & Lee Morgan - 1960 - The Big Beat - 03 Politely,366,-1.53958333333,0,,True,True,True,False,9,,,,,
+i_sHjNcIrOs,0,5,Art Blakey & the Jazz Messengers - Politely,371,-6.53958333333,0,match,True,True,False,False,7,359.7,5.7,0.5,5170.0,6971.0
 MR5BURt6C1c,1,2,Politely (Remastered),365,-0.539583333333,0,,True,True,True,False,4,,,,,
 FDKMp7uYBrY,3,2,Art Blakey - Politely,368,-3.53958333333,0,,True,True,True,False,4,,,,,
 3_smJoIU8hk,4,1,Politely,367,-2.53958333333,0,,True,True,True,False,4,,,,,

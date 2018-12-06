@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-_xCyEjmEq6A,0,5,Oba Igbo,304,-10.3314375,0,reject,True,True,False,False,107,,,,,
+_xCyEjmEq6A,0,5,Oba Igbo,304,-10.3314375,0,reject,True,True,False,False,7,,,,,
 kKg3wnnty1k,1,4,Oba Igbo,305,-11.3314375,0,reject,True,True,False,False,2,,,,,
-msZPKyKwEYc,2,4,Ajaja,388,-94.3314375,0,,True,True,False,False,2,,,,,
-9hHw7WgF8cg,3,4,Sango,364,-70.3314375,0,,True,True,False,False,2,,,,,
-RB-7sAuBHu4,3,4,Orere,315,-21.3314375,0,,True,True,False,False,2,,,,,
+msZPKyKwEYc,2,4,Ajaja,388,-94.3314375,0,reject,True,True,False,False,2,,,,,
+9hHw7WgF8cg,3,4,Sango,364,-70.3314375,0,reject,True,True,False,False,2,,,,,
+RB-7sAuBHu4,3,4,Orere,315,-21.3314375,0,reject,True,True,False,False,2,,,,,
 D3BmoDEMYwc,2,2,Incanations,544,-250.3314375,0,,True,True,False,False,2,,,,,
 sWha9RYS4Ho,5,4,Kori,359,-65.3314375,0,,False,True,False,False,1,,,,,
 MM3MEzOj5sk,6,2,Akiwowo,466,-172.3314375,0,,False,True,False,False,1,,,,,

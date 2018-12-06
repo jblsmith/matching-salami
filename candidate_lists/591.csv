@@ -1,6 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-s5J9YZtw8aI,0,4,[I Want to Ride That] Glory Train,237,0.792666666667,0,match,True,True,False,True,100,231.9,0.2,0.4,3973.0,5133.0
-LUXBZin7y-w,2,4,Glory Train,238,-0.20733333333299997,0,,True,True,True,False,4,,,,,
+LUXBZin7y-w,2,4,Glory Train,238,-0.207333333333,0,,True,True,True,False,4,,,,,
 VSv0ECSHIUo,1,4,Glory Train,433,-195.20733333299998,0,,True,True,False,False,2,,,,,
 AgKPBKYOzmU,3,4,To The Glory of God,305,-67.2073333333,0,,True,True,False,False,2,,,,,
 etMrS-ZUJ5s,4,4,Medley,274,-36.2073333333,0,,True,True,False,False,2,,,,,
@@ -17,6 +16,7 @@ m0Zxc6jyM_c,5,1,The Glory Train,502,-264.207333333,0,,False,True,False,False,1,,
 JqpUVquIBiA,7,1,Gordon Beck Trio - Airegin,244,-6.20733333333,0,,False,True,False,False,1,,,,,
 nUjioZf6ImQ,7,1,Grundstrom: Jubilation! Dance for Orchestra,552,-314.207333333,0,,False,True,False,False,1,,,,,
 wMjhomUtbU4,8,1,Montreal Jubilation Choir Live Part 1,245,-7.20733333333,0,,False,True,False,False,1,,,,,
+s5J9YZtw8aI,0,4,[I Want to Ride That] Glory Train,237,0.792666666667,0,match,True,True,False,True,0,231.9,0.2,0.4,3973.0,5133.0
 PmPgDXnmxK4,10,4,Close To Thee,220,17.7926666667,0,,False,False,False,False,0,,,,,
 6OwsgFMqHpc,12,4,God Is So Good,147,90.7926666667,0,,False,False,False,False,0,,,,,
 AykHunKQlXk,6,3,Plenty Good Room,206,31.7926666667,0,,False,True,False,False,0,,,,,

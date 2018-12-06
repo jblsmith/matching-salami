@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-WD33ii01kXI,0,3,Fergie - London Bridge,210,0.0,0,potential,True,True,True,True,110,197.5,10.9,7.3,2032.0,12216.0
+WD33ii01kXI,0,3,Fergie - London Bridge,210,0.0,0,potential,True,True,True,True,10,197.5,10.9,7.3,2032.0,12216.0
 9WgKubW5Z0o,1,3,Fergie - London Bridge (oh shit)  HQ,211,-1.0,0,match,True,True,True,False,4,205.4,1.9,1.2,1403.0,11562.0
 5T0utQ-XWGY,1,3,Fergie - Fergalicious (Official Music Video),227,-17.0,0,,True,True,False,False,2,,,,,
 b4HOUbM8FHU,2,2,Fergie - London Bridge (Oh Snap),217,-7.0,0,,True,True,False,False,2,,,,,

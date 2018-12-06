@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-eW0TZ3CrnOY,0,2,Marinko Rokvic - Harmoniko Moja,232,-5.10666666667,0,potential,True,True,False,False,107,215.2,6.5,1.1,3148.0,3898.0
 pCDZ4er9l40,0,4,Harmoniko moja,227,-0.106666666667,0,match,True,True,True,False,9,218.0,1.4,1.1,3571.0,4298.0
+eW0TZ3CrnOY,0,2,Marinko Rokvic - Harmoniko Moja,232,-5.10666666667,0,potential,True,True,False,False,7,215.2,6.5,1.1,3148.0,3898.0
 TZEdT_Uy6As,5,2,SAV TAJ SEVDAH - Izudin Dragolj - Harmoniko moja - 16.02.2014,227,-0.106666666667,0,,False,True,True,False,3,,,,,
 DJ0sQrgcvNs,2,3,Čedomir Marković - Harmoniko moja,232,-5.10666666667,0,,True,True,False,False,2,,,,,
 hc9SaSdTZ1Y,3,3,NIHAD ALIBEGOVIC  - Harmoniko moja [Official video],276,-49.1066666667,0,,True,True,False,False,2,,,,,

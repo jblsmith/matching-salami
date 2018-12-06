@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-BeJX2QV_5VA,0,4,Embraceable You (1953) by Art Tatum,268,2.23675,0,match,True,True,False,True,100,261.3,0.7,0.2,2728.0,2857.0
 9f8qPL3pJHA,0,1,George Gershwin - Embraceable You,350,-79.76325,0,,True,True,False,False,7,,,,,
 CGjiF93J2bU,1,2,Art Tatum - Embraceable You,273,-2.76325,0,,True,True,True,False,4,,,,,
 ce3bLOBRST0,2,2,Memories of You (1953) by Art Tatum,300,-29.76325,0,,True,True,False,False,2,,,,,
@@ -17,6 +16,7 @@ bJFQ6j7Rrt0,5,1,"Gershwin 'Embraceable You' Yeol Eum Son, Myung Whun Chung",327,
 aNXbbLM8AA8,7,1,Charlie Parker: Embraceable You (Gershwin) two takes,434,-163.76325,0,,False,True,False,False,1,,,,,
 GreKHsyEUY4,9,1,Embraceable You Gershwin Original Orchestration.mp4,354,-83.76325,0,,False,True,False,False,1,,,,,
 8Te0SgWQ9OE,9,1,"Chris Botti, 'Concerto de Aranjuez' (Joaquín Rodrigo)",327,-56.76325,0,,False,True,False,False,1,,,,,
+BeJX2QV_5VA,0,4,Embraceable You (1953) by Art Tatum,268,2.23675,0,match,True,True,False,True,0,261.3,0.7,0.2,2728.0,2857.0
 7m1VV-RaQWU,1,2,ART TATUM - EMBRACEABLE YOU,270,0.23675,0,,True,True,False,True,0,,,,,
 k1rK82sqE3E,1,2,Art Tatum: Embraceable You,268,2.23675,0,,True,True,False,True,0,,,,,
 9CKjI09ZcaE,1,2,Embraceable You,268,2.23675,0,,True,True,False,True,0,,,,,

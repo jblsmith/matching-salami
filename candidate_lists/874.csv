@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Et0riKtyWwE,0,3,Hüsnü Şenlendirici - Hicaz Dolap Rom & Beyoğlu'nda Gezersin  (Sarı Sıcak),410,-192.1126875,0,reject,True,True,False,False,7,,,,,
 iVMoavmJ5U0,1,3,mustafa kandıralı - hicaz dolap,301,-83.1126875,0,reject,True,True,False,False,2,,,,,
-w1fJf9j3umg,2,3,Λωξάντρα - Hicaz Dolap (HQ Official Audio Video),367,-149.1126875,0,,True,True,False,False,2,,,,,
-6xpTh0EtoRQ,4,3,hicaz dolap haydar tatlıyay,359,-141.1126875,0,,True,True,False,False,2,,,,,
-tFDCDLZvoqw,1,2,Turkish Street Music - Sulukule,250,-32.1126875,0,,True,True,False,False,2,,,,,
+w1fJf9j3umg,2,3,Λωξάντρα - Hicaz Dolap (HQ Official Audio Video),367,-149.1126875,0,reject,True,True,False,False,2,,,,,
+6xpTh0EtoRQ,4,3,hicaz dolap haydar tatlıyay,359,-141.1126875,0,reject,True,True,False,False,2,,,,,
+tFDCDLZvoqw,1,2,Turkish Street Music - Sulukule,250,-32.1126875,0,reject,True,True,False,False,2,,,,,
 7Rmd43yO7F8,5,3,Hicaz Dolap,300,-82.1126875,0,,False,True,False,False,1,,,,,
 5_SjxMvvNrc,5,3,Mustafa Kandıralı-Hicaz Dolap,237,-19.1126875,0,,False,True,False,False,1,,,,,
 EYC6jEGKQMQ,6,3,Hicaz Dolap,304,-86.1126875,0,,False,True,False,False,1,,,,,

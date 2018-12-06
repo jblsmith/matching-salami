@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-roKDHGGggEw,19,1,Billie Holiday - Lover Man (Live @ Seven Ages Of Jazz Festival) Metrojazz Records 1958,183,-3.4343,0,match,False,False,True,False,102,172.4,0.9,0.8,1507.0,1577.0
 iATd2iyFRqg,0,4,"""Lover Man""  Billie Holiday",199,-19.4343,0,,True,True,False,False,7,,,,,
 hbmUnXkiAVo,0,2,Billie Holiday - Lover Man (with lyrics),209,-29.4343,0,,True,True,False,False,7,,,,,
 wsUilUYOeOM,0,2,"02 Loverman (Jimmy Davis, Roger Ramirez and James Sherman)",359,-179.4343,0,,True,True,False,False,7,,,,,
@@ -21,6 +20,7 @@ cd8uHJURETA,10,1,"Lover Man (Oh, Where Can You Be?)",180,-0.4343,0,,False,False,
 owrf4uD9Dmg,13,1,Lover man  Jimmy Davis Roger Ramirez Jimmy Sherman arr,184,-4.4343,0,,False,False,True,False,2,,,,,
 IN1eNUmGDLI,13,1,Lover Man,181,-1.4343,0,,False,False,True,False,2,,,,,
 ZUaLIm1glVA,14,1,LOVER MAN BY JIMMY DAVIS- ROGER RAM RAMIREZ - JAMES SHERMAN.,182,-2.4343,0,,False,False,True,False,2,,,,,
+roKDHGGggEw,19,1,Billie Holiday - Lover Man (Live @ Seven Ages Of Jazz Festival) Metrojazz Records 1958,183,-3.4343,0,match,False,False,True,False,2,172.4,0.9,0.8,1507.0,1577.0
 JJDMnVe_EbI,5,2,Billie Holiday - Lover Man (1944),197,-17.4343,0,,False,True,False,False,1,,,,,
 0ywN1NyaEj8,7,2,"LENA HORNE LOVER MAN (OH WHERE CAN YOU BE) (James Edward Davis, Roger 'Ram' Ramirez, Jimmy Sherman)",205,-25.4343,0,,False,True,False,False,1,,,,,
 yvrfDeylTTY,9,2,Sarah Vaughan - Lover Man (Oh Where Can You Be) Live from Holland 1958,321,-141.4343,0,,False,True,False,False,1,,,,,

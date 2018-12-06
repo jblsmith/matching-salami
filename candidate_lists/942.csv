@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-QiKJ8jzeC3k,0,3,Bo Dollis   Ron Levy   Co Co Co Coconut Milk,190,1.0596,0,match,True,True,False,True,100,186.7,0.8,0.4,2070.0,2482.0
 rFwnFXyZyiw,0,1,Roomful of Blues feat Ron Levy   'Coconut Milk',314,-122.9404,0,,True,True,False,False,7,,,,,
 BGyuxYHqrwU,6,1,Coconut Milk,193,-1.9404,0,,False,True,True,False,3,,,,,
 mH2ul44apfA,1,2,Coconut Milk,250,-58.9404,0,,True,True,False,False,2,,,,,
@@ -17,6 +16,7 @@ IdITiGpKblg,7,1,Ron Levy - Blues for BB.wmv,305,-113.9404,0,,False,True,False,Fa
 be6wQKyeqVE,8,1,Coconut Milk,314,-122.9404,0,,False,True,False,False,1,,,,,
 sUfK5xqNaGs,9,1,Liza Jane,303,-111.9404,0,,False,True,False,False,1,,,,,
 3zz0U-ulS1M,9,1,Ron Levy - Prayin' the Blues Part 2.wmv,333,-141.9404,0,,False,True,False,False,1,,,,,
+QiKJ8jzeC3k,0,3,Bo Dollis   Ron Levy   Co Co Co Coconut Milk,190,1.0596,0,match,True,True,False,True,0,186.7,0.8,0.4,2070.0,2482.0
 3XkckK7w5Rc,2,2,Coconut Milk,93,98.0596,0,,True,True,False,False,0,,,,,
 RFnXSocYOfM,6,2,Bo Dollis in the studio,95,96.0596,0,,False,True,False,False,0,,,,,
 FoKlnCnQmNg,7,2,"Big Chief Bo Dollis Jr. & The Wild Magnolias @The French Quarter Fest,New Orleans 4-15-2012",622,-430.9404,0,,False,True,False,False,0,,,,,

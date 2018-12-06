@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-kc_fKo0Ru3I,0,3,Carlos Paredes   Canto de Embalar,175,-2.2,0,potential,True,True,True,False,109,86.1,29.2,28.1,200.0,458.0
+kc_fKo0Ru3I,0,3,Carlos Paredes   Canto de Embalar,175,-2.2,0,potential,True,True,True,False,9,86.1,29.2,28.1,200.0,458.0
 VADq-sw0-Yw,0,3,Madredeus & Carlos Paredes -  Mudar de Vida / Canto de Embalar,271,-98.2,0,reject,True,True,False,False,7,,,,,
-l6umgftdxYI,2,2,Carlos Paredes - Canção de Embalar,174,-1.2,0,,True,True,True,False,4,,,,,
-QhMcyikuwz8,4,3,Joaquim Cabral guitarra portuguesa prof  Ricardo Silva Canto de Embalar Carlos Paredes 20Dez011,193,-20.2,0,,True,True,False,False,2,,,,,
-9HG0U_yi25c,4,2,Canto de Embalar,241,-68.2,0,,True,True,False,False,2,,,,,
+l6umgftdxYI,2,2,Carlos Paredes - Canção de Embalar,174,-1.2,0,reject,True,True,True,False,4,,,,,
+QhMcyikuwz8,4,3,Joaquim Cabral guitarra portuguesa prof  Ricardo Silva Canto de Embalar Carlos Paredes 20Dez011,193,-20.2,0,reject,True,True,False,False,2,,,,,
+9HG0U_yi25c,4,2,Canto de Embalar,241,-68.2,0,reject,True,True,False,False,2,,,,,
 wVSHT-LHlK8,2,1,"""Canto de Embalar"" - Marta Pereira da Costa",194,-21.2,0,,True,True,False,False,2,,,,,
 -8OBRgoC2k8,6,2,Carlos Paredes y Dani Granero - MUELLE UNO,255,-82.2,0,,False,True,False,False,1,,,,,
 zehI1bVeoOQ,9,2,Sandor Mester MS3 Concert in Sofia Carlos Paredes,522,-349.2,0,,False,True,False,False,1,,,,,

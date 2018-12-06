@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 pqvChb-fJoY,0,5,Bob Dylan - 7 - Country Pie (Münster 2000),195,-97.01475,0,reject,True,True,False,False,7,,,,,
 o4x49MrabK8,0,5,"B. Dylan - ""Country Pie"" (Telewest Arena, 9/19/00)",175,-77.01475,0,reject,True,True,False,False,7,,,,,
-Af1WX8lVMXs,9,1,Country Pie — Monrovia Sessions 1999,98,-0.01475,0,,False,True,True,False,3,,,,,
-A9xVvxkhZvc,1,5,"Bob Dylan, Country Pie , Newcastle  19.09.2000",145,-47.01475,0,,True,True,False,False,2,,,,,
-5ft2yXKcbSg,2,5,Beck - Country Pie,130,-32.01475,0,,True,True,False,False,2,,,,,
+Af1WX8lVMXs,9,1,Country Pie — Monrovia Sessions 1999,98,-0.01475,0,reject,False,True,True,False,3,,,,,
+A9xVvxkhZvc,1,5,"Bob Dylan, Country Pie , Newcastle  19.09.2000",145,-47.01475,0,reject,True,True,False,False,2,,,,,
+5ft2yXKcbSg,2,5,Beck - Country Pie,130,-32.01475,0,reject,True,True,False,False,2,,,,,
 XsY3LEuXeio,3,5,"B. Dylan - ""Country Pie"" (Pullman, 3/21/00)",195,-97.01475,0,,True,True,False,False,2,,,,,
 GRJBIAAjhK8,3,5,Bob Dylan - One More Night (Nashville Skyline Outtake),162,-64.01475,0,,True,True,False,False,2,,,,,
 WDILzS1dRlU,1,3,Nashville Skyline Rag - Country Pie,158,-60.01475,0,,True,True,False,False,2,,,,,

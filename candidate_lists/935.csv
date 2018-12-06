@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-zXkxDsrErH0,0,4,Contrabajisimo,587,0.102041666667,0,potential,True,True,False,True,100,379.9,0.5,0.5,4918.0,9380.0
 Q4KN4v8BKKA,7,1,CONTRABAJISIMO - Astor Piazzolla,599,-11.8979583333,0,reject,False,True,False,False,1,,,,,
-XKrji0WhzjY,1,4,Milonga Loca,183,404.102041667,0,,True,True,False,False,0,,,,,
-0Oez2rdIrDg,2,4,Tres Minutos Con la Realidad,174,413.102041667,0,,True,True,False,False,0,,,,,
-NFnbpqs7JuI,3,4,Jacinto Chiclana,214,373.102041667,0,,True,True,False,False,0,,,,,
+zXkxDsrErH0,0,4,Contrabajisimo,587,0.102041666667,0,potential,True,True,False,True,0,379.9,0.5,0.5,4918.0,9380.0
+XKrji0WhzjY,1,4,Milonga Loca,183,404.102041667,0,reject,True,True,False,False,0,,,,,
+0Oez2rdIrDg,2,4,Tres Minutos Con la Realidad,174,413.102041667,0,reject,True,True,False,False,0,,,,,
+NFnbpqs7JuI,3,4,Jacinto Chiclana,214,373.102041667,0,matched_938,True,True,False,False,0,,,,,
 yr-gOqUCUwc,4,2,Réseau d'été du ROSEQ 2011-Clin d'oeil de Romulo Larrea,18,569.102041667,0,,True,True,False,False,0,,,,,
 2RjsVUvce6k,5,2,9 de Julio - Ensemble Romulo Larrea & dancers,171,416.102041667,0,,False,True,False,False,0,,,,,
 EdOCdwZ7WuI,0,1,Contrabajisimo - Astor Piazzolla,664,-76.8979583333,0,,True,True,False,False,0,,,,,

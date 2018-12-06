@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 dyzYjyp8zCw,0,1,Tarquinio Merula - Capriccio cromatico,271,-79.940375,0,reject,True,True,False,False,7,,,,,
 0z7nW2jRA7g,1,1,"Tarquinio Merula Capriccio cromatico,Toccata secondo Tono,Alessandrini harpsichord",469,-277.940375,0,reject,True,True,False,False,2,,,,,
-HuEcfmA6iF4,2,1,Tarquinio Merula - Capriccio cromatico,220,-28.940375,0,,True,True,False,False,2,,,,,
-Lg1S2PadDNM,3,1,Tarquinio Merula: Capriccio cromatico (Orgel),235,-43.940375,0,,True,True,False,False,2,,,,,
-DRIUgl3h41E,5,1,Tarquinio Merula Canzona Alessandrini organ,212,-20.940375,0,,False,True,False,False,1,,,,,
+HuEcfmA6iF4,2,1,Tarquinio Merula - Capriccio cromatico,220,-28.940375,0,reject,True,True,False,False,2,,,,,
+Lg1S2PadDNM,3,1,Tarquinio Merula: Capriccio cromatico (Orgel),235,-43.940375,0,reject,True,True,False,False,2,,,,,
+DRIUgl3h41E,5,1,Tarquinio Merula Canzona Alessandrini organ,212,-20.940375,0,reject,False,True,False,False,1,,,,,
 D5_bSrkEFXs,6,1,Tarquinio Merula: Capriccio Chromatico,238,-46.940375,0,,False,True,False,False,1,,,,,
 nzzeialbOyY,7,1,Tarquinio Merula: Canzon „La Lusignuola“ - Bux Quartet,341,-149.940375,0,,False,True,False,False,1,,,,,
 WWFkKZiO7uA,8,1,"T. Merula: Sonata Cromatica (F.S. Colamarino, 1982 recording)",346,-154.940375,0,,False,True,False,False,1,,,,,

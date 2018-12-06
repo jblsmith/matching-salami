@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Eiva-FLAkhQ,0,4,Sweet Georgia Brown (Instrumental),115,0.3305625,0,potential,True,True,False,True,100,107.7,0.5,0.4,1812.0,2026.0
 JkxrCttCcHg,0,1,Sweet Georgia Brown - Louis Armstrong,258,-142.6694375,0,reject,True,True,False,False,7,,,,,
-MHLxd7ttNwc,2,4,Sweet Georgia Brown,120,-4.6694375,0,,True,True,True,False,4,,,,,
-eOFCgLYd4ns,1,4,Sweet Georgia Brown,125,-9.6694375,0,,True,True,False,False,2,,,,,
-N4GMczGB9qk,2,2,Doc Watson - Sweet Georgia Brown (cover),146,-30.6694375,0,,True,True,False,False,2,,,,,
-SBpXGw0gPb4,4,2,Doc Watson at Wayne Henderson Festival,216,-100.6694375,0,,True,True,False,False,2,,,,,
+MHLxd7ttNwc,2,4,Sweet Georgia Brown,120,-4.6694375,0,reject,True,True,True,False,4,,,,,
+eOFCgLYd4ns,1,4,Sweet Georgia Brown,125,-9.6694375,0,reject,True,True,False,False,2,,,,,
+N4GMczGB9qk,2,2,Doc Watson - Sweet Georgia Brown (cover),146,-30.6694375,0,reject,True,True,False,False,2,,,,,
+SBpXGw0gPb4,4,2,Doc Watson at Wayne Henderson Festival,216,-100.6694375,0,reject,True,True,False,False,2,,,,,
 opmwfRqdGsg,1,1,1949 HITS ARCHIVE: Sweet Georgia Brown - Brother Bones (Globetrotters theme),172,-56.6694375,0,,True,True,False,False,2,,,,,
 mpO5xIltlyU,3,1,Django Reinhardt - Sweet georgia brown,240,-124.6694375,0,,True,True,False,False,2,,,,,
 5SaFp_I7-N4,4,1,Ella Fitzgerald & Duke Ellington orch. - Sweet Georgia Brown,195,-79.6694375,0,,True,True,False,False,2,,,,,
@@ -22,6 +21,7 @@ EbbBeU1vHew,8,1,Count Basie - Sweet Georgia Brown,211,-95.6694375,0,,False,True,
 QDQ_mSY5Y5M,8,1,"Doc & Merle Watson w/T Michael Coleman, Anniversary Blue Yodel, c. 1984",255,-139.6694375,0,,False,True,False,False,1,,,,,
 2a07JsE6dOU,9,1,Django Reinhardt - Sweet Georgia Brown,189,-73.6694375,0,,False,True,False,False,1,,,,,
 7iiLiI8ns6c,9,1,Call Of The Road,141,-25.6694375,0,,False,True,False,False,1,,,,,
+Eiva-FLAkhQ,0,4,Sweet Georgia Brown (Instrumental),115,0.3305625,0,potential,True,True,False,True,0,107.7,0.5,0.4,1812.0,2026.0
 jOFgWmutprE,1,4,Doc Watson - Sweet Georgia Brown - Guitar Tutorial,679,-563.6694375,0,,True,True,False,False,0,,,,,
 UF3cczVw_OM,4,4,Sweet Georgia Brown (Live),113,2.3305625,0,,True,True,False,True,0,,,,,
 3CofK4pPZjM,1,2,Doc Watson Georgia Brown,69,46.3305625,0,,True,True,False,False,0,,,,,

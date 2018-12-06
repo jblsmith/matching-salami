@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-nW9Cu6GYqxo,0,2,Bonnie Raitt - I Can't Make You Love Me,283,50.50525,0,potential,True,True,False,False,100,239.9,1.4,0.7,1430.0,1804.0
 y7Zv6kvMCj0,0,1,I Can't Make You Love Me - Bonnie Raitt (Luck of the Draw),334,-0.49475,0,match,True,True,True,False,9,324.2,0.8,0.9,1783.0,2088.0
 XLl7RgkfP-A,3,3,George Michael - I Can't Make You Love Me,335,-1.49475,0,,True,True,True,False,4,,,,,
 Mau0FoVqNOg,1,2,I Can't Make You Love Me | A Performance by Saxophonist Mark Maxwell,336,-2.49475,0,,True,True,True,False,4,,,,,
@@ -11,6 +10,7 @@ RO6XFaqvAyU,1,4,I Can't Make You Love Me - Dinh Bao - Mike Reid and Allen Shambl
 0Vti0rGQ-94,2,4,I Can't Make You Love Me by Reid & Shamblin Cover,274,59.50525,0,,True,True,False,False,0,,,,,
 KGnQfHsPwG8,3,3,Kenny Rogers - I Can't Make You Love Me,252,81.50525,0,,True,True,False,False,0,,,,,
 Kb88Epmp_o8,4,3,"""I Can't Make You Love Me"" written by M. Reid and A. Shamblin - vocals DONATO",295,38.50525,0,,True,True,False,False,0,,,,,
+nW9Cu6GYqxo,0,2,Bonnie Raitt - I Can't Make You Love Me,283,50.50525,0,potential,True,True,False,False,0,239.9,1.4,0.7,1430.0,1804.0
 IlA3tMaX9GA,0,2,Mike Reid - I Can't Make You Love Me ( + lyrics 1991),248,85.50525,0,,True,True,False,False,0,,,,,
 _z2PAkOSJT0,1,2,I Can't Make You Love Me,333,0.50525,0,,True,True,False,True,0,,,,,
 xCuxh3MeCZc,5,2,I Can't Make You Love Me -Bonnie Raitt/Mike Reid/Allen Shamblin cover solo live at T-Bonz,245,88.50525,0,,False,True,False,False,0,,,,,

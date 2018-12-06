@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 2js0LXNWhZI,0,1,"Johann Stamitz   Symphony in E flat major, Op  11, No  3   I  Allegro assai",230,-197.660375,0,reject,True,True,False,False,7,,,,,
 goAdkDvrgkw,1,1,"Sinfonia in E flat major, La melodia germanica, Op. 11, No. 3 - Allegro assai",272,-239.660375,0,reject,True,True,False,False,2,,,,,
-3AXwDhybOao,3,1,La Melodia Germanica - Johann Stamitz,232,-199.660375,0,,True,True,False,False,2,,,,,
+3AXwDhybOao,3,1,La Melodia Germanica - Johann Stamitz,232,-199.660375,0,match,True,True,False,False,2,31.8,72.0,0.2,384.0,448.0
 92TKY25xA2w,4,1,"Sinfonia a 4 in C Major, ""La Melodia Germanica"": I. —",553,-520.660375,0,,True,True,False,False,2,,,,,
 _BFRP7K1Ovw,7,1,"Sinfonia a 4 in C Major, ""La Melodia Germanica"": III. Tempo di Menuetto",338,-305.660375,0,,False,True,False,False,1,,,,,
 dWM822BExqs,9,1,Stamitz: Clarinet Concerto in B Flat Major - 1. Allegro moderato,433,-400.660375,0,,False,True,False,False,1,,,,,
-G88jvEdmE3A,2,1,Jan Václav Stamic (Johann Stamitz) Sinfonia in D major Melodia Germanica,912,-879.660375,0,,True,True,False,False,0,,,,,
+G88jvEdmE3A,2,1,Jan Václav Stamic (Johann Stamitz) Sinfonia in D major Melodia Germanica,912,-879.660375,0,reject,True,True,False,False,0,,,,,
 GDRQp52zLgo,5,1,Johann Stamitz: Op. 4 n. 2 - Sinfonia Pastorale in D major (Wolf D4) / Northern Chamber Orchestra,853,-820.660375,0,,False,True,False,False,0,,,,,
 wuqlqc4mDaQ,6,1,Johann Wenzel Anton Stamitz. Sinfonia a Quattro in F major,999,-966.660375,0,,False,True,False,False,0,,,,,
 dS2i_xta0UY,8,1,Johann Wenzel Anton Stamitz. Sinfonia a Quattro in D major,934,-901.660375,0,,False,True,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-RixHMMTM0dQ,0,3,Harry Belafonte - Zombie Jamboree (Back to Back),199,2.58693877551,0,match,True,True,False,True,100,196.1,0.7,0.7,2569.0,3317.0
 s617_HpFGbo,0,3,Gone Too Far Too (Zombie Jamboree - with lyrics) + Epilogue,225,-23.413061224499998,0,,True,True,False,False,7,,,,,
 9BTIBBHbKmU,4,1,Try to Remember,204,-2.41306122449,0,,True,True,True,False,4,,,,,
 RdRI2Y8fGcI,1,3,Harry Belafonte - Zombie Jamboree,251,-49.4130612245,0,,True,True,False,False,2,,,,,
@@ -19,6 +18,7 @@ UEi-0dlUtZ0,7,1,Gone Too Far Too (HD),231,-29.413061224499998,0,,False,True,Fals
 2ADHoAxj7Qo,7,1,MrBrightside Comic The Killers + Roz Gibson,224,-22.413061224499998,0,,False,True,False,False,1,,,,,
 -FQ2inLCCqY,8,1,ZOMBIES,251,-49.4130612245,0,,False,True,False,False,1,,,,,
 p11imnWRtDE,9,1,Zombie Jamboree - Singing Pumpkins Animation Effect,230,-28.413061224499998,0,,False,True,False,False,1,,,,,
+RixHMMTM0dQ,0,3,Harry Belafonte - Zombie Jamboree (Back to Back),199,2.58693877551,0,match,True,True,False,True,0,196.1,0.7,0.7,2569.0,3317.0
 _bNy2jA26Cg,10,3,"Jack Jeans - ""Zombie Jamboree"" ( A capella - vozes e palmas )",230,-28.413061224499998,0,,False,False,False,False,0,,,,,
 ToUG1ec5y7M,10,3,King Flash & Calypso Carnival - Zombie Jamboree,160,41.5869387755,0,,False,False,False,False,0,,,,,
 p4k5XftdTMs,10,3,Zombie Jamboree,196,5.58693877551,0,,False,False,False,False,0,,,,,

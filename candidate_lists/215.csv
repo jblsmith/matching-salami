@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-qwchF14gXdE,0,5,Ma gli archi,152,0.163291666667,0,match,True,True,False,True,100,149.0,0.6,0.6,1880.0,1942.0
 TQV9E4e5dWo,0,2,Orlande de Lassus - Lagrime di San Pietro: II. Ma gli archi,165,-12.836708333299999,0,,True,True,False,False,7,,,,,
 bv8Ce3l30sw,4,2,"II. Ma gli archi, che nel petto",156,-3.83670833333,0,,True,True,True,False,4,,,,,
 ByqlJDQvtEM,7,2,Orlande de Lassus - Lagrime di San Pietro: XI. E non fu il pianto suo,154,-1.83670833333,0,,False,True,True,False,3,,,,,
@@ -7,6 +6,7 @@ PJ_Qv8-KpYI,2,2,Orlandus Lassus: Lagrimi Di San Pietro - Ma Gli Archi,169,-16.83
 qWEyoRvBg_Q,4,2,"Lagrime di San Pietro, madrigali I, II, III - Orlando di Lasso",373,-220.836708333,0,,True,True,False,False,2,,,,,
 LzSsRfzZF-w,1,1,Orlando di Lasso - Ma gli archi (Ariosto Ensemble),172,-19.8367083333,0,,True,True,False,False,2,,,,,
 8URQ0ZElT0Q,11,1,Orlande de Lassus - Lagrime di San Pietro: I. Il magnanimo Pietro,154,-1.83670833333,0,,False,False,True,False,2,,,,,
+qwchF14gXdE,0,5,Ma gli archi,152,0.163291666667,0,match,True,True,False,True,0,149.0,0.6,0.6,1880.0,1942.0
 GnavUTvJ4tY,0,5,Orlando di Lasso: Lagrime Di San Pietro; Madrigal,3296,-3143.83670833,0,,True,True,False,False,0,,,,,
 CAVjq3k1XGA,2,3,Cosi tal'hor,129,23.1632916667,0,,True,True,False,False,0,,,,,
 YSVclh2OUJk,2,2,Lagrime di San Pietro: II. Ma gli archi,145,7.163291666669999,0,,True,True,False,False,0,,,,,

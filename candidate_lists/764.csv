@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 VOh-PJxhMhs,0,5,Gangsaran,90,-49.013875,0,reject,True,True,False,False,7,,,,,
 cky1U6pJsME,1,5,Gendhing Gangsaran  Kasetra,457,-416.013875,0,reject,True,True,False,False,2,,,,,
-YccVdWzUjsU,2,5,Gendhing Gangsaran by Prabacendana (Birmingham Javanese Gamelan Group),72,-31.013875,0,,True,True,False,False,2,,,,,
-bMsXg79TDZI,2,5,Gangsaran RONINGTAWANG / Javanese Gamelan Music Jawa / KRATON Yogyakarta [HD],450,-409.013875,0,,True,True,False,False,2,,,,,
--dsuiqt1ZXE,4,5,Gangsaran 2 Kebo Giro Karawitan STABN Sriwijaya,279,-238.013875,0,,True,True,False,False,2,,,,,
+YccVdWzUjsU,2,5,Gendhing Gangsaran by Prabacendana (Birmingham Javanese Gamelan Group),72,-31.013875,0,reject,True,True,False,False,2,,,,,
+bMsXg79TDZI,2,5,Gangsaran RONINGTAWANG / Javanese Gamelan Music Jawa / KRATON Yogyakarta [HD],450,-409.013875,0,reject,True,True,False,False,2,,,,,
+-dsuiqt1ZXE,4,5,Gangsaran 2 Kebo Giro Karawitan STABN Sriwijaya,279,-238.013875,0,reject,True,True,False,False,2,,,,,
 wUWiZRIDiG4,3,3,Gangsaran 1 Ebeg Putri Rahayu di Menggala,513,-472.013875,0,,True,True,False,False,2,,,,,
 yNINxa4yN7g,7,5,Gangsaran Agus Ascinda Commonity,206,-165.013875,0,,False,True,False,False,1,,,,,
 azWPLpI9k_Q,9,5,Lancaran   Manyar  Sewu  Pl.Barang,260,-219.013875,0,,False,True,False,False,1,,,,,

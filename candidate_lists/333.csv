@@ -1,7 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ELFaFkpBVIs,0,4,Jewel - Stand (Official Video),188,5.2,0,potential,True,True,False,False,100,152.3,32.6,31.3,392.0,14066.0
 ecvKEhiDi1c,0,1,"Meg Donnelly, Trevor Tordjman - Stand (From ""ZOMBIES"")",202,-8.8,0,reject,True,True,False,False,7,,,,,
-rapoLBZIbIU,1,2,jewel stand lyrics,195,-1.8,0,,True,True,True,False,4,,,,,
+rapoLBZIbIU,1,2,jewel stand lyrics,195,-1.8,0,potential,True,True,True,False,4,135.4,49.6,48.4,294.0,11913.0
 jwxqSc2WcjY,1,2,Stand,194,-0.8,0,,True,True,True,False,4,,,,,
 AKKqLl_ZEEY,4,1,R.E.M. - Stand (Official Music Video),194,-0.8,0,,True,True,True,False,4,,,,,
 dPGfbetia8A,5,3,Jewel - Stand (live),198,-4.8,0,,False,True,True,False,3,,,,,
@@ -26,6 +25,7 @@ zHS2AMIO3Ak,7,1,Intuition,229,-35.8,0,,False,True,False,False,1,,,,,
 oyxIcc6QNqE,8,1,Həsrət Həsrətov (Stand UP Baku - 16-cı şou),479,-285.8,0,,False,True,False,False,1,,,,,
 ojYXBeJy5uE,9,1,Stand (MARKUS SCHULZ CLUB MIX),410,-216.8,0,,False,True,False,False,1,,,,,
 X5spYFrnGoE,9,1,Jewel - 2 Find U (Live Video),210,-16.8,0,,False,True,False,False,1,,,,,
+ELFaFkpBVIs,0,4,Jewel - Stand (Official Video),188,5.2,0,potential,True,True,False,False,0,152.3,32.6,31.3,392.0,14066.0
 PUKqZFzMaX4,4,3,Jewel - Stand -,193,0.2,0,,True,True,False,True,0,,,,,
 yx114gI24zw,6,2,2003-11 - Jewel - Stand (Live @ TOTP-NL),178,15.2,0,,False,True,False,False,0,,,,,
 MDrFZ_J-ISQ,7,2,Jewel- Stand (with lyrics),187,6.2,0,,False,True,False,False,0,,,,,

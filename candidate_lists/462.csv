@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XuNxOjFX8oI,0,3,Jelly Roll Morton ~ The Pearls 1927,205,1.686125,0,match,True,True,False,True,100,198.8,1.1,0.7,931.0,1233.0
 OjxL-VXuAp0,2,2,The Pearls,209,-2.313875,0,,True,True,True,False,4,,,,,
 GmSdpzyrk2c,1,2,"The Pearls - Played by ""Jelly Roll"" Morton",258,-51.313875,0,,True,True,False,False,2,,,,,
 F0jdJyiuOeo,2,2,"""The Pearls"" by Jelly Roll Morton | Max Keenlyside, Piano",251,-44.313875,0,,True,True,False,False,2,,,,,
@@ -14,6 +13,7 @@ MkGjDbKauVo,5,1,The Crave - Jelly Roll Morton (Original Version),273,-66.313875,
 ZI22Hr9FDwU,8,1,"DINOSAUR 'Living, Breathing' from 'Together, As One' (official video)",403,-196.313875,0,,False,True,False,False,1,,,,,
 3qVbJbg-lBY,8,1,*Serious Circus* Live on NBC 1981      Pt. 3,265,-58.313875,0,,False,True,False,False,1,,,,,
 spIETb99LxA,9,1,Pearl Jam - Nothingman,248,-41.313875,0,,False,True,False,False,1,,,,,
+XuNxOjFX8oI,0,3,Jelly Roll Morton ~ The Pearls 1927,205,1.686125,0,match,True,True,False,True,0,198.8,1.1,0.7,931.0,1233.0
 73YjMg8Y15A,0,2,The Definitive Jelly Roll Morton - Ragtime & Early Sounds from New Orleans,8381,-8174.313875,0,,True,True,False,False,0,,,,,
 jJekVcTVRFw,1,2,Jerry Rothschild - Jazz Piano - Plays Jelly Roll Morton,1930,-1723.313875,0,,True,True,False,False,0,,,,,
 FL2Z1pn545Q,2,2,The Pearls played by Jelly Roll Morton in 1926,171,35.686125,0,,True,True,False,False,0,,,,,

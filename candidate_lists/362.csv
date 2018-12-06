@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-xI0uOSWuf_E,0,3,"Public Enemy ""I""",269,-0.2,0,match,True,True,True,False,109,268.1,0.0,0.0,3979.0,10807.0
+xI0uOSWuf_E,0,3,"Public Enemy ""I""",269,-0.2,0,match,True,True,True,False,9,268.1,0.0,0.0,3979.0,10807.0
 8aShfolR6w8,0,1,Kendrick Lamar - i (Official Video),282,-13.2,0,,True,True,False,False,7,,,,,
 U2Ay2jI3hfY,2,2,Public Enemy - I,273,-4.2,0,,True,True,True,False,4,,,,,
 ae2udWJxbFw,5,2,Public Enemy - The I,269,-0.2,0,,False,True,True,False,3,,,,,

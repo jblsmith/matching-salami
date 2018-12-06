@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-n0-wtP8TZQE,0,2,Ave Verum Corpus,190,-1.68325,0,potential,True,True,True,False,109,147.3,33.2,33.2,509.0,659.0
+n0-wtP8TZQE,0,2,Ave Verum Corpus,190,-1.68325,0,potential,True,True,True,False,9,147.3,33.2,33.2,509.0,659.0
 vTZEwrgm8KY,0,1,"CWU Chamber Choir: William Byrd, Ave Verum Corpus",269,-80.68325,0,reject,True,True,False,False,7,,,,,
-qvFUw9HvRf8,0,1,The most beautiful rendition of Mozart's Ave Verum Corpus,383,-194.68325,0,,True,True,False,False,7,,,,,
-5gcWW7J1VyU,0,1,Ave Verum Corpus-Mozart-Musica Sacra,238,-49.68325,0,,True,True,False,False,7,,,,,
+qvFUw9HvRf8,0,1,The most beautiful rendition of Mozart's Ave Verum Corpus,383,-194.68325,0,reject,True,True,False,False,7,,,,,
+5gcWW7J1VyU,0,1,Ave Verum Corpus-Mozart-Musica Sacra,238,-49.68325,0,reject,True,True,False,False,7,,,,,
 LB9z4Ac-ung,1,2,Ave Verum Corpus by the 2018 Heritage High School Chamber Choir,190,-1.68325,0,,True,True,True,False,4,,,,,
 CIXGkSROiGM,2,2,Ave verum corpus K. 618,190,-1.68325,0,,True,True,True,False,4,,,,,
 fvMpfOGc210,6,2,"Mozart Ave Verum Corpus — Nagano Children's Chorus, 11-24-2",193,-4.68325,0,,False,True,True,False,3,,,,,
@@ -29,7 +29,7 @@ uW1vix7MV40,8,1,Ave Maria (Brahms),233,-44.68325,0,,False,True,False,False,1,,,,
 38csCw7pY6k,9,1,"Ave Verum, Mozart - Concerto de Música Sacra",194,-5.68325,0,,False,True,False,False,1,,,,,
 epS891fCwhM,9,2,Academy Choir- Mozart- Ave Verum Corpus,185,3.31675,0,,False,True,False,True,0,,,,,
 iRsvYy_VTtA,14,2,"""Ave Verum Corpus"" by Colin Mawby",225,-36.68325,0,,False,False,False,False,0,,,,,
-Sn_RkAfgFoE,0,1,"Música Sacra - Vol. N°4: Mozart ""Réquiem"", K 626 - K 618/K165",4511,-4322.68325,0,,True,True,False,False,0,,,,,
+Sn_RkAfgFoE,0,1,"Música Sacra - Vol. N°4: Mozart ""Réquiem"", K 626 - K 618/K165",4511,-4322.68325,0,reject,True,True,False,False,0,,,,,
 qX8873sC38U,1,1,Ave Verum Corpus (Alvfors) - Sofia Kammarkör,130,58.31675,0,,True,True,False,False,0,,,,,
 HXjn6srhAlY,1,1,"Ave Verum Corpus (Mozart) -  King's College, Cambridge",150,38.31675,0,,True,True,False,False,0,,,,,
 gQn-b2O4gq8,1,1,Mozart - Ave Verum Corpus,180,8.31675,0,,True,True,False,False,0,,,,,

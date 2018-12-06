@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ZIalwWHBnkY,1,3,"Domenico Scarlatti - Sonata for Harpsichord in F minor, K.466/L.118",305,-7.12570833333,0,match,True,True,False,False,102,292.3,9.6,3.0,1319.0,2377.0
 XKqbsukIa34,0,4,D. Scarlatti - Keyboard Sonata in F Minor K.466 / L.118 - Vladimir Horowitz,298,-0.125708333333,0,,True,True,True,False,9,,,,,
 V41hvVTSXMw,0,3,"Scarlatti - Horowitz    Sonata in F minor, K  466 L 118",300,-2.12570833333,0,,True,True,True,False,9,,,,,
 uthlSgmBYMc,0,2,D. Scarlatti - Keyboard Sonata in F Minor K.466 / L.118 - Emil Gilels,302,-4.12570833333,0,,True,True,True,False,9,,,,,
 Kui5OuWDy_Y,1,3,Vladimir Horowitz plays Scarlatti K 466,298,-0.125708333333,0,,True,True,True,False,4,,,,,
 Q_YibTFz-kU,3,2,VLADIMIR HOROWITZ PLAYS SCARLATTI SONATA K466 (L118).wmv,298,-0.125708333333,0,,True,True,True,False,4,,,,,
 -2235IxU92U,7,2,Scarlatti's piano sonata K466 in F minor played by Vladimir Horowitz,298,-0.125708333333,0,,False,True,True,False,3,,,,,
+ZIalwWHBnkY,1,3,"Domenico Scarlatti - Sonata for Harpsichord in F minor, K.466/L.118",305,-7.12570833333,0,match,True,True,False,False,2,292.3,9.6,3.0,1319.0,2377.0
 fUMta2bymMY,2,2,D. Scarlatti - Keyboard Sonata in F Minor K.481 / L.187 - Vladimir Horowitz,310,-12.125708333299999,0,,True,True,False,False,2,,,,,
 hvGyvh5aS6E,3,2,"Sonata in F minor, K 481 (L 187)",306,-8.125708333330001,0,,True,True,False,False,2,,,,,
 OIGTA8rXEx0,11,2,"Sonata in F Minor, K 466 (L 118) : Andante moderato",298,-0.125708333333,0,,False,False,True,False,2,,,,,

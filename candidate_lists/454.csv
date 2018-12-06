@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 uLvBP-UdL_0,0,4,Old Fashioned Love - Neville Dickie,188,-2.0343,0,reject,True,True,True,False,9,,,,,
 ss25gxgoZB8,0,2,2016 06 12 Old Fashioned Love,205,-19.0343,0,reject,True,True,False,False,7,,,,,
-04oWm1I2XKY,0,1,The Commodores - Old Fashion Love (Video) HD,298,-112.0343,0,,True,True,False,False,7,,,,,
-0jpm9FCtSBI,2,1,Old Fashioned Love | Tatiana Manaois (Official Audio),187,-1.0343,0,,True,True,True,False,4,,,,,
-PI3LAgGBxqU,3,1,"Queen - Good Old Fashioned Lover Boy (Top Of The Pops, 1977)",187,-1.0343,0,,True,True,True,False,4,,,,,
+04oWm1I2XKY,0,1,The Commodores - Old Fashion Love (Video) HD,298,-112.0343,0,reject,True,True,False,False,7,,,,,
+0jpm9FCtSBI,2,1,Old Fashioned Love | Tatiana Manaois (Official Audio),187,-1.0343,0,reject,True,True,True,False,4,,,,,
+PI3LAgGBxqU,3,1,"Queen - Good Old Fashioned Lover Boy (Top Of The Pops, 1977)",187,-1.0343,0,reject,True,True,True,False,4,,,,,
 Q4ViJSsBjzc,1,2,James P. Johnson; OLD FASHIONED LOVE,199,-13.0343,0,,True,True,False,False,2,,,,,
 DL01t7CsLkE,2,2,James P. Johnson - Old Fashioned Love,194,-8.0343,0,,True,True,False,False,2,,,,,
 V6HSizIQJ_Y,4,2,"""OLD-FASHIONED LOVE"": CARL SONNY LEYLAND, MARTY EGGERS, HAL SMITH",316,-130.0343,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 ou-OZq3oISA,4,2,Wyclef Jean - Sak Ka Fèt (Official Video),562,-231.864458333,0,reject,True,True,False,False,2,,,,,
 nweEeGrxbBU,12,2,MUZION - LAVI A PA FACILE,334,-3.86445833333,0,reject,False,False,True,False,2,,,,,
-Rr7HJepDxfM,2,1,KLASS - Map Marye (Unofficial Video),412,-81.86445833329998,0,,True,True,False,False,2,,,,,
-ZlRO3F9ivpo,3,1,KLASS - M'ap Marye (PAWOL),415,-84.86445833329998,0,,True,True,False,False,2,,,,,
-dML5Iy0VcWM,3,1,Speak Haitian Creole Now! The Top 20 Words for Your Next Trip to Haiti,351,-20.8644583333,0,,True,True,False,False,2,,,,,
+Rr7HJepDxfM,2,1,KLASS - Map Marye (Unofficial Video),412,-81.86445833329998,0,matched_567,True,True,False,False,2,,,,,
+ZlRO3F9ivpo,3,1,KLASS - M'ap Marye (PAWOL),415,-84.86445833329998,0,matched_567,True,True,False,False,2,,,,,
+dML5Iy0VcWM,3,1,Speak Haitian Creole Now! The Top 20 Words for Your Next Trip to Haiti,351,-20.8644583333,0,reject,True,True,False,False,2,,,,,
 oatOnd9K3l8,5,2,"Wyclef Jean ""M.V.P. Kompa""",358,-27.8644583333,0,,False,True,False,False,1,,,,,
 oZZ_xgSmthQ,9,2,top adlerman - pwoblem mwen,342,-11.8644583333,0,,False,True,False,False,1,,,,,
 ws9S-m65VP4,5,1,Immigration Dosye Le'w Marye Avek Yon Moun  Ayiti Ki pot ko Gen Visa,427,-96.86445833329999,0,,False,True,False,False,1,,,,,

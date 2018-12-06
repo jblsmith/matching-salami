@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ntkqwuxUC1o,0,4,great lake swimmers passenger song,269,1.96,0,match,True,True,False,True,100,263.0,0.5,0.3,1097.0,1286.0
 D7lczuARkXs,7,2,Great Lake Swimmers - The Chorus In The Underground [Official Music Video],275,-4.04,0,,False,True,True,False,3,,,,,
 M0qXbUz6zzg,8,2,Great Lake Swimmers-I Am Part of a Large Family,275,-4.04,0,,False,True,True,False,3,,,,,
 hLhN__oEHaw,1,1,Iggy Pop - The Passenger,284,-13.04,0,,True,True,False,False,2,,,,,
@@ -10,6 +9,7 @@ Ngxp6a64y9I,9,2,Great Lake Swimmers - She Comes To Me In Dreams [Official Music 
 ZAYZmIfHEiU,8,1,Passenger | Home (Official Album Audio),349,-78.04,0,,False,True,False,False,1,,,,,
 sRLxRXJ21cM,8,1,Great Lake Swimmers - Backstage With The Modern Dancers [Official Music Video],284,-13.04,0,,False,True,False,False,1,,,,,
 hnoiysXQvyw,9,1,I Became Awake,353,-82.04,0,,False,True,False,False,1,,,,,
+ntkqwuxUC1o,0,4,great lake swimmers passenger song,269,1.96,0,match,True,True,False,True,0,263.0,0.5,0.3,1097.0,1286.0
 IQ38A4Ze8J0,1,4,Great Lake Swimmers - Passenger song (lyrics),261,9.96,0,,True,True,False,False,0,,,,,
 PS_jbeY1Y98,1,4,Passenger Song,269,1.96,0,,True,True,False,True,0,,,,,
 xaDcngG9I9k,2,4,Great Lake Swimmers - Passenger Song,267,3.96,0,,True,True,False,True,0,,,,,

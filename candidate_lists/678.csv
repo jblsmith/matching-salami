@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 LSt9fp9sxZI,1,1,Guns N' Roses - Estranged (Live),593,-0.9347,0,potential,True,True,True,False,4,379.8,0.5,0.5,4444.0,10289.0
 id_0_zGvGNE,0,3,It's Alright (Live In Houston / 1992),187,405.0653,0,reject,True,True,False,False,0,,,,,
-dpmAY059TTY,0,2,Guns N' Roses - Estranged (Official Music Video),587,5.0653,0,,True,True,False,False,0,,,,,
-RK4-eWGI-0I,0,2,"BLACK SABBATH BILL WARD, ESTRANGED, ACCUSES GEEZER OF LYING ABOUT OFFER",55,537.0653,0,,True,True,False,False,0,,,,,
-2ghel-NM5fw,2,2,Black Sabbath - Weels Of Confusion HD (Legendado),481,111.0653,0,,True,True,False,False,0,,,,,
+dpmAY059TTY,0,2,Guns N' Roses - Estranged (Official Music Video),587,5.0653,0,reject,True,True,False,False,0,,,,,
+RK4-eWGI-0I,0,2,"BLACK SABBATH BILL WARD, ESTRANGED, ACCUSES GEEZER OF LYING ABOUT OFFER",55,537.0653,0,reject,True,True,False,False,0,,,,,
+2ghel-NM5fw,2,2,Black Sabbath - Weels Of Confusion HD (Legendado),481,111.0653,0,reject,True,True,False,False,0,,,,,
 4XQQhJC5MiY,4,2,Black Sabbath Paranoid Guitar Cover HQ,40,552.0653,0,,True,True,False,False,0,,,,,
 RXg2yY9IRIA,6,2,Guns N' Roses - Estranged - Indiana '91,600,-7.9347,0,,False,True,False,False,0,,,,,
 L86nSxxG7ds,6,2,Guns N' Roses - Estranged (Live In Chicago 1992),545,47.0653,0,,False,True,False,False,0,,,,,

@@ -1,13 +1,13 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-8syDsF3IxEA,0,4,Silverwells,226,1.1347083333299999,0,potential,True,True,False,True,100,210.6,4.2,1.1,166.0,314.0
 Q_VvkOYJ0sE,0,3,"""Hector the Hero"" by James Scott Skinner - Brothers Luper",359,-131.865291667,0,reject,True,True,False,False,7,,,,,
-mDAOWU7Tcxg,0,1,Silver Wells by James Scott Skinner - SF 2016 Sunset Piano - Blue Angels,365,-137.865291667,0,,True,True,False,False,7,,,,,
-SOk_yQ5Phl4,3,3,Hector the Hero - James Scott Skinner - Covered by Phil,284,-56.8652916667,0,,True,True,False,False,2,,,,,
-LH8IsTEmoUw,5,2,BOVAGLIE'S  PLAID    PAUL ANDERSON,287,-59.8652916667,0,,False,True,False,False,1,,,,,
-8W7-VyLeo2A,5,1,Scott Skinner Medley: Glencoe / Scott Skinner's Rockin' Step / Bonny Banchory,284,-56.8652916667,0,,False,True,False,False,1,,,,,
+mDAOWU7Tcxg,0,1,Silver Wells by James Scott Skinner - SF 2016 Sunset Piano - Blue Angels,365,-137.865291667,0,reject,True,True,False,False,7,,,,,
+SOk_yQ5Phl4,3,3,Hector the Hero - James Scott Skinner - Covered by Phil,284,-56.8652916667,0,reject,True,True,False,False,2,,,,,
+LH8IsTEmoUw,5,2,BOVAGLIE'S  PLAID    PAUL ANDERSON,287,-59.8652916667,0,reject,False,True,False,False,1,,,,,
+8W7-VyLeo2A,5,1,Scott Skinner Medley: Glencoe / Scott Skinner's Rockin' Step / Bonny Banchory,284,-56.8652916667,0,reject,False,True,False,False,1,,,,,
 Kaemjn5UYJU,6,1,AVMF Fiddle Set #1,252,-24.8652916667,0,,False,True,False,False,1,,,,,
 JGHFu3ap2Ho,7,1,A Tribute to James Scott Skinner,236,-8.86529166667,0,,False,True,False,False,1,,,,,
 E6JfHan_Nl0,9,1,Bovaglie's Plaid by James Scott Skinner,251,-23.8652916667,0,,False,True,False,False,1,,,,,
+8syDsF3IxEA,0,4,Silverwells,226,1.13470833333,0,potential,True,True,False,True,0,210.6,4.2,1.1,166.0,314.0
 zFdx6FIQVrI,1,3,Silverwells,115,112.13470833299999,0,,True,True,False,False,0,,,,,
 VPWMG-duJZo,4,3,The Spey in a Spate - James Scott Skinner,53,174.134708333,0,,True,True,False,False,0,,,,,
 MiPf50HSmns,1,2,Reverand Archie Beaton,151,76.1347083333,0,,True,True,False,False,0,,,,,

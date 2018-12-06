@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-PEzhRyEQ7-c,0,5,Janis Joplin  Hesitation Blues,246,-0.63185,0,match,True,True,True,False,109,241.4,1.0,0.6,2331.0,2651.0
+PEzhRyEQ7-c,0,5,Janis Joplin  Hesitation Blues,246,-0.63185,0,match,True,True,True,False,9,241.4,1.0,0.6,2331.0,2651.0
 JW_kDzZNgBw,0,1,Reverend Gary Davis Guitar Lesson - Hesitation Blues 1,581,-335.63185,0,,True,True,False,False,7,,,,,
 j-jHlhTLr8Y,1,4,Janis Joplin - Hesitation Blues,247,-1.63185,0,,True,True,True,False,4,,,,,
 Thc7-oPqKsY,9,3,"Hesitation Blues  (At Jorma Kaukonen's house, 1964)",247,-1.63185,0,,False,True,True,False,3,,,,,

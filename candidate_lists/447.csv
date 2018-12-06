@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-JkDBV4GGV50,0,3,Johnny Hartman - It's Easy to Remember,186,0.0666666666666,0,match,True,True,False,True,100,178.6,0.9,0.4,1237.0,1280.0
 _4AxMU8u-HU,0,1,Frank SInatra - It's Easy to Remember,217,-30.9333333333,0,,True,True,False,False,7,,,,,
 V-_Z8dMP3Ns,1,2,Johnny Hartman & Erroll Garner Trio. It's Easy To Remember,187,-0.933333333333,0,,True,True,True,False,4,,,,,
 2rrpab6SMqg,6,1,"Bing Sings ""It's Easy to Remember""",191,-4.93333333333,0,,False,True,True,False,3,,,,,
@@ -21,6 +20,7 @@ PI3t48fqr5E,7,1,It's Easy To Remember (1958),243,-56.9333333333,0,,False,True,Fa
 kQVWYu4BdMo,7,1,George Michael - Fast Love,308,-121.933333333,0,,False,True,False,False,1,,,,,
 bsJfPYlvWyg,8,1,"""IT'S EASY TO REMEMBER"": HARRY ALLEN, ROSSANO SPORTIELLO, FRANK TATE, PETE SIERS (Sept. 15, 2016)",283,-96.9333333333,0,,False,True,False,False,1,,,,,
 zlYOjKlGnhk,9,1,Lady in Satin Billie Holiday & Ray Ellis - For Heaven's Sake (Columbia Records 1958),211,-24.9333333333,0,,False,True,False,False,1,,,,,
+JkDBV4GGV50,0,3,Johnny Hartman - It's Easy to Remember,186,0.0666666666666,0,match,True,True,False,True,0,178.6,0.9,0.4,1237.0,1280.0
 6DVn6-CURgM,3,3,Sarah Vaughan - It's Easy To Remember (And So Hard to Forget) 1956,168,18.0666666667,0,,True,True,False,False,0,,,,,
 luDlc81kUjE,2,2,Erroll Garner  &  Johnny Hartman - Easy To Remember,185,1.0666666666700002,0,,True,True,False,True,0,,,,,
 YoOj-_7P-Cw,6,2,It's Easy To Remember,186,0.0666666666666,0,,False,True,False,True,0,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 GoN0y9bFuME,0,1,Legrenzi Sonata Op.2 No.6 La Raspona,177,-69.297125,0,reject,True,True,False,False,7,,,,,
 Ib6F5M0Y0YE,1,1,"Giovanni Legrenzi - Trio Sonata ""La Raspona"". Aclamatione Divote (Nº 2: Congratulamini Filiae Syon)",566,-458.297125,0,reject,True,True,False,False,2,,,,,
-WUdz2CYI0Ls,2,1,Legrenzi Sonata Op.2 No.1 La Cornara,168,-60.297125,0,,True,True,False,False,2,,,,,
-gaIBOURJY9w,3,1,"La Raspona - Giovanni Legrenzi, Duo Amortal",242,-134.297125,0,,True,True,False,False,2,,,,,
-rt5Ij6o4j9M,4,1,G.Legrenzi - Sonata a tre Op 10 N°2,420,-312.297125,0,,True,True,False,False,2,,,,,
+WUdz2CYI0Ls,2,1,Legrenzi Sonata Op.2 No.1 La Cornara,168,-60.297125,0,reject,True,True,False,False,2,,,,,
+gaIBOURJY9w,3,1,"La Raspona - Giovanni Legrenzi, Duo Amortal",242,-134.297125,0,reject,True,True,False,False,2,,,,,
+rt5Ij6o4j9M,4,1,G.Legrenzi - Sonata a tre Op 10 N°2,420,-312.297125,0,reject,True,True,False,False,2,,,,,
 bevysPzdaUk,5,1,"Giovanni Legrenzi - Sonata a 2 ""La Foscari"" (Pallade Musica)",308,-200.297125,0,,False,True,False,False,1,,,,,
 ktp3sxzh05I,6,1,"Giovanni Legrenzi - Sonata a 2 ""La Donata"" (Pallade Musica)",407,-299.297125,0,,False,True,False,False,1,,,,,
 ynNV--hZqaI,7,1,"La Raspona, Giovanni Legrenzi - Nuova Tradizione saxophone quartet",270,-162.297125,0,,False,True,False,False,1,,,,,

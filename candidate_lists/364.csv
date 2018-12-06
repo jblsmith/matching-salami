@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-LygwDxh-EmQ,0,5,K'naan - The Dusty Foot Philosopher,237,1.34666666667,0,match,True,True,False,True,100,234.4,0.6,0.1,2940.0,28830.0
 66OYHuS5foU,3,5,K'NAAN - Voices In My Head,241,-2.65333333333,0,,True,True,True,False,4,,,,,
 stE1M2ZTSuQ,3,5,K'Naan=The Dusty Foot Philosopher,242,-3.65333333333,0,,True,True,True,False,4,,,,,
 8mVY30buW4Q,3,4,Soobax- K'naan Official Music Video,239,-0.653333333333,0,,True,True,True,False,4,,,,,
@@ -8,6 +7,7 @@ QHjgcE4YYsQ,2,5,Strugglin' - K'naan Official Music Video,263,-24.6533333333,0,,T
 J4BjKzXL2EI,6,5,If Rap Gets Jealous - K'naan,260,-21.6533333333,0,,False,True,False,False,1,,,,,
 hM2on6ZfpyE,7,5,K'naan - Smile (The Dusty Foot Philosopher),274,-35.6533333333,0,,False,True,False,False,1,,,,,
 B7BonZm5gcs,8,5,K'naan - Hoobaale (HQ),305,-66.6533333333,0,,False,True,False,False,1,,,,,
+LygwDxh-EmQ,0,5,K'naan - The Dusty Foot Philosopher,237,1.34666666667,0,match,True,True,False,True,0,234.4,0.6,0.1,2940.0,28830.0
 -eWvIZAgz8Q,1,5,K'Naan - Strugglin' (dusty foot philosopher PROMO ALBUM VERSION) (LYRICS IN DESC),214,24.3466666667,0,,True,True,False,False,0,,,,,
 hVhILJMa2fw,1,5,K'naan- Dusty foot Philosopher,236,2.34666666667,0,,True,True,False,True,0,,,,,
 oMRkuT0sEdw,6,5,K'naan  Dusty Foot Philosopher,193,45.3466666667,0,,False,True,False,False,0,,,,,

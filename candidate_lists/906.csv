@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-TpLsSNIQ0qU,0,5,Susana Baca - Se me van los pies,308,-2.23675,0,match,True,True,True,False,109,297.8,0.4,0.3,3530.0,4171.0
+TpLsSNIQ0qU,0,5,Susana Baca - Se me van los pies,308,-2.23675,0,match,True,True,True,False,9,297.8,0.4,0.3,3530.0,4171.0
 fC0rFrx8aTA,6,4,9. Se me van los pies - Susana Baca,306,-0.23675,0,,False,True,True,False,3,,,,,
 AMmKHem2TiY,1,5,Se me van los pies - Susana Baca,415,-109.23675,0,,True,True,False,False,2,,,,,
 brbY3ZMmflo,2,5,Susana Baca - Se Me Van Los Pies (en vivo) HD,317,-11.23675,0,,True,True,False,False,2,,,,,

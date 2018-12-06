@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-sAypnmdiCEk,0,2,"""Modern Love"" by The Last Town Chorus - Official Video",268,-1.49333333333,0,match,True,True,True,False,109,261.6,1.8,0.6,1369.0,1540.0
+sAypnmdiCEk,0,2,"""Modern Love"" by The Last Town Chorus - Official Video",268,-1.49333333333,0,match,True,True,True,False,9,261.6,1.8,0.6,1369.0,1540.0
 rJCBYUKMvMQ,0,1,David Bowie-Modern Love 1983 - Original Version LP (Extended),290,-23.4933333333,0,,True,True,False,False,7,,,,,
 iSzViPl9quE,0,1,"Tides of Man- ""We Were Only Dreaming"" | Showcasing Artist 2016 | SXSW",287,-20.4933333333,0,,True,True,False,False,7,,,,,
 bY3G_Qttk-U,1,2,Modern Love,267,-0.493333333333,0,,True,True,True,False,4,,,,,

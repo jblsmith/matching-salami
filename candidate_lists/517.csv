@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-W4k1F1LYCQg,0,3,8/4 Beat / Bobby Hutcherson Quintet.,420,-1.64895833333,0,potential,True,True,True,False,109,203.5,0.7,0.6,1770.0,4754.0
+W4k1F1LYCQg,0,3,8/4 Beat / Bobby Hutcherson Quintet.,420,-1.64895833333,0,potential,True,True,True,False,9,203.5,0.7,0.6,1770.0,4754.0
 pvO-cRg78ks,2,3,Bobby Hutcherson - 8/4 Beat,421,-2.64895833333,0,reject,True,True,True,False,4,,,,,
-HQ2m_xusIbE,4,3,8/4 Beat,419,-0.648958333333,0,,True,True,True,False,4,,,,,
+HQ2m_xusIbE,4,3,8/4 Beat,419,-0.648958333333,0,potential,True,True,True,False,4,346.2,0.5,0.5,1819.0,5106.0
 b-pF4AB5VCs,5,2,8/4 Beat,419,-0.648958333333,0,,False,True,True,False,3,,,,,
 5R8I6yyAbdI,17,2,The Omen (Rudy Van Gelder Edition / 2006 Digital Remaster),419,-0.648958333333,0,,False,False,True,False,2,,,,,
 -6csZld6-YU,8,2,Verse,573,-154.648958333,0,,False,True,False,False,1,,,,,

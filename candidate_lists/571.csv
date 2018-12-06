@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-BWs3fs9nnzc,0,5,Fantasia - Free Yourself (VIDEO),277,-18.3302083333,0,potential,True,True,False,False,107,196.4,1.0,0.2,747.0,1378.0
+BWs3fs9nnzc,0,5,Fantasia - Free Yourself (VIDEO),277,-18.3302083333,0,potential,True,True,False,False,7,196.4,1.0,0.2,747.0,1378.0
 7wzR_BVFsUU,0,2,The Chemical Brothers - Free Yourself,392,-133.330208333,0,reject,True,True,False,False,7,,,,,
-6h9fm5jdHns,5,3,Free Yourself - Fantasia,259,-0.330208333333,0,,False,True,True,False,3,,,,,
+6h9fm5jdHns,5,3,Free Yourself - Fantasia,259,-0.330208333333,0,match,False,True,True,False,3,252.7,0.4,0.2,3526.0,4365.0
 WoLEqx8j4L0,1,4,Fantasia Barrino - Free Yourself (JLMT Edit),381,-122.33020833299999,0,,True,True,False,False,2,,,,,
 D7JyET7Zo50,2,4,Fantasia - Free Yourself Lyrics,276,-17.3302083333,0,,True,True,False,False,2,,,,,
 CXGhHv7Q4Rk,2,2,The Chemical Brothers - Free Yourself,303,-44.3302083333,0,,True,True,False,False,2,,,,,

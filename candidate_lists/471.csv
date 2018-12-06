@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XkD8ojDmV8Y,0,3,Born To Be Blue,295,-0.0775416666667,0,match,True,True,True,False,109,288.1,0.6,0.5,3717.0,3908.0
+XkD8ojDmV8Y,0,3,Born To Be Blue,295,-0.0775416666667,0,match,True,True,True,False,9,288.1,0.6,0.5,3717.0,3908.0
 -HhLz_-z_Yk,9,3,Born to Be Blue,295,-0.0775416666667,0,,False,True,True,False,3,,,,,
 YcHEsIa1SLo,3,3,Cool blues,479,-184.07754166700002,0,,True,True,False,False,2,,,,,
 w8tWFTBuLG4,17,1,Born to Be Blue (with Sonny Clark),295,-0.0775416666667,0,,False,False,True,False,2,,,,,

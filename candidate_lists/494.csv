@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-UFNCC3XpPjg,0,4,Soul Serenade - Afro Blue,342,0.0473469387755,0,match,True,True,False,True,100,336.5,0.4,0.3,4019.0,4461.0
 HvBoh7NEkNo,1,4,Derek Trucks Band 07. Afro Blue LIVE 7/8/00,380,-37.952653061199996,0,,True,True,False,False,2,,,,,
 yPlfoXogtdI,1,1,"Mongo Santamaria ""Afro Blue"" 1984",442,-99.95265306120001,0,,True,True,False,False,2,,,,,
 H-56JerzFO4,3,1,AFRO BLUE  John Coltrane,552,-209.95265306099998,0,,True,True,False,False,2,,,,,
@@ -11,6 +10,7 @@ Rth7SLfOQl0,6,2,Afro Blue,351,-8.95265306122,0,,False,True,False,False,1,,,,,
 TjyiG2oaRO8,6,1,Tito Puente' & Mongo Santamaria - Afro Blue (LIVE),593,-250.95265306099998,0,,False,True,False,False,1,,,,,
 FKYnrgFCeMI,7,1,"Afro Blue - Mongo Santamaria, arr. Michael Philip Mossman | Wheaton College Jazz Ensemble",451,-108.952653061,0,,False,True,False,False,1,,,,,
 uXd8Gm8_Jes,7,1,Dave Specter: Soul Serenade,442,-99.95265306120001,0,,False,True,False,False,1,,,,,
+UFNCC3XpPjg,0,4,Soul Serenade - Afro Blue,342,0.0473469387755,0,match,True,True,False,True,0,336.5,0.4,0.3,4019.0,4461.0
 A6i-xJPKnzs,0,4,Afro Blue - The Derek Trucks Band / Roadsongs (2010),873,-530.952653061,0,,True,True,False,False,0,,,,,
 Q6L3-A_oJBo,1,4,Afro Blue (Live),871,-528.952653061,0,,True,True,False,False,0,,,,,
 6Y0JlutU76k,2,4,Derek Trucks Band- Afro Blue 8/17/08-Lake ChamplainVT,235,107.047346939,0,,True,True,False,False,0,,,,,

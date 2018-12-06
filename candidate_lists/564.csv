@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ZxNAuIWalzc,0,4,Mary J Blige - Sweet Thang,239,-12.257125,0,match,True,True,False,False,107,217.1,18.2,0.4,2177.0,3490.0
 Fv0fkax9fgg,0,4,"Mary J. Blige - ""Sweet Thing""",227,-0.257125,0,,True,True,True,False,9,,,,,
+ZxNAuIWalzc,0,4,Mary J Blige - Sweet Thang,239,-12.257125,0,match,True,True,False,False,7,217.1,18.2,0.4,2177.0,3490.0
 LTUxrIqqkjg,0,1,niche classics track 4   jonestown sweet thing,311,-84.257125,0,,True,True,False,False,7,,,,,
 pbbmf9Gc1-c,1,4,Mary J Blige - Sweet Thang,229,-2.257125,0,,True,True,True,False,4,,,,,
 6WILmzyEu7E,1,3,Mary J. Blige - Sweet Thing,227,-0.257125,0,,True,True,True,False,4,,,,,

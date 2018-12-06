@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 20y_RhUq9C0,0,2,Kris Wu - Juice (Official Music Video),222,-85.928125,0,reject,True,True,False,False,7,,,,,
 f-PrwrRD-F0,0,1,Hungarian Folk Tales: The Prince Who Turned Into Stone,433,-296.928125,0,reject,True,True,False,False,7,,,,,
-1nCqRmx3Dnw,7,1,The Fresh Prince Of Bel Air Theme Song (Full),138,-1.928125,0,,False,True,True,False,3,,,,,
-CO44A_hEiZI,1,2,Zig & Sharko - Marina Superstar (S1E66) Full Episode in HD,468,-331.928125,0,,True,True,False,False,2,,,,,
-XF6shrBX4L8,1,2,Subway Session Frankfurt KIDDO KAT and Heidi Joubert feat. Ozzy Lino,242,-105.928125,0,,True,True,False,False,2,,,,,
+1nCqRmx3Dnw,7,1,The Fresh Prince Of Bel Air Theme Song (Full),138,-1.928125,0,reject,False,True,True,False,3,,,,,
+CO44A_hEiZI,1,2,Zig & Sharko - Marina Superstar (S1E66) Full Episode in HD,468,-331.928125,0,reject,True,True,False,False,2,,,,,
+XF6shrBX4L8,1,2,Subway Session Frankfurt KIDDO KAT and Heidi Joubert feat. Ozzy Lino,242,-105.928125,0,reject,True,True,False,False,2,,,,,
 RVcCDRzjtWg,1,2,Yelawolf - Daddy's Lambo,275,-138.928125,0,,True,True,False,False,2,,,,,
 Xg9SpxIxeMQ,3,2,Prince Dimash Димаш - Amazing!! Superb!! Masterpiece of《Silk Road Rhapsody》王子迪玛希《丝路狂想曲 》太太太惊艳了!!!,269,-132.928125,0,,True,True,False,False,2,,,,,
 Jox1wWmyZaU,4,2,Cantonese Opera 蒂女花 by Ventriloquist Patrick Wan & Chinese Princess Human Puppet @ Novena Square 2,380,-243.928125,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-mlPSzucHKnw,0,4,ERIK TRUFFAZ - Betty,258,-0.72,0,potential,True,True,True,False,109,238.2,0.4,0.3,1265.0,1321.0
+mlPSzucHKnw,0,4,ERIK TRUFFAZ - Betty,258,-0.72,0,potential,True,True,True,False,9,238.2,0.4,0.3,1265.0,1321.0
 Nn5Nida4UNQ,0,3,Erik Truffaz - Bending new corners,485,-227.72,0,reject,True,True,False,False,7,,,,,
-l5N4ghaq1t8,7,1,Erik Truffaz - 2006 - Face-à-Face - 211 Betty,260,-2.72,0,,False,True,True,False,3,,,,,
-E-YfZ6R1rf8,2,4,Erik Truffaz Quartet + Nya • Bending New Corners,485,-227.72,0,,True,True,False,False,2,,,,,
-0mEwXlR3lEM,1,3,porta camollia - Erik Truffaz - out of a dream,321,-63.72,0,,True,True,False,False,2,,,,,
+l5N4ghaq1t8,7,1,Erik Truffaz - 2006 - Face-à-Face - 211 Betty,260,-2.72,0,reject,False,True,True,False,3,,,,,
+E-YfZ6R1rf8,2,4,Erik Truffaz Quartet + Nya • Bending New Corners,485,-227.72,0,reject,True,True,False,False,2,,,,,
+0mEwXlR3lEM,1,3,porta camollia - Erik Truffaz - out of a dream,321,-63.72,0,reject,True,True,False,False,2,,,,,
 wjz-FR9IzkQ,4,3,Eric Truffaz Quartet - African Mist,455,-197.72,0,,True,True,False,False,2,,,,,
 cJMBgAaryQ4,4,2,Erik Truffaz - Less [Remix],292,-34.72,0,,True,True,False,False,2,,,,,
 b8UoMIxtA0k,2,1,Eric Truffaz - Bending New Corners,490,-232.72,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 qG1oEmz2Z50,6,1,Alidor remix - Koffi Olomide feat EVA DL,353,-15.8636875,0,reject,False,True,False,False,1,,,,,
 V5wHqpgjKPw,0,2,Abdel Ali Simani - Moi Et Toi,225,112.1363125,0,reject,True,True,False,False,0,,,,,
-0C2yigCM6sU,1,2,Ali Slimani. Documentaire.,7152,-6814.8636875,0,,True,True,False,False,0,,,,,
-6MIlazjtBU0,2,2,Ali Slimani - Live in Prague.,2662,-2324.8636875,0,,True,True,False,False,0,,,,,
-3ufXajCjLjw,3,2,Ali Slimani - TV RAMA,1704,-1366.8636875,0,,True,True,False,False,0,,,,,
+0C2yigCM6sU,1,2,Ali Slimani. Documentaire.,7152,-6814.8636875,0,matched_1596,True,True,False,False,0,,,,,
+6MIlazjtBU0,2,2,Ali Slimani - Live in Prague.,2662,-2324.8636875,0,reject,True,True,False,False,0,,,,,
+3ufXajCjLjw,3,2,Ali Slimani - TV RAMA,1704,-1366.8636875,0,matched_358,True,True,False,False,0,,,,,
 R6yVpCEBoQU,4,2,Ali Slimani At The Sphinx Festival. Belgium.,5976,-5638.8636875,0,,True,True,False,False,0,,,,,
 uxfx6-hdIm4,5,2,عاجل : الشرطة تحاصر بيت رشيد نكاز بعين مران في الشلف,653,-315.8636875,0,,False,True,False,False,0,,,,,
 0xYiEFmMqfM,6,2,Ali Slimani - Lirah,254,83.1363125,0,,False,True,False,False,0,,,,,

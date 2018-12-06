@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-cUUljoyrxCQ,0,5,Culprit 1 - Strings outro,128,-3.6571428571399998,0,match,True,True,True,False,109,119.6,2.4,1.5,1353.0,6051.0
+cUUljoyrxCQ,0,5,Culprit 1 - Strings outro,128,-3.65714285714,0,match,True,True,True,False,9,119.6,2.4,1.5,1353.0,6051.0
 rQAyVJ3T_Nc,1,5,13 Culprit 1 - Strings Outro [Exceptional Records],134,-9.65714285714,0,,True,True,False,False,2,,,,,
 O_xSI-NSZtY,1,4,Sway Strings Outro,199,-74.6571428571,0,,True,True,False,False,2,,,,,
 kTgz2ZU4iYA,3,3,Strings Outro,132,-7.65714285714,0,,True,True,False,False,2,,,,,
@@ -24,7 +24,7 @@ bV-hSgL1R74,9,1,Orbital - Halcyon On and On,567,-442.657142857,0,,False,True,Fal
 qd6-LmdB00s,2,3,Culprit 1 - Strings Outro / Walking in My Mind Redux,52,72.3428571429,0,,True,True,False,False,0,,,,,
 SB276hJ2q4w,5,3,"CULPRIT 1 - ""Strings Outro""                                                 look@tm.edit2014",124,0.34285714285700003,0,,False,True,False,True,0,,,,,
 80zzXRRTVcY,4,2,01 Culprit 1 - Strings intro [Exceptional Records],87,37.3428571429,0,,True,True,False,False,0,,,,,
-jMdG7zWFlK0,9,2,09 Culprit 1 - Flow ecstatic [Exceptional Records],121,3.3428571428600002,0,,False,True,False,True,0,,,,,
+jMdG7zWFlK0,9,2,09 Culprit 1 - Flow ecstatic [Exceptional Records],121,3.34285714286,0,,False,True,False,True,0,,,,,
 RF6B8yI44X4,10,2,01 Culprit 1 - Electric State [Exceptional Records],183,-58.6571428571,0,,False,False,False,False,0,,,,,
 yNkFoCP3TnA,11,2,08 Culprit 1 - Manical [Exceptional Records],281,-156.657142857,0,,False,False,False,False,0,,,,,
 umgYot8dDtQ,12,2,05 Culprit 1 - Theme 1 [Exceptional Records],107,17.342857142899998,0,,False,False,False,False,0,,,,,

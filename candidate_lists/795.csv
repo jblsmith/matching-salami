@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 esg-fiZoCyI,2,2,Rachel Rae / Reels,330,-109.3048125,0,reject,True,True,False,False,2,,,,,
 D5okd4hbwh8,2,1,If I was a blackbird - Silly Wizard,460,-239.3048125,0,reject,True,True,False,False,2,,,,,
-m7VZGEDG0eA,3,1,Silly Wizard: A.B. Corsi (The Lad from Orkney) -Ril Bheara-Richard Dwyer's Reels,275,-54.3048125,0,,True,True,False,False,2,,,,,
-DZGaDz4Hy70,3,1,Isla Waters,233,-12.3048125,0,,True,True,False,False,2,,,,,
-bc8uCW4Mq5Y,3,1,"Silly Wizard - ""Donald McGillavry""",242,-21.3048125,0,,True,True,False,False,2,,,,,
+m7VZGEDG0eA,3,1,Silly Wizard: A.B. Corsi (The Lad from Orkney) -Ril Bheara-Richard Dwyer's Reels,275,-54.3048125,0,reject,True,True,False,False,2,,,,,
+DZGaDz4Hy70,3,1,Isla Waters,233,-12.3048125,0,reject,True,True,False,False,2,,,,,
+bc8uCW4Mq5Y,3,1,"Silly Wizard - ""Donald McGillavry""",242,-21.3048125,0,reject,True,True,False,False,2,,,,,
 y9Di9LqeFnw,4,1,Miss Shepherd's Reel,301,-80.3048125,0,,True,True,False,False,2,,,,,
 gFzvuk-_QGI,4,1,Silly Wizard:  The Valley of Strathmore,376,-155.3048125,0,,True,True,False,False,2,,,,,
 YpINZx6V8TA,5,1,"michael o'domhnaill and kevin burke - fionnghuala, sweeney’s buttermilk, musical Priest, jenny’s chi",321,-100.3048125,0,,False,True,False,False,1,,,,,

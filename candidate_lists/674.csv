@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-jdb_3H-28dE,0,3,Van Morrison - It's all over now (baby blue),227,4.549375,0,potential,True,True,False,True,100,154.6,1.7,1.7,571.0,1078.0
 XQOqzBgI0bw,0,4,"It's All Over Now, Baby Blue",253,-21.450625,0,reject,True,True,False,False,7,,,,,
-smfSOPB_LwY,1,3,"Bob Dylan - It's All Over Now, Baby Blue (1965) (Lyrics & Traducción)",283,-51.450625,0,,True,True,False,False,2,,,,,
-CWSsRym8JXg,3,3,"Bob Dylan - It's All Over Now, Baby Blue - w/Van Morrison (Paris, 1 July 1984) [audio]",342,-110.450625,0,,True,True,False,False,2,,,,,
-ww-li2BhTxw,1,2,"Bob Dylan, Van Morrison, It's All Over Now Baby Blue, Dublin 1984",357,-125.450625,0,,True,True,False,False,2,,,,,
-uqW0c3iABLU,2,2,It's all over now baby blue - BAB DYLAN and VAN MORRISON,364,-132.450625,0,,True,True,False,False,2,,,,,
+smfSOPB_LwY,1,3,"Bob Dylan - It's All Over Now, Baby Blue (1965) (Lyrics & Traducción)",283,-51.450625,0,reject,True,True,False,False,2,,,,,
+CWSsRym8JXg,3,3,"Bob Dylan - It's All Over Now, Baby Blue - w/Van Morrison (Paris, 1 July 1984) [audio]",342,-110.450625,0,reject,True,True,False,False,2,,,,,
+ww-li2BhTxw,1,2,"Bob Dylan, Van Morrison, It's All Over Now Baby Blue, Dublin 1984",357,-125.450625,0,reject,True,True,False,False,2,,,,,
+uqW0c3iABLU,2,2,It's all over now baby blue - BAB DYLAN and VAN MORRISON,364,-132.450625,0,reject,True,True,False,False,2,,,,,
 jgQsH8vMkbQ,4,2,"VAN MORRISON (THEM): IT'S ALL OVER NOW, BABY BLUE (1966) with words",238,-6.450625,0,,True,True,False,False,2,,,,,
 ZvmR5cgZefw,4,2,"Bob Dylan ""it's All over now Baby Blue"" the best live version 1998.",430,-198.450625,0,,True,True,False,False,2,,,,,
 iU5uzmYaaLw,4,2,"Bob Dylan Its All Over Now, Baby Blue",434,-202.450625,0,,True,True,False,False,2,,,,,
@@ -20,6 +19,7 @@ Vahoqyuk3Co,8,1,"Bob Dylan ‐ It's All Over Now, Baby Blue (Live at BBC 1965)",
 90AHmLGeBvc,8,1,"Bob Dylan with Van Morrison , Its all over Baby Blue, Wembley 1984",282,-50.450625,0,,False,True,False,False,1,,,,,
 af7ngGxEusE,0,4,"It's All Over Now, Baby  Blue - Bob Dylan (5/7/65) Bootleg",228,3.549375,0,,True,True,False,True,0,,,,,
 PtQC3tLSxLg,2,4,"""It's All Over Now, Baby Blue"" (Live) by Bob Dylan (1965)",126,105.549375,0,,True,True,False,False,0,,,,,
+jdb_3H-28dE,0,3,Van Morrison - It's all over now (baby blue),227,4.549375,0,potential,True,True,False,True,0,154.6,1.7,1.7,571.0,1078.0
 58-DCkdGL5s,0,3,"Them / Van Morrison - It's all over now,Baby Blue",230,1.549375,0,,True,True,False,True,0,,,,,
 tewQoY5VYmQ,2,2,Van Morrison Its all over now Baby Blue,231,0.549375,0,,True,True,False,True,0,,,,,
 CUfXHo5cjyc,4,2,"It's All Over Now, Baby Blue",227,4.549375,0,,True,True,False,True,0,,,,,

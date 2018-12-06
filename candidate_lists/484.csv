@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-O0gzsR-40Bw,1,3,Astrud Gilberto - Água de Beber,142,-0.933333333333,0,match,True,True,True,False,104,134.9,0.5,0.3,1229.0,1477.0
 CnBZoIBi9TY,0,3,Antonio Carlos Jobim - Agua De Beber (1963),181,-39.9333333333,0,,True,True,False,False,7,,,,,
 2yFCyPX3kT0,0,1,Annoying Customers,427,-285.933333333,0,,True,True,False,False,7,,,,,
+O0gzsR-40Bw,1,3,Astrud Gilberto - Água de Beber,142,-0.933333333333,0,match,True,True,True,False,4,134.9,0.5,0.3,1229.0,1477.0
 Obz0fPL-9B8,4,3,Tom Jobim - Água de Beber,146,-4.93333333333,0,,True,True,True,False,4,,,,,
 5ScQszabm18,1,3,Agua De Beber - Antonio Carlos Jobim,177,-35.9333333333,0,,True,True,False,False,2,,,,,
 zkCkIGqGyAI,2,3,Tom Jobim - Ao Vivo em Montreal - Água de beber,184,-42.9333333333,0,,True,True,False,False,2,,,,,

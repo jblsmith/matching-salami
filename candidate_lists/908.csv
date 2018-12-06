@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 8NGpOEQDtwo,0,2,Recordando a Celia Cruz... Burundanga (Óscar Muñoz Bouffartique),159,-21.98775,0,reject,True,True,False,False,7,,,,,
 bV00Guyi42M,0,1,Recomendaciones Literarias: Ley del Amor,243,-105.98775,0,reject,True,True,False,False,7,,,,,
-47WnFN_ua_I,0,1,Carlos Argentino -- Ay Cosita Linda (La Sonora Matancera),151,-13.98775,0,,True,True,False,False,7,,,,,
-rtaYLghkPI0,1,1,Celio González -- Una Madrugada (La Sonora Matancera),140,-2.98775,0,,True,True,True,False,4,,,,,
-q6UvPDtmvW0,1,3,Celia Cruz & Sonora Matancera - Burundanga (©1953),169,-31.98775,0,,True,True,False,False,2,,,,,
+47WnFN_ua_I,0,1,Carlos Argentino -- Ay Cosita Linda (La Sonora Matancera),151,-13.98775,0,reject,True,True,False,False,7,,,,,
+rtaYLghkPI0,1,1,Celio González -- Una Madrugada (La Sonora Matancera),140,-2.98775,0,reject,True,True,True,False,4,,,,,
+q6UvPDtmvW0,1,3,Celia Cruz & Sonora Matancera - Burundanga (©1953),169,-31.98775,0,reject,True,True,False,False,2,,,,,
 7xLV_25UNho,2,2,"Burundanga → La Sonora Matancera, Canta Celia Cruz",159,-21.98775,0,,True,True,False,False,2,,,,,
 Et0rjuNDYQA,3,2,Celia Cruz:  Burundanga.,160,-22.98775,0,,True,True,False,False,2,,,,,
 -08KIdI0eo8,4,2,Burundanga,160,-22.98775,0,,True,True,False,False,2,,,,,

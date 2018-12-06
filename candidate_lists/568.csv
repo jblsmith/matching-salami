@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-4NHA4QCW2yw,2,4,Erykah Badu Green eyes,506,99.03,0,potential,True,True,False,False,100,303.1,0.9,76.8,1996.0,4878.0
 3EnO9erUo2M,0,5,Erykah Badu - Green Eyes,605,0.03,0,potential,True,True,False,True,0,379.4,0.5,0.5,3675.0,7732.0
 Y8JJI5tixUo,0,4,Erykah Badu - Green Eyes,605,0.03,0,,True,True,False,True,0,,,,,
+4NHA4QCW2yw,2,4,Erykah Badu Green eyes,506,99.03,0,potential,True,True,False,False,0,303.1,0.9,76.8,1996.0,4878.0
 vNQ00WHjeIE,2,4,Erykah Badu - Green Eyes,602,3.03,0,,True,True,False,True,0,,,,,
 PqU_CxO-hRo,2,4,"Erykah Badu - ""Green Eyes"" - Live in Chicago - 3/29/2013.",885,-279.97,0,,True,True,False,False,0,,,,,
 VhRwTSRMTZA,7,4,Erykah Badu - Green Eyes [#reggiewatkins piano synthesia tutorial],597,8.03,0,,False,True,False,False,0,,,,,

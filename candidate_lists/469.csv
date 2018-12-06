@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-JE5ozZro9Ng,0,5,Cannonball Adderley - Azule Serape,390,0.00816666666674,0,match,True,True,False,True,100,379.4,1.0,0.9,5649.0,11444.0
 -FGAJSHMSek,0,5,Azule Serape,573,-182.991833333,0,,True,True,False,False,7,,,,,
 TwRBXyKQtak,9,2,"Azule Serape (feat. Nat Adderly, Sam Jones)",391,-0.991833333333,0,,False,True,True,False,3,,,,,
 n2y8CNF6G2I,6,1,Cannonball Adderley - Azule Serape,392,-1.99183333333,0,,False,True,True,False,3,,,,,
@@ -14,8 +13,9 @@ fabcNF-VqsE,9,5,Azule Serape (Remastered 2017),567,-176.991833333,0,,False,True,
 pQhORjLF5iE,7,2,The New Jazz Couriers play Azule Serape,579,-188.991833333,0,,False,True,False,False,1,,,,,
 mHPC-IwHgng,9,1,Azule Serape (Original Version),496,-105.99183333299999,0,,False,True,False,False,1,,,,,
 k8YvKtv_4K0,9,1,"Azule Serape (feat. Louis Hayes, Sam Jones, Natt Adderley) (Live)",557,-166.991833333,0,,False,True,False,False,1,,,,,
+JE5ozZro9Ng,0,5,Cannonball Adderley - Azule Serape,390,0.00816666666674,0,match,True,True,False,True,0,379.4,1.0,0.9,5649.0,11444.0
 ixz_jYTNbEE,5,5,Azule Serape,390,0.00816666666674,0,,False,True,False,True,0,,,,,
-BPyzqYo9FJI,5,3,Azule Serape (Cannonball Adderley and the Poll-Winners),388,2.0081666666699998,0,,False,True,False,True,0,,,,,
+BPyzqYo9FJI,5,3,Azule Serape (Cannonball Adderley and the Poll-Winners),388,2.00816666667,0,,False,True,False,True,0,,,,,
 zVeMAdLOKSA,12,3,Azule Serape,564,-173.991833333,0,,False,False,False,False,0,,,,,
 C1Tg7S9T5E8,1,2,Au Privave by Cannonball Adderley & the Poll Winners.wmv,240,150.008166667,0,,True,True,False,False,0,,,,,
 bB359y0nd48,4,2,The Cannonball Adderley/ Nat Adderley Quintet – What Is This Thing Called Soul (Full Album),2522,-2131.99183333,0,,True,True,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-36lb-1nIROk,0,4,The Believer,159,4.25333333333,0,match,True,True,False,True,100,157.1,0.2,0.2,1273.0,1830.0
 7ePXck9H1pI,4,2,I'm A Believer Original - Neil Diamond,164,-0.7466666666670001,0,,True,True,True,False,4,,,,,
 CT3SQABeK1Q,2,3,Neil Young -The Believer,181,-17.7466666667,0,,True,True,False,False,2,,,,,
 ScOidfqIPkI,3,3,NEIL YOUNG NEW YORK THE BELIEVER,545,-381.74666666699994,0,,True,True,False,False,2,,,,,
@@ -19,7 +18,8 @@ n-RDJsHp050,8,2,Neil Young -- Beautiful Bluebird,265,-101.74666666700001,0,,Fals
 fH6QV8a2EKI,9,2,NEIL YOUNG   OLD MAN,248,-84.7466666667,0,,False,True,False,False,1,,,,,
 8wp4jOB-KdM,6,1,Ever After,212,-48.7466666667,0,,False,True,False,False,1,,,,,
 SnqE0L-lkKA,9,1,Neil Young: Dirty Old Man - photo montage,200,-36.7466666667,0,,False,True,False,False,1,,,,,
-fFW3F23YtY0,0,4,Neil Young: The Believer - photo montage,162,1.2533333333299999,0,,True,True,False,True,0,,,,,
+36lb-1nIROk,0,4,The Believer,159,4.25333333333,0,match,True,True,False,True,0,157.1,0.2,0.2,1273.0,1830.0
+fFW3F23YtY0,0,4,Neil Young: The Believer - photo montage,162,1.25333333333,0,,True,True,False,True,0,,,,,
 GXlWldd8s8c,11,4,Neil Young - Believer - Amsterdam 20-02-2008,151,12.253333333299999,0,,False,False,False,False,0,,,,,
 FrrZnLyIPhY,12,3,The Believer (Neil Young cover),198,-34.7466666667,0,,False,False,False,False,0,,,,,
 ICNOtD14-h8,16,3,Neil Young: Spirit Road - photo montage,394,-230.746666667,0,,False,False,False,False,0,,,,,

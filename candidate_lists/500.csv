@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Jgn-_QTcK3k,0,2,MARIAGE DE FRANCINE ET FAUSTIN LUYEYE,736,-170.370625,0,matched_775,True,True,False,False,0,,,,,
 iSD93WJu42I,1,2,PAUL KAGAME ARIMO GUSABIRIZA INKUNGA I LONDON MU NAMA YA COMMONWEALTH,11572,-11006.370625,0,reject,True,True,False,False,0,,,,,
-pSJkWXZ7Sgg,0,1,Senga(3),315,250.629375,0,,True,True,False,False,0,,,,,
-GbdrT1frnY0,0,1,NSENGA MUKWASHI - JOËL KABWE (PAROLES + TRADUCTION FRANCAISE),911,-345.370625,0,,True,True,False,False,0,,,,,
-kW25aszD8HQ,1,1,SENGA: Lwaki  temwagala basajja kwambala?,1004,-438.370625,0,,True,True,False,False,0,,,,,
+pSJkWXZ7Sgg,0,1,Senga(3),315,250.629375,0,reject,True,True,False,False,0,,,,,
+GbdrT1frnY0,0,1,NSENGA MUKWASHI - JOËL KABWE (PAROLES + TRADUCTION FRANCAISE),911,-345.370625,0,reject,True,True,False,False,0,,,,,
+kW25aszD8HQ,1,1,SENGA: Lwaki  temwagala basajja kwambala?,1004,-438.370625,0,reject,True,True,False,False,0,,,,,
 h_o_ryXH34g,1,1,Pierre de Moussy - A senga to,319,246.629375,0,,True,True,False,False,0,,,,,
 ZMpMyCkQNS0,2,1,Okwekola by Senga Justine Nantume,3633,-3067.370625,0,,True,True,False,False,0,,,,,
 Myb_zg3roSs,2,1,Ono Omugole Tagenda Kusoboka. Anti Agobye Senga We Ku Mukolo,151,414.629375,0,,True,True,False,False,0,,,,,

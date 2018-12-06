@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-CP5IhNePIck,0,5,Charlie Hunter – Shango… the Ballad,276,-0.512625,0,match,True,True,True,False,109,263.6,0.5,0.5,1571.0,1697.0
+CP5IhNePIck,0,5,Charlie Hunter – Shango… the Ballad,276,-0.512625,0,match,True,True,True,False,9,263.6,0.5,0.5,1571.0,1697.0
 llrpCH0i0IE,1,5,Shango... The Ballad,282,-6.512625,0,,True,True,False,False,2,,,,,
 Qo_qK6G_jrk,2,5,Teabaggin',349,-73.512625,0,,True,True,False,False,2,,,,,
 o1DdfTCAb8A,3,5,Dersu,413,-137.512625,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-2Nppf6SZB1c,0,5,Victory Is Won - Santana,324,-3.50366666667,0,match,True,True,True,False,109,316.0,0.2,0.2,3256.0,4040.0
+2Nppf6SZB1c,0,5,Victory Is Won - Santana,324,-3.50366666667,0,match,True,True,True,False,9,316.0,0.2,0.2,3256.0,4040.0
 PfZcSzTt_yA,1,4,Victory Is Won,321,-0.503666666667,0,,True,True,True,False,4,,,,,
 sixjKXBriCI,4,4,Victory Is Won (Live From NY),325,-4.50366666667,0,,True,True,True,False,4,,,,,
 7D9nclZSs7A,4,3,SANTANA - Victory is won  (Live in New York 2005),323,-2.50366666667,0,,True,True,True,False,4,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-hWVqSdkiI5U,0,3,It Don't Cost Very Much,196,5.4302,0,match,True,True,False,False,100,192.9,0.2,0.5,1055.0,1154.0
 AeiYaTXQrIo,2,3,Mahalia Jackson - It Don't Cost Very Much - Europe Concert Tour 1963,222,-20.5698,0,,True,True,False,False,2,,,,,
 d2n6V-uQ8q8,2,3,Ernest Franklin / It Don't Cost Very Much,210,-8.5698,0,,True,True,False,False,2,,,,,
 DfjUwqWvrtw,1,1,Didn't It Rain (Live) Mahalia Jackson,275,-73.5698,0,,True,True,False,False,2,,,,,
@@ -15,6 +14,7 @@ CPb0hD4zJrE,6,1,That's What He's Done For Me,228,-26.5698,0,,False,True,False,Fa
 9c1_4q3H2Zs,7,1,"Delilah, It don't cost very much",487,-285.5698,0,,False,True,False,False,1,,,,,
 O4sNQOkj_Rk,7,1,"""Just A Little While To Stay Here"" - Mahalia Jackson",226,-24.5698,0,,False,True,False,False,1,,,,,
 5OmUuuCBRcs,7,1,Elijah & The Ebonites - Pure Soul - Loren,212,-10.5698,0,,False,True,False,False,1,,,,,
+hWVqSdkiI5U,0,3,It Don't Cost Very Much,196,5.4302,0,match,True,True,False,False,0,192.9,0.2,0.5,1055.0,1154.0
 teTN29ECZrY,0,3,Mahalia Jackson ~ It Don't Cost Very Much,141,60.4302,0,,True,True,False,False,0,,,,,
 rtpBJRBfXfk,0,3,Mahalia Jackson in concert 1961 - Hamburg,2469,-2267.5698,0,,True,True,False,False,0,,,,,
 LJS_HpD7YZQ,4,3,It Don't Cost Very Much (Live),198,3.4302,0,,True,True,False,True,0,,,,,

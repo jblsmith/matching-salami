@@ -1,13 +1,13 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-1sv-vo3ptRo,0,5,Ricky Nelson - lonesome town,135,0.133333333333,0,potential,True,True,False,True,100,127.8,0.7,0.5,855.0,872.0
 tDYaF5Nlsj4,4,3,Ricky Nelson - Lonesome Town (Karaoke),141,-5.86666666667,0,reject,True,True,False,False,2,,,,,
-BjbghXNXK_I,12,2,Ricky Nelson - Lonesome Town,138,-2.86666666667,0,,False,False,True,False,2,,,,,
+BjbghXNXK_I,12,2,Ricky Nelson - Lonesome Town,138,-2.86666666667,0,potential,False,False,True,False,2,127.5,4.8,0.7,323.0,341.0
 NKWSS05cELY,19,1,Ricky Nelson - Lonesome Town (later appearance),138,-2.86666666667,0,,False,False,True,False,2,,,,,
 WhLgACJ4uhw,5,2,Rick Nelson Lonesome Town Live 1983,167,-31.866666666700002,0,,False,True,False,False,1,,,,,
 9a29ZQCi4p8,6,2,Lonesome Town - Ricky Nelson - acoustic cover by Florence Pardoe,143,-7.86666666667,0,,False,True,False,False,1,,,,,
 Yj94ZiHINpk,8,2,Paul McCartney - Lonesome town,245,-109.866666667,0,,False,True,False,False,1,,,,,
 YfNZpNvBHxY,7,1,Red Dead Redemption 2 Official Soundtrack - Lonesome Town | HD (With Visualizer),177,-41.8666666667,0,,False,True,False,False,1,,,,,
 A8X2SM0ioJ4,9,1,Pulp Fiction - the 'Jack Rabbit Slims' restaurant scene,303,-167.866666667,0,,False,True,False,False,1,,,,,
+1sv-vo3ptRo,0,5,Ricky Nelson - lonesome town,135,0.133333333333,0,potential,True,True,False,True,0,127.8,0.7,0.5,855.0,872.0
 mfVknN9XgPc,0,5,Pulp Fiction Soundtrack - Lonesome Town (1958) - Ricky Nelson - (Track 6) - HD,133,2.13333333333,0,,True,True,False,True,0,,,,,
 fctiF_-RYMU,1,5,Ricky Nelson Lonesome Town,123,12.1333333333,0,,True,True,False,False,0,,,,,
 mVvIfoNBY3w,1,5,Ricky Nelson - Lonesome Town (1958),122,13.1333333333,0,,True,True,False,False,0,,,,,

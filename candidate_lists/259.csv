@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-MRL-5CC8zLE,0,3,"La traviata, Act 1 Scene 5: No. 3b, Finale, ""Follie! Follie! Delirio vano è questo!"" (Violetta)",64,-0.104458333333,0,match,True,True,True,False,109,62.6,0.2,0.1,790.0,796.0
+MRL-5CC8zLE,0,3,"La traviata, Act 1 Scene 5: No. 3b, Finale, ""Follie! Follie! Delirio vano è questo!"" (Violetta)",64,-0.104458333333,0,match,True,True,True,False,9,62.6,0.2,0.1,790.0,796.0
 5gLTjS0HcBc,0,3,"Follie!... follie... Sempre libera degg'io - La Traviata, Maria Callas",103,-39.1044583333,0,,True,True,False,False,7,,,,,
 0vF0xd9h63Y,0,2,"La Traviata - Scena ed Aria - Finale, ""Follie! Follie! Delirio vano è questo! - Sempre libera"" (10)",329,-265.10445833299997,0,,True,True,False,False,7,,,,,
 N14E9Zfb744,2,3,"La traviata, Act 3 Scene 6: ""Ah, gran Dio! Morir sì giovine"" (Violetta, Alfredo)",104,-40.1044583333,0,,True,True,False,False,2,,,,,

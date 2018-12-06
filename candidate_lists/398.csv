@@ -1,7 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-o0kZGz6CZa8,0,4,6 Pino Donaggio - Sally & Jack (Death Proof),85,1.0553125,0,potential,True,True,False,True,100,81.0,1.0,0.8,296.0,335.0
 vCt20oktQis,0,1,The Nightmare Before Christmas: Jack and Sally Montage - [Part 2/2],191,-104.9446875,0,reject,True,True,False,False,7,,,,,
-QwkrwEg21t0,3,2,Pino Donaggio - Sally And Jack,88,-1.9446875,0,,True,True,True,False,4,,,,,
+QwkrwEg21t0,3,2,Pino Donaggio - Sally And Jack,88,-1.9446875,0,potential,True,True,True,False,4,77.2,0.8,0.7,349.0,382.0
 JHddyr6K7lA,1,1,jack and sally,88,-1.9446875,0,,True,True,True,False,4,,,,,
 V9NMAPLRY8w,2,2,"Pino Donaggio-Blow Out ""Sally and Jack"" (cover)",106,-19.9446875,0,,True,True,False,False,2,,,,,
 wnNW3ti1NPc,2,2,1 Keith Mansfield - Funky Fanfare (Death Proof),146,-59.9446875,0,,True,True,False,False,2,,,,,
@@ -26,6 +25,7 @@ ExMPXWPPJ_U,7,1,Jack & Sally's Song (ORIGINAL) - The Nightmare Before Christmas,
 EUvWfNWELcU,8,1,jeepster   T Rex   Banda sonora Death proof,252,-165.9446875,0,,False,True,False,False,1,,,,,
 oFV8m-Dl_vw,9,1,"🔴 RAP DO EYELESS JACK E SALLY A SUJA ""PRA TE CAUSAR MEDO"" | CREEPYPASTA | TOKYO BEATS",188,-101.9446875,0,,False,True,False,False,1,,,,,
 qFnxE2znY5A,9,1,Grindhouse - Death Proof - music and photos,183,-96.9446875,0,,False,True,False,False,1,,,,,
+o0kZGz6CZa8,0,4,6 Pino Donaggio - Sally & Jack (Death Proof),85,1.0553125,0,potential,True,True,False,True,0,81.0,1.0,0.8,296.0,335.0
 0kR-we67IHY,1,4,"Pino Donaggio - "" Sally and Jack (From the Motion Picture Blow Out) """,79,7.0553125,0,,True,True,False,False,0,,,,,
 etZvtZt3Vmo,1,2,Sally & Jack by Pino Donaggio,86,0.0553125,0,,True,True,False,True,0,,,,,
 cbW8_LqXVgc,9,2,Sally And Jack／Pino Donaggio,84,2.0553125,0,,False,True,False,True,0,,,,,

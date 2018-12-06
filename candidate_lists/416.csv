@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-MjkeCC6L5II,0,5,Charles Mingus- Moods In Mambo,248,7.451458333330001,0,match,True,True,False,False,100,244.9,2.8,2.1,4105.0,5144.0
 trTUVURlEXc,2,3,Main,428,-172.548541667,0,,True,True,False,False,2,,,,,
 FPN3VsEpkfI,3,3,- Charles Mingus : Mood Indigo,494,-238.548541667,0,,True,True,False,False,2,,,,,
 Rup-Qv5LWo8,4,3,"Charles Mingus, The Angry Man of Jazz",374,-118.54854166700001,0,,True,True,False,False,2,,,,,
@@ -13,6 +12,7 @@ fyaHSPQ7TYg,6,2,Wolverine Blues,373,-117.54854166700001,0,,False,True,False,Fals
 t--upfUocKo,7,2,Number 29 (Live),512,-256.548541667,0,,False,True,False,False,1,,,,,
 VHObrq4ARZw,8,2,"Charles Mingus ""Dizzy Moods"" (Alternate Take)",507,-251.548541667,0,,False,True,False,False,1,,,,,
 pkR-OK_5xXQ,8,2,Wolverine Blues / Charles Mingus,373,-117.54854166700001,0,,False,True,False,False,1,,,,,
+MjkeCC6L5II,0,5,Charles Mingus- Moods In Mambo,248,7.451458333330001,0,match,True,True,False,False,0,244.9,2.8,2.1,4105.0,5144.0
 NxxNsuGKZH8,1,5,Moods In Mambo,255,0.451458333333,0,,True,True,False,True,0,,,,,
 oDveDnHsjFM,2,3,Mingus Big Band / Moods In Mambo,252,3.45145833333,0,,True,True,False,True,0,,,,,
 IKRsXx2hN60,3,3,Charles Mingus Tijuana Moods (Full Album),5281,-5025.54854167,0,,True,True,False,False,0,,,,,

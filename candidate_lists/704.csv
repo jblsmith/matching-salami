@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XyNYrmmdUd4,0,5,Les Cowboys Fringants - Les Étoiles Filantes,265,0.0905625,0,match,True,True,False,True,100,254.8,1.9,2.0,2654.0,9632.0
 mL8RGyLL598,3,1,Ilyr - Les Etoiles Filantes (Reprise CowboysFringants),270,-4.9094375,0,,True,True,True,False,4,,,,,
 Zi7r1lcz3To,1,4,Les Cowboys Fringants - Les étoiles filantes [Greek subtitles],333,-67.9094375,0,,True,True,False,False,2,,,,,
 yMqsw7-3EPk,2,4,Les Cowboys Fringants - Si La Vie Vous Intéresse,355,-89.9094375,0,,True,True,False,False,2,,,,,
@@ -16,6 +15,7 @@ BJHI7677HCI,7,2,Les Cowboys fringants - Les étoiles filantes(intro et paroles).
 _JmWGw0bc5s,5,1,LES ÉTOILES FILANTES  lyrics -  Les cowboys fringants QUÉBEC,271,-5.9094375,0,,False,True,False,False,1,,,,,
 0eyUMvOKSeQ,7,1,Les Cowboys Fringants avec l'OSM - Les étoiles filantes,302,-36.9094375,0,,False,True,False,False,1,,,,,
 -HPuZHQhYZE,9,1,Cowboys Fringants au zénith de Paris 2013 - Les étoiles filantes,556,-290.9094375,0,,False,True,False,False,1,,,,,
+XyNYrmmdUd4,0,5,Les Cowboys Fringants - Les Étoiles Filantes,265,0.0905625,0,match,True,True,False,True,0,254.8,1.9,2.0,2654.0,9632.0
 xjOaT33bzfY,1,4,Les Cowboys Fringants - Les étoiles filantes,260,5.0905625,0,,True,True,False,False,0,,,,,
 lRW9aMCJh0o,6,4,Les Cowboys Fringants - Lettre à Lévesque,226,39.0905625,0,,False,True,False,False,0,,,,,
 q9YL0Qh-TIc,1,3,Les Cowboys Fringants - La Reine,171,94.0905625,0,,True,True,False,False,0,,,,,

@@ -1,10 +1,10 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-vuAIHmhJvs4,0,2,Nathan - The Wind [Official Music Vdeo],280,2.6529375,0,match,True,True,False,True,100,274.7,3.6,1.6,2187.0,8572.0
 tDzIx1JcTCc,0,1,"Lulacruza- ""Pensar Bonito"" | Showcasing Artist 2016 | SXSW",294,-11.3470625,0,,True,True,False,False,7,,,,,
 XJ4qn_z7Y-M,1,1,"April Red - ""Olive Tree"" | Showcasing Artist 2016 | SXSW",340,-57.3470625,0,,True,True,False,False,2,,,,,
 n4RjJKxsamQ,11,1,Scorpions - Wind Of Change,284,-1.3470625,0,,False,False,True,False,2,,,,,
 h0TRpGP8yH4,6,2,Nathan For You - Dumb Starbucks - Open for Business,291,-8.3470625,0,,False,True,False,False,1,,,,,
 32LpP4pKd8E,9,1,Dan Deacon-Snookered (Live),471,-188.3470625,0,,False,True,False,False,1,,,,,
+vuAIHmhJvs4,0,2,Nathan - The Wind [Official Music Vdeo],280,2.6529375,0,match,True,True,False,True,0,274.7,3.6,1.6,2187.0,8572.0
 pJaf06fF6vU,1,2,Nathan - The Wind,280,2.6529375,0,,True,True,False,True,0,,,,,
 ZyyyALSPq1I,2,2,Nathan Wind (Cochese) sharing Burt Reynolds wisdom,20,262.6529375,0,,True,True,False,False,0,,,,,
 iA3IT8kLoNc,3,2,Nathan Wind,44,238.6529375,0,,True,True,False,False,0,,,,,

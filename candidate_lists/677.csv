@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-YT516h7QwA4,0,2,Metallica-Ride The Lightning with lyrics,397,0.190125,0,potential,True,True,False,True,100,336.9,20.7,21.0,2162.0,4979.0
 o0mp2VVC7lE,1,1,Metallica-Ride The Lightning (Lyrics),400,-2.809875,0,match,True,True,True,False,4,379.8,1.6,0.5,3769.0,6306.0
 NEmcF8gTAhg,4,3,Metallica - 1986 - Ride The Lightning (Cliff Burton),425,-27.809875,0,,True,True,False,False,2,,,,,
 cfys9Moz4Io,4,2,"Metallica: Ride the Lightning (Mexico City, Mexico - March 5, 2017)",423,-25.809875,0,,True,True,False,False,2,,,,,
@@ -20,6 +19,7 @@ Kli3Q4IqzVM,3,3,Metallica - Ride The Lightning (2016 Remastered),397,0.190125,0,
 5p-lSj54FjA,11,3,Metallica - Ride the Lightning,397,0.190125,0,,False,False,False,True,0,,,,,
 3qnM20LpYcA,13,3,Metallica - Ride the lightning Lyrics,397,0.190125,0,,False,False,False,True,0,,,,,
 Qpao7ngeXYI,18,3,metallica Cliff's Last Show Ride The Lightning stockholm,368,29.190125,0,,False,False,False,False,0,,,,,
+YT516h7QwA4,0,2,Metallica-Ride The Lightning with lyrics,397,0.190125,0,potential,True,True,False,True,0,336.9,20.7,21.0,2162.0,4979.0
 kk6wLZN4X74,0,2,Ride The Lightning,397,0.190125,0,,True,True,False,True,0,,,,,
 OhT0g9jULpw,1,2,Metallica - Ride The Lightning - Full Album (HD 720p),2812,-2414.809875,0,,True,True,False,False,0,,,,,
 VGzm8rTz8y4,3,2,Metallica – Ride the Lightning [FULL ALBUM | HQ SOUND],2846,-2448.809875,0,,True,True,False,False,0,,,,,

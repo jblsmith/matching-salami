@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Kj7YES5Z-fc,5,2,Latcho Drom (Soundtrack) - Rumbas,207,-3.74125,0,reject,False,True,True,False,3,,,,,
 2ByxR5Fmo0g,2,3,Scott Pilgrim VS. The World - Track 15 - Ramona (Sung by Beck - non - acoustic version),260,-56.74125,0,reject,True,True,False,False,2,,,,,
-8nHwILs8bdo,3,3,To Ramona - Sinéad Lohan,239,-35.74125,0,,True,True,False,False,2,,,,,
-oBQWxDusL6I,4,3,Bob Dylan - To Ramona,280,-76.74125,0,,True,True,False,False,2,,,,,
-UpzDkJ6Ldk4,16,3,Fernando Esteso - La Ramona,205,-1.74125,0,,False,False,True,False,2,,,,,
+8nHwILs8bdo,3,3,To Ramona - Sinéad Lohan,239,-35.74125,0,reject,True,True,False,False,2,,,,,
+oBQWxDusL6I,4,3,Bob Dylan - To Ramona,280,-76.74125,0,reject,True,True,False,False,2,,,,,
+UpzDkJ6Ldk4,16,3,Fernando Esteso - La Ramona,205,-1.74125,0,reject,False,False,True,False,2,,,,,
 818mK_W8naQ,1,2,"Flamenco en Badajoz (Tony Gatlif), Latcho Drom",419,-215.74125,0,,True,True,False,False,2,,,,,
 i_VRFwz3xTI,2,2,"Latcho Drom, La Caíta, ""El pájaro negro"" Tony Gatlif",327,-123.74125,0,,True,True,False,False,2,,,,,
 jjAJwJO8nCY,4,2,Latcho Drom Egypt,500,-296.74125,0,,True,True,False,False,2,,,,,

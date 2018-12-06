@@ -1,10 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-3wHDxdEwjSo,1,2,"Mozart: Le nozze di Figaro, K.492 / Act 4 - ""Aprite un po' quegli occhi""",159,0.0596,0,potential,True,True,False,True,100,150.3,1.5,1.0,1076.0,1130.0
 BVgDdlpRdrc,0,3,"Daniel Miroslaw, Bass: Figaro, ""Tutto è disposto... Aprite un po' quegli occhi""",264,-104.9404,0,reject,True,True,False,False,7,,,,,
-HPNuGTMUNwY,0,1,Luca Pisaroni - Aprite un po' quegli occhi (Mozart: Le nozze di Figaro),262,-102.9404,0,,True,True,False,False,7,,,,,
-Oo8E3VlSnTE,0,1,"Aprite un po' quegli occhi (Figaro) - Lawson Anderson, bass-baritone",249,-89.9404,0,,True,True,False,False,7,,,,,
-yXWj22wH5-s,4,1,W.A. Mozart - Le Nozze di Figaro - ''Aprite un po' quegli occhi'',162,-2.9404,0,,True,True,True,False,4,,,,,
-aNKLtEbBDjs,2,2,"Mozart: Le nozze di Figaro, K.492 / Act 4 - ""Tutto è disposto"" - ""Aprite un po' quegli occhi""",262,-102.9404,0,,True,True,False,False,2,,,,,
+HPNuGTMUNwY,0,1,Luca Pisaroni - Aprite un po' quegli occhi (Mozart: Le nozze di Figaro),262,-102.9404,0,reject,True,True,False,False,7,,,,,
+Oo8E3VlSnTE,0,1,"Aprite un po' quegli occhi (Figaro) - Lawson Anderson, bass-baritone",249,-89.9404,0,reject,True,True,False,False,7,,,,,
+yXWj22wH5-s,4,1,W.A. Mozart - Le Nozze di Figaro - ''Aprite un po' quegli occhi'',162,-2.9404,0,reject,True,True,True,False,4,,,,,
+aNKLtEbBDjs,2,2,"Mozart: Le nozze di Figaro, K.492 / Act 4 - ""Tutto è disposto"" - ""Aprite un po' quegli occhi""",262,-102.9404,0,potential,True,True,False,False,2,149.9,108.2,1.9,1105.0,1160.0
 KrxRXO_Z5V4,3,2,"Mozart: Le nozze di Figaro, K.492 / Act 4 - ""Tutto è disposto"" - ""Aprite un po' quegli occhi""",262,-102.9404,0,,True,True,False,False,2,,,,,
 nWXlPwfSdUg,4,2,"Le nozze di Figaro ; Finale ""Pace, pace, mio dolce tesoro""- ""Gente gente all'armi all'armi""Part II",482,-322.9404,0,,True,True,False,False,2,,,,,
 zozTS2CxcC8,1,1,Luca Pisaroni - Aprite un po' quegli occhi (Mozart: Le nozze di Figaro),250,-90.9404,0,,True,True,False,False,2,,,,,
@@ -26,6 +25,7 @@ ySP851OmMJE,8,1,"Fernando Corena; ""Tutto è disposto...Aprite un po' quegli occ
 20ufs02IvjA,8,1,"Olimpia Boronat, ""So anch'io la virtù magica"",  Donizetti: Don Pasquale (rec.1908)",283,-123.9404,0,,False,True,False,False,1,,,,,
 t3rCA-RoNFI,9,1,Aprite un po' quegli occhi - Le nozze di Figaro - Bryn Terfel,174,-14.9404,0,,False,True,False,False,1,,,,,
 0vnt40JuFD0,9,1,Verdi : Messa da Requiem - I : Requiem and Kyrie - ClassicalExperience,464,-304.9404,0,,False,True,False,False,1,,,,,
+3wHDxdEwjSo,1,2,"Mozart: Le nozze di Figaro, K.492 / Act 4 - ""Aprite un po' quegli occhi""",159,0.0596,0,potential,True,True,False,True,0,150.3,1.5,1.0,1076.0,1130.0
 q2e_2bJoH5Q,6,2,"Mozart: ""Se vuol ballare, signor Contino""",156,3.0596,0,,False,True,False,True,0,,,,,
 Hn0bGQbD_Vg,10,2,"Mozart: Le nozze di Figaro, K.492 / Act 3 - ""Riconosci in questo amplesso"" - ""Eccovi, o caro...",384,-224.9404,0,,False,False,False,False,0,,,,,
 _m6OeEfSHOg,11,2,"Mozart: Le nozze di Figaro, K.492 / Act 3 - Fandango - ""Eh già, solita usanza""",175,-15.9404,0,,False,False,False,False,0,,,,,
@@ -34,8 +34,8 @@ Yq3wJYoAOl8,13,2,"Mozart: Le nozze di Figaro, K.492 / Act 2 - ""Venite... ingino
 BzeJuphdxr8,14,2,"Mozart: Le nozze di Figaro, K.492 / Act 3 - ""E Susanna non vien!"" - ""Dove sono i bei momenti""",374,-214.9404,0,,False,False,False,False,0,,,,,
 ElDplTxFrAQ,15,2,"Mozart: Don Giovanni, K.527 / Act 2 - ""In quali eccessi""",139,20.0596,0,,False,False,False,False,0,,,,,
 SFaeLjTSYlI,2,1,Masterclass: Adam Plachetka,1189,-1029.9404,0,,True,True,False,False,0,,,,,
-FFOiRjlumU8,3,1,Aprite un po' quegli occhi  (Le Nozze di Figaro - W.A. Mozart) Score Animation,145,14.0596,0,,True,True,False,False,0,,,,,
 7Q02GMKG3NM,3,1,Excerpt from Mozart's 'Die Zauberflöte' | Juilliard Fabio Luisi Vocal Arts Master Class,1043,-883.9404,0,,True,True,False,False,0,,,,,
+FFOiRjlumU8,3,1,Aprite un po' quegli occhi  (Le Nozze di Figaro - W.A. Mozart) Score Animation,145,14.0596,0,,True,True,False,False,0,,,,,
 9ta2NopzH5k,4,1,Le nozze di Figaro - Garsington Opera & Orchestre de Chambre de Paris,155,4.0596,0,,True,True,False,True,0,,,,,
 Tw1RXFozzJQ,6,1,Schubert : Lieder pour baryton et orchestre interprétés par Adam Plachetka,955,-795.9404,0,,False,True,False,False,0,,,,,
 8eJ2fTyx7ck,10,1,Largo al Factotum - John Viscardi,306,-146.9404,0,,False,False,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-AQtW264rZlA,0,5,Jean Leclerc Mexico - Cowboy Groove,146.0,0.29104166666700004,0,match,True,True,False,True,100,145.0,0.1,0.1,2277.0,6739.0
 nrwp1j6Pwys,2,4,Cowboy Groove,151.0,-4.70895833333,0,,True,True,True,False,4,,,,,
 sarFvpTt4XY,9,2,Jean Leclerc   Ice Cream,150.0,-3.70895833333,0,,False,True,True,False,3,,,,,
 hrp4NUArRRU,1,4,Jean Leclerc Mexico - Mexico,215.0,-68.7089583333,0,,True,True,False,False,2,,,,,
@@ -22,6 +21,7 @@ hQ0NcKirj1c,7,1,Jean Leclerc Mexico - Jarneton Et Gringoire,239.0,-92.7089583333
 BfbZeGngzEQ,8,1,Cowboy Groove Summer Party 2017: Promotional Video,154.0,-7.708958333330001,0,,False,True,False,False,1,,,,,
 Vn6lSB1mc5w,9,1,Cowboy (G' Mix) - Doctor Groove,404.0,-257.708958333,0,,False,True,False,False,1,,,,,
 w1HP46-qD9c,9,1,Jean Leclerc Mexico - Le Malheur,220.0,-73.7089583333,0,,False,True,False,False,1,,,,,
+AQtW264rZlA,0,5,Jean Leclerc Mexico - Cowboy Groove,146.0,0.29104166666700004,0,match,True,True,False,True,0,145.0,0.1,0.1,2277.0,6739.0
 eTfqP4rL25k,2,4,Jean Leclerc Mexico - L'Église,134.0,12.2910416667,0,,True,True,False,False,0,,,,,
 FbhuUbKRvH8,1,3,Short range | FpvFreestyle | Jean Leloup - Cowboy groove,143.0,3.29104166667,0,,True,True,False,True,0,,,,,
 QtMeoDtBnFc,5,3,Jean Leclerc Mexico - La Mygale Jaune II,124.0,22.2910416667,0,,False,True,False,False,0,,,,,

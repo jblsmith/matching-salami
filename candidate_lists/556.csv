@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-HElU_-hb7Cc,0,2,Lisa Germano - Singing To The Birds,267,-1.90408333333,0,match,True,True,True,False,109,261.5,0.6,0.6,3184.0,4368.0
+HElU_-hb7Cc,0,2,Lisa Germano - Singing To The Birds,267,-1.90408333333,0,match,True,True,True,False,9,261.5,0.6,0.6,3184.0,4368.0
 MligYapB2-A,0,3,Lisa Germano - Victoria's Secret,331,-65.9040833333,0,,True,True,False,False,7,,,,,
 wjbbeM75CDw,1,2,Singing to the birds,267,-1.90408333333,0,,True,True,True,False,4,,,,,
 I3ViVZvBGxM,8,2,Lisa Germano - Around The World,268,-2.90408333333,0,,False,True,True,False,3,,,,,

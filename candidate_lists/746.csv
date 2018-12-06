@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-c71v_3cNXgs,0,3,Arabian Rhapsody - Omar Khariat - Arabian Soundtrack,591,-3.05565,0,potential,True,True,True,False,109,380.0,0.7,0.4,6703.0,20047.0
+c71v_3cNXgs,0,3,Arabian Rhapsody - Omar Khariat - Arabian Soundtrack,591,-3.05565,0,potential,True,True,True,False,9,380.0,0.7,0.4,6703.0,20047.0
 mRkvSez5E0g,3,3,Arabian Rhapsody w/ lyrics,193,394.94435,0,reject,True,True,False,False,0,,,,,
-067M0Ya_Yx8,1,2,Arabic  Müzik & Omar Khariat Performs,382,205.94435,0,,True,True,False,False,0,,,,,
-t1EEuy0G55Q,2,2,Kadeyet Am Ahmed  - Omar Khairat قضية عم أحمد - عمر خيرت,344,243.94435,0,,True,True,False,False,0,,,,,
-qx-wnjoq9v0,4,2,Arabian Rapsody - David DJ,445,142.94435,0,,True,True,False,False,0,,,,,
+067M0Ya_Yx8,1,2,Arabic  Müzik & Omar Khariat Performs,382,205.94435,0,reject,True,True,False,False,0,,,,,
+t1EEuy0G55Q,2,2,Kadeyet Am Ahmed  - Omar Khairat قضية عم أحمد - عمر خيرت,344,243.94435,0,reject,True,True,False,False,0,,,,,
+qx-wnjoq9v0,4,2,Arabian Rapsody - David DJ,445,142.94435,0,reject,True,True,False,False,0,,,,,
 zG4gir2aCWw,5,2,Arab Affairs,297,290.94435,0,,False,True,False,False,0,,,,,
 cm2T0CB5Htc,5,2,Lulu Sabongi Belly Dance - Rhapsody In Blue (1/2) Dança do Ventre,390,197.94435,0,,False,True,False,False,0,,,,,
 IB-YvHVu5lA,6,2,Bellydance Steps - Naseer el Assad - Arabian Music,211,376.94435,0,,False,True,False,False,0,,,,,

@@ -1,6 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-AX6ss4bzpM0,0,5,Bonobo - Otter's Pool(Super Numeri),138,3.95083333333,0,match,True,True,False,True,100,137.0,0.1,0.1,1066.0,1097.0
-2RRXfTfJ-Qo,2,3,Otter's Pool,142,-0.04916666666669999,0,,True,True,True,False,4,,,,,
+2RRXfTfJ-Qo,2,3,Otter's Pool,142,-0.049166666666699985,0,,True,True,True,False,4,,,,,
 gVoVwAy2OHE,1,5,Super Numeri - When the Sun Dials & Otter´s Pool,506,-364.04916666699995,0,,True,True,False,False,2,,,,,
 jECGYpxqxAQ,3,4,Super Numeri - Coastal Bird Scene (Part 1),288,-146.049166667,0,,True,True,False,False,2,,,,,
 xQa6E4GCmD8,4,4,Beaks,196,-54.0491666667,0,,True,True,False,False,2,,,,,
@@ -15,6 +14,7 @@ _oT6u8ac_kk,5,3,Hugo Maldoro - I KNOW LITTLE CUBAN,232,-90.0491666667,0,,False,T
 BpnFOFJYLmc,5,3,Super Numeri - The Ember Love & Leisure Lakes,514,-372.04916666699995,0,,False,True,False,False,1,,,,,
 eB8EwFk9ydo,6,3,The Otter Song,260,-118.04916666700001,0,,False,True,False,False,1,,,,,
 Q4MxLqWRobM,7,1,A Sea Otter's life - Big Blue Live: Episode 2 - BBC One,180,-38.0491666667,0,,False,True,False,False,1,,,,,
+AX6ss4bzpM0,0,5,Bonobo - Otter's Pool(Super Numeri),138,3.95083333333,0,match,True,True,False,True,0,137.0,0.1,0.1,1066.0,1097.0
 iLs3v2E0X74,10,5,Super Numeri - Lunar mansions,313,-171.049166667,0,,False,False,False,False,0,,,,,
 05bfuRyjeGE,6,3,Super Numeri - The Sea wolves,601,-459.04916666699995,0,,False,True,False,False,0,,,,,
 70a6hNUSHtQ,8,3,The Otter Pond,10,131.950833333,0,,False,True,False,False,0,,,,,

@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-1mz9v6afj_g,0,3,"Cello Concerto in C Major, Op. 4: I. Allegro aperto",519,2.87429166667,0,potential,True,True,False,True,100,379.3,2.6,0.4,5065.0,7338.0
 q_tnjLzYMQU,3,1,"Anner Bylsma, Antonín Kraft Cello Concerto in C major Op.4 1/3, allegro aperto",525,-3.12570833333,0,potential,True,True,True,False,4,379.0,2.7,0.4,5967.0,8522.0
 ldvAnVryzGo,8,1,"Cello Concerto No. 1 in C Major, Hob. VIIb:1: I. Moderato",528,-6.12570833333,0,,False,True,False,False,1,,,,,
 KUKMf1VQ1A4,0,3,"Anton Kraft - Cello Concerto in C-major, Op.4 (1805) (MUST HEAR)",1216,-694.125708333,0,,True,True,False,False,0,,,,,
+1mz9v6afj_g,0,3,"Cello Concerto in C Major, Op. 4: I. Allegro aperto",519,2.87429166667,0,potential,True,True,False,True,0,379.3,2.6,0.4,5065.0,7338.0
 mFdlH1OkHlI,2,3,"Antonín Kraft: Cello Concerto in C major, Op. 4, Anner Bylsma (cello)",1204,-682.125708333,0,,True,True,False,False,0,,,,,
 2002kJj3nts,3,3,"Cello Concerto in C Major, Op. 4: III. Rondo alla Cosacca",359,162.874291667,0,,True,True,False,False,0,,,,,
 ncyPq0drXhA,4,2,Joseph Haydn-Cello Concerto nº1-Anner Bylsma,1367,-845.125708333,0,,True,True,False,False,0,,,,,
@@ -23,8 +23,8 @@ yLTB7ziRLQk,7,1,"Cello Concerto in C Major, Op. 4: I. Allegro aperto",521,0.8742
 bvQl8fVrnSc,7,1,Cadenza (by Joachim) Mozart A Kamil Zawadzki- violin,103,418.87429166699997,0,,False,True,False,False,0,,,,,
 ElclQZxMA1A,8,1,"Concerto for Cello and Orchestra in C major, Op. 4 - Allegro aperto",629,-107.12570833299999,0,,False,True,False,False,0,,,,,
 Z3eIQiuREBY,8,1,"Emily Turkanik: Bach, Sonata No.1 in g-minor, Adagio",175,346.87429166699997,0,,False,True,False,False,0,,,,,
-La964iTy188,9,1,Sonata en c minor - Vivaldi  ( Oboe: Juanmi García),314,207.874291667,0,,False,True,False,False,0,,,,,
 ec7jajF6xqY,9,1,Antonin Kraft - Cello Concerto C-dur (Allegro aperto),802,-280.125708333,0,,False,True,False,False,0,,,,,
+La964iTy188,9,1,Sonata en c minor - Vivaldi  ( Oboe: Juanmi García),314,207.874291667,0,,False,True,False,False,0,,,,,
 J8YPdXhRN_Y,9,1,Nancy Ives - Classical Up Close 5.7.13 by djshea 003,81,440.87429166699997,0,,False,True,False,False,0,,,,,
 HQUk2iGpkDE,10,1,Cello Concerto No. 3 in D Minor *: I. Andante grazioso,202,319.874291667,0,,False,False,False,False,0,,,,,
 ZPNl_qpQDcE,10,1,"Antonin Kraft - Concerto in C Major for Cello and Orchestra, Op 4 - Jirí Hošek, Cello",1563,-1041.12570833,0,,False,False,False,False,0,,,,,

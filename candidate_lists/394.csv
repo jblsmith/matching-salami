@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-JjEPX_WHNXY,0,4,Herb Alpert's Tijuana Brass - South Of The Border,126,5.2914583333300005,0,potential,True,True,False,False,100,87.4,13.6,13.0,128.0,390.0
 CyaEsCxyi9E,1,4,Herb Alpert's Tijuana Brass -  South Of The Border (1964),142,-10.7085416667,0,potential,True,True,False,False,2,92.4,19.0,13.0,139.0,368.0
 qx7I2RpOuBs,4,4,Herb Alpert's Tijuana Brass - Angelito,142,-10.7085416667,0,,True,True,False,False,2,,,,,
 PepNa_G3Hm8,11,2,South of the Border (Down Mexico Way),133,-1.70854166667,0,,False,False,True,False,2,,,,,
@@ -19,6 +18,7 @@ MFO-D2xHsH0,7,1,Dean Martin - South of the Border,160,-28.7085416667,0,,False,Tr
 ILjf_pt05nU,9,1,SOUTH OF THE BORDER(WITH LYRICS) = ENGELBERT HUMPERDINCK,229,-97.7085416667,0,,False,True,False,False,1,,,,,
 vSwFayLX2Zc,9,1,Herb Alpert & The Tijuana Brass - Marjorine,190,-58.7085416667,0,,False,True,False,False,1,,,,,
 VzCHZwY2p4A,9,1,Herb Alpert's Tijuana Brass - More,153,-21.7085416667,0,,False,True,False,False,1,,,,,
+JjEPX_WHNXY,0,4,Herb Alpert's Tijuana Brass - South Of The Border,126,5.2914583333300005,0,potential,True,True,False,False,0,87.4,13.6,13.0,128.0,390.0
 BsjoFQRn5HM,0,4,HERB ALPERT GREATEST HITS,996,-864.708541667,0,,True,True,False,False,0,,,,,
 x7ax2ZH0Ob0,3,4,South Of The Border! (Herb Alpert & the Tijuana Brass) Romantic 4K Music Video Album!,1334,-1202.70854167,0,,True,True,False,False,0,,,,,
 tP4EWukR6GY,6,4,HERB ALPERT'S TIJUANA BRASS - 'SOUTH OF THE BORDER' - SIDE 1,88,43.2914583333,0,,False,True,False,False,0,,,,,

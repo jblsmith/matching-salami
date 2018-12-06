@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-FTphxXXSbFs,0,2,"Donizetti Lucia di Lammermoor: Sextet Sutherland, Pavarotti, et al",221,4.72408333333,0,match,True,True,False,True,100,217.5,1.8,1.9,1971.0,2043.0
 UXiUB7zgjqw,0,3,Lucia di Lammermoor - Chi mi frena in tal momento/Who restrains me in such a moment?,232,-6.27591666667,0,,True,True,False,False,7,,,,,
 09EQOJCzx7M,0,1,"Donizetti - Lucia di Lammermoor - Sestetto ""Chi mi frena in tal momento"" (vocal score)",232,-6.27591666667,0,,True,True,False,False,7,,,,,
 UPTcYa99uq4,0,1,"""Septet"" from L'Italiana - Marywood University Opera 2012",385,-159.27591666700002,0,,True,True,False,False,7,,,,,
@@ -12,6 +11,7 @@ yoAO-nb6GLM,9,3,G.DONIZETTI '' Lucia di Lammermoor '' Sestetto - CALLAS/KARAJAN 
 zPlSJ0IKbPM,9,2,Fleming and Pavarotti in Lucia Sextet,235,-9.27591666667,0,,False,True,False,False,1,,,,,
 k5D4jRM1RPc,7,1,June Anderson - LUCIA DI LAMMERMOOR (1991) - sextet,249,-23.275916666700002,0,,False,True,False,False,1,,,,,
 xToxhv_Y9nc,8,1,Lucia di Lammermoor scene,246,-20.275916666700002,0,,False,True,False,False,1,,,,,
+FTphxXXSbFs,0,2,"Donizetti Lucia di Lammermoor: Sextet Sutherland, Pavarotti, et al",221,4.72408333333,0,match,True,True,False,True,0,217.5,1.8,1.9,1971.0,2043.0
 QOlSaN7Hwb8,2,2,Dame Joan Sutherland & Luciano Pavarotti. Duo. Lucia di Lammemoor.,763,-537.2759166669999,0,,True,True,False,False,0,,,,,
 rlezYCPfjKI,2,2,"Donizetti - Lucia di Lammermoor - Lucia-Edgardo duet - Joan Sutherland, Luciano Pavarotti (1975)",786,-560.2759166669999,0,,True,True,False,False,0,,,,,
 o6x2WFw2wYI,4,2,"Donizetti: Lucia di Lammermoor / Act 2 - ""Chi mi frena in tal momento""",225,0.7240833333329999,0,,True,True,False,True,0,,,,,

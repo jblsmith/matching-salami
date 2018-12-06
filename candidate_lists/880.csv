@@ -1,9 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Awz8izNv6As,3,2,"Raga :Tilak Kamod and Tilak Nat in Gat - Sitarkhani [16 Beats] ""Tilak Kamod Ki Prakar...",293,33.5045,0,potential,True,True,False,False,100,55.3,5.3,3.4,180.0,413.0
 WupqZhHOjQU,3,3,Raga Tilak Kamod,545,-218.4955,0,reject,True,True,False,False,2,,,,,
-71mlvVKstC0,2,2,"Raga :Tilak Bihari in Drut Teentaal [16 Beats] ""Tilak Bihari (Gat) - Ustad Ali Akbar Khan""",363,-36.4955,0,,True,True,False,False,2,,,,,
-ML1UHnIREDc,3,1,Pt. Partha Bose - Tilak Kamod Bandish - Teen Taal,457,-130.4955,0,,True,True,False,False,2,,,,,
-PWNXmKKkRmI,0,3,"Raga :Tilak Kamod in Madhyalaya Teentaal [16 Beats] ""Tilak Kamod (Gat) - Ustad Ali Akbar Khan""",260,66.5045,0,,True,True,False,False,0,,,,,
+71mlvVKstC0,2,2,"Raga :Tilak Bihari in Drut Teentaal [16 Beats] ""Tilak Bihari (Gat) - Ustad Ali Akbar Khan""",363,-36.4955,0,reject,True,True,False,False,2,,,,,
+ML1UHnIREDc,3,1,Pt. Partha Bose - Tilak Kamod Bandish - Teen Taal,457,-130.4955,0,reject,True,True,False,False,2,,,,,
+PWNXmKKkRmI,0,3,"Raga :Tilak Kamod in Madhyalaya Teentaal [16 Beats] ""Tilak Kamod (Gat) - Ustad Ali Akbar Khan""",260,66.5045,0,potential,True,True,False,False,0,164.8,0.1,62.8,1585.0,3433.0
 gJ1OaZ1E83U,2,3,Allauddin Khan Tilak Kamod,186,140.5045,0,,True,True,False,False,0,,,,,
 Dr9-E-6CHVM,4,3,"Ustad Vilayat Khan  Raga Tilak Kamod+Ragamala, 1997",2875,-2548.4955,0,,True,True,False,False,0,,,,,
 kFlqt6XT8ko,4,3,"Raga :Tilak Kamod in Vilambit and Drut- Teentaal ""Tilak Kamod (Gat) - Ustad Amjad Ali Khan""",1197,-870.4955,0,,True,True,False,False,0,,,,,
@@ -11,6 +10,7 @@ kFlqt6XT8ko,4,3,"Raga :Tilak Kamod in Vilambit and Drut- Teentaal ""Tilak Kamod 
 xlnWUbiutns,12,3,"Abhisek Lahiri, Live in Edmonton: Rag- Tilak Kamod (June 6th, 2010)",384,-57.4955,0,,False,False,False,False,0,,,,,
 f-pqa4_5Zb4,14,3,Ayaan Ali Khan on Sarod Raga Kamod Teentaal,823,-496.4955,0,,False,False,False,False,0,,,,,
 sQdcthOpqf0,1,2,02. Ali Akbar Khan-(1982) - 'Soul of the Sarod' - Tilak Kamod With Ragmala. Tabla: Swapan Chaudhuri.,1290,-963.4955,0,,True,True,False,False,0,,,,,
+Awz8izNv6As,3,2,"Raga :Tilak Kamod and Tilak Nat in Gat - Sitarkhani [16 Beats] ""Tilak Kamod Ki Prakar...",293,33.5045,0,potential,True,True,False,False,0,55.3,5.3,3.4,180.0,413.0
 SMJzOT6ECx4,4,2,The Emperor of Sarod | Ali Akbar Khan,3825,-3498.4955,0,,True,True,False,False,0,,,,,
 vn_lPC7KNsM,6,2,"Ustad Ali Akbar Khan  Raga Chayanat Alap, Amsterdam",1238,-911.4955,0,,False,True,False,False,0,,,,,
 PLarFJb7va0,8,2,Shehnai [Tilak Kamod],189,137.5045,0,,False,True,False,False,0,,,,,

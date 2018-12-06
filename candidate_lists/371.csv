@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Rdk-rHAndNc,0,5,Monty Python I'm So Worried 10,202,-2.32,0,match,True,True,True,False,109,195.7,0.6,0.5,2057.0,2160.0
+Rdk-rHAndNc,0,5,Monty Python I'm So Worried 10,202,-2.32,0,match,True,True,True,False,9,195.7,0.6,0.5,2057.0,2160.0
 nXlBESlGFPE,0,5,I'm So Worried,211,-11.32,0,,True,True,False,False,7,,,,,
 xCo4z5jGjJ8,1,5,I'm So Worried,200,-0.32,0,,True,True,True,False,4,,,,,
 j0e10baH6cE,1,5,"I'm So Worried, Monty Python",208,-8.32,0,,True,True,False,False,2,,,,,

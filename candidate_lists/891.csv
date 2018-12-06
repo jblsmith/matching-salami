@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 O7R5K0S5DmE,3,2,"Badchonim Klezmer Band - ""Hava Nagila""",351,-58.3762916667,0,reject,True,True,False,False,2,,,,,
 iUII2I6q964,4,2,Metropolitan klezmer,451,-158.376291667,0,reject,True,True,False,False,2,,,,,
-h7lGRirxV5g,5,1,Hava Nagila - Amrutam Gamaya - Music Mojo Season 3 - KappaTV,415,-122.376291667,0,,False,True,False,False,1,,,,,
-mSZkYLewCMo,6,1,Jewish music in old town Vilnius (part 1),589,-296.37629166700003,0,,False,True,False,False,1,,,,,
-Vx9DTDDG8lc,7,1,Hava Nagila Medley (Danza Hebrea),401,-108.376291667,0,,False,True,False,False,1,,,,,
+h7lGRirxV5g,5,1,Hava Nagila - Amrutam Gamaya - Music Mojo Season 3 - KappaTV,415,-122.376291667,0,reject,False,True,False,False,1,,,,,
+mSZkYLewCMo,6,1,Jewish music in old town Vilnius (part 1),589,-296.37629166700003,0,reject,False,True,False,False,1,,,,,
+Vx9DTDDG8lc,7,1,Hava Nagila Medley (Danza Hebrea),401,-108.376291667,0,reject,False,True,False,False,1,,,,,
 BAYBmwl1FCE,7,1,Shirim Klezmer Orchestra: Wedding Dances,304,-11.3762916667,0,,False,True,False,False,1,,,,,
 _SPXDAX4Ci8,9,1,Hava Nagila THE BEST VERSION IN THIS WORLD AMAZING,338,-45.3762916667,0,,False,True,False,False,1,,,,,
 m_vEVNDsPZU,4,3,Budapest Bár feat. Bangó Margit: Havah Nagilah (official audio),154,138.623708333,0,,True,True,False,False,0,,,,,

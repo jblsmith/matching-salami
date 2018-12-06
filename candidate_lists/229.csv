@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-hdRBvKfGdZE,11,3,Spiritus Domini. Introito (Modo VIII) (Remasterizado),231,-0.861208333333,0,match,False,False,True,False,102,223.2,0.3,0.6,1663.0,1751.0
 ela-Z7HqqS8,2,3,Chant - The Benedictine Monks of Santo Domingo De Silos,371,-140.86120833299998,0,,True,True,False,False,2,,,,,
+hdRBvKfGdZE,11,3,Spiritus Domini. Introito (Modo VIII) (Remasterizado),231,-0.861208333333,0,match,False,False,True,False,2,223.2,0.3,0.6,1663.0,1751.0
 gZE8-34nWPk,3,2,Antífona de Entrada: Spiritus Domini,388,-157.86120833299998,0,,True,True,False,False,2,,,,,
 w-hXnVgrvvA,5,3,Gregorian Chant from Spain (Santo Domingo de Silos),313,-82.8612083333,0,,False,True,False,False,1,,,,,
 rFKxh8YftOA,0,4,"Benedictine Monks of Santo Domingo de Silos, Spiritus Domini replevit orbem, ( Chant II )",210,20.1387916667,0,,True,True,False,False,0,,,,,
@@ -48,7 +48,7 @@ nwcmU4HyYpc,16,1,Spiritus Domini - gregorián dallam,41,189.13879166700002,0,,Fa
 usX1555yl1s,16,1,Clemens sevulorum (Códice Calixtino) (2016 Remaster),253,-22.8612083333,0,,False,False,False,False,0,,,,,
 DmEblkJk0DY,17,1,Spiritus Domini,59,171.13879166700002,0,,False,False,False,False,0,,,,,
 8YDK1p-QGkw,17,1,Gregorian chant | Abbaye de Ligugé - In. Spiritus Domini,206,24.1387916667,0,,False,False,False,False,0,,,,,
-FCyO81rqoSY,18,1,Spiritus Domini- Gregorian,224,6.1387916666699995,0,,False,False,False,False,0,,,,,
-h4nUUtaXahM,18,1,Monasterio de Veruela  _  Monjes de Silos  _  Introitus Spiritus Domini.,226,4.1387916666699995,0,,False,False,False,True,0,,,,,
+FCyO81rqoSY,18,1,Spiritus Domini- Gregorian,224,6.13879166667,0,,False,False,False,False,0,,,,,
+h4nUUtaXahM,18,1,Monasterio de Veruela  _  Monjes de Silos  _  Introitus Spiritus Domini.,226,4.13879166667,0,,False,False,False,True,0,,,,,
 -K6SdkShYJc,19,1,Spiritus Domini Marek Raczyński,262,-31.8612083333,0,,False,False,False,False,0,,,,,
 OgPQWJiv_wY,19,1,"CRISTINO DE VERA-Monjes de Silos, Canto Gregoriano,Introitus Spiritus Domini",207,23.1387916667,0,,False,False,False,False,0,,,,,

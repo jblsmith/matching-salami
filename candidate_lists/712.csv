@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-n8AcUaWvg00,1,4,That's Where the Blues Started,22,-0.396725,0,potential,True,True,True,False,104,20.1,0.6,0.6,192.0,192.0
 NdgrQoZHnNY,0,2,"Son House ""Death Letter Blues""",208,-186.396725,0,reject,True,True,False,False,7,,,,,
-h6KYAVn8ons,0,1,Elton John - I Guess That's Why They Call It The Blues,283,-261.396725,0,,True,True,False,False,7,,,,,
-oFkIHsODYPY,0,1,Samuel L. Jackson - Black Snake Moan,270,-248.396725,0,,True,True,False,False,7,,,,,
-yYY06G4R7zY,0,1,Black Snake Moan Blues .,253,-231.396725,0,,True,True,False,False,7,,,,,
+h6KYAVn8ons,0,1,Elton John - I Guess That's Why They Call It The Blues,283,-261.396725,0,reject,True,True,False,False,7,,,,,
+oFkIHsODYPY,0,1,Samuel L. Jackson - Black Snake Moan,270,-248.396725,0,reject,True,True,False,False,7,,,,,
+yYY06G4R7zY,0,1,Black Snake Moan Blues .,253,-231.396725,0,reject,True,True,False,False,7,,,,,
+n8AcUaWvg00,1,4,That's Where the Blues Started,22,-0.396725,0,potential,True,True,True,False,4,20.1,0.6,0.6,192.0,192.0
 Ik1d-Z3R4OI,3,4,The Blues - Black snake moan,53,-31.396725,0,,True,True,False,False,2,,,,,
 nyBXAKUsw30,4,3,"Son House ""Ain't but one kind of blues.""",71,-49.396725,0,,True,True,False,False,2,,,,,
 vrs4yqwL-Wg,1,2,Stackolee-Samuel L. Jackson (Unedited),156,-134.396725,0,,True,True,False,False,2,,,,,

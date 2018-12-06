@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-wnskDRTzlkk,0,4,Flamin' Groovies - Shakin' all over,366,-0.66475,0,match,True,True,True,False,109,362.4,0.6,0.5,4347.0,6897.0
+wnskDRTzlkk,0,4,Flamin' Groovies - Shakin' all over,366,-0.66475,0,match,True,True,True,False,9,362.4,0.6,0.5,4347.0,6897.0
 -HIKcnDF900,0,4,Flamin' Groovies - Shakin' All Over,371,-5.66475,0,,True,True,False,False,7,,,,,
 1EVsFEMzJY0,3,4,Shakin' All Over (Live),409,-43.66475,0,,True,True,False,False,2,,,,,
 kgqUA9yf99M,0,4,Teenage Head/Shaking All Over,266,99.33525,0,,True,True,False,False,0,,,,,

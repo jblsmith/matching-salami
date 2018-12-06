@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 3BaCK8Rs-0Q,0,1,She Did You a Favor,310,-56.03755,0,reject,True,True,False,False,7,,,,,
 mlz52XW6CMM,0,1,Which Is Faster: An Aero Bike Or A Lightweight Climbing Bike?,414,-160.03755,0,reject,True,True,False,False,7,,,,,
-xQdeoiXLA3g,1,1,She Did You a Favor,272,-18.03755,0,,True,True,False,False,2,,,,,
-r-Ui0yIFF7U,6,1,She Did You a Favor,426,-172.03755,0,,False,True,False,False,1,,,,,
-SrKot5DiAxw,9,1,Travelin' Man Blues,262,-8.03755,0,,False,True,False,False,1,,,,,
+xQdeoiXLA3g,1,1,She Did You a Favor,272,-18.03755,0,reject,True,True,False,False,2,,,,,
+r-Ui0yIFF7U,6,1,She Did You a Favor,426,-172.03755,0,reject,False,True,False,False,1,,,,,
+SrKot5DiAxw,9,1,Travelin' Man Blues,262,-8.03755,0,reject,False,True,False,False,1,,,,,
 I1XlB9Yg_Io,0,2,POR PERRO - SEBASTIAN YATRA 🔥  FT. LUIS FIGUEROA x LARY OVER 🔥  | LETRA |,246,7.96245,0,,True,True,False,False,0,,,,,
 xjBIsp8mS-c,1,2,Questioning the universe | Stephen Hawking,612,-358.03755,0,,True,True,False,False,0,,,,,
 f2IQMwP7HMw,2,2,"Beowulf Summary | Summary & Analysis of Beowulf (Grendel, Grendel's Mother, Dragon)",2586,-2332.03755,0,,True,True,False,False,0,,,,,

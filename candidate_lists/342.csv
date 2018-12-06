@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-yomowCF5icY,0,5,Tortoise - Glass Museum (complete),329,-1.15791666667,0,match,True,True,True,False,109,315.2,1.9,1.5,2824.0,3960.0
+yomowCF5icY,0,5,Tortoise - Glass Museum (complete),329,-1.15791666667,0,match,True,True,True,False,9,315.2,1.9,1.5,2824.0,3960.0
 WSkuNL-8r3I,1,5,Glass Museum,328,-0.157916666667,0,,True,True,True,False,4,,,,,
 GiMekaKhDnQ,1,4,Tortoise - Glass Museum,331,-3.15791666667,0,,True,True,True,False,4,,,,,
 QWwe1REltxg,4,4,"Tortoise - ""Glass Museum"" (Live at Terminal West)",329,-1.15791666667,0,,True,True,True,False,4,,,,,

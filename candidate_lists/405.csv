@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-5V_jyIj2mpA,0,3,John Medeski and DJ Logic - Swamp Road,327,-3.81305,0,match,True,True,True,False,109,318.5,5.2,2.0,3713.0,6479.0
+5V_jyIj2mpA,0,3,John Medeski and DJ Logic - Swamp Road,327,-3.81305,0,match,True,True,True,False,9,318.5,5.2,2.0,3713.0,6479.0
 -13Zx1NItKk,2,3,Swamp Road - Medeski Martin & Wood,457,-133.81305,0,,True,True,False,False,2,,,,,
 uAwyvJsbzRc,2,3,John Medeski: Otis,386,-62.81305,0,,True,True,False,False,2,,,,,
 AbuP-EsWc-E,3,3,Fly in a Bottle excerpt trailer,339,-15.81305,0,,True,True,False,False,2,,,,,

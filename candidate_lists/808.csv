@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-KEG9DmQvw7c,0,3,Têtes Raides - Viens!,182.0,-11.3420625,0,match,True,True,False,False,107,162.9,9.6,0.4,1545.0,2153.0
+KEG9DmQvw7c,0,3,Têtes Raides - Viens!,182.0,-11.3420625,0,match,True,True,False,False,7,162.9,9.6,0.4,1545.0,2153.0
 i5QAQFdZgYU,0,1,Marie Laforet - Viens Viens,197.0,-26.3420625,0,,True,True,False,False,7,,,,,
 emxhV2n3C3A,1,3,Têtes Raides - Viens!,184.0,-13.3420625,0,,True,True,False,False,2,,,,,
 HL5JrCdgyus,2,3,Les têtes raides -  Manuela,209.0,-38.3420625,0,,True,True,False,False,2,,,,,

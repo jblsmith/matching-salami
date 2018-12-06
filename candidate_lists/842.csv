@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Glxtrb8sj1w,0,2,Ariel Elijovich - Joaquín Turina / Homenaje a Tárrega,319,-218.6898125,0,reject,True,True,False,False,7,,,,,
 k0H1pb1YkZA,0,1,Chano Lobato por Garrotin,312,-211.6898125,0,reject,True,True,False,False,7,,,,,
-jAKiLWHfABA,0,1,Rodrigo - Garrotin,109,-8.6898125,0,,True,True,False,False,7,,,,,
-q_vIYZxtYOs,2,2,francisco jose santiago garrido explicando la solea gitana.,224,-123.6898125,0,,True,True,False,False,2,,,,,
-GfCuTGdjM9Y,3,2,"Mistrovství ČSFR ve stepu 1990, vystoupení ""Klobouky""",264,-163.6898125,0,,True,True,False,False,2,,,,,
+jAKiLWHfABA,0,1,Rodrigo - Garrotin,109,-8.6898125,0,potential,True,True,False,False,7,87.8,2.4,2.0,114.0,185.0
+q_vIYZxtYOs,2,2,francisco jose santiago garrido explicando la solea gitana.,224,-123.6898125,0,reject,True,True,False,False,2,,,,,
+GfCuTGdjM9Y,3,2,"Mistrovství ČSFR ve stepu 1990, vystoupení ""Klobouky""",264,-163.6898125,0,reject,True,True,False,False,2,,,,,
 yx81y4gh0jU,1,1,María Castillo - Bailes por Garrotín,540,-439.6898125,0,,True,True,False,False,2,,,,,
 -MD8p4n1wrk,1,1,Rodrigo - Soleares,251,-150.6898125,0,,True,True,False,False,2,,,,,
 fJQFmwx7nls,2,1,"Carmen Amaya ""Garrotin""",319,-218.6898125,0,,True,True,False,False,2,,,,,

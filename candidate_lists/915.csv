@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 3AnlTcarzUs,0,3,Track 08 - Mr Virgo - You Got Me Feelin - Sound Of Bassline 2,253,-2.69466666667,0,reject,True,True,True,False,9,,,,,
 HmSFj7FLHxo,4,3,Sunset Brothers 2013 Album Track 08,255,-4.69466666667,0,reject,True,True,True,False,4,,,,,
-Fh5mtLSJ13o,3,2,La Vaca Mu - La Vaca Merengue Original - Mala Fe,254,-3.69466666667,0,,True,True,True,False,4,,,,,
-5C3bfRyR-Kc,5,3,Aleksi Perälä - UK74R1409087 [Track 08],367,-116.694666667,0,,False,True,False,False,1,,,,,
-PLxE6ejq7Rw,6,2,"Baile XV Años Litzy Bachata, Salsa y Merengue Academia la zona",299,-48.6946666667,0,,False,True,False,False,1,,,,,
+Fh5mtLSJ13o,3,2,La Vaca Mu - La Vaca Merengue Original - Mala Fe,254,-3.69466666667,0,reject,True,True,True,False,4,,,,,
+5C3bfRyR-Kc,5,3,Aleksi Perälä - UK74R1409087 [Track 08],367,-116.694666667,0,reject,False,True,False,False,1,,,,,
+PLxE6ejq7Rw,6,2,"Baile XV Años Litzy Bachata, Salsa y Merengue Academia la zona",299,-48.6946666667,0,reject,False,True,False,False,1,,,,,
 WPiEbYSF9kE,9,2,Elvis Crespo - Suavemente,268,-17.6946666667,0,,False,True,False,False,1,,,,,
 kob7Oakfd_A,0,3,Guy Farley   Track08,155,95.3053333333,0,,True,True,False,False,0,,,,,
 9pRBRD_ZTIA,2,3,O.s.t.r.-Track 08,178,72.3053333333,0,,True,True,False,False,0,,,,,

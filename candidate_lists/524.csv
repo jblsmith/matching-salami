@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-32kUctRq_so,0,5,Billie Holiday ft Gordon Jenkins Orchestra - God Bless The Child (Decca Records 1950),193,-2.2539,0,match,True,True,True,False,109,185.3,0.8,0.5,1819.0,1860.0
+32kUctRq_so,0,5,Billie Holiday ft Gordon Jenkins Orchestra - God Bless The Child (Decca Records 1950),193,-2.2539,0,match,True,True,True,False,9,185.3,0.8,0.5,1819.0,1860.0
 Z_1LfT1MvzI,0,1,Billie Holiday God Bless The Child,241,-50.2539,0,,True,True,False,False,7,,,,,
 4PvN98giKgc,7,3,God Bless the Child,191,-0.2539,0,,False,True,True,False,3,,,,,
 i4wcGjYcgGM,2,3,God bless the child (Arthur Herzog-Billie Holiday),310,-119.2539,0,,True,True,False,False,2,,,,,

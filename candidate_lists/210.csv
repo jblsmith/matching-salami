@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 5eCkR8tHZdM,0,1,Francesco Landini (c. 1325-1397) -  Giunta vaga biltà - ballata,136,-40.7575416667,0,reject,True,True,False,False,7,,,,,
 Sf_8cEeIcIo,1,1,Marchetto Cara - Io non compro più speranza [testo],145,-49.7575416667,0,reject,True,True,False,False,2,,,,,
-aAAAK7PBjY4,2,1,John Dunstable Motet Quam Pulchra Es Partitura Interpretación,164,-68.7575416667,0,,True,True,False,False,2,,,,,
-lyugxwZ2tvM,3,1,Io non compro più speranza,324,-228.757541667,0,,True,True,False,False,2,,,,,
-jIUH1aGK9gI,4,1,An Ceol - Ars Nova Sinfonia,352,-256.757541667,0,,True,True,False,False,2,,,,,
+aAAAK7PBjY4,2,1,John Dunstable Motet Quam Pulchra Es Partitura Interpretación,164,-68.7575416667,0,reject,True,True,False,False,2,,,,,
+lyugxwZ2tvM,3,1,Io non compro più speranza,324,-228.757541667,0,reject,True,True,False,False,2,,,,,
+jIUH1aGK9gI,4,1,An Ceol - Ars Nova Sinfonia,352,-256.757541667,0,reject,True,True,False,False,2,,,,,
 WY3pgnHq1LQ,5,1,Dreaming Souls Of Armenia,269,-173.757541667,0,,False,True,False,False,1,,,,,
 Q63wT57wFbE,6,1,The Madrigal Choir - Margarita dai corai,136,-40.7575416667,0,,False,True,False,False,1,,,,,
 W2bAKAXjyew,7,1,Sapore di Super - L'Alfa 156 JTD a metano guidata da Mauro Casciari,1757,-1661.75754167,0,,False,True,False,False,0,,,,,

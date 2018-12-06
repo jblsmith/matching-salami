@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 eMo2p70b4KA,0,1,Zaz - Je veux (Spanish subtitles),204,-91.9346666667,0,reject,True,True,False,False,7,,,,,
 VwHYmfwDzUA,1,1,Ghostmates - Free Preview,115,-2.93466666667,0,forget,True,True,True,False,4,,,,,
-6C46a-brlRk,1,1,"Johannes Suzoy - Pictagoras, Jabol et Orpheus",324,-211.93466666700002,0,,True,True,False,False,2,,,,,
-LJXUlUDbVbU,2,1,"""De tous biens plaine”, Ghizeghem/des Prez | TENET Vocal Artists",440,-327.934666667,0,,True,True,False,False,2,,,,,
-BuIh8IFqmsg,2,1,Henri Dès Chante - Petit garçon - chanson pour enfants,159,-46.934666666700004,0,,True,True,False,False,2,,,,,
+6C46a-brlRk,1,1,"Johannes Suzoy - Pictagoras, Jabol et Orpheus",324,-211.93466666700002,0,reject,True,True,False,False,2,,,,,
+LJXUlUDbVbU,2,1,"""De tous biens plaine”, Ghizeghem/des Prez | TENET Vocal Artists",440,-327.934666667,0,reject,True,True,False,False,2,,,,,
+BuIh8IFqmsg,2,1,Henri Dès Chante - Petit garçon - chanson pour enfants,159,-46.934666666700004,0,reject,True,True,False,False,2,,,,,
 cZv6sBBbsLQ,3,1,"Johannes Suzoy - Pictagoras, Jabol et Orpheus",446,-333.934666667,0,,True,True,False,False,2,,,,,
 fa9cs5tHrYk,3,1,Ochi dolenti mie,129,-16.9346666667,0,,True,True,False,False,2,,,,,
 lwr030qgJ5o,4,1,Marie de France - Lai du Chèvrefeuille dans Tristan et Iseult,281,-168.93466666700002,0,,True,True,False,False,2,,,,,

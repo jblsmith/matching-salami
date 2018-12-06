@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-kl1hgXfX5-U,0,3,Anthrax & Public Enemy - Bring The Noise (Official Video),212,0.354708333333,0,match,True,True,False,True,100,208.7,1.8,0.4,2312.0,3633.0
 3YxaaGgTQYM,0,1,Evanescence - Bring Me To Life,253,-40.645291666700004,0,,True,True,False,False,7,,,,,
 YN2L73P5IWM,0,1,Spooky Challenge Musically and TikTok Compilation 2018,331,-118.64529166700001,0,,True,True,False,False,7,,,,,
 nD-h6lxPeo8,5,2,Bring Tha Noize - Anthrax ft. Chuck D. of Public Enemy,214,-1.64529166667,0,,False,True,True,False,3,,,,,
@@ -24,13 +23,14 @@ hvZxPWmnqeo,7,1,Bring Me The Horizon - MANTRA (Official Audio),235,-22.645291666
 bUojKxbsmTc,7,1,Opie & Anthony: Public Enemy Reunite,277,-64.6452916667,0,,False,True,False,False,1,,,,,
 zkt7DfOUlyM,8,1,Bring It On - Full Video | Jaundya Na Balasaheb | Ajay-Atul | Bhau Kadam & Saie Tamhankar,265,-52.645291666700004,0,,False,True,False,False,1,,,,,
 INdkeHW5uJ4,9,1,Public Enemy - Fight the Power (THWD OFFICIAL),316,-103.64529166700001,0,,False,True,False,False,1,,,,,
+kl1hgXfX5-U,0,3,Anthrax & Public Enemy - Bring The Noise (Official Video),212,0.354708333333,0,match,True,True,False,True,0,208.7,1.8,0.4,2312.0,3633.0
 btlKirA2-hI,2,2,"Anthrax & Public Enemy - Bring The Noise, Live., 2004",178,34.354708333299996,0,,True,True,False,False,0,,,,,
 GiHdr4rWG98,4,2,Anthrax - I'm The Man,186,26.3547083333,0,,True,True,False,False,0,,,,,
 WFe5vl9b76Y,6,2,Anthrax with Public Enemy - Too Much Posse/Bring The Noise (Live Noize),600,-387.645291667,0,,False,True,False,False,0,,,,,
 i8Ofr0pNGF4,7,2,Anthrax & Public Enemy - Bring The Noize 1991 (High Quaility),212,0.354708333333,0,,False,True,False,True,0,,,,,
 4kmzczG4dUA,10,2,Anthrax & Public Enemy - Bring The Noise,211,1.35470833333,0,,False,False,False,True,0,,,,,
 xzAhV6K_7sA,11,2,"Limp Bizkit LIVE Bring The Noise (Public Enemy cover) with Anthrax Hamburg, DE 24.06.2014 FULLHD",201,11.3547083333,0,,False,False,False,False,0,,,,,
-8ADMgFhD8Yc,12,2,Public Enemy vs Benny Benassi - Bring The Noise Remix,220,-7.6452916666699995,0,,False,False,False,False,0,,,,,
+8ADMgFhD8Yc,12,2,Public Enemy vs Benny Benassi - Bring The Noise Remix,220,-7.645291666669999,0,,False,False,False,False,0,,,,,
 l_Jeyif7bB4,13,2,Bring The Noise - Public Enemy ( Original Video ),185,27.3547083333,0,,False,False,False,False,0,,,,,
 56R9wVhdhp4,15,2,public enemy - bring tha noize (ft. anthrax) - Apocalypse 91,227,-14.6452916667,0,,False,False,False,False,0,,,,,
 IqaWxpq4i_8,16,2,Anthrax w/Chuck D live - Bring the Noise 7-29-15,260,-47.645291666700004,0,,False,False,False,False,0,,,,,
@@ -77,4 +77,4 @@ BxbuuXhGN1I,19,1,Interview Anthrax & Public Enemy 1992,264,-51.645291666700004,0
 pv56d8bX4JI,19,1,Vorskla 0-3 Arsenal | Bring On Tottenham We Have Nothing To Fear!! (DT),226,-13.6452916667,0,,False,False,False,False,0,,,,,
 rr0z3OH1PN0,19,1,Public Enemy & Anthrax - Bring The Noise [HD],211,1.35470833333,0,,False,False,False,True,0,,,,,
 ctcDesDhmb0,19,1,D-LOW | Grand Beatbox Battle 2018 Compilation,799,-586.6452916669999,0,,False,False,False,False,0,,,,,
-cbQ6p32-ZeQ,19,1,SOLDIERS - Sic - Nu Metal Attack,220,-7.6452916666699995,0,,False,False,False,False,0,,,,,
+cbQ6p32-ZeQ,19,1,SOLDIERS - Sic - Nu Metal Attack,220,-7.645291666669999,0,,False,False,False,False,0,,,,,

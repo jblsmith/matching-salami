@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-SvDKtObV2K4,1,3,Jamiroquai -  Where do we go from here (Lyrics on screen),313,0.626125,0,match,True,True,False,True,100,308.7,0.3,0.6,5215.0,10163.0
 Hfa1ivlco7A,0,2,Jamiroquai - Where Do We Go From Here,314,-0.373875,0,,True,True,True,False,9,,,,,
 qih-jEFPxFc,1,2,Jamiroquai - Where Do We Go from Here? (Audio),315,-1.373875,0,,True,True,True,False,4,,,,,
 hgIOWCk3SmI,4,2,where do we go from here?,316,-2.373875,0,,True,True,True,False,4,,,,,
@@ -16,6 +15,7 @@ F0KHJb2VESM,15,1,Jamiroquai  --2001-- (Album Version) HQ,318,-4.373875,0,,False,
 jXdteKeKu-c,9,2,Jamiroquai - Getinfunky,332,-18.373875,0,,False,True,False,False,1,,,,,
 rkUcHefX1Ps,6,1,Incognito - Where Do We Go From Here (Live),350,-36.373875,0,,False,True,False,False,1,,,,,
 OD8K8NgGa7k,0,3,Where Do We Go from Here?,311,2.626125,0,,True,True,False,True,0,,,,,
+SvDKtObV2K4,1,3,Jamiroquai -  Where do we go from here (Lyrics on screen),313,0.626125,0,match,True,True,False,True,0,308.7,0.3,0.6,5215.0,10163.0
 mjYbZNkCPvA,2,3,Jamiroquai - Where Do We Go From Here? (Cover),271,42.626125,0,,True,True,False,False,0,,,,,
 NU9M8ej8dbM,1,2,Jamiroquai - Corner of the Earth,237,76.626125,0,,True,True,False,False,0,,,,,
 _j1UPI9C3nk,3,2,Jamiroquai / Synkronized,3186,-2872.373875,0,,True,True,False,False,0,,,,,

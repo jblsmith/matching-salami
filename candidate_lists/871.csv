@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 b2LfIHFbJeU,1,5,Cigány Himnusz Eredeti Nyelven,224,-79.386125,0,reject,True,True,False,False,2,,,,,
 RBbK7ImtY2g,1,3,Cigány Himnusz Eredeti Nyelven,450,-305.386125,0,reject,True,True,False,False,2,,,,,
-331tg4PRoQk,4,3,Cigány himnusz,197,-52.386125,0,,True,True,False,False,2,,,,,
-wGnOpXTVlbw,4,3,Ando Drom - Zöld az erdő,416,-271.386125,0,,True,True,False,False,2,,,,,
-AayntKrjENk,12,3,Cigány Himnusz 2016,147,-2.386125,0,,False,False,True,False,2,,,,,
+331tg4PRoQk,4,3,Cigány himnusz,197,-52.386125,0,reject,True,True,False,False,2,,,,,
+wGnOpXTVlbw,4,3,Ando Drom - Zöld az erdő,416,-271.386125,0,reject,True,True,False,False,2,,,,,
+AayntKrjENk,12,3,Cigány Himnusz 2016,147,-2.386125,0,reject,False,False,True,False,2,,,,,
 xxSIwr5faBA,3,2,Gypsy folk music - Freylekh Trio - Aven Mande,219,-74.386125,0,,True,True,False,False,2,,,,,
 3hU7lqHQh1k,4,2,Ziganamama - Danza Tzigana,193,-48.386125,0,,True,True,False,False,2,,,,,
 qvE0JN_pxWU,6,3,Cigány himnusz Magna Cum Laude,180,-35.386125,0,,False,True,False,False,1,,,,,

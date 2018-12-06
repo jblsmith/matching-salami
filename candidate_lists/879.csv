@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 dm83E0NzPcg,13,2,Thumri in Raga Khamaj,518,-1.5591875,0,reject,False,False,True,False,2,,,,,
 fbMeqP-NqwI,8,2,Aaye Na Balam - Bismillah Khan - Sheehnai - Thumri,591,-74.5591875,0,reject,False,True,False,False,1,,,,,
-LN044JlAM-g,8,1,"Prabha Atre - ""Kaun Gali Gayo Shyam"" - Thumri Mishra Khamaj (deepchandi)",545,-28.5591875,0,,False,True,False,False,1,,,,,
-tF-mC2Pt7aI,0,3,Raag Thumri Khamaj on Shehnai - (Indian Classical Instrumental) - By Ustad Bismillah Khan,867,-350.5591875,0,,True,True,False,False,0,,,,,
-enk3SPQV6rU,0,3,USTAD RASHID KHAN  Thumri in Mishra Khamaj  Madhyalaya Teental,1110,-593.5591875,0,,True,True,False,False,0,,,,,
+LN044JlAM-g,8,1,"Prabha Atre - ""Kaun Gali Gayo Shyam"" - Thumri Mishra Khamaj (deepchandi)",545,-28.5591875,0,reject,False,True,False,False,1,,,,,
+tF-mC2Pt7aI,0,3,Raag Thumri Khamaj on Shehnai - (Indian Classical Instrumental) - By Ustad Bismillah Khan,867,-350.5591875,0,reject,True,True,False,False,0,,,,,
+enk3SPQV6rU,0,3,USTAD RASHID KHAN  Thumri in Mishra Khamaj  Madhyalaya Teental,1110,-593.5591875,0,reject,True,True,False,False,0,,,,,
 CpVftiEKnoM,11,3,Shobha Gurtu 1 - Khamaj Thumri,918,-401.5591875,0,,False,False,False,False,0,,,,,
 ExIWlP6itxY,1,2,Jugalbandi Raag Khammaj Vilayat Khan & Bismillah Khan,1343,-826.5591875,0,,True,True,False,False,0,,,,,
 aiYedFmvX4Y,3,2,ustad bismillah khan - Raga Bhairavi Thumri Kaharva Taal,725,-208.5591875,0,,True,True,False,False,0,,,,,

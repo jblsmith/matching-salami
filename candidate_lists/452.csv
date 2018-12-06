@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-lh8GRYQtx2Q,0,2,Clifford Brown - Memories of You,226,-14.44,0,match,True,True,False,False,107,205.7,1.5,0.4,2055.0,2175.0
+lh8GRYQtx2Q,0,2,Clifford Brown - Memories of You,226,-14.44,0,match,True,True,False,False,7,205.7,1.5,0.4,2055.0,2175.0
 MOKyf_7J6sA,0,1,[Persona 3] Memories of You (English Cover by Sapphire),339,-127.44,0,,True,True,False,False,7,,,,,
 KHOtBARtBOs,1,2,Clifford Brown - Memories of you,213,-1.44,0,,True,True,True,False,4,,,,,
 26EVJzc0m8g,3,1,Rosemary Clooney & Benny Goodman - Memories of you,215,-3.44,0,,True,True,True,False,4,,,,,

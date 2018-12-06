@@ -1,11 +1,11 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-NFnbpqs7JuI,0,4,Jacinto Chiclana,214,0.46533333333300003,0,match,True,True,False,True,100,204.0,1.4,1.4,2524.0,2599.0
 JYieMiWmEpU,3,1,Cuarteto Zupay - Jacinto Chiclana -  Jorge Luis Borges,217,-2.53466666667,0,,True,True,True,False,4,,,,,
 orluPv9UfXs,1,4,Triunfal,228,-13.534666666700002,0,,True,True,False,False,2,,,,,
 U923Hh-YyFk,4,1,Jacinto Chiclana,274,-59.5346666667,0,,True,True,False,False,2,,,,,
 dqYhvji6QNE,5,1,JORGE LUIS BORGES - NELLY OMAR - JACINTO CHICLANA - MILONGA,275,-60.5346666667,0,,False,True,False,False,1,,,,,
 rfdmOIDwM2A,7,1,"CoralUSP canta Jacinto Chiclana, de Ástor Piazzolla e Jorge Luis Borges",223,-8.534666666669999,0,,False,True,False,False,1,,,,,
 3St92a97-M8,9,1,ALFREDO CASERO JACINTO CHICLANA.,261,-46.5346666667,0,,False,True,False,False,1,,,,,
+NFnbpqs7JuI,0,4,Jacinto Chiclana,214,0.465333333333,0,match,True,True,False,True,0,204.0,1.4,1.4,2524.0,2599.0
 XKrji0WhzjY,1,4,Milonga Loca,183,31.4653333333,0,,True,True,False,False,0,,,,,
 nRGwbLic3WA,1,2,El Títere (feat. Verónica Larc),115,99.4653333333,0,,True,True,False,False,0,,,,,
 SU9CIZNcz-8,0,1,JACINTO CHICLANA -EDMUNDO RIVERO ASTOR PIAZOLLA Y JORGE LUIS BORGES,175,39.4653333333,0,,True,True,False,False,0,,,,,

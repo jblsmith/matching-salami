@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 0T6BOnztlFk,5,1,Bernardo Storace : Toccata,101,-3.56325,0,reject,False,True,True,False,3,,,,,
 JOAPXlOLPG4,1,1,Bernardo Gianoncelli: Corrente e la sua spezzata,185,-87.56325,0,reject,True,True,False,False,2,,,,,
-ztxq8gjEydw,2,1,Bergamasca,206,-108.56325,0,,True,True,False,False,2,,,,,
-6BdzO8h_pYU,3,1,Bernardo Gianoncelli: Corrente e la sua spezzata,140,-42.56325,0,,True,True,False,False,2,,,,,
-e4dHpx237LI,4,1,Bernardo Gianoncelli: Corrente e la sua spezzata,118,-20.56325,0,,True,True,False,False,2,,,,,
+ztxq8gjEydw,2,1,Bergamasca,206,-108.56325,0,reject,True,True,False,False,2,,,,,
+6BdzO8h_pYU,3,1,Bernardo Gianoncelli: Corrente e la sua spezzata,140,-42.56325,0,reject,True,True,False,False,2,,,,,
+e4dHpx237LI,4,1,Bernardo Gianoncelli: Corrente e la sua spezzata,118,-20.56325,0,reject,True,True,False,False,2,,,,,
 iWLkjbiaJEA,7,1,Day of My Life,376,-278.56325,0,,False,True,False,False,1,,,,,
 idF-xS14Njg,8,1,Grave,148,-50.56325,0,,False,True,False,False,1,,,,,
 Njbq6JNMghc,9,1,"Bernardo Storace, Corrente - Entrada - San Gaetano FIrenze",173,-75.56325,0,,False,True,False,False,1,,,,,

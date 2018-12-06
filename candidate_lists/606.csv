@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-PvnlyP9sfHU,0,5,1961 Dion-Runaround Sue,165,-2.80575,0,potential,True,True,True,False,109,152.3,2.9,0.5,1135.0,1902.0
+PvnlyP9sfHU,0,5,1961 Dion-Runaround Sue,165,-2.80575,0,potential,True,True,True,False,9,152.3,2.9,0.5,1135.0,1902.0
 Gi_LO8fkE2o,7,2,Runaround Sue 1961- Dion DiMucci,165,-2.80575,0,potential,False,True,True,False,3,153.0,2.9,0.5,1176.0,1993.0
 Xva_Kg1CuVI,8,2,Runaround Sue,165,-2.80575,0,,False,True,True,False,3,,,,,
 78x9Aeh1kx4,2,5,Dion-Runaround Sue,168,-5.80575,0,,True,True,False,False,2,,,,,

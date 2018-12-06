@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-8Pnxe_6HL8w,0,5,An Buachaill Caol Dubh,91,-1.79185,0,potential,True,True,True,False,109,82.2,0.8,0.6,1237.0,1309.0
+8Pnxe_6HL8w,0,5,An Buachaill Caol Dubh,91,-1.79185,0,potential,True,True,True,False,9,82.2,0.8,0.6,1237.0,1309.0
 5lG_J9V_Hkg,0,5,An Buachaill Caol Dubh | Liam O’Flynn,266,-176.79185,0,reject,True,True,False,False,7,,,,,
-yWfsGagcJiA,1,5,An Buachaill Caol Dubh (The Dark Slender Boy),170,-80.79185,0,,True,True,False,False,2,,,,,
-oiX_PztmwRw,2,5,An Buachaill Caol Dubh,130,-40.79185,0,,True,True,False,False,2,,,,,
-XEDTKHHtqZ0,3,5,Pantisocracy - Seán MacErlaine - An Buachaill Caol Dubh,340,-250.79185,0,,True,True,False,False,2,,,,,
+yWfsGagcJiA,1,5,An Buachaill Caol Dubh (The Dark Slender Boy),170,-80.79185,0,reject,True,True,False,False,2,,,,,
+oiX_PztmwRw,2,5,An Buachaill Caol Dubh,130,-40.79185,0,reject,True,True,False,False,2,,,,,
+XEDTKHHtqZ0,3,5,Pantisocracy - Seán MacErlaine - An Buachaill Caol Dubh,340,-250.79185,0,reject,True,True,False,False,2,,,,,
 ZAe0UBIiYPQ,3,5,An Buachaill Caol Dubh,243,-153.79185,0,,True,True,False,False,2,,,,,
 Mw5nZIU8ltw,4,5,Sorcha Ní Scolaí / An Buachaill Caol Dubh / Banish Misfortune,245,-155.79185,0,,True,True,False,False,2,,,,,
 3xrRAucAE8s,1,3,An Buachaill Caol Dubh,405,-315.79185,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 HOiZ7aA2VD0,0,2,Saltarello,267,-24.897125,0,reject,True,True,False,False,7,,,,,
 RU8QFeDZyvg,1,2,Saltarello I del Manuscrito de Londres. Artefactum,415,-172.897125,0,reject,True,True,False,False,2,,,,,
-2Iy9xm0vX-Q,4,2,Fortune My Foe,338,-95.897125,0,,True,True,False,False,2,,,,,
-yzW1P_v6-to,1,1,Saltarello (s.XIV/14th century),280,-37.897125,0,,True,True,False,False,2,,,,,
-QcibRcTVC0I,3,1,Música Medieval en vivo - Saltarello,289,-46.897125,0,,True,True,False,False,2,,,,,
+2Iy9xm0vX-Q,4,2,Fortune My Foe,338,-95.897125,0,reject,True,True,False,False,2,,,,,
+yzW1P_v6-to,1,1,Saltarello (s.XIV/14th century),280,-37.897125,0,reject,True,True,False,False,2,,,,,
+QcibRcTVC0I,3,1,Música Medieval en vivo - Saltarello,289,-46.897125,0,reject,True,True,False,False,2,,,,,
 jIcxGcmMrr8,4,1,Neo Medieval & Folk Music - Strella do Dia,349,-106.897125,0,,True,True,False,False,2,,,,,
 OIM_no2AZCI,5,2,Workroom,338,-95.897125,0,,False,True,False,False,1,,,,,
 gQ5CeKUAB_Y,6,2,Rhymer's Favorite - Allemande and Ronde,345,-102.897125,0,,False,True,False,False,1,,,,,

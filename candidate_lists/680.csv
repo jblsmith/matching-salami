@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 XK_byp4wo3g,1,5,"TB3R1 ""Now I am Become Death, The Destroyer of Worlds""",80,1326.8,0,reject,True,True,False,False,0,,,,,
 -nSd72qXJr8,0,4,"Nadja - Now I Am Become Death, the Destroyer of Worlds",1407,-0.2,0,potential,True,True,True,False,0,379.4,381.3,0.8,2953.0,28257.0
-DXzSVT0oG7U,1,4,"Nadja - Now I Am Become Death, the Destroyer of Worlds",642,764.8,0,,True,True,False,False,0,,,,,
+DXzSVT0oG7U,1,4,"Nadja - Now I Am Become Death, the Destroyer of Worlds",642,764.8,0,potential,True,True,False,False,0,379.5,16.6,0.7,3625.0,14383.0
 KgznCkXc_84,2,4,"Nadja - Now I Am Become Death, Destroyer of Worlds",1407,-0.2,0,,True,True,True,False,0,,,,,
 We6gj_juPGI,2,4,Nadja - Radiance of Shadows (full album),4792,-3385.2,0,,True,True,False,False,0,,,,,
 6BHLF1a8BPY,3,4,"Nadja - Now I am become Death, the Destroyer of worlds (oppenheimer edit)",642,764.8,0,,True,True,False,False,0,,,,,

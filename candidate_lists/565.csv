@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-edYTjmh_uOk,0,5,Macy Gray   I've Committed Murder,301,-0.8666666666670001,0,match,True,True,True,False,109,295.2,0.5,0.4,4660.0,10314.0
+edYTjmh_uOk,0,5,Macy Gray   I've Committed Murder,301,-0.8666666666670001,0,match,True,True,True,False,9,295.2,0.5,0.4,4660.0,10314.0
 OT-LE_fS8oo,1,5,Macy Gray - I've Committed Murder,301,-0.8666666666670001,0,,True,True,True,False,4,,,,,
 -ds9_7sJJwY,10,4,I've Committed Murder,301,-0.8666666666670001,0,,False,False,True,False,2,,,,,
 _AI4xsivwlw,0,5,Macy Gray - I've committed murder (Dj Premier instrumental),149,151.133333333,0,,True,True,False,False,0,,,,,

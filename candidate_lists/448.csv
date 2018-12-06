@@ -1,15 +1,15 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 kryCjSu33Dc,0,2,"Coleman Hawkins - I'll Never Be The Same - New York, February 28, 1961",375,-162.049791667,0,reject,True,True,False,False,7,,,,,
-7S3F8Nnapjs,2,2,The Genius Of Coleman Hawkins: I’ll Never Be The Same,213,-0.049791666666699985,0,match,True,True,True,False,4,204.6,0.4,0.6,1911.0,2420.0
+7S3F8Nnapjs,2,2,The Genius Of Coleman Hawkins: I’ll Never Be The Same,213,-0.04979166666669999,0,match,True,True,True,False,4,204.6,0.4,0.6,1911.0,2420.0
 zxkEEzVuU8U,1,1,I'll Never Be the Same,214,-1.04979166667,0,,True,True,True,False,4,,,,,
 qA69xHR5cAk,3,1,Coleman Hawkins - I'll Never Be The Same (1957),215,-2.04979166667,0,,True,True,True,False,4,,,,,
-h3g4S75xT3Q,3,1,I'll Never Be The Same,213,-0.049791666666699985,0,,True,True,True,False,4,,,,,
-8NZQ2ekFuys,4,1,I'll Never Be the Same,213,-0.049791666666699985,0,,True,True,True,False,4,,,,,
+h3g4S75xT3Q,3,1,I'll Never Be The Same,213,-0.04979166666669999,0,,True,True,True,False,4,,,,,
+8NZQ2ekFuys,4,1,I'll Never Be the Same,213,-0.04979166666669999,0,,True,True,True,False,4,,,,,
 czXPu3pGwq4,3,2,I'll never be the same,290,-77.0497916667,0,,True,True,False,False,2,,,,,
-iFr0YV3qkFw,10,2,I'll Never Be the Same,213,-0.049791666666699985,0,,False,False,True,False,2,,,,,
-f5frIFPlOYE,17,2,I'll Never Be the Same,213,-0.049791666666699985,0,,False,False,True,False,2,,,,,
+iFr0YV3qkFw,10,2,I'll Never Be the Same,213,-0.04979166666669999,0,,False,False,True,False,2,,,,,
+f5frIFPlOYE,17,2,I'll Never Be the Same,213,-0.04979166666669999,0,,False,False,True,False,2,,,,,
 F-ilP6liM0o,1,1,Coleman Hawkins - I'll Never Be The Same,370,-157.049791667,0,,True,True,False,False,2,,,,,
-BUlmjF6jbpc,16,1,I'll Never Be the Same,213,-0.049791666666699985,0,,False,False,True,False,2,,,,,
+BUlmjF6jbpc,16,1,I'll Never Be the Same,213,-0.04979166666669999,0,,False,False,True,False,2,,,,,
 qPCZDkoLubk,5,1,Coleman Hawkins - I´ll never be the same,372,-159.049791667,0,,False,True,False,False,1,,,,,
 uJn1fR19YJ4,6,1,"Coleman Hawkins - I'll Never Be The Same - New York, May 10, 1955",441,-228.049791667,0,,False,True,False,False,1,,,,,
 WZnTa8wQzus,6,1,The Genius Of Coleman Hawkins: You’re Blase,219,-6.049791666669999,0,,False,True,False,False,1,,,,,

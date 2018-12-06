@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-FPSb5QjgjAc,0,5,Free Four,257,-0.13795,0,match,True,True,True,False,109,247.4,0.6,0.6,2724.0,4438.0
+FPSb5QjgjAc,0,5,Free Four,257,-0.13795,0,match,True,True,True,False,9,247.4,0.6,0.6,2724.0,4438.0
 zFAsAVj7bKc,0,5,Free Four - 08 - Obscured by Clouds - Pink Floyd,257,-0.13795,0,,True,True,True,False,9,,,,,
 ZQvEkVbisr0,2,3,Free Four- Pink Floyd Lyrics,257,-0.13795,0,,True,True,True,False,4,,,,,
 xRJszsqoGJs,5,2,"pink floyd, free four",257,-0.13795,0,,False,True,True,False,3,,,,,

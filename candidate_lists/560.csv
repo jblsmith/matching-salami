@@ -1,9 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-QzZUFEsMb6U,0,3,HOLLY COLE  Take me Home,140,7.7224583333300005,0,potential,True,True,False,False,100,127.7,0.4,2.9,527.0,560.0
 2X2RS87bSnQ,0,1,The Temptations Take Me in Your Arms,238,-90.2775416667,0,reject,True,True,False,False,7,,,,,
-3ELeiDSy8LY,2,3,Take Me Home,149,-1.2775416666700001,0,,True,True,True,False,4,,,,,
-bhh_zfvHKWs,2,1,The Temptations vs John Denver - Take Me Home Papa,149,-1.2775416666700001,0,,True,True,True,False,4,,,,,
-P1TdKCEhqh4,8,1,"Gillian Snider - ""Take Me Home"" (Tom Waits cover) - LIVE!",149,-1.2775416666700001,0,,False,True,True,False,3,,,,,
+3ELeiDSy8LY,2,3,Take Me Home,149,-1.27754166667,0,match,True,True,True,False,4,143.5,3.4,2.9,586.0,616.0
+bhh_zfvHKWs,2,1,The Temptations vs John Denver - Take Me Home Papa,149,-1.27754166667,0,,True,True,True,False,4,,,,,
+P1TdKCEhqh4,8,1,"Gillian Snider - ""Take Me Home"" (Tom Waits cover) - LIVE!",149,-1.27754166667,0,,False,True,True,False,3,,,,,
 rawMCaBZMec,2,4,"REMIX - Tom Waits / Holly Cole ""Take me home""",261,-113.27754166700001,0,,True,True,False,False,2,,,,,
 2sglrbx6rVo,1,3,Take Me Home - Tom Waits and Crystal Gayle - rare mix,195,-47.2775416667,0,,True,True,False,False,2,,,,,
 orDbZjdI19o,4,3,Holly Cole/Temptation(Tom Waits),185,-37.2775416667,0,,True,True,False,False,2,,,,,
@@ -24,6 +23,7 @@ Z3D7vyX8Jc8,8,1,Fighting Temptations Time To Come Home Lyrics,232,-84.2775416667
 7cKrp0SS1ss,8,1,Temptation,185,-37.2775416667,0,,False,True,False,False,1,,,,,
 MfMa2lrFxhY,9,1,Cradle Of Filth - Temptation [OFFICIAL VIDEO],241,-93.2775416667,0,,False,True,False,False,1,,,,,
 5hfTM0HUgbc,9,1,Tango Til They're Sore,269,-121.27754166700001,0,,False,True,False,False,1,,,,,
+QzZUFEsMb6U,0,3,HOLLY COLE  Take me Home,140,7.72245833333,0,potential,True,True,False,False,0,127.7,0.4,2.9,527.0,560.0
 HyCiQmf73Yg,1,3,Holly Cole  - Take Me Home,143,4.72245833333,0,,True,True,False,True,0,,,,,
 j2JmYRuG1Z0,3,3,Tom Waits / Take Me Home,124,23.7224583333,0,,True,True,False,False,0,,,,,
 YtUxT5gWkSc,7,3,Tom Waits - Take me home,104,43.7224583333,0,,False,True,False,False,0,,,,,

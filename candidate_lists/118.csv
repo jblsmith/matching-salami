@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-SeGjwmA-nao,0,5,"Purcell: Dido and Aeneas / Act 2 - ""In our deep vaulted cell""",72,-0.2155,0,match,True,True,True,False,109,68.5,0.1,0.1,348.0,355.0
+SeGjwmA-nao,0,5,"Purcell: Dido and Aeneas / Act 2 - ""In our deep vaulted cell""",72,-0.2155,0,match,True,True,True,False,9,68.5,0.1,0.1,348.0,355.0
 C4quLQyZ-8Q,0,2,Henry purcell - Dido & Aeneas: Act II - In our deep vaulted cell the charm,101,-29.2155,0,,True,True,False,False,7,,,,,
 FTaaQ1WlSBY,1,3,"Purcell: Dido and Aeneas / Act 2 - Prelude for the Witches - ""Wayward Sisters""",87,-15.2155,0,,True,True,False,False,2,,,,,
 RPsyqdYReb8,4,3,"Purcell: Dido and Aeneas / Act 2 - ""The Queen of Carthage, whom we hate""",161,-89.2155,0,,True,True,False,False,2,,,,,

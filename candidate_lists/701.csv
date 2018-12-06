@@ -1,6 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-_HfF-CFCq7Q,0,5,Counting Crows - On a Tuesday in Amsterdam long ago,301,-3.57333333333,0,match,True,True,True,False,109,290.7,5.8,0.2,1288.0,1363.0
-sXqLfMWWSic,1,5,On a Tuesday in Amsterdam Long Ago Counting Crows,299,-1.5733333333300001,0,,True,True,True,False,4,,,,,
+_HfF-CFCq7Q,0,5,Counting Crows - On a Tuesday in Amsterdam long ago,301,-3.57333333333,0,match,True,True,True,False,9,290.7,5.8,0.2,1288.0,1363.0
+sXqLfMWWSic,1,5,On a Tuesday in Amsterdam Long Ago Counting Crows,299,-1.57333333333,0,,True,True,True,False,4,,,,,
 745bhZa45UA,1,5,On A Tuesday In Amsterdam Long Ago,298,-0.5733333333330001,0,,True,True,True,False,4,,,,,
 g6MATiYW3Cg,6,3,On a Tuesday in Amsterdam Long Ago,301,-3.57333333333,0,,False,True,True,False,3,,,,,
 LdSqPPRPI1o,6,1,"Toto - Rosanna (From ""Live In Amsterdam"")",298,-0.5733333333330001,0,,False,True,True,False,3,,,,,
@@ -18,7 +18,7 @@ Lj89cD5e7cU,7,3,Seasons of the Ukulele 335: Counting Crows - On a Tuesday in Ams
 jwH78iJTnA4,8,3,Counting Crows - 2003 Amsterdam Concert,3600,-3302.57333333,0,,False,True,False,False,0,,,,,
 -oqAU5VxFWs,10,3,Counting Crows - Mr. Jones,271,26.4266666667,0,,False,False,False,False,0,,,,,
 wzal8gHbWuU,16,3,Counting Crows Rain King Oh Susannah Amsterdam 2003,460,-162.573333333,0,,False,False,False,False,0,,,,,
-_D_uUeKncd8,16,3,On A Tuesday In Amsterdam Long Ago (Counting Crows) - MVT,296,1.4266666666699999,0,,False,False,False,True,0,,,,,
+_D_uUeKncd8,16,3,On A Tuesday In Amsterdam Long Ago (Counting Crows) - MVT,296,1.42666666667,0,,False,False,False,True,0,,,,,
 J4wdPhDg76w,7,2,On a Tuesday in Amsterdam long ago,251,46.4266666667,0,,False,True,False,False,0,,,,,
 O0rbGq7e1Bs,10,2,barely out of tuesday-Adam Duritz,289,8.42666666667,0,,False,False,False,False,0,,,,,
 xwXPjMb7_Mk,14,2,Counting Crows - Colorblind (Pinkpop 2008),212,85.4266666667,0,,False,False,False,False,0,,,,,

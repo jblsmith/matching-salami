@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-2920nj96R8M,0,5,17. Missy Elliott - Missy's Finale - Supa Dupa Fly,25,-0.157541666667,0,potential,True,True,True,False,109,21.1,1.1,0.3,311.0,311.0
+2920nj96R8M,0,5,17. Missy Elliott - Missy's Finale - Supa Dupa Fly,25,-0.157541666667,0,potential,True,True,True,False,9,21.1,1.1,0.3,311.0,311.0
 TPKfrSte7UI,2,5,13. Missy Elliott - Why You Hurt Me - Supa Dupa Fly,273,-248.157541667,0,reject,True,True,False,False,2,,,,,
-8GRwoI9deOE,3,5,16. Missy Elliott - Busta's Outro - Supa Dupa Fly,99,-74.1575416667,0,,True,True,False,False,2,,,,,
-Ro9pj7R8fak,3,4,"Missy Elliott on ""Family Matters"" (1997)",81,-56.1575416667,0,,True,True,False,False,2,,,,,
-mvZPEBAX9TM,2,3,"Missy Elliot's Funky White Sister, Mary Halsey, Performs Live | Good Morning Britain",338,-313.15754166700003,0,,True,True,False,False,2,,,,,
+8GRwoI9deOE,3,5,16. Missy Elliott - Busta's Outro - Supa Dupa Fly,99,-74.1575416667,0,reject,True,True,False,False,2,,,,,
+Ro9pj7R8fak,3,4,"Missy Elliott on ""Family Matters"" (1997)",81,-56.1575416667,0,reject,True,True,False,False,2,,,,,
+mvZPEBAX9TM,2,3,"Missy Elliot's Funky White Sister, Mary Halsey, Performs Live | Good Morning Britain",338,-313.15754166700003,0,reject,True,True,False,False,2,,,,,
 5apwuviPpKo,2,3,"ICU Network: Winner Missy's Reality Show Road To Stardom "" Mrs Jessica Betts""",352,-327.15754166700003,0,,True,True,False,False,2,,,,,
 9kP_-2YSze0,4,3,I'm Talkin',302,-277.15754166700003,0,,True,True,False,False,2,,,,,
 qEDtQrXFt7U,4,2,12. Missy Elliott - Izzy Izzy Ahh - Supa Dupa Fly,249,-224.157541667,0,,True,True,False,False,2,,,,,

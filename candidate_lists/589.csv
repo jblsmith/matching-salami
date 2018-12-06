@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-0uQCJ6PzRdA,0,5,Stevie Wonder   You Haven't Done Nothin'   YouTube,212,-9.2636875,0,potential,True,True,False,False,107,37.6,21.7,20.6,45.0,591.0
+0uQCJ6PzRdA,0,5,Stevie Wonder   You Haven't Done Nothin'   YouTube,212,-9.2636875,0,potential,True,True,False,False,7,37.6,21.7,20.6,45.0,591.0
 Ji2ma2mfyhU,0,5,Stevie Wonder - You Haven't Done Nothin',211,-8.2636875,0,reject,True,True,False,False,7,,,,,
-k1pTLKR8StI,3,5,You Haven't Done Nothin',203,-0.2636875,0,,True,True,True,False,4,,,,,
+k1pTLKR8StI,3,5,You Haven't Done Nothin',203,-0.2636875,0,match,True,True,True,False,4,200.8,0.3,0.3,2183.0,2767.0
 CbRRGdFgWMY,5,5,Stevie Wonder  - You Haven't Done Nothin',205,-2.2636875,0,,False,True,True,False,3,,,,,
 QxrzT8WNxDc,8,4,Stevie Wonder-You haven't done nothin' Lyrics,205,-2.2636875,0,,False,True,True,False,3,,,,,
 0CmKhxuwtCE,1,5,Stevie Wonder ~ You Haven't Done Nothin' 1974 Funky Purrfection Version,464,-261.2636875,0,,True,True,False,False,2,,,,,

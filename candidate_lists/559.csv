@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XZyN6yY4n-k,0,5,Rodeo Girl,294,0.24325,0,match,True,True,False,True,100,285.6,0.5,0.7,2267.0,11342.0
 tUuy94OHspQ,2,5,-rodeo girl-,298,-3.75675,0,,True,True,True,False,4,,,,,
 YnVV9qE96fY,5,3,"Rickie Lee Jones ""Wild Girl"" Live on Soundcheck",298,-3.75675,0,,False,True,True,False,3,,,,,
 X3SZp2qZXxM,8,1,Love Is Gonna Bring Us Back Alive,296,-1.75675,0,,False,True,True,False,3,,,,,
@@ -14,6 +13,7 @@ x0GPBlWCp4s,9,4,"Rickie Lee Jones : ""Little mysteries""  live & stéréo France
 uWoU1GVZVCo,5,1,Rickie Lee Jones - Flying Cowboys special - part 1 of 3,496,-201.75675,0,,False,True,False,False,1,,,,,
 iB827KEJva4,6,1,Rickie Lee Jones - Flying Cowboys Live City Winery New York,374,-79.75675,0,,False,True,False,False,1,,,,,
 HGBVrKF8mr4,8,1,Flying Cowboys! Freestyle motocross Woodlake Rodeo,356,-61.75675,0,,False,True,False,False,1,,,,,
+XZyN6yY4n-k,0,5,Rodeo Girl,294,0.24325,0,match,True,True,False,True,0,285.6,0.5,0.7,2267.0,11342.0
 hlfrmHunpEE,14,4,Rickie Lee Jones - Love Is Gonna Bring Us Back Alive,319,-24.75675,0,,False,False,False,False,0,,,,,
 41Su1yp_hWI,3,3,Rickie Lee Jones - The Horses HD,291,3.24325,0,,True,True,False,True,0,,,,,
 S-dMuyk5Pfc,4,3,The Horses,291,3.24325,0,,True,True,False,True,0,,,,,

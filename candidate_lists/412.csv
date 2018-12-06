@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-iUXEbNm-0Tg,0,5,Soweto Kinch - Intermission-Split Decision,500,-0.408125,0,potential,True,True,True,False,109,379.0,1.3,1.1,3661.0,9216.0
+iUXEbNm-0Tg,0,5,Soweto Kinch - Intermission-Split Decision,500,-0.408125,0,potential,True,True,True,False,9,379.0,1.3,1.1,3661.0,9216.0
 m6ysTxFVWF8,5,1,Soweto Kinch @Occupy,564,-64.408125,0,reject,False,True,False,False,1,,,,,
-nuSUdJhkMFk,9,1,Soweto Kinch @OccupyLSX,564,-64.408125,0,,False,True,False,False,1,,,,,
-gFXYfMMqodA,1,5,Soweto Kinch - A Life In The Day Of B19 (FULL ALBUM),4734,-4234.408125,0,,True,True,False,False,0,,,,,
-LlmTBU7nIhE,1,4,Soweto Kinch - Good Nyooz,203,296.591875,0,,True,True,False,False,0,,,,,
+nuSUdJhkMFk,9,1,Soweto Kinch @OccupyLSX,564,-64.408125,0,reject,False,True,False,False,1,,,,,
+gFXYfMMqodA,1,5,Soweto Kinch - A Life In The Day Of B19 (FULL ALBUM),4734,-4234.408125,0,reject,True,True,False,False,0,,,,,
+LlmTBU7nIhE,1,4,Soweto Kinch - Good Nyooz,203,296.591875,0,reject,True,True,False,False,0,,,,,
 PZcnJS8zxPo,1,3,Soweto Kinch // but is it jazz?,631,-131.408125,0,,True,True,False,False,0,,,,,
 onnT0aI6hvQ,3,3,Soweto Kinch - Cultures of Resistance 9 July 07 - Adrian,478,21.591875,0,,True,True,False,False,0,,,,,
 ilcOFy3gYE4,3,3,Soweto Kinch - Jazz Planet,470,29.591875,0,,True,True,False,False,0,,,,,

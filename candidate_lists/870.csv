@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 GJ5yItOCSEM,0,2,Gypsy holocaust Auschwitz song Latcho Drom,165,-47.60575,0,reject,True,True,False,False,7,,,,,
 bfAnmqy5uYE,3,3,A Warning to Those Visiting Auschwitz,192,-74.60575,0,reject,True,True,False,False,2,,,,,
-MPX1Rfs5bN4,4,3,These Haunting Photographs Of Auschwitz Prisoners Are Even More Harrowing In Color,476,-358.60575,0,,True,True,False,False,2,,,,,
-cxBe45-XEpQ,3,2,"Holocaust Dedication Song ""Yiskerem""",326,-208.60575,0,,True,True,False,False,2,,,,,
-1TBRyLe830o,4,2,Auschwitz Gipsy Song - Monika Lakatos,244,-126.60575,0,,True,True,False,False,2,,,,,
+MPX1Rfs5bN4,4,3,These Haunting Photographs Of Auschwitz Prisoners Are Even More Harrowing In Color,476,-358.60575,0,reject,True,True,False,False,2,,,,,
+cxBe45-XEpQ,3,2,"Holocaust Dedication Song ""Yiskerem""",326,-208.60575,0,reject,True,True,False,False,2,,,,,
+1TBRyLe830o,4,2,Auschwitz Gipsy Song - Monika Lakatos,244,-126.60575,0,reject,True,True,False,False,2,,,,,
 tR0Q5J6wKeo,5,3,10 Horrific Facts About Auschwitz,162,-44.60575,0,,False,True,False,False,1,,,,,
 WYnyusxZdBA,7,3,A drone just flew over Auschwitz and captured something incredibly powerful,224,-106.60575,0,,False,True,False,False,1,,,,,
 uisXEJabmZw,9,3,Auschwitz survivors reunited 70 years on,247,-129.60575,0,,False,True,False,False,1,,,,,

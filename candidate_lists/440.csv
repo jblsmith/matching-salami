@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7QN7AGbtCAU,0,5,"Wee - Allen's Alley (Stan Getz, Dizzy Gillespie & Sonny Stitt) - Casabase Down Beat",510,-0.6122083333330001,0,potential,True,True,True,False,109,379.3,0.3,0.5,6471.0,10505.0
+7QN7AGbtCAU,0,5,"Wee - Allen's Alley (Stan Getz, Dizzy Gillespie & Sonny Stitt) - Casabase Down Beat",510,-0.6122083333330001,0,potential,True,True,True,False,9,379.3,0.3,0.5,6471.0,10505.0
 CVH7gDTqP8U,12,2,Wee (Aka Allen's Alley) (feat. John Lewis & Herb Ellis),511,-1.6122083333300001,0,potential,False,False,True,False,2,379.3,0.5,0.5,6626.0,10671.0
 MVbDUfHMhqk,1,5,Wee (Allen's Alley),509,0.387791666667,0,,True,True,False,True,0,,,,,
 sfmuymziOi8,2,5,Wee (Allen's Alley),509,0.387791666667,0,,True,True,False,True,0,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-YB0x2AGEUS8,0,2,Gnarls Barkley - Neighbors,190,-4.6,0,match,True,True,True,False,109,177.9,2.2,2.1,1767.0,5798.0
+YB0x2AGEUS8,0,2,Gnarls Barkley - Neighbors,190,-4.6,0,match,True,True,True,False,9,177.9,2.2,2.1,1767.0,5798.0
 ZWGV4Nz3--A,1,3,Gnarls Barkley - Neighbors (with Lyrics),186,-0.6,0,,True,True,True,False,4,,,,,
 fXbzoIwQwOU,8,3,Gnarls Barkley - A Little Better + Lyrics,187,-1.6,0,,False,True,True,False,3,,,,,
 Qnjqn0vk-eU,5,1,J Cole - Neighbors (Music Video),186,-0.6,0,,False,True,True,False,3,,,,,

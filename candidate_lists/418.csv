@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 8DW0gYZ7onM,0,1,VR to pipes & cigars therapy congratulations on your give away,402,23.0645,0,reject,True,True,False,False,0,,,,,
 1UofOGhvH5I,0,1,البرنامج - موسم 3 - الحلقه 8 كامله,3881,-3455.9355,0,reject,True,True,False,False,0,,,,,
-b-TxDwlmVlE,1,1,Great Smoke 2017 Tickets Contest - Congratulations Robert Marrow,186,239.0645,0,,True,True,False,False,0,,,,,
-PgmAGNMSPAw,1,1,A Year in Port,113,312.0645,0,,True,True,False,False,0,,,,,
-Ixh0tlTKAM0,2,1,Cigar Press ...Congratulations Thor,356,69.0645,0,,True,True,False,False,0,,,,,
+b-TxDwlmVlE,1,1,Great Smoke 2017 Tickets Contest - Congratulations Robert Marrow,186,239.0645,0,reject,True,True,False,False,0,,,,,
+PgmAGNMSPAw,1,1,A Year in Port,113,312.0645,0,forget,True,True,False,False,0,,,,,
+Ixh0tlTKAM0,2,1,Cigar Press ...Congratulations Thor,356,69.0645,0,reject,True,True,False,False,0,,,,,
 QW1vWVCdkJY,2,1,"The Great Khali vs. Rusev: Raw, July 21, 2014",133,292.0645,0,,True,True,False,False,0,,,,,
 uXrojhhLrUI,3,1,Congratulatory Cigar,61,364.0645,0,,True,True,False,False,0,,,,,
 YKjY4hqWY0A,3,1,"Aadu Magaadra Bujji Latest Telugu Full Movie | 2015 | Sudheer Babu, Asmita Sood",8505,-8079.9355,0,,True,True,False,False,0,,,,,

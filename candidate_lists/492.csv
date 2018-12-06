@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-x5z9GGpYDKc,0,4,Stan Getz  EU E VOCE,154,-1.392625,0,potential,True,True,True,False,109,139.0,0.4,0.2,1321.0,1400.0
+x5z9GGpYDKc,0,4,Stan Getz  EU E VOCE,154,-1.392625,0,potential,True,True,True,False,9,139.0,0.4,0.2,1321.0,1400.0
 c5QfXjsoNe4,0,3,"""The Girl from Ipanema""  Astrud Gilberto, João Gilberto and Stan Getz",325,-172.392625,0,reject,True,True,False,False,7,,,,,
-PGIkDVmJ-Hk,0,1,Tom Jobim - Você e Eu (Carlos Lyra - Vinícius de Moraes),233,-80.392625,0,,True,True,False,False,7,,,,,
-JrTkXo00TuY,2,1,Eu não existo sem você - Tom Jobim (1981),155,-2.392625,0,,True,True,True,False,4,,,,,
-FJjUvppRNcw,3,1,Eu não existo sem você - Vinicius de Moraes e Tom Jobim,157,-4.392625,0,,True,True,True,False,4,,,,,
+PGIkDVmJ-Hk,0,1,Tom Jobim - Você e Eu (Carlos Lyra - Vinícius de Moraes),233,-80.392625,0,reject,True,True,False,False,7,,,,,
+JrTkXo00TuY,2,1,Eu não existo sem você - Tom Jobim (1981),155,-2.392625,0,reject,True,True,True,False,4,,,,,
+FJjUvppRNcw,3,1,Eu não existo sem você - Vinicius de Moraes e Tom Jobim,157,-4.392625,0,reject,True,True,True,False,4,,,,,
 o9Cq-x_Exsc,6,1,Eu E Voce,154,-1.392625,0,,False,True,True,False,3,,,,,
 mP-mWTuchlw,8,1,EU NAO EXISTO SEM VOCE (Antonio Carlos Jobim - Vinicius de Moraes),155,-2.392625,0,,False,True,True,False,3,,,,,
 44J3s-lumeI,2,3,Eu e voce - Astrud Gilberto & Stan Getz  Mad Men,162,-9.392625,0,,True,True,False,False,2,,,,,

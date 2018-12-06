@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-GthWmeDO6tY,0,5,Muppets,19,-0.533333333333,0,match,True,True,True,False,109,17.8,0.2,0.2,186.0,186.0
+GthWmeDO6tY,0,5,Muppets,19,-0.533333333333,0,match,True,True,True,False,9,17.8,0.2,0.2,186.0,186.0
 w0k-aoR4mhY,1,5,"Jim Roads - Larry, Harry, Barry and Garry",146,-127.53333333299999,0,,True,True,False,False,2,,,,,
 SvvmO0fj99Q,1,5,Lock Stock and Two Smoking Barrels Soundtrack Tracklist,135,-116.53333333299999,0,,True,True,False,False,2,,,,,
 Rc6uUx5wOZs,2,5,Lock stock33 muppets,119,-100.53333333299999,0,,True,True,False,False,2,,,,,

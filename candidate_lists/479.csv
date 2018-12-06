@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 oM2DxNlq5J8,5.0,1,Sonny Rollins - Best Wishes,565,-98.5053,0,reject,False,True,False,False,1,,,,,
 6jzm5kDb05A,0.0,1,I Wish I Knew How It Would Feel To Be Free - Billy Taylor,320,146.4947,0,reject,True,True,False,False,0,,,,,
-9pXdaviNtbA,1.0,1,I Wish I Knew,295,171.4947,0,,True,True,False,False,0,,,,,
-gS0IjqOt-E8,2.0,1,Sonny Rollins Quintet - Why Don't I?,353,113.4947,0,,True,True,False,False,0,,,,,
-QKQcagDsa20,3.0,1,"Sonny Rollins:   What Jazz Is, and What Being a Jazz Musician Means To Me",440,26.4947,0,,True,True,False,False,0,,,,,
+9pXdaviNtbA,1.0,1,I Wish I Knew,295,171.4947,0,reject,True,True,False,False,0,,,,,
+gS0IjqOt-E8,2.0,1,Sonny Rollins Quintet - Why Don't I?,353,113.4947,0,reject,True,True,False,False,0,,,,,
+QKQcagDsa20,3.0,1,"Sonny Rollins:   What Jazz Is, and What Being a Jazz Musician Means To Me",440,26.4947,0,reject,True,True,False,False,0,,,,,
 tojUt51AqYU,4.0,1,"Sonny Rollins - I'll Be Seeing You, Stockholm '85",396,70.4947,0,,True,True,False,False,0,,,,,
 1ubKsASFllQ,6.0,1,Sonny Rollins & The Modern Jazz Quartet - I Knew,150,316.4947,0,,False,True,False,False,0,,,,,
 rFA9Gz-wIXo,7.0,1,Sonny Rollins Quartet - Cutie,361,105.4947,0,,False,True,False,False,0,,,,,

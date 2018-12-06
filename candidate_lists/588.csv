@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 00Qk60Y_dIU,2,2,The Neverlies - In Each Other's Arms (Official Lyric Video),354,-40.0865,0,reject,True,True,False,False,2,,,,,
 GHf_TWFB9N8,5,1,Moon Flips then Shape Shifts... May 26th 2018 11:47 pm,336,-22.0865,0,reject,False,True,False,False,1,,,,,
-o4Szbf4v61M,0,4,Pocket Dwellers - Listen to this,304,9.9135,0,,True,True,False,False,0,,,,,
-ZupJvGPHpIc,1,2,"Padajuća Zvijezda, a Canadian-Croatian opera by Julijana Hajdinjak",3917,-3603.0865,0,,True,True,False,False,0,,,,,
-KVRW8WBJfrc,0,1,EastEnders - Kat Moon Slaps Sam Mitchell (26th August 2005),113,200.9135,0,,True,True,False,False,0,,,,,
+o4Szbf4v61M,0,4,Pocket Dwellers - Listen to this,304,9.9135,0,reject,True,True,False,False,0,,,,,
+ZupJvGPHpIc,1,2,"Padajuća Zvijezda, a Canadian-Croatian opera by Julijana Hajdinjak",3917,-3603.0865,0,reject,True,True,False,False,0,,,,,
+KVRW8WBJfrc,0,1,EastEnders - Kat Moon Slaps Sam Mitchell (26th August 2005),113,200.9135,0,reject,True,True,False,False,0,,,,,
 -VsGRDR6lVU,1,1,"5 Things You Should Know About The FULL Moon (August 26th, 2018)",1148,-834.0865,0,,True,True,False,False,0,,,,,
 J8MRHn6cwqQ,1,1,"Final Fantasy IX OST Symphonic Remaster : 4 - 02 - Daguerro, the Hermit's Library",124,189.9135,0,,True,True,False,False,0,,,,,
 aaSXD971hG4,2,1,Strange Rainbow Moon...October 26th 2018 1:46 am,185,128.9135,0,,True,True,False,False,0,,,,,

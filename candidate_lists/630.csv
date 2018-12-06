@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ZYyLM7vLRfs,1,5,tiken jah fakoly -Nationalité,334,-2.37551020408,0,match,True,True,True,False,104,322.4,0.3,0.3,3728.0,6345.0
 nWpP-_XoqHM,0,5,Tiken Jah Fakoly - Nationalité,549,-217.37551020400002,0,,True,True,False,False,7,,,,,
-Km6NHq6K_ps,8,1,L’unification de l’Allemagne (1850-1871) (Carte animée),332,-0.37551020408200003,0,,False,True,True,False,3,,,,,
+ZYyLM7vLRfs,1,5,tiken jah fakoly -Nationalité,334,-2.37551020408,0,match,True,True,True,False,4,322.4,0.3,0.3,3728.0,6345.0
+Km6NHq6K_ps,8,1,L’unification de l’Allemagne (1850-1871) (Carte animée),332,-0.375510204082,0,,False,True,True,False,3,,,,,
 duWXNAo6vAg,2,4,Tiken Jah Fakoly - Tata (1999),357,-25.3755102041,0,,True,True,False,False,2,,,,,
 nltLJ8UDTdg,3,3,TATA : Tiken Jah Fakoly (Paroles et traduction),372,-40.375510204099996,0,,True,True,False,False,2,,,,,
 ENlQNbImxD0,5,1,Naturalisation 4 : La charte des droits et devoirs du citoyen français (lecture illustrée),380,-48.375510204099996,0,,False,True,False,False,1,,,,,

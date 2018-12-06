@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-KiygLeYdjsI,0,5,On n'a pas besoin- Paris combo,250,-0.1388125,0,match,True,True,True,False,109,241.1,0.5,0.5,2523.0,3128.0
+KiygLeYdjsI,0,5,On n'a pas besoin- Paris combo,250,-0.1388125,0,match,True,True,True,False,9,241.1,0.5,0.5,2523.0,3128.0
 hptx-ofa5Uo,3,4,Paris Combo - Living-Room,253,-3.1388125,0,,True,True,True,False,4,,,,,
 8Zy6wPlBoqQ,6,4,Paris combo - Je suis sourde.wmv,253,-3.1388125,0,,False,True,True,False,3,,,,,
 yKQSVK9bbFo,4,4,Paris Combo - Señor,260,-10.1388125,0,,True,True,False,False,2,,,,,

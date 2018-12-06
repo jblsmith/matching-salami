@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-pfQAEOAOqJE,0,3,Ramón El Portugués [con Juan José Suárez 'Paquete' y Antonio Carmona] - Vengo de mi Extremadura,210,-0.00162499999999,0,match,True,True,True,False,109,201.2,0.7,1.0,2337.0,2490.0
+pfQAEOAOqJE,0,3,Ramón El Portugués [con Juan José Suárez 'Paquete' y Antonio Carmona] - Vengo de mi Extremadura,210,-0.00162499999999,0,match,True,True,True,False,9,201.2,0.7,1.0,2337.0,2490.0
 1bMskDr_KcI,3,3,"Vengo de Mi Extremadura (feat. Juan José Suárez Paquete, Antonio Carmona)",210,-0.00162499999999,0,,True,True,True,False,4,,,,,
 LowSzEV_FeQ,1,2,RAMÓN EL PORTUGUÉS - En que terreno me gepeese,373,-163.001625,0,,True,True,False,False,2,,,,,
 SeDvrvkq8s4,2,2,Ramon El Portugues Plaza alta (tangos),260,-50.001625,0,,True,True,False,False,2,,,,,

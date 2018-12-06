@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 CoWf_7tRC5I,1,2,Sierra Leone (The Derek Trucks Band Cover),403,-267.881632653,0,reject,True,True,False,False,2,,,,,
 Jec1FTF40Ow,2,1,The Derek Trucks Band - Sahib Teri Bandi/Maki Madni | HD,594,-458.88163265300005,0,reject,True,True,False,False,2,,,,,
-O82rTpWwkds,3,1,The Derek Trucks Band - Revolution,190,-54.881632653100006,0,,True,True,False,False,2,,,,,
-9nu4wSB_zz8,4,1,Soul Serenade,567,-431.88163265300005,0,,True,True,False,False,2,,,,,
-czqN-ja128Q,17,1,Waterfalls near   Rincon - Costa Rica,136,-0.8816326530609999,0,,False,False,True,False,2,,,,,
+O82rTpWwkds,3,1,The Derek Trucks Band - Revolution,190,-54.881632653100006,0,reject,True,True,False,False,2,,,,,
+9nu4wSB_zz8,4,1,Soul Serenade,567,-431.88163265300005,0,reject,True,True,False,False,2,,,,,
+czqN-ja128Q,17,1,Waterfalls near   Rincon - Costa Rica,136,-0.8816326530609999,0,potential,False,False,True,False,2,121.2,0.6,0.5,753.0,952.0
 y8i81e2jahc,5,1,Frisell,413,-277.881632653,0,,False,True,False,False,1,,,,,
 UFNCC3XpPjg,5,1,Soul Serenade - Afro Blue,342,-206.881632653,0,,False,True,False,False,1,,,,,
 xLxnalGxCm8,6,1,The Derek Trucks Band - Sahib Teri Bandi / Maki Madni,597,-461.88163265300005,0,,False,True,False,False,1,,,,,

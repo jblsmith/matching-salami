@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Po8J4NBdiSc,0,1,Sidney Bechet - Summertime,257.0,-2.80241666667,0,potential,True,True,True,False,9,93.6,92.2,90.5,393.0,1126.0
 SsKT0s5J8ko,1,1,Mac Miller - Self Care,347.0,-92.8024166667,0,reject,True,True,False,False,2,,,,,
-hst_89F0_L8,3,1,Jaromi - Summertime (George Gershwin - DuBose Heyward),276.0,-21.8024166667,0,,True,True,False,False,2,,,,,
-1u95xuq65m4,11,1,Sidney Bechet Quintet 1939 Summertime.wmv,255.0,-0.8024166666670001,0,,False,False,True,False,2,,,,,
-hqnMNNII0wg,14,1,Dizzy Gillespie - Summertime,257.0,-2.80241666667,0,,False,False,True,False,2,,,,,
+hst_89F0_L8,3,1,Jaromi - Summertime (George Gershwin - DuBose Heyward),276.0,-21.8024166667,0,reject,True,True,False,False,2,,,,,
+1u95xuq65m4,11,1,Sidney Bechet Quintet 1939 Summertime.wmv,255.0,-0.8024166666670001,0,reject,False,False,True,False,2,,,,,
+hqnMNNII0wg,14,1,Dizzy Gillespie - Summertime,257.0,-2.80241666667,0,reject,False,False,True,False,2,,,,,
 qKbJg5AlTKw,7,1,"Summertime (Porgy and Bess) George Gershwin, Ira Gershwin, Dubose Heyward",288.0,-33.8024166667,0,,False,True,False,False,1,,,,,
 bJRTKXMGoqY,7,1,"6 – Summertime (George Gershwin, DuBose Heyward, Dorothy Heyward e Ira Gershwin)",506.0,-251.80241666700002,0,,False,True,False,False,1,,,,,
 peA3gniU44g,8,1,"BlueBoxBigBand Night-Train ""Summertime"" Aldersbach 16.06.2017",271.0,-16.8024166667,0,,False,True,False,False,1,,,,,

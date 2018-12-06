@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-EiJ5bdmfMtw,4,2,"Goethe-Lieder: No. 9, Mignon IV, ""Kennst du das Land"" (Langsam und sehr ausdrucksvoll)",419,-389.612208333,0,potential,True,True,False,False,102,23.3,73.5,0.2,217.0,263.0
 BYumuAejgAo,0,3,"Elisabeth Schwarzkopf; ""Kennst du das Land""; Goethe-Lieder; (Gerald Moore Tribute); Hugo Wolf",411,-381.612208333,0,reject,True,True,False,False,7,,,,,
-EmklgHDLcUk,0,1,"Anne Sofie von Otter; ""Kennst du das Land""; Goethe-Lieder; Hugo Wolf",421,-391.612208333,0,,True,True,False,False,7,,,,,
-ZMe22tHvG4c,1,3,"Hugo Wolf - ""Kennst du das Land"" - Schwarzkopf",406,-376.612208333,0,,True,True,False,False,2,,,,,
-qtT1_-1qumE,3,2,"Montreal. Kennst Du Das Land. Elisabeth Schwarzkopf, Gerald Moore",73,-43.612208333299996,0,,True,True,False,False,2,,,,,
+EmklgHDLcUk,0,1,"Anne Sofie von Otter; ""Kennst du das Land""; Goethe-Lieder; Hugo Wolf",421,-391.612208333,0,reject,True,True,False,False,7,,,,,
+ZMe22tHvG4c,1,3,"Hugo Wolf - ""Kennst du das Land"" - Schwarzkopf",406,-376.612208333,0,reject,True,True,False,False,2,,,,,
+qtT1_-1qumE,3,2,"Montreal. Kennst Du Das Land. Elisabeth Schwarzkopf, Gerald Moore",73,-43.612208333299996,0,reject,True,True,False,False,2,,,,,
+EiJ5bdmfMtw,4,2,"Goethe-Lieder: No. 9, Mignon IV, ""Kennst du das Land"" (Langsam und sehr ausdrucksvoll)",419,-389.612208333,0,potential,True,True,False,False,2,23.3,73.5,0.2,217.0,263.0
 aqN_TFS1rSE,2,1,"Marilyn Horne;""Kennst du das Land""; Goethe-Lieder; Hugo Wolf",460,-430.612208333,0,,True,True,False,False,2,,,,,
 BQqtzOOPNEU,4,1,"Goethe-Lieder: No. 9, Mignon IV ""Kennst du das Land"" (Langsam und sehr ausdrucksvoll)",392,-362.612208333,0,,True,True,False,False,2,,,,,
 rOO1pN2BEQQ,5,3,"Arleen Augér; ""Kennst du das Land""; Lieder der Mignon; Hugo Wolf",386,-356.612208333,0,,False,True,False,False,1,,,,,

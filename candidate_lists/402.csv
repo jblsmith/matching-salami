@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-k--JfatucHY,0,5,Lively Up Yourself - Charlie Hunter Quartet,339,1.0359166666700002,0,match,True,True,False,True,100,334.2,0.4,0.3,4891.0,6469.0
 ITnWKJfO0Ag,2,4,"Charlie Hunter - ""Lively Up Yourself""",370,-29.9640833333,0,,True,True,False,False,2,,,,,
 bDnNqsy7rYE,1,2,Bob Marley - Lively Up Yourself (Live),402,-61.964083333299996,0,,True,True,False,False,2,,,,,
 ftMXLKwi_H0,4,2,Jazz Jamaica All Stars THE TROJAN STORY - Lively Up Yourself,513,-172.964083333,0,,True,True,False,False,2,,,,,
@@ -11,6 +10,7 @@ XjX1E75BGUI,7,1,Bob Marley Lively Up Yourself,392,-51.964083333299996,0,,False,T
 -Zs6K-XBU0o,8,1,BOB MARLEY & THE WAILERS - Lively Up Yourself [1972],346,-5.9640833333300005,0,,False,True,False,False,1,,,,,
 mlmwoPyVQQA,9,1,Bob Marley and The Wailers - Lively Up Yourself (LIVE!),381,-40.964083333299996,0,,False,True,False,False,1,,,,,
 wije57MB2cM,9,1,Bob Marley - Lively Up Yourself - No Woman No Cry (Demos Natty Dread 1974),549,-208.964083333,0,,False,True,False,False,1,,,,,
+k--JfatucHY,0,5,Lively Up Yourself - Charlie Hunter Quartet,339,1.0359166666700002,0,match,True,True,False,True,0,334.2,0.4,0.3,4891.0,6469.0
 q7j9ZPZBDj4,1,5,"Charlie Hunter - ""Lively up yourself""",291,49.035916666700004,0,,True,True,False,False,0,,,,,
 xHsmgdiV8Mc,3,3,Lively Up Yourself,340,0.035916666666699994,0,,True,True,False,True,0,,,,,
 0PO1fdLwiQw,5,3,Lively Up Yourself Instrumental,223,117.03591666700001,0,,False,True,False,False,0,,,,,

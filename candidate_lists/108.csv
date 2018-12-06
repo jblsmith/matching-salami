@@ -1,13 +1,13 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-JpjEVsogI0Q,0,5,Tombeau pour Mr. de Sainte Colombe - 2ème livre de Pièces de viole,433,-1.0392,0,potential,True,True,True,False,109,378.0,1.3,2.0,4287.0,5462.0
+JpjEVsogI0Q,0,5,Tombeau pour Mr. de Sainte Colombe - 2ème livre de Pièces de viole,433,-1.0392,0,potential,True,True,True,False,9,378.0,1.3,2.0,4287.0,5462.0
 o05kFcsRigc,3,3,Tombeau pour Monsieur de Sainte Colombe - Paolo Pandolfo & Anna Urszula Kucharska,508,-76.0392,0,reject,True,True,False,False,2,,,,,
-BtpYVzW4Ic8,6,2,"Concert à deux violes ""La Retour"" (Mr. de Sainte Colombe)",504,-72.0392,0,,False,True,False,False,1,,,,,
+BtpYVzW4Ic8,6,2,"Concert à deux violes ""La Retour"" (Mr. de Sainte Colombe)",504,-72.0392,0,reject,False,True,False,False,1,,,,,
 evA9v3h9Gdc,9,1,"Pièces de viole, Livre I - 83. Tombeau de Mr Meliton",549,-117.0392,0,,False,True,False,False,1,,,,,
 nQNAe3Sd7ig,1,5,"Marin Marais : 'Tombeau' pour Monsieur De Sainte - Colombe, Le Père, II.109 (Savall)",386,45.9608,0,,True,True,False,False,0,,,,,
 90RJhDcETYw,1,5,"Les Pleurs (Mr. de Sainte Colombe, version viole seule de Jordi Savall)",250,181.9608,0,,True,True,False,False,0,,,,,
-vjWlJlIre-4,2,5,"Monsieur de Sainte Colombe Works for 2 Bass Viols,Voix Humaines",2944,-2512.0392,0,,True,True,False,False,0,,,,,
+vjWlJlIre-4,2,5,"Monsieur de Sainte Colombe Works for 2 Bass Viols,Voix Humaines",2944,-2512.0392,0,reject,True,True,False,False,0,,,,,
 T69dEk3z8as,11,4,Muzettes I-II - 3ème livre de Pièces de viole,194,237.9608,0,,False,False,False,False,0,,,,,
-0CCxMeQOcKY,1,3,Marin Marais - Pieces de Viole du Second Livre,3782,-3350.0392,0,,True,True,False,False,0,,,,,
+0CCxMeQOcKY,1,3,Marin Marais - Pieces de Viole du Second Livre,3782,-3350.0392,0,reject,True,True,False,False,0,,,,,
 yU_Rh1sPX9M,3,3,Le Badinage - 4ème livre de Pièces de viole,419,12.9608,0,,True,True,False,False,0,,,,,
 XkRUTUYBua0,4,3,"Suite En Mi Mineur: Tombeau Po' Mr. De Ste. Colombe, II.109 (Marais)",397,34.9608,0,,True,True,False,False,0,,,,,
 IxcMBbkKiJ8,5,3,"Marin Marais : 'Tombeau' pour Monsieur De Lully: nº 95, 2ème livre",386,45.9608,0,,False,True,False,False,0,,,,,

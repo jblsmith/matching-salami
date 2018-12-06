@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-1Q9i-LxiGXo,0,4,David Bickley - The Leap,378,-12.1551020408,0,match,True,True,False,False,107,363.0,9.2,1.7,1443.0,5442.0
+1Q9i-LxiGXo,0,4,David Bickley - The Leap,378,-12.1551020408,0,match,True,True,False,False,7,363.0,9.2,1.7,1443.0,5442.0
 pSbG6a4HeTE,4,1,Crystaline - A Sigh Becomes a Thousand Trees,396,-30.1551020408,0,,True,True,False,False,2,,,,,
 VAAs5u0a2c0,5,1,Racoon - Cette Ile,388,-22.1551020408,0,,False,True,False,False,1,,,,,
 MoObiyGe-oQ,6,1,The Verbrilli Sound - Cansada,521,-155.155102041,0,,False,True,False,False,1,,,,,
@@ -66,6 +66,6 @@ HyU3e9fPKkk,16,1,Sci Fi Short Film - The Leap,1617,-1251.15510204,0,,False,False
 2Q6vqN-XsMo,17,1,“I MIGHT FAIL AT IT AND I MIGHT SUCK” - The Leap with Stefan Kunz,288,77.8448979592,0,,False,False,False,False,0,,,,,
 mxLXP0lSwZc,17,1,Lounge   Chillout   DownTempo   TripHop Mix 2017,2520,-2154.15510204,0,,False,False,False,False,0,,,,,
 QBGVvWEwazg,18,1,The leap that changed her career,333,32.8448979592,0,,False,False,False,False,0,,,,,
-6ziP7iMCAok,18,1,Atmospheric Drum & Bass mix 2011,12123,-11757.155101999999,0,,False,False,False,False,0,,,,,
+6ziP7iMCAok,18,1,Atmospheric Drum & Bass mix 2011,12123,-11757.155102,0,,False,False,False,False,0,,,,,
 h-huA2o6OOY,19,1,Leap! Trailer #1 (2017) | Movieclips Trailers,117,248.844897959,0,,False,False,False,False,0,,,,,
 3DoYqPQuFRw,19,1,Chillout Music ► FERDOW - Catalina (Original Chillout Mix),285,80.8448979592,0,,False,False,False,False,0,,,,,

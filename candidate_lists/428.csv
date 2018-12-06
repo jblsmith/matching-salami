@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-NCKHbqaOweA,0,5,Bud Powell - So Sorry Please,198,-0.46205,0,match,True,True,True,False,109,188.1,0.3,0.3,2240.0,2924.0
+NCKHbqaOweA,0,5,Bud Powell - So Sorry Please,198,-0.46205,0,match,True,True,True,False,9,188.1,0.3,0.3,2240.0,2924.0
 -gv2g0VDxQU,0,5,Bud Powell So Sorry Please Jazz Giant 1950,198,-0.46205,0,,True,True,True,False,9,,,,,
 Ckf4iCHmrUY,1,5,"Bud Powell 'So Sorry,Please'",198,-0.46205,0,,True,True,True,False,4,,,,,
 zcY9OqSIC98,2,5,Bud Powell - So Sorry Please,201,-3.46205,0,,True,True,True,False,4,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 PzW1SjkbuoU,0,3,"John Bavicchi interview, 6/30/2006",6170,-5443.9265,0,reject,True,True,False,False,0,,,,,
 V7sdRDLz_Wk,0,2,WVHS Wind Ensemble 2010 | 'Give Us This Day' by David Maslanka,697,29.0735,0,reject,True,True,False,False,0,,,,,
-EQcuHF13keE,0,1,Black Holes and Revelations Symphony (Remastered),3570,-2843.9265,0,,True,True,False,False,0,,,,,
-SKnRdQiH3-k,0,1,"Skillet - ""The Resistance"" [Official Lyric Video]",240,486.0735,0,,True,True,False,False,0,,,,,
-xP_32iwZOkI,1,1,Revelation- First power,223,503.0735,0,,True,True,False,False,0,,,,,
+EQcuHF13keE,0,1,Black Holes and Revelations Symphony (Remastered),3570,-2843.9265,0,reject,True,True,False,False,0,,,,,
+SKnRdQiH3-k,0,1,"Skillet - ""The Resistance"" [Official Lyric Video]",240,486.0735,0,reject,True,True,False,False,0,,,,,
+xP_32iwZOkI,1,1,Revelation- First power,223,503.0735,0,reject,True,True,False,False,0,,,,,
 HFpHDXUgcqw,1,1,La révélation des Pyramides - Le film en français,6106,-5379.9265,0,,True,True,False,False,0,,,,,
 PJlmYh27MHg,2,1,Jurassic Park (1993) - Welcome to Jurassic Park Scene (1/10) | Movieclips,209,517.0735,0,,True,True,False,False,0,,,,,
 FcSPyrfoCRk,2,1,«Трудно быть богом» - 1989 vs. 2013. Обзор «Красного Циника»,2674,-1947.9265,0,,True,True,False,False,0,,,,,

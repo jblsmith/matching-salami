@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-s_76F95k0a8,0,4,Jacques Brel - La valse à mille temps,284,0.0294,0,match,True,True,False,True,100,278.1,1.0,0.3,3277.0,4314.0
 3otUlQ4wvLY,9,3,"Joseph Gordon-Levitt singing ""La Valse à Mille Temps"" (SitC)",286,-1.9706,0,,False,True,True,False,3,,,,,
 ciqDNLeikLk,2,4,La Valse a Mille Temps 1961 (high quality),294,-9.9706,0,,True,True,False,False,2,,,,,
 36TNUfJvbZU,1,2,Jacques Brel - Ne me quitte pas (Remixed),580,-295.9706,0,,True,True,False,False,2,,,,,
@@ -8,6 +7,7 @@ bYdoixtU4-U,15,2,"Orchestre national de France ""La valse à Mille temps"" - #Je
 zalFXJ4NmQ0,5,3,Karaoké La valse à mille temps - Jacques Brel *,290,-5.9706,0,,False,True,False,False,1,,,,,
 5ey2JvTcaOs,7,1,Альбина Юсупова «Ne me quitte pas» - Слепые прослушивания - Голос - Сезон 6,330,-45.9706,0,,False,True,False,False,1,,,,,
 reZ91nuKErk,8,1,La valse à mille temps - Jacques Brel,319,-34.9706,0,,False,True,False,False,1,,,,,
+s_76F95k0a8,0,4,Jacques Brel - La valse à mille temps,284,0.0294,0,match,True,True,False,True,0,278.1,1.0,0.3,3277.0,4314.0
 ovPwUihaVdE,0,4,Jacques Brel - La valse à mille temps,231,53.0294,0,,True,True,False,False,0,,,,,
 2nJ1fvvJt78,1,4,La Valse à mille temps -Jacques Brel- subtitulada,235,49.0294,0,,True,True,False,False,0,,,,,
 381iPwgRheQ,5,4,JACQUES   BREL      La valse à mille temps,231,53.0294,0,,False,True,False,False,0,,,,,

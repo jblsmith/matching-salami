@@ -1,14 +1,14 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 Q-dobBQqFhs,0,1,"Trio Sonata, Op. 3, No. 2 (1685): Movements 1-4",435,-370.50366666699995,0,potential,True,True,False,False,7,55.4,119.6,0.2,988.0,1059.0
 ZoXJM3eHLOM,1,1,"Corelli, A. Trio Sonata Op. 3, n. 2",445,-380.50366666699995,0,reject,True,True,False,False,2,,,,,
-CwJRzYv6HNI,2,1,"Trio Sonata in D Major, Op. 3, No. 2 by Arcangelo Corelli",484,-419.50366666699995,0,,True,True,False,False,2,,,,,
-ozEfJugPMe4,3,1,Corelli - Sonata da chiesa op. 3 n. 2 in Re maggiore (score),433,-368.50366666699995,0,,True,True,False,False,2,,,,,
+CwJRzYv6HNI,2,1,"Trio Sonata in D Major, Op. 3, No. 2 by Arcangelo Corelli",484,-419.50366666699995,0,reject,True,True,False,False,2,,,,,
+ozEfJugPMe4,3,1,Corelli - Sonata da chiesa op. 3 n. 2 in Re maggiore (score),433,-368.50366666699995,0,reject,True,True,False,False,2,,,,,
 -xANRk5qMyU,15,1,"Corelli Trio Sonata Op. 3, No. 2: II. Allegro",68,-3.50366666667,0,,False,False,True,False,2,,,,,
 4I1qOqO5pLo,6,1,"A2 Music Set Works 2014/2015: Corelli: Trio Sonata In D, Op.3, No. 2 (Movement 4)",127,-62.5036666667,0,,False,True,False,False,1,,,,,
 FuW-HCwEH4Y,7,1,A. Corelli - Sonate da Chiesa Op.3 - No.2 in D Major,483,-418.50366666699995,0,,False,True,False,False,1,,,,,
 xU_Mh02aKvg,8,1,Arcangelo Corelli Trio Sonata in D Major op. 3 № 2,498,-433.50366666699995,0,,False,True,False,False,1,,,,,
 wx9ZpOMdWZs,9,1,A. Corelli - Sonate da Chiesa Op.3 - No.7 in E Minor,396,-331.503666667,0,,False,True,False,False,1,,,,,
-MkKiQf13S9s,4,1,"Arcangelo Corelli Sonate da Chiesa Op.3, London Baroque",4546,-4481.50366667,0,,True,True,False,False,0,,,,,
+MkKiQf13S9s,4,1,"Arcangelo Corelli Sonate da Chiesa Op.3, London Baroque",4546,-4481.50366667,0,reject,True,True,False,False,0,,,,,
 Mrg3uPORvV8,5,1,"12 Trio Sonatas / Sonate da Chiesa, Op. 3 Part 1 - Corelli (Score)",1740,-1675.50366667,0,,False,True,False,False,0,,,,,
 rCA7Wqb6B7k,10,1,"Corelli: Trio Sonata in D-Major, Op. 3 No. 2 - III - Adagio",144,-79.5036666667,0,,False,False,False,False,0,,,,,
 pPBKEaq6L5c,11,1,"Arcangelo Corelli Trio Sonatas Op.2, Nos.1-8",3253,-3188.50366667,0,,False,False,False,False,0,,,,,

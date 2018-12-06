@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-rNkwKR04tPQ,0,5,The Revels Comanche,125,7.0,0,potential,True,True,False,False,100,117.2,0.8,8.7,621.0,807.0
 6p3FsA0olbQ,2,4,Bring Out the Gimp/Comanche - Pulp Fiction Theme,132,0.0,0,match,True,True,True,True,5,126.2,0.6,0.5,1050.0,1268.0
 TB1rh9AbBT0,5,2,Pulp Fiction OST - 12 Bring Out the Gimp-Comanche,132,0.0,0,,False,True,True,True,4,,,,,
 a3s5rPZQLK4,5,2,The Revels - Comanche (Pulp Fiction soundtrack),135,-3.0,0,,False,True,True,False,3,,,,,
@@ -16,6 +15,7 @@ tXvfkoVpAl8,8,2,"Zed's Dead, Baby // Bullwinkle, Pt. 2 - The Centurians (Pulp Fi
 0MUZFgyYrUQ,7,1,The Comanche Indians,162,-30.0,0,,False,True,False,False,1,,,,,
 AwtSK1gLBBk,8,1,The Magnificent Seven (2016) - Comanche Fight Scene (8/10) | Movieclips,222,-90.0,0,,False,True,False,False,1,,,,,
 _L68ZNhsd30,9,1,Comanche Sydney Hobart 2014,354,-222.0,0,,False,True,False,False,1,,,,,
+rNkwKR04tPQ,0,5,The Revels Comanche,125,7.0,0,potential,True,True,False,False,0,117.2,0.8,8.7,621.0,807.0
 9IPzwiKk0BE,0,4,The Revels - Comanche PULP FICTION soundtrack,124,8.0,0,,True,True,False,False,0,,,,,
 C1vt7lw1rJw,0,4,Pulp Fiction Soundtrack - Commanche (1964) - The Revels - (Track 12) - HD,130,2.0,0,,True,True,False,True,0,,,,,
 B4KZ_P2AVaQ,2,4,The Revels - Comanche [1 hour loop],3628,-3496.0,0,,True,True,False,False,0,,,,,

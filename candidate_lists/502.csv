@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-DyUlp_4bV0c,0,4,"Clark Terry, 'Last Night in Rio'",354,-0.145291666667,0,match,True,True,True,False,109,349.4,0.4,0.4,3534.0,7523.0
+DyUlp_4bV0c,0,4,"Clark Terry, 'Last Night in Rio'",354,-0.145291666667,0,match,True,True,True,False,9,349.4,0.4,0.4,3534.0,7523.0
 UcagUeXHa9Y,1,5,Last Night In Rio (feat. Clark Terry),354,-0.145291666667,0,,True,True,True,False,4,,,,,
 ntM59FkTpME,1,1,Louie Austen - One Night in Rio,386,-32.145291666700004,0,,True,True,False,False,2,,,,,
 8cKkBcmm2cE,2,1,Louie Austen - One Night In Rio,399,-45.145291666700004,0,,True,True,False,False,2,,,,,

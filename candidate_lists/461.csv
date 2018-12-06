@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 pnPVExzm0DY,0,1,Tiger Rag - Midlife Jazzband / Swiss Dixie Jazzer,230,-114.4604,0,reject,True,True,False,False,7,,,,,
 OwsBhZHBr_s,6,2,The Mills Brothers Tiger Rag 1970's,120,-4.4604,0,reject,False,True,True,False,3,,,,,
-AveI4ieN2iQ,4,2,THE MILLS BROTHERS 1970's interview.  Tiger Rag & Bye Bye Blackbird,404,-288.4604,0,,True,True,False,False,2,,,,,
-yVTG5aepuk4,10,2,The Mills brothers - Tiger Rag,117,-1.4604,0,,False,False,True,False,2,,,,,
-UQ9185HohuY,14,2,Tiger Rag - The Mills Brothers (Decca 1934 Ver.),116,-0.4604,0,,False,False,True,False,2,,,,,
+AveI4ieN2iQ,4,2,THE MILLS BROTHERS 1970's interview.  Tiger Rag & Bye Bye Blackbird,404,-288.4604,0,reject,True,True,False,False,2,,,,,
+yVTG5aepuk4,10,2,The Mills brothers - Tiger Rag,117,-1.4604,0,reject,False,False,True,False,2,,,,,
+UQ9185HohuY,14,2,Tiger Rag - The Mills Brothers (Decca 1934 Ver.),116,-0.4604,0,reject,False,False,True,False,2,,,,,
 TS2BgwnVTmU,17,2,Mills Brothers - Tiger Rag,119,-3.4604,0,,False,False,True,False,2,,,,,
 _CnEotIqMKg,1,1,Tiger Rag - Louis Armstrong 1933,176,-60.4604,0,,True,True,False,False,2,,,,,
 K9drl1FKVb4,1,1,Real Steel • Atom Tribute - Eye of the Tiger • Burning Heart by Survivor,464,-348.4604,0,,True,True,False,False,2,,,,,

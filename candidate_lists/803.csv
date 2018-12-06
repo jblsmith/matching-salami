@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 to5pOGxoTXw,0,5,TONTON NESTOR de  BRASSENS 1961 par Joël Camous 14 nov 2014 002,141,-18.68,0,reject,True,True,False,False,7,,,,,
 rfbb4h_VUa4,0,5,Georges Brassens - La femme d'Hector,244,-121.68,0,reject,True,True,False,False,7,,,,,
-LBNsgGCjf98,0,3,Le pluriel,248,-125.68,0,,True,True,False,False,7,,,,,
-E3QxWs4UYeE,2,5,Marquise   Brassens,211,-88.68,0,,True,True,False,False,2,,,,,
-uwh_2mTtdE8,3,3,Georges Brassens - Le temps passé,181,-58.68,0,,True,True,False,False,2,,,,,
+LBNsgGCjf98,0,3,Le pluriel,248,-125.68,0,reject,True,True,False,False,7,,,,,
+E3QxWs4UYeE,2,5,Marquise   Brassens,211,-88.68,0,reject,True,True,False,False,2,,,,,
+uwh_2mTtdE8,3,3,Georges Brassens - Le temps passé,181,-58.68,0,reject,True,True,False,False,2,,,,,
 Y7Nk4mbIb8Q,4,3,Georges Brassens - Le bistrot,162,-39.68,0,,True,True,False,False,2,,,,,
 9VfUYo2yNWk,15,3,Ca S'Est Passe Un Dimanche,127,-4.68,0,,False,False,True,False,2,,,,,
 X0_GpzUWM8c,2,2,Joe Krapov - Le Bricoleur (Georges Brassens),158,-35.68,0,,True,True,False,False,2,,,,,

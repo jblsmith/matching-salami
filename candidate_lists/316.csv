@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-0cHsD8AyPSU,0,1,The Holy Modal Rounders ~ Synergy,224,-3.44815,0,match,True,True,True,False,109,215.3,1.1,0.9,2261.0,2432.0
+0cHsD8AyPSU,0,1,The Holy Modal Rounders ~ Synergy,224,-3.44815,0,match,True,True,True,False,9,215.3,1.1,0.9,2261.0,2432.0
 X6pyrkqyR1s,2,1,THE HOLY MODAL ROUNDERS - WEREWOLF,222,-1.44815,0,,True,True,True,False,4,,,,,
 9aDkjxSUbqM,3,1,Snappin' P***y,313,-92.44815,0,,True,True,False,False,2,,,,,
 fe602Vtpspk,4,1,The Holy Modal Rounders - Across The Alley From The Alamo - from Alleged In Their Own Time album,240,-19.44815,0,,True,True,False,False,2,,,,,

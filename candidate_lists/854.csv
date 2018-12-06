@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-ML9cmj_nVW8,0,5,Manu Chao - Te Tromper,73,-0.41333333333300004,0,match,True,True,True,False,109,71.6,0.2,0.1,738.0,1061.0
-JJQEuRYWUng,7,5,Te Tromper,73,-0.41333333333300004,0,,False,True,True,False,3,,,,,
-MqKQSizBP3c,5,3,Manu Chao - Te tromper,73,-0.41333333333300004,0,,False,True,True,False,3,,,,,
+ML9cmj_nVW8,0,5,Manu Chao - Te Tromper,73,-0.413333333333,0,match,True,True,True,False,9,71.6,0.2,0.1,738.0,1061.0
+JJQEuRYWUng,7,5,Te Tromper,73,-0.413333333333,0,,False,True,True,False,3,,,,,
+MqKQSizBP3c,5,3,Manu Chao - Te tromper,73,-0.413333333333,0,,False,True,True,False,3,,,,,
 W6PW-BcDe58,9,3,Manu Chao / Te Tromper/ akfi,75,-2.41333333333,0,,False,True,True,False,3,,,,,
 VNh595mJAfo,1,4,Ce Soir Je Vais Te Tromper,163,-90.4133333333,0,,True,True,False,False,2,,,,,
 2Rx8NCIdOu8,3,4,Manu Chao - Te Souviens-Tu,154,-81.4133333333,0,,True,True,False,False,2,,,,,

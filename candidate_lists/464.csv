@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-kv30_U_9ExU,0,3,Willie Jackson She Keeps It Up All The Time (COLUMBIA 14156-D) (1926),175,2.402875,0,potential,True,True,False,True,100,167.8,4.3,3.5,487.0,556.0
 6g6UehIKO-E,0,3,She Keeps It Up All The Time,179,-1.597125,0,match,True,True,True,False,9,172.8,0.3,0.3,2010.0,2112.0
 IfB_K4RGtDo,0,1,Nickelback - She Keeps Me Up,282,-104.597125,0,,True,True,False,False,7,,,,,
 XraTxh2fud0,2,3,She Keeps It up All the Time,179,-1.597125,0,,True,True,True,False,4,,,,,
@@ -29,6 +28,7 @@ yXksAWvaLqk,7,1,She Keeps It up All the Time,192,-14.597125,0,,False,True,False,
 Ww9VlmXKYgs,7,1,Juvenile - Ha,243,-65.597125,0,,False,True,False,False,1,,,,,
 nmjgIrBHg6Y,8,1,Quavo - WORKIN ME,263,-85.597125,0,,False,True,False,False,1,,,,,
 kNrj87Q-4Yk,9,1,Barbra Streisand - Don't Lie to Me (Official Video),241,-63.597125,0,,False,True,False,False,1,,,,,
+kv30_U_9ExU,0,3,Willie Jackson She Keeps It Up All The Time (COLUMBIA 14156-D) (1926),175,2.402875,0,potential,True,True,False,True,0,167.8,4.3,3.5,487.0,556.0
 yNPzpVZIQsw,7,2,Willie Jackson Eye to Eye 100th Episode,46,131.402875,0,,False,True,False,False,0,,,,,
 CoapzfDoM44,9,2,Corn And Bunion Blues,172,5.402875,0,,False,True,False,False,0,,,,,
 saJgeoZTLd8,11,2,Numbers On The Brain,185,-7.597125,0,,False,False,False,False,0,,,,,

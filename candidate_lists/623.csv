@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-lnncO6iK4N4,0,5,Love Is Plentiful,150,2.86855,0,match,True,True,False,True,100,146.9,0.5,0.5,2215.0,2390.0
 XIf8J1KVcY8,3,2,The Staple Singers - This World,215,-62.13145,0,,True,True,False,False,2,,,,,
 uhjmDipdaYU,4,1,"The Staple Singers ""I'm A Lover"" (flip side) from 1971 on STAX #0093",217,-64.13145,0,,True,True,False,False,2,,,,,
 zL3pQCypSPs,16,1,Long Walk To DC by The Staple Singers from Faith and Grace,153,-0.13145,0,,False,False,True,False,2,,,,,
@@ -9,6 +8,7 @@ KwBwiaJseoo,7,2,The Staple Singers - I Got To Be Myself,216,-63.13145,0,,False,T
 Kpz6-oiY5ds,5,1,Back Road Into Town,262,-109.13145,0,,False,True,False,False,1,,,,,
 bJgMHl1IJiU,6,1,The Staples - I Honestly Love You (Vinyl - 1977),452,-299.13145,0,,False,True,False,False,1,,,,,
 FOeEOyXkQCQ,8,1,You've Got To Earn It,211,-58.13145,0,,False,True,False,False,1,,,,,
+lnncO6iK4N4,0,5,Love Is Plentiful,150,2.86855,0,match,True,True,False,True,0,146.9,0.5,0.5,2215.0,2390.0
 sLq2QO8_ZPA,0,5,Love Is Plentiful,152,0.86855,0,,True,True,False,True,0,,,,,
 qC0Olgt8sHk,2,3,Love Is Plentiful,150,2.86855,0,,True,True,False,True,0,,,,,
 nZr638SHO_w,2,3,My Main Man,131,21.86855,0,,True,True,False,False,0,,,,,

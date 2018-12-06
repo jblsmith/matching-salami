@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-bm5AkDbuqII,0,5,Mostafa Sax afrah baladi,421,4.0645,0,potential,True,True,False,True,100,376.7,2.4,3.5,5518.0,9434.0
 bkLePF0WjR4,2,5,Afrah Baladi,426,-0.9355,0,potential,True,True,True,False,4,376.7,2.4,3.4,6964.0,11213.0
 L_nppp9e7as,3,5,Afrah Baladi _ Mostafa Sax,427,-1.9355,0,,True,True,True,False,4,,,,,
 U1zOKKxBiyM,5,5,Mostafa Sax - Afrah Baladi 'Sahara Groove' Egypt,427,-1.9355,0,,False,True,True,False,3,,,,,
@@ -7,6 +6,7 @@ j72uRptYnvY,6,5,Afrah Baladi,426,-0.9355,0,,False,True,True,False,3,,,,,
 VCAlnIdmj1k,8,3,"Ashra Baladi, Mostafa Sax",427,-1.9355,0,,False,True,True,False,3,,,,,
 bDphdQ3M2Eo,10,1,Afrah Baladi,427,-1.9355,0,,False,False,True,False,2,,,,,
 xKM7y0_uKag,9,1,Musica Arabe-Mostafa Sax Best Of Bellydance From Egypt And Leb.,501,-75.9355,0,,False,True,False,False,1,,,,,
+bm5AkDbuqII,0,5,Mostafa Sax afrah baladi,421,4.0645,0,potential,True,True,False,True,0,376.7,2.4,3.5,5518.0,9434.0
 hKSkYd_RjCM,1,5,Mostafa Sax - Afrah Baladi - Bellydance Body Mind advanced dancers,259,166.0645,0,,True,True,False,False,0,,,,,
 OBvAPzq0DNc,1,5,Afrah-baladi  أفراح بلدي,425,0.0645,0,,True,True,False,True,0,,,,,
 gCjdIlC4XTw,2,5,Afrah Baladi- Mostafa Sax -Mónica Loyola,295,130.0645,0,,True,True,False,False,0,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 dqOo5gAAPWI,0,3,"Enrique de Melchor  ""Bulerias""",325,-19.001625,0,reject,True,True,False,False,7,,,,,
 N0Kr6hQzUYA,3,3,FERNANDA  DE UTRERA-ENRIQUE DE MELCHOR-SOLEÁ,531,-225.001625,0,reject,True,True,False,False,2,,,,,
-tr6DXasisYY,3,3,JOSÉ MENESE-ENRIQUE DE MELCHOR-TIENTOS-TANGOS-EL CALOR DE SU RECUERDO-4,518,-212.001625,0,,True,True,False,False,2,,,,,
-mu2IMtFVags,12,1,Colombiana. Enrique y Estrella Morente,309,-3.001625,0,,False,False,True,False,2,,,,,
-matT9hXufvk,6,3,JOSÉ MERCÉ-ENRIQUE DE MELCHOR-BULERIAS POR SOLEÁ-EL CALOR DE SU RECUERDO-10,438,-132.001625,0,,False,True,False,False,1,,,,,
+tr6DXasisYY,3,3,JOSÉ MENESE-ENRIQUE DE MELCHOR-TIENTOS-TANGOS-EL CALOR DE SU RECUERDO-4,518,-212.001625,0,reject,True,True,False,False,2,,,,,
+mu2IMtFVags,12,1,Colombiana. Enrique y Estrella Morente,309,-3.001625,0,reject,False,False,True,False,2,,,,,
+matT9hXufvk,6,3,JOSÉ MERCÉ-ENRIQUE DE MELCHOR-BULERIAS POR SOLEÁ-EL CALOR DE SU RECUERDO-10,438,-132.001625,0,reject,False,True,False,False,1,,,,,
 5tlepIPyMRA,1,3,"El Lebrijano - La Fuente Fria - feat. Enrique de Melchor, Pedro Bacán",188,117.998375,0,,True,True,False,False,0,,,,,
 IN2wrumHgcA,1,3,JUAN EL LEBRIJANO-ENRIQUE DE MELCHOR-TANGOS-ROMANCE-SOLEÁ-BULERÍAS,1267,-961.001625,0,,True,True,False,False,0,,,,,
 wyLhMQappNQ,4,3,Viejos tiempos,296,9.998375,0,,True,True,False,False,0,,,,,

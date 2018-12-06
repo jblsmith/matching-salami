@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-4RzkdvT6Pnw,0,4,Rebel Music (3 O' Clock Roadblock) - Charlie Hunter Quartet,280,0.267791666667,0,match,True,True,False,True,100,273.3,0.4,0.3,1949.0,2677.0
 nEGeixI55Ro,0,2,Bob Marley - Rebel Music,405,-124.73220833299999,0,,True,True,False,False,7,,,,,
 Qe5p1yIugTM,0,1,"""Rebel Music 3 O'Clock Roadblock"" - Bob Marley & The Wailers | Natty Dread (1974)",406,-125.73220833299999,0,,True,True,False,False,7,,,,,
 76gomqOkNR0,2,1,RASTA MUSIC - NATTY DREAD REBEL (Official video) Kap tv music,283,-2.73220833333,0,,True,True,True,False,4,,,,,
@@ -13,6 +12,7 @@ PQ-knEL3npc,5,2,"Charlie Hunter, Chinna Smith And Ernest Ranglin - Fade Away",44
 qPhK4B9IBtA,8,2,A FLG Maurepas upload - Charlie Hunter Quartet - Them Belly Full - Jazz Fusion,325,-44.7322083333,0,,False,True,False,False,1,,,,,
 zbBLIYSsoxA,8,1,Bob Marley - Rebel Music Live (3 O\'Clock Roadblock),326,-45.7322083333,0,,False,True,False,False,1,,,,,
 ip4pXetoJCw,9,1,Duppy Conquerors - Natty Dread,343,-62.7322083333,0,,False,True,False,False,1,,,,,
+4RzkdvT6Pnw,0,4,Rebel Music (3 O' Clock Roadblock) - Charlie Hunter Quartet,280,0.267791666667,0,match,True,True,False,True,0,273.3,0.4,0.3,1949.0,2677.0
 2nZyWpNz-so,1,3,Rebel Music (3 O'Clock Roadblock),280,0.267791666667,0,,True,True,False,True,0,,,,,
 aA1EXR1pwn0,1,3,"""Natty Dread"" by Charlie Hunter",268,12.2677916667,0,,True,True,False,False,0,,,,,
 GvQiBorOa7M,3,3,Bend Down Low,155,125.26779166700001,0,,True,True,False,False,0,,,,,

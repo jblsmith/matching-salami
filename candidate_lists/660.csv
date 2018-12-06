@@ -1,14 +1,14 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-IGL-ojxKkTo,0,5,Foo Fighters - Virginia Moon,235,-5.98448979592,0,match,True,True,False,False,107,223.0,0.6,0.6,1406.0,3410.0
+IGL-ojxKkTo,0,5,Foo Fighters - Virginia Moon,235,-5.98448979592,0,match,True,True,False,False,7,223.0,0.6,0.6,1406.0,3410.0
 gVJ_UQJ87lQ,1,5,Virginia Moon - Foo Fighters featuring Norah Jones,231,-1.98448979592,0,,True,True,True,False,4,,,,,
-NyDi6VxLoRU,6,5,Foo Fighters-Virginia Moon (Letra/Lyrics),233,-3.9844897959199996,0,,False,True,True,False,3,,,,,
-AjkM5m7MObs,5,3,Foo Fighters - Virginia Moon (Complete Cover),233,-3.9844897959199996,0,,False,True,True,False,3,,,,,
+NyDi6VxLoRU,6,5,Foo Fighters-Virginia Moon (Letra/Lyrics),233,-3.98448979592,0,,False,True,True,False,3,,,,,
+AjkM5m7MObs,5,3,Foo Fighters - Virginia Moon (Complete Cover),233,-3.98448979592,0,,False,True,True,False,3,,,,,
 YlYMuiH_eNk,4,5,Foo Fighters - Virginia Moon (Live Acoustic),275,-45.984489795900004,0,,True,True,False,False,2,,,,,
 ZHjp2blYtVY,12,4,Foo Fighters- Virginia Moon [HD],230,-0.984489795918,0,,False,False,True,False,2,,,,,
 2OI0sBH1tJ8,11,3,Virginia Moon - Foo Fighters feat. Norah Jones (ft. Evita Intani) Cover,231,-1.98448979592,0,,False,False,True,False,2,,,,,
 9Y58WVVynGs,14,3,Virginia Moon Cover (Foo Fighters),230,-0.984489795918,0,,False,False,True,False,2,,,,,
 fGSzPwUXees,15,3,Norah Jones - Virginia Moon - Foo Fighters,231,-1.98448979592,0,,False,False,True,False,2,,,,,
-S3uRusIHYPg,15,3,FOO FIGHTERS Feat. NORAH JONES - VIRGINIA MOON,233,-3.9844897959199996,0,,False,False,True,False,2,,,,,
+S3uRusIHYPg,15,3,FOO FIGHTERS Feat. NORAH JONES - VIRGINIA MOON,233,-3.98448979592,0,,False,False,True,False,2,,,,,
 SHeUM5md1to,1,2,Foo Fighters - Virginia Moon - In Your Honor Disk 2,241,-11.984489795899998,0,,True,True,False,False,2,,,,,
 VDvCuHO6x-o,10,1,In Your Honor,230,-0.984489795918,0,,False,False,True,False,2,,,,,
 JFYGOO4H-Io,18,1,Foo Fighters - In Your Honor,230,-0.984489795918,0,,False,False,True,False,2,,,,,

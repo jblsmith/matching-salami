@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-60OwtIio8LM,3,3,Mahalia Jackson- Didn't It Rain,161,-0.11185,0,match,True,True,True,False,104,153.3,1.1,0.7,1732.0,1870.0
 n0KxVXsdSvg,0,3,Mahalia Jackson - Didn't It Rain 1964 52 Years OLD,204,-43.11185,0,,True,True,False,False,7,,,,,
 MnAQATKRBN0,0,1,Sister Rosetta Tharpe - Didn't It Rain,465,-304.11185,0,,True,True,False,False,7,,,,,
+60OwtIio8LM,3,3,Mahalia Jackson- Didn't It Rain,161,-0.11185,0,match,True,True,True,False,4,153.3,1.1,0.7,1732.0,1870.0
 B5LsvoMViNA,1,4,Mahalia Jackson - Didn't It Rain,223,-62.11185,0,,True,True,False,False,2,,,,,
 3NFywQdeKSo,1,4,"Sister Rosetta Tharpe - Didn't it rain, children",205,-44.11185,0,,True,True,False,False,2,,,,,
 DfjUwqWvrtw,3,4,Didn't It Rain (Live) Mahalia Jackson,275,-114.11185,0,,True,True,False,False,2,,,,,

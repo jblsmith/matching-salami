@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-GKRRnCbP2Bo,1,4,Gene Gel (Yallah Habibi),340,-26.7657,0,match,True,True,False,False,102,306.2,31.8,0.3,3020.0,32631.0
 e3msGAgPIW8,0,1,Ihtiyacim var sana gel,316,-2.7657,0,,True,True,True,False,9,,,,,
 Jgm54xtKMJI,1,4,Gene Gel,314,-0.7657,0,,True,True,True,False,4,,,,,
 CQRo9Bj58RY,1,1,Çekinme yarım bana gel,316,-2.7657,0,,True,True,True,False,4,,,,,
+GKRRnCbP2Bo,1,4,Gene Gel (Yallah Habibi),340,-26.7657,0,match,True,True,False,False,2,306.2,31.8,0.3,3020.0,32631.0
 os1s-60SuSU,2,4,natacha atlas&burhan öcal- habibi (gene gel),336,-22.7657,0,,True,True,False,False,2,,,,,
 lm-6uf5P1DQ,3,4,Habibi,340,-26.7657,0,,True,True,False,False,2,,,,,
 Knjz50ugUdo,12,1,"Çekinme yarım, mene, gel ,mene,gel",316,-2.7657,0,,False,False,True,False,2,,,,,

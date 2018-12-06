@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 oQcCefkIHGA,0,5,John Coltrane - GOOD BAIT,730,-1.00079166667,0,potential,True,True,True,False,0,378.8,0.6,1.5,6708.0,18557.0
 SR5_NEV0ysE,2,4,Tadd Dameron Sextet at Royal Roost - Good Bait (2nd version),352,376.999208333,0,reject,True,True,False,False,0,,,,,
-0mdt9heAoc4,0,3,Tadd Dameron Sextet at Royal Roost - Good Bait (1st version),394,334.999208333,0,,True,True,False,False,0,,,,,
-hMtJIuBr0aY,1,3,Good Bait theme on bass (Coltrane's version),60,668.9992083330001,0,,True,True,False,False,0,,,,,
+0mdt9heAoc4,0,3,Tadd Dameron Sextet at Royal Roost - Good Bait (1st version),394,334.999208333,0,reject,True,True,False,False,0,,,,,
+hMtJIuBr0aY,1,3,Good Bait theme on bass (Coltrane's version),60,668.9992083330001,0,potential,True,True,False,False,0,54.3,2.7,3.4,94.0,301.0
 blccb01bEE4,2,3,John Coltrane - Good Bait,729,-0.000791666666714,0,,True,True,True,False,0,,,,,
 pxQDdHmyx1E,10,3,Nina Simone - Good Bait,328,400.999208333,0,,False,False,False,False,0,,,,,
 cfmmWPp9u7M,0,2,John Coltrane - Good Bait,729,-0.000791666666714,0,,True,True,True,False,0,,,,,

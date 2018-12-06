@@ -1,7 +1,6 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-p5o6Qum2V_Y,0,5,Stray Cats - You Don't Believe Me,176,2.311875,0,potential,True,True,False,True,100,167.5,7.9,6.2,1232.0,1834.0
 OPf0YbXqDm0,0,1,Mark Ronson - Uptown Funk ft. Bruno Mars,270,-91.688125,0,matched_775,True,True,False,False,7,,,,,
-abWPQVrmKFw,2,5,Stray Cats - You Don't Believe Me,182,-3.688125,0,,True,True,True,False,4,,,,,
+abWPQVrmKFw,2,5,Stray Cats - You Don't Believe Me,182,-3.688125,0,potential,True,True,True,False,4,165.0,10.8,2.3,1050.0,1232.0
 bTs-6Rip_wA,1,4,You Don't Believe Me (Stray Cats) +Lyrics,181,-2.688125,0,,True,True,True,False,4,,,,,
 aGQbVQxT2ng,3,2,STRAY CATS - YOU DONT BELIEVE ME - BBC RADIO 1 IN CONCERT 1982,226,-47.688125,0,,True,True,False,False,2,,,,,
 PezixVFIql0,15,2,Stray Cats - Little Miss Prissy,179,-0.688125,0,,False,False,True,False,2,,,,,
@@ -24,6 +23,7 @@ wXARNUArH3Y,7,1,The Stray Cats - Gonna Ball,198,-19.688125,0,,False,True,False,F
 qFtUbyblrQc,8,1,"Don't Believe me, JUST WATCH! @KSJ @MarkRonson @Uptownfunk @BrunoMars @KSJsk8",219,-40.688125,0,,False,True,False,False,1,,,,,
 O2_PAW_8fos,8,1,Eminem-Run Rabbit Run + Lyrics,187,-8.688125,0,,False,True,False,False,1,,,,,
 My2FRPA3Gf8,9,1,Miley Cyrus - Wrecking Ball (Official Video),221,-42.688125,0,,False,True,False,False,1,,,,,
+p5o6Qum2V_Y,0,5,Stray Cats - You Don't Believe Me,176,2.311875,0,potential,True,True,False,True,0,167.5,7.9,6.2,1232.0,1834.0
 7xFYFdggdd4,0,4,Stray Cats - You Don't Believe Me,178,0.311875,0,,True,True,False,True,0,,,,,
 echQxJZe-wA,4,4,Stray Cats - You Don't Believe Me,178,0.311875,0,,True,True,False,True,0,,,,,
 OOo9_gfs5yU,5,3,Stray Cats- You Don't Believe Me (vinyl rip),177,1.311875,0,,False,True,False,True,0,,,,,

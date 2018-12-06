@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-i82tkFErHzI,0,5,Ornette Coleman - Mob Job,191,-0.410583333333,0,match,True,True,True,False,109,184.1,0.7,0.7,1592.0,1775.0
+i82tkFErHzI,0,5,Ornette Coleman - Mob Job,191,-0.410583333333,0,match,True,True,True,False,9,184.1,0.7,0.7,1592.0,1775.0
 Pp-nLZAkoKY,0,3,Mob Job,252,-61.410583333299996,0,,True,True,False,False,7,,,,,
 faEYubwK4KI,0,3,Ornette Coleman & Pat Metheny & Charlie Haden -- MoB JoB (Song x),252,-61.410583333299996,0,,True,True,False,False,7,,,,,
 4_IFk-ke70c,3,4,Sound Museum (Ornette Coleman),380,-189.410583333,0,,True,True,False,False,2,,,,,

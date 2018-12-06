@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 -dsuiqt1ZXE,0,5,Gangsaran 2 Kebo Giro Karawitan STABN Sriwijaya,279,-227.6955,0,reject,True,True,False,False,7,,,,,
 r9v7n3Shg4U,0,5,Gamelan Music (Sequence gangsaran.flv),80,-28.6955,0,reject,True,True,False,False,7,,,,,
-HHWeoWSpsPM,1,5,Gangsaran 2 - Karawitan Bentara Muda,65,-13.6955,0,,True,True,False,False,2,,,,,
-VOh-PJxhMhs,2,5,Gangsaran,90,-38.6955,0,,True,True,False,False,2,,,,,
-FXdYVvlvzms,3,5,From the Palace to the Tent: Ladrang Gangsaran Bima Kurda 06,502,-450.6955,0,,True,True,False,False,2,,,,,
+HHWeoWSpsPM,1,5,Gangsaran 2 - Karawitan Bentara Muda,65,-13.6955,0,reject,True,True,False,False,2,,,,,
+VOh-PJxhMhs,2,5,Gangsaran,90,-38.6955,0,reject,True,True,False,False,2,,,,,
+FXdYVvlvzms,3,5,From the Palace to the Tent: Ladrang Gangsaran Bima Kurda 06,502,-450.6955,0,reject,True,True,False,False,2,,,,,
 YccVdWzUjsU,4,5,Gendhing Gangsaran by Prabacendana (Birmingham Javanese Gamelan Group),72,-20.6955,0,,True,True,False,False,2,,,,,
 1G4L9ck9cog,4,5,Gending GANGSARAN,64,-12.6955,0,,True,True,False,False,2,,,,,
 dxVwVH7fMRk,2,3,Gangsaran 2 Ebeg Putri Rahayu di Menggala,566,-514.6955,0,,True,True,False,False,2,,,,,

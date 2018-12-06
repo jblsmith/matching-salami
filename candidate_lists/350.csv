@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-UqxL2lvb_oA,0,3,Kid Koala - Annie's Parlour,243,0.09554166666660001,0,match,True,True,False,True,100,240.8,0.3,0.3,1644.0,10153.0
 fbqmt22LY-8,0,4,annies parlor.m4v,244,-0.904458333333,0,,True,True,True,False,9,,,,,
 InkbEjNPFD8,13,2,Kid Koala - Emperor's Main Course,244,-0.904458333333,0,,False,False,True,False,2,,,,,
 okrV0QiKjQE,17,1,Funny Musical Barber | Rudy Mancuso,244,-0.904458333333,0,,False,False,True,False,2,,,,,
@@ -7,10 +6,11 @@ zrwji18E2nY,5,3,Kid Koala - More Dance Music,281,-37.9044583333,0,,False,True,Fa
 oKgA8W1n7Jg,8,2,kid koala - vacation island,262,-18.9044583333,0,,False,True,False,False,1,,,,,
 El4X8EYlsvY,5,1,Bangkok Daytime | Soapy Parlour | Walk Around | VLOG 10,468,-224.90445833299998,0,,False,True,False,False,1,,,,,
 sVsY3c8nk-A,7,1,ICE CREAM truck ! Elsa and Anna toddlers enjoy ice cream!,598,-354.90445833300004,0,,False,True,False,False,1,,,,,
-ICAG8AYosew,0,5,Annie's Parlour,243,0.09554166666660001,0,,True,True,False,True,0,,,,,
+ICAG8AYosew,0,5,Annie's Parlour,243,0.0955416666666,0,,True,True,False,True,0,,,,,
 qY6uRI72Zak,2,4,On The Set Of Fender Bender - Kid Koala,140,103.095541667,0,,True,True,False,False,0,,,,,
 CNVaTpS3g4Q,3,4,Kid Koala - Stompin' at le Savoi,124,119.095541667,0,,True,True,False,False,0,,,,,
 NB7lNDKuLII,4,4,Bonus Materials: On the Set of Fender Bender,141,102.095541667,0,,True,True,False,False,0,,,,,
+UqxL2lvb_oA,0,3,Kid Koala - Annie's Parlour,243,0.0955416666666,0,match,True,True,False,True,0,240.8,0.3,0.3,1644.0,10153.0
 IpT-gpYBVwA,2,3,Jointaste.com- Annies Parlor,185,58.0955416667,0,,True,True,False,False,0,,,,,
 RggLCoCeOwc,3,3,Annie's Parlour,77,166.09554166700002,0,,True,True,False,False,0,,,,,
 dbVP3r5Wrnc,11,3,Kid Koala-Strut Hear,66,177.09554166700005,0,,False,False,False,False,0,,,,,

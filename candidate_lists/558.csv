@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 naZmazoDBP4,0,2,Neil Young - Needle And The Damage Done (Remix),421,-246.1625,0,reject,True,True,False,False,7,,,,,
 lA3K5BXLjKo,4,3,Needle And The Damage Done - Neil Young #1of2 (Songs Guitar Lesson ST-901) How to play,436,-261.1625,0,reject,True,True,False,False,2,,,,,
-3j2AdSf4S_8,6,3,Eddie Vedder - The Needle And The Damage Done,272,-97.1625,0,,False,True,False,False,1,,,,,
-wmvrXHLAtmI,7,3,The Pretenders -- The Needle and the Damage Done,235,-60.1625,0,,False,True,False,False,1,,,,,
-jB4LEynCLUs,8,2,"Nirvana "" Oh The Guilt "" Live ( Outcesticide II - The Needle And The Damage Done )",192,-17.1625,0,,False,True,False,False,1,,,,,
+3j2AdSf4S_8,6,3,Eddie Vedder - The Needle And The Damage Done,272,-97.1625,0,reject,False,True,False,False,1,,,,,
+wmvrXHLAtmI,7,3,The Pretenders -- The Needle and the Damage Done,235,-60.1625,0,reject,False,True,False,False,1,,,,,
+jB4LEynCLUs,8,2,"Nirvana "" Oh The Guilt "" Live ( Outcesticide II - The Needle And The Damage Done )",192,-17.1625,0,reject,False,True,False,False,1,,,,,
 4kAkCKDzSUs,9,2,Lodi/Early Morning Rain/Needle & The Damage Done,576,-401.1625,0,,False,True,False,False,1,,,,,
 Yq76PDY0ymg,5,1,Neil Young with Crazy Horse: Psychedelic Pill (official video),213,-38.1625,0,,False,True,False,False,1,,,,,
 ZJ9AV7C7EX8,6,1,"Neil Young serenades Judy Garland  - Too Far Gone - Boulder, CO, 1976",400,-225.1625,0,,False,True,False,False,1,,,,,

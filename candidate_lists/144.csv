@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 cvFfKvF-ilI,0,3,"Barnabas Hegyi, o quam tu pulchra es",192,-172.90445833299995,0,reject,True,True,False,False,7,,,,,
 yFYNO2PjbTg,0,1,Henri Du Mont: Quam pulchra es,263,-243.90445833299998,0,reject,True,True,False,False,7,,,,,
-tApBlbylg14,0,1,Grandi: O quam tu pulchra es - Jaroussky,210,-190.90445833299998,0,,True,True,False,False,7,,,,,
-gicvbxFESWg,0,1,Dunstable: Quam Pulchra Es,168,-148.90445833299998,0,,True,True,False,False,7,,,,,
-X5SdGRxSz0Q,1,1,Grandi - O quam tu pulchra es,209,-189.90445833299998,0,,True,True,False,False,2,,,,,
+tApBlbylg14,0,1,Grandi: O quam tu pulchra es - Jaroussky,210,-190.90445833299998,0,reject,True,True,False,False,7,,,,,
+gicvbxFESWg,0,1,Dunstable: Quam Pulchra Es,168,-148.90445833299998,0,reject,True,True,False,False,7,,,,,
+X5SdGRxSz0Q,1,1,Grandi - O quam tu pulchra es,209,-189.90445833299998,0,reject,True,True,False,False,2,,,,,
 Tpsr5QNlIcE,2,1,Alessandro Grandi - O quam tu pulchra es,189,-169.90445833299998,0,,True,True,False,False,2,,,,,
 DiBJaw9p8ac,3,1,Alessandro Grandi: O quam tu pulchra es für Tenor und Basso continuo,183,-163.90445833299998,0,,True,True,False,False,2,,,,,
 35DdX1ZGQDU,4,1,"""O quam tu pulchra es""",202,-182.90445833299998,0,,True,True,False,False,2,,,,,

@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 fd02pGJx0s0,0,3,Norah Jones - Sunrise,212,-111.480791667,0,reject,True,True,False,False,7,,,,,
 hdO9cc7WOyE,0,2,Rihanna - Towards The Sun (Lyric Video),228,-127.480791667,0,reject,True,True,False,False,7,,,,,
-XlScrMv7Pd8,1,3,"Our Last Night - ""Sunrise"" (OFFICIAL)",343,-242.480791667,0,,True,True,False,False,2,,,,,
-PE3g2zeBVQQ,2,3,Simply Red - Sunrise,225,-124.480791667,0,,True,True,False,False,2,,,,,
-A2GbEFFyzGw,3,3,Kygo - Sunrise (Audio) ft. Jason Walker,216,-115.480791667,0,,True,True,False,False,2,,,,,
+XlScrMv7Pd8,1,3,"Our Last Night - ""Sunrise"" (OFFICIAL)",343,-242.480791667,0,reject,True,True,False,False,2,,,,,
+PE3g2zeBVQQ,2,3,Simply Red - Sunrise,225,-124.480791667,0,reject,True,True,False,False,2,,,,,
+A2GbEFFyzGw,3,3,Kygo - Sunrise (Audio) ft. Jason Walker,216,-115.480791667,0,reject,True,True,False,False,2,,,,,
 20jZvql6EwI,4,3,Sunrise - Our Last Night (Lyrics),230,-129.480791667,0,,True,True,False,False,2,,,,,
 mOFvJVroAJE,1,2,Kygo & Imagine Dragons - Born To Be Yours (Lyric Video),196,-95.4807916667,0,,True,True,False,False,2,,,,,
 u1EkVuq6ccI,3,2,Relaxing Lounge [Baghira - Sunrise Feelings] | ♫ RE ♫,297,-196.480791667,0,,True,True,False,False,2,,,,,

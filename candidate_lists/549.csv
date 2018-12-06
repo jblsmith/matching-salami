@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-b-bJPmasXKs,0,5,"Leonard Cohen - Hey, That's No Way to Say Goodbye (Audio)",179,-3.0392,0,potential,True,True,True,False,109,93.5,40.0,38.9,155.0,386.0
+b-bJPmasXKs,0,5,"Leonard Cohen - Hey, That's No Way to Say Goodbye (Audio)",179,-3.0392,0,potential,True,True,True,False,9,93.5,40.0,38.9,155.0,386.0
 DQk3wyFG6Fg,2,5,"Leonard Cohen - Hey, That's No Way to Say Goodbye - High Quality",178,-2.0392,0,match,True,True,True,False,4,171.8,0.2,0.4,1648.0,1803.0
 f1EJ-ITAcEU,1,5,"Julie Felix & Leonard Cohen 'Hey,That's No Way To Say Goodbye' 1968",185,-9.0392,0,,True,True,False,False,2,,,,,
 IVJImYNGqwk,1,5,"JUDY COLLINS & LEONARD COHEN - ""Hey, Thats No Way To Say Goobye"" 1976",278,-102.0392,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-0yP7wn9lZ7o,0,4,Suite del Diablo: Tango Diablo,251,0.45470833333300004,0,match,True,True,False,True,100,241.5,0.5,0.5,3609.0,3804.0
 7pRE2ATdWaU,0,1,Calle 13 - Tango del Pecado (Video (Album Version)),257,-5.545291666669999,0,,True,True,False,False,7,,,,,
 xLfSWLzfROg,2,4,Suite del Diablo: Romance del Diablo,310,-58.5452916667,0,,True,True,False,False,2,,,,,
 H4V6PlDqX0o,3,4,Histoire du tango: 1900 Bordel,268,-16.545291666700006,0,,True,True,False,False,2,,,,,
@@ -9,6 +8,7 @@ pTmB9Tu4B0A,5,4,Balada para mi muerte,260,-8.54529166667,0,,False,True,False,Fal
 Vj_6arGVXcU,6,1,Astor Piazzolla - Tango Diablo -  Philarmonic Hall de New York,438,-186.54529166700001,0,,False,True,False,False,1,,,,,
 vcT2uQ5QJrY,8,1,Astor Piazzolla - Romance Del Diablo,376,-124.545291667,0,,False,True,False,False,1,,,,,
 FGKuBQAuqj0,9,1,"Tango Nuevo. “Romance del Diablo”. Fernando Gracia & Sol Cerquides with ""Solo Tango"" orquesta. Танго",274,-22.54529166670001,0,,False,True,False,False,1,,,,,
+0yP7wn9lZ7o,0,4,Suite del Diablo: Tango Diablo,251,0.454708333333,0,match,True,True,False,True,0,241.5,0.5,0.5,3609.0,3804.0
 kRb-XnJ_bTw,1,4,Suite del Diablo: Vayamos al Diablo,101,150.45470833299999,0,,True,True,False,False,0,,,,,
 aPB7Trj2Oj4,3,4,Histoire du tango: Concert d'aujourd'hui,141,110.454708333,0,,True,True,False,False,0,,,,,
 RVwP9pEN8gs,6,2,Caminito (feat. Verónica Larc),195,56.4547083333,0,,False,True,False,False,0,,,,,

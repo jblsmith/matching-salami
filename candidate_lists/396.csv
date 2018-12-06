@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-e8XN8RwFedg,0,4,The David Grisman Quintet - Minor Swing,180,-0.3175,0,potential,True,True,True,False,109,96.9,41.5,41.9,1904.0,3017.0
+e8XN8RwFedg,0,4,The David Grisman Quintet - Minor Swing,180,-0.3175,0,potential,True,True,True,False,9,96.9,41.5,41.9,1904.0,3017.0
 VpmOTGungnA,0,1,Minor Swing - Django Reinhardt & Stéphane Grappelli,194,-14.3175,0,reject,True,True,False,False,7,,,,,
-uPVRyTyL538,1,4,""" Minor Swing "" 　David Grisman",217,-37.3175,0,,True,True,False,False,2,,,,,
-YnImIHN0zWc,1,4,David Grisman Quintet | Minor Swing | RockyGrass | gratefulweb.com,344,-164.3175,0,,True,True,False,False,2,,,,,
-QSvea5t-HLU,2,4,"David Grisman Sextet, ""Minor Swing,"" FreshGrass 2014 MassMoCA N. Adams, MA",354,-174.3175,0,,True,True,False,False,2,,,,,
+uPVRyTyL538,1,4,""" Minor Swing "" 　David Grisman",217,-37.3175,0,reject,True,True,False,False,2,,,,,
+YnImIHN0zWc,1,4,David Grisman Quintet | Minor Swing | RockyGrass | gratefulweb.com,344,-164.3175,0,reject,True,True,False,False,2,,,,,
+QSvea5t-HLU,2,4,"David Grisman Sextet, ""Minor Swing,"" FreshGrass 2014 MassMoCA N. Adams, MA",354,-174.3175,0,reject,True,True,False,False,2,,,,,
 g_KKVxgAcAE,3,4,David Grisman Sextet & Friends - Minor Swing - Freshgrass 2014,483,-303.3175,0,,True,True,False,False,2,,,,,
 do1encCa5TU,1,1,"Gypsy Jazz - ""Minor Swing"" - Rhythm Future Quartet",400,-220.3175,0,,True,True,False,False,2,,,,,
 tRAThtQ-OTM,2,1,Minor Swing (190 bpm) (1937) - Gypsy jazz Backing track / Jazz manouche,304,-124.3175,0,,True,True,False,False,2,,,,,

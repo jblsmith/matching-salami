@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7RJOiUfIA6Y,0,5,"Baby, You're Right",255,-0.16,0,match,True,True,True,False,109,245.6,0.5,0.6,3412.0,4106.0
+7RJOiUfIA6Y,0,5,"Baby, You're Right",255,-0.16,0,match,True,True,True,False,9,245.6,0.5,0.6,3412.0,4106.0
 CuL7wR-M4kM,1,5,"Baby, You're Right",255,-0.16,0,,True,True,True,False,4,,,,,
 UDaJmFMgCF8,2,4,Joyful Noise,346,-91.16,0,,True,True,False,False,2,,,,,
 NwgEELSShrU,4,3,"Tedeschi Trucks Band - ""Anyhow"" (Live in Studio)",396,-141.16,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-Mq4xGlznkAE,0,3,Aguado: 8 Lessons for the Guitar - No. 7 in E major,71,1.019625,0,match,True,True,False,True,100,69.6,0.4,0.3,663.0,797.0
 ZRxDL2qI5z4,0,1,Andres Segovia - Three pieces for guitar (8 of 9),492,-419.980375,0,,True,True,False,False,7,,,,,
 EeBYIElpEPo,0,1,Bebe Rexha - I Can't Stop Drinking About You [Official Music Video],224,-151.980375,0,,True,True,False,False,7,,,,,
 _qp-VxETSRA,3,2,Aguado: 8 Lessons for the Guitar - No. 5 in E minor,77,-4.980375,0,,True,True,True,False,4,,,,,
@@ -11,6 +10,7 @@ kMl205hUrBI,4,1,Seven Easy Pieces for Classical Guitar by Frederic Hand.,130,-57
 HcfxejkF2LY,6,2,Aguado: 8 Lessons for the Guitar - No. 8 in E minor,188,-115.980375,0,,False,True,False,False,1,,,,,
 oBXC2X9MA6U,5,1,Fernando Sor - Etude No. 7 (Segovia),89,-16.980375,0,,False,True,False,False,1,,,,,
 -_bFVTu2Gu0,7,1,Lesson 8- Aguado. Trinity College London Grade 5 + Tips!,350,-277.980375,0,,False,True,False,False,1,,,,,
+Mq4xGlznkAE,0,3,Aguado: 8 Lessons for the Guitar - No. 7 in E major,71,1.019625,0,match,True,True,False,True,0,69.6,0.4,0.3,663.0,797.0
 cVJBjrGoLoI,1,3,Aguado: 8 Lessons for the Guitar - No. 7 in E major,71,1.019625,0,,True,True,False,True,0,,,,,
 gngD7-1_XEI,5,2,Elite Guitarist - Carcassi Etude No. 7 - Tutorial Pt. 1,1086,-1013.980375,0,,False,True,False,False,0,,,,,
 NeYDDuqcOz0,8,2,Aguado: 8 Lessons for the Guitar - No. 4 in A major,66,6.019625,0,,False,True,False,False,0,,,,,

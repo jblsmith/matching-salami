@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 85tCzdRt6UE,0,1,"Monteverdi: Zefiro torna e di soavi accenti - Fouchécourt, Padmore",350,-288.821208333,0,reject,True,True,False,False,7,,,,,
 r5JVi3J3Hzs,1,1,"Il quinto libro de madrigali: No. 17, T'amo, mia vita, la mia cara vita, SV 104",153,-91.82120833329999,0,reject,True,True,False,False,2,,,,,
-XlfocNVxIqE,2,1,The Madrigal — Spring,249,-187.821208333,0,,True,True,False,False,2,,,,,
-MoJioXoxwAI,3,1,"Il quinto libro de madrigali: No. 2, O Mirtillo, Mirtillo, anima mia, SV 95",155,-93.82120833329999,0,,True,True,False,False,2,,,,,
+XlfocNVxIqE,2,1,The Madrigal — Spring,249,-187.821208333,0,reject,True,True,False,False,2,,,,,
+MoJioXoxwAI,3,1,"Il quinto libro de madrigali: No. 2, O Mirtillo, Mirtillo, anima mia, SV 95",155,-93.82120833329999,0,reject,True,True,False,False,2,,,,,
 ojVj_6CPdiY,5,1,Gypsy NT Altar Boyz - Rhythm in Me,187,-125.82120833299999,0,,False,True,False,False,1,,,,,
 980uzajbxSo,6,1,"""Tirsi morir volea à 7"" by Andreas Gabrieli",343,-281.821208333,0,,False,True,False,False,1,,,,,
 gupc99cmOdo,7,1,William Byrd-Ave Verum Corpus (Corni di Canto),304,-242.821208333,0,,False,True,False,False,1,,,,,
-uuHaHIkdNWg,4,1,gianluigi trovesi - 8. ambulat hic armatus homo,810,-748.8212083330002,0,,True,True,False,False,0,,,,,
+uuHaHIkdNWg,4,1,gianluigi trovesi - 8. ambulat hic armatus homo,810,-748.8212083330002,0,reject,True,True,False,False,0,,,,,

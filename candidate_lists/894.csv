@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-pH5-1BnNK8U,0,5,Der Heyser Bulgar,235,-0.39425,0,match,True,True,True,False,109,226.6,0.5,0.6,4082.0,13312.0
+pH5-1BnNK8U,0,5,Der Heyser Bulgar,235,-0.39425,0,match,True,True,True,False,9,226.6,0.5,0.6,4082.0,13312.0
 nK3uTr7na-8,0,2,Der heyser Bulgar - The Klezmer Conservatory Band & Itzkhak Perlman יצחק פרלמן - כליזמר,235,-0.39425,0,,True,True,True,False,9,,,,,
 sPWSp4upk3c,1,4,Der heyser Bulgar,235,-0.39425,0,,True,True,True,False,4,,,,,
 f8N-vT6hX9c,7,1,Heyser Bulgar (Naftule Brandwein ),237,-2.39425,0,,False,True,True,False,3,,,,,

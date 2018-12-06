@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 -MOFT5qrPhI,5,1,"Les Délices de la Solitude, Sonata I, Op. 20: I. Allegro",118,-0.7885416666670001,0,reject,False,True,True,False,3,,,,,
 FPJzr0CYHmY,2,1,"Saint-Saëns: Sonata Op. 168 - Allegro moderato | Dana Jackson, bassoon",202,-84.7885416667,0,reject,True,True,False,False,2,,,,,
-l52fjXZb7uc,2,1,Kinloch's Fantasy (Among The Cottonwoods) - Cottonwood Reel; A Duncan Macquarrie Reel,168,-50.7885416667,0,,True,True,False,False,2,,,,,
-HnAhu6tUlV4,3,1,Shostakovich: Cello Sonata Allegro | Kristy Park,258,-140.788541667,0,,True,True,False,False,2,,,,,
-xaQ9fGy0TWo,3,1,Loch Ness: Loch Ness; Sandy Is My Darling,181,-63.7885416667,0,,True,True,False,False,2,,,,,
+l52fjXZb7uc,2,1,Kinloch's Fantasy (Among The Cottonwoods) - Cottonwood Reel; A Duncan Macquarrie Reel,168,-50.7885416667,0,reject,True,True,False,False,2,,,,,
+HnAhu6tUlV4,3,1,Shostakovich: Cello Sonata Allegro | Kristy Park,258,-140.788541667,0,reject,True,True,False,False,2,,,,,
+xaQ9fGy0TWo,3,1,Loch Ness: Loch Ness; Sandy Is My Darling,181,-63.7885416667,0,reject,True,True,False,False,2,,,,,
 WSu2LBd2Rv8,4,1,Sonata: I. Brisé,202,-84.7885416667,0,,True,True,False,False,2,,,,,
 Sqk61pnc3MY,4,1,Macminutes - Lady Jean Lindsay's Minuet; Minuetto; Lady Jean Lindsday's Minuet Reprise,217,-99.7885416667,0,,True,True,False,False,2,,,,,
 PusUeJQwjvc,6,1,"Beethoven Violin Sonata No.6 in A, I.Allegro (Violin: Nakwon Choi)",436,-318.788541667,0,,False,True,False,False,1,,,,,

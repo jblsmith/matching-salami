@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 k5VhfO2xzq4,3,5,Dvorak ‐ Requiem ‐ Agnus Dei,668,-4.96,0,reject,True,True,True,False,0,,,,,
 nGtx23f7qyg,0,4,Antonin Dvorak: Requiem Op. 89 / Faces on Earth,6024,-5360.96,0,reject,True,True,False,False,0,,,,,
-I8OT2HVx23g,0,4,"Antonín Dvořák Requiem Op.89, Karel Ančerl",5760,-5096.96,0,,True,True,False,False,0,,,,,
-7gqhJWOTJo4,2,4,"Dvorák: Requiem, Op.89 - Agnus Dei",655,8.04,0,,True,True,False,False,0,,,,,
+I8OT2HVx23g,0,4,"Antonín Dvořák Requiem Op.89, Karel Ančerl",5760,-5096.96,0,potential,True,True,False,False,0,257.9,5137.6,36.0,836.0,9904.0
+7gqhJWOTJo4,2,4,"Dvorák: Requiem, Op.89 - Agnus Dei",655,8.04,0,potential,True,True,False,False,0,136.7,431.5,53.1,214.0,2088.0
 zzZNjyKRiOw,2,4,Dvorak Requiem mass op 89 Agnus Dei part 1,505,158.04,0,,True,True,False,False,0,,,,,
 mYNKussVFFQ,0,3,"Requiem, Op. 89, B. 165: Agnus Dei",653,10.04,0,,True,True,False,False,0,,,,,
 rtqx12ZX2SM,3,3,Rejcha/Reicha - Requiem - Agnus Dei (6/6),491,172.04,0,,True,True,False,False,0,,,,,

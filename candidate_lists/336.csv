@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-9zoA0L2u-JQ,0,3,Janet Jackson - Nasty (Official Music Video),271,-27.3953125,0,match,True,True,False,False,107,239.5,29.7,1.6,1447.0,20501.0
+9zoA0L2u-JQ,0,3,Janet Jackson - Nasty (Official Music Video),271,-27.3953125,0,match,True,True,False,False,7,239.5,29.7,1.6,1447.0,20501.0
 oqH_8b-4214,1,2,Janet Jackson   Nasty HQ,244,-0.3953125,0,,True,True,True,False,4,,,,,
 0hehMdILFpQ,5,2,Nasty,244,-0.3953125,0,,False,True,True,False,3,,,,,
 OAwaNWGLM0c,1,3,Janet Jackson - Rhythm Nation,266,-22.3953125,0,,True,True,False,False,2,,,,,

@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-XlMCKQTg1oY,1,5,09. Um Abraço No Getz (A Tribute To Getz) | Stan Getz & Luiz Bonfá,267,-0.0285416666667,0,match,True,True,True,False,104,265.9,0.4,0.3,3812.0,4101.0
+XlMCKQTg1oY,1,5,09. Um Abraço No Getz (A Tribute To Getz) | Stan Getz & Luiz Bonfá,267,-0.0285416666667,0,match,True,True,True,False,4,265.9,0.4,0.3,3812.0,4101.0
 _vU6TCC3kU8,4,5,Um Abraco No Getz,268,-1.02854166667,0,,True,True,True,False,4,,,,,
 PSKo_IZ-OQo,15,3,RF - Thnx for Dilla! (Farah Re-Edit),271,-4.02854166667,0,,False,False,True,False,2,,,,,
 LMI0OMOWHgY,6,3,Saudade Vem Correndo,398,-131.028541667,0,,False,True,False,False,1,,,,,

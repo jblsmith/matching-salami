@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 HFdo83z2r5E,0,4,Memphis Slim - Harlem Bound,178,-2.92735,0,reject,True,True,True,False,9,,,,,
 zNy9WWQHsx4,4,2,Memphis Slim - Harlem Bound,178,-2.92735,0,reject,True,True,True,False,4,,,,,
-cnspmuyDKCs,1,1,"MEMPHIS SLIM CD Vintage Vocal Jazz & His House Rockers , Messin Around",176,-0.92735,0,,True,True,True,False,4,,,,,
-vCWSgwZd6iE,3,2,Harlem Bound (Remastered 2017),186,-10.92735,0,,True,True,False,False,2,,,,,
-kW4sTLUrMHY,17,2,'Bad Depression Blues' JOSH WHITE (1932) Blues Guitar Legend,176,-0.92735,0,,False,False,True,False,2,,,,,
+cnspmuyDKCs,1,1,"MEMPHIS SLIM CD Vintage Vocal Jazz & His House Rockers , Messin Around",176,-0.92735,0,reject,True,True,True,False,4,,,,,
+vCWSgwZd6iE,3,2,Harlem Bound (Remastered 2017),186,-10.92735,0,reject,True,True,False,False,2,,,,,
+kW4sTLUrMHY,17,2,'Bad Depression Blues' JOSH WHITE (1932) Blues Guitar Legend,176,-0.92735,0,reject,False,False,True,False,2,,,,,
 Uy6Er36snTY,1,1,Chris Barber's Jazz & Blues Band - Harlem Bound,203,-27.92735,0,,True,True,False,False,2,,,,,
 NRRWAfRi7sE,2,1,Harlem Bound -  Swiss Yerba Buena Jazz Band,324,-148.92735,0,,True,True,False,False,2,,,,,
 aa4sE5q7ogg,3,1,"Willie Nelson, Ray Charles - Seven Spanish Angels ..best version",207,-31.92735,0,,True,True,False,False,2,,,,,

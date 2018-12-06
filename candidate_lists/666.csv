@@ -1,5 +1,5 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-fOZqFj4g66c,0,2,"Moon, Turn the Tides... Gently, Gently Away",62,-0.2988,0,match,True,True,True,False,109,58.9,0.1,0.1,526.0,571.0
+fOZqFj4g66c,0,2,"Moon, Turn the Tides... Gently, Gently Away",62,-0.2988,0,match,True,True,True,False,9,58.9,0.1,0.1,526.0,571.0
 8rAbMVpmt9g,0,3,Jimi Hendrix - little miss strange [Guitar Backing tracks],178,-116.2988,0,,True,True,False,False,7,,,,,
 7ugoF19n6IQ,0,2,"Claymation - Moon, Turn the Tides... Gently Gently Away (Electric Ladyland [Redux])",85,-23.2988,0,,True,True,False,False,7,,,,,
 R1vam1Ec1Mo,2,2,"Moon, Turn the Tides... Gently Gently Away",85,-23.2988,0,,True,True,False,False,2,,,,,

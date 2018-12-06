@@ -1,7 +1,7 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-h0pgCtF9Ea8,0,3,ELVIS PRESLEY / DON'T ASK ME WHY,128,-0.65305,0,potential,True,True,True,False,109,104.4,19.3,17.3,224.0,269.0
+h0pgCtF9Ea8,0,3,ELVIS PRESLEY / DON'T ASK ME WHY,128,-0.65305,0,potential,True,True,True,False,9,104.4,19.3,17.3,224.0,269.0
 rqrw3_604_c,0,1,Eurythmics - Don't Ask Me Why (Official Video),262,-134.65305,0,reject,True,True,False,False,7,,,,,
-vtAjNg1zeYE,4,2,Elvis Presley - Don't Ask Me Why (with lyrics),131,-3.65305,0,,True,True,True,False,4,,,,,
+vtAjNg1zeYE,4,2,Elvis Presley - Don't Ask Me Why (with lyrics),131,-3.65305,0,potential,True,True,True,False,4,92.5,32.0,29.2,210.0,258.0
 ZOXsWuF8As4,3,1,2007-2012 FREE GM Navigation disc version 10.3,130,-2.65305,0,,True,True,True,False,4,,,,,
 xaVTHLGNaHE,2,3,Elvis Presley - Don't Ask Me Why - 1958.,150,-22.65305,0,,True,True,False,False,2,,,,,
 pjQRpfQTGcI,1,2,Elvis Presley -  Don't Ask Me Why  - with Lyrics,136,-8.65305,0,,True,True,False,False,2,,,,,

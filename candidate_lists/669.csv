@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-H42Ou13za30,0,5,Hold Me Tight (Remastered 2009),152,0.5811875,0,match,True,True,False,True,100,145.1,0.4,0.5,939.0,1873.0
 AOZgeZFLsUg,2,3,Evan Rachel Wood - Hold Me Tight - John Lennon/Paul McCartney,155,-2.4188125,0,,True,True,True,False,4,,,,,
 CzdMlG1kyS0,2,2,Hold Me Tight - Evan Rachel Wood {Lyrics},157,-4.4188125,0,,True,True,True,False,4,,,,,
 jenWdylTtzs,3,2,The Beatles - I Want To Hold Your Hand - Performed Live On The Ed Sullivan Show 2/9/64,157,-4.4188125,0,,True,True,True,False,4,,,,,
@@ -16,6 +15,7 @@ agCq_TwN_UE,8,3,Beatles Hold me tight (Lennon/McCartney) Conrado Paulino -31/08/
 Wc8MwnLRg2Q,6,2,HOLD ME TIGHT ( Lennon-McCartney ).- RINGO & sus Diamantes (C) 2011,168,-15.4188125,0,,False,True,False,False,1,,,,,
 HIhKQgVpXcw,7,2,My (far from perfect) rendition of 'Hold Me Tight' by John Lennon and Paul McCartney,186,-33.4188125,0,,False,True,False,False,1,,,,,
 pN6rtSgkID8,8,2,The Beatles - Hold Me Tight,163,-10.4188125,0,,False,True,False,False,1,,,,,
+H42Ou13za30,0,5,Hold Me Tight (Remastered 2009),152,0.5811875,0,match,True,True,False,True,0,145.1,0.4,0.5,939.0,1873.0
 dKAOBPSLFgg,1,5,"""Hold me Tight"" (The Beatles) by JP McCartney",152,0.5811875,0,,True,True,False,True,0,,,,,
 6cejctPcCK4,1,5,Them Beatles: Hold Me Tight (Beatleweek 2015),148,4.5811875,0,,True,True,False,True,0,,,,,
 kV18YdR-BZk,13,5,Paul McCartney - Hold Me Tight,145,7.5811875,0,,False,False,False,False,0,,,,,

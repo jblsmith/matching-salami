@@ -1,10 +1,10 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-gel-POuwbp8,1,3,"Sheryl Crow - ""Detours"" - live on Ellen Degeneres 10/10/2008",247,-38.053333333299996,0,reject,True,True,False,False,102,,,,,
 j_5S_smnPGY,0,5,"Sheryl Crow - ""Detours"" - title cut - in the studio - with lyrics",225,-16.0533333333,0,reject,True,True,False,False,7,,,,,
-shB8Auk_3Uw,0,2,"ATS v1.33 - Open Beta (Detours - Closed Roads, Turnpike Double Trailers)",299,-90.0533333333,0,,True,True,False,False,7,,,,,
-Laf0SMsl5yo,0,1,DETOURS - Rebuild Ft. Lin of Abstracts (Official Music Video),243,-34.053333333299996,0,,True,True,False,False,7,,,,,
-g4I8O6-xXYY,5,3,Detours,209,-0.053333333333400006,0,,False,True,True,False,3,,,,,
+shB8Auk_3Uw,0,2,"ATS v1.33 - Open Beta (Detours - Closed Roads, Turnpike Double Trailers)",299,-90.0533333333,0,matched_1015,True,True,False,False,7,,,,,
+Laf0SMsl5yo,0,1,DETOURS - Rebuild Ft. Lin of Abstracts (Official Music Video),243,-34.053333333299996,0,reject,True,True,False,False,7,,,,,
+g4I8O6-xXYY,5,3,Detours,209,-0.053333333333400006,0,match,False,True,True,False,3,204.7,0.6,0.6,3101.0,34823.0
 j0dTy4tCLm4,8,1,Silversun Pickups- Ribbons & Detours,209,-0.053333333333400006,0,,False,True,True,False,3,,,,,
+gel-POuwbp8,1,3,"Sheryl Crow - ""Detours"" - live on Ellen Degeneres 10/10/2008",247,-38.053333333299996,0,reject,True,True,False,False,2,,,,,
 YoHWS41OeV8,2,3,Detours - Sheryl Crow Cover,214,-5.05333333333,0,,True,True,False,False,2,,,,,
 C3F-ylqCBY0,4,3,Sheryl Crow / Detours (Live),215,-6.05333333333,0,,True,True,False,False,2,,,,,
 oMVrMP8us6Q,1,2,Star Wars: Detours - Trailer,228,-19.0533333333,0,,True,True,False,False,2,,,,,
@@ -31,7 +31,7 @@ WZEabTXP76I,18,3,Sheryl Crow In The Studio - Webisode #1,86,122.946666667,0,,Fal
 Eg9T0EAnh6o,1,2,Dr  Tony Evans The Promotion of Detours,1710,-1501.05333333,0,,True,True,False,False,0,,,,,
 D3rGUIrP2Fk,4,2,Detours. The FULL Elsewhere Segment.,882,-673.0533333330001,0,,True,True,False,False,0,,,,,
 _TINdoA2etk,9,2,"Sheryl Crow - Live at Irving Plaza, NY - Full Concert - 18 songs (2008)",4924,-4715.05333333,0,,False,True,False,False,0,,,,,
-7lAvJO1gQgo,14,2,"""Detours"" [Sheryl Crow cover] - The Laptop Sessions",208,0.9466666666670001,0,,False,False,False,True,0,,,,,
+7lAvJO1gQgo,14,2,"""Detours"" [Sheryl Crow cover] - The Laptop Sessions",208,0.946666666667,0,,False,False,False,True,0,,,,,
 wYRHngrc4o0,14,2,Star Wars: Detours - Extrait #1,59,149.94666666700002,0,,False,False,False,False,0,,,,,
 uTgpv_QOozw,15,2,Interview: Sheryl Crow,140,68.9466666667,0,,False,False,False,False,0,,,,,
 IxarobegaN0,15,2,Detours | Devotional by Tony Evans,268,-59.053333333299996,0,,False,False,False,False,0,,,,,

@@ -1,5 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-O-ME8ArqoT4,0,2,Cream - Take It Back,186,2.3951,0,match,True,True,False,True,100,183.1,0.4,0.3,1371.0,1561.0
 9nYjyPI8fbE,4,1,Cream - Take It Back - 1967,192,-3.6049,0,,True,True,True,False,4,,,,,
 N-siryPb9PU,4,1,Weird Of Hermiston (Demo Version),192,-3.6049,0,,True,True,True,False,4,,,,,
 hchIlwLePP0,6,1,Cream - Take It Back HQ [Lyrics],190,-1.6049,0,,False,True,True,False,3,,,,,
@@ -18,6 +17,7 @@ aiaK1bahbsk,7,1,Créme de la Cream - Take It Back,236,-47.6049,0,,False,True,Fal
 x7SRZ87IhpY,1,3,Cream - Disraeli Gears (Classic Album),65,123.3951,0,,True,True,False,False,0,,,,,
 TJXN9t2NTLw,2,3,Take It Back,185,3.3951,0,,True,True,False,True,0,,,,,
 UwoB9JryEL4,7,3,Take It Back (Mono Version),187,1.3951,0,,False,True,False,True,0,,,,,
+O-ME8ArqoT4,0,2,Cream - Take It Back,186,2.3951,0,match,True,True,False,True,0,183.1,0.4,0.3,1371.0,1561.0
 hdRdf5QvxH0,0,2,cream - Cream Take it Back - Disraeli Gears,188,0.3951,0,,True,True,False,True,0,,,,,
 AQ4atzvGSvs,0,2,Jack Bruce - Weird Of Hermiston,143,45.3951,0,,True,True,False,False,0,,,,,
 StDpf4q1sUU,1,2,Take It Back-Cream,188,0.3951,0,,True,True,False,True,0,,,,,
