@@ -21,6 +21,9 @@ salami_public_metadata_path = os.path.expanduser("~/Documents/repositories/") + 
 salami_public_metadata_file = salami_public_metadata_path + "/metadata.csv"
 salami_xml_filename = salami_public_metadata_path + "/SALAMI_iTunes_library.xml"
 codaich_info_filename = salami_public_metadata_path + "/id_index_codaich.csv"
+iso_info_filename = salami_public_metadata_path + "/id_index_isophonics.csv"
+rwc_info_filename = salami_public_metadata_path + "/id_index_rwc.csv"
+ia_info_filename = salami_public_metadata_path + "/id_index_internetarchive.csv"
 
 # Fingerprint databases
 fingerprint_public_filename = os.getcwd() + "/salami_public_fpdb.pklz"
@@ -68,23 +71,47 @@ def load_song_info():
 
 def get_true_artist(salami_id):
 	global codaich_info_filename
+	global iso_info_filename
+	global rwc_info_filename
+	global ia_info_filename
 	global salami_xml
 	global persistent_id_to_track
-	cod_df = pd.read_csv(codaich_info_filename)
-	index = cod_df.index[cod_df["SONG_ID"]==salami_id]
-	if index.empty:
-		print "Invalid salami_id. Returning nothing."
-		return None, None, None
-	persistent_id = cod_df.loc[index]["PERSISTENT_ID"].tolist()[0]
-	tk = persistent_id_to_track[persistent_id]
-	info = salami_xml["Tracks"][tk]
-	artist_info = []
-	for field in ["Artist","Name","Composer","Album"]:
-		if field in info.keys():
-			artist_info += [info[field]]
-		else:
-			artist_info += [""]
-	return artist_info
+	md = load_song_info()
+	assert (salami_id in md.salami_id.astype(int).values)
+	md_ind = md.index[md.salami_id.astype(int)==salami_id]
+	source = md.source[md_ind].values.tolist()[0]
+	if source == 'Codaich':
+		cod_df = pd.read_csv(codaich_info_filename)
+		index = cod_df.index[cod_df["SONG_ID"]==salami_id]
+		if index.empty:
+			print "Invalid salami_id. Returning nothing."
+			return None, None, None, None
+		persistent_id = cod_df.loc[index]["PERSISTENT_ID"].tolist()[0]
+		tk = persistent_id_to_track[persistent_id]
+		info = salami_xml["Tracks"][tk]
+		artist_info = []
+		for field in ["Artist","Name","Composer","Album"]:
+			if field in info.keys():
+				artist_info += [info[field]]
+			else:
+				artist_info += [""]
+		return artist_info
+	else:
+		if source == 'Isophonics':
+			info_df = pd.read_csv(iso_info_filename)
+			ind = info_df.index[info_df["SONG_ID"]==salami_id]
+			artist, title, album = info_df.loc[ind][["ARTIST","TITLE","ALBUM"]].values.tolist()[0]
+			return artist, title, None, album
+		elif source == 'RWC':
+			info_df = pd.read_csv(rwc_info_filename)
+			ind = info_df.index[info_df["SONG_ID"]==salami_id]
+			artist, title = info_df.loc[ind][["ARTIST","TITLE"]].values.tolist()[0]
+			return artist, title, None, None
+		elif source == 'IA':
+			info_df = pd.read_csv(ia_info_filename)
+			ind = info_df.index[info_df["SONG_ID"]==salami_id]
+			artist, title, album = info_df.loc[ind][["ARTIST","TITLE","ALBUM"]].values.tolist()[0]
+			return artist, title, None, album
 
 # Search for a song using the YouTube API client
 def search_for_song(salami_id):
@@ -102,7 +129,8 @@ def multiple_searches_for_song(salami_id):
 	youtube_handle = build("youtube", "v3", developerKey=developer_key)
 	song_info = get_true_artist(salami_id)
 	query_combos = [song_info[:2], song_info[1:3], song_info[:3], [song_info[1],song_info[3]], song_info]
-	query_texts = [" ".join(["'"+item+"'" for item in info_list if item != ""]) for info_list in query_combos]
+	query_texts = [" ".join(["'"+item+"'" for item in info_list if ((item != "") and item is not None)]) for info_list in query_combos]
+	query_texts = np.unique(query_texts).tolist()
 	output_list = []
 	for query_text in query_texts:
 		search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=20, type="video", pageToken="").execute()
@@ -216,6 +244,8 @@ def save_candidates(salami_id, candidates):
 def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep=0):
 	candidates = load_candidate_list(salami_id)
 	df = load_matchlist()
+	if "match" in candidates.decision.values:
+		print "Match already found."
 	for ind in candidates.index[:max_tries_per_video]:
 		youtube_id = candidates.loc[ind]['youtube_id']
 		decision = candidates.loc[ind]['decision']
@@ -454,6 +484,7 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand
 	if text[1].split(" ")[0] == "NOMATCH":
 		return "reject"
 	else:
+		print "Potential match found!"
 		return "potential"
 
 def read_match_report(salami_id):

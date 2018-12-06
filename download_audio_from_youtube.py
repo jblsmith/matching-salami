@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import sox
 
-matchlist_csv_filename = os.getcwd() + "/match_list.csv"
+matchlist_csv_filename = os.getcwd() + "/salami_youtube_pairings.csv"
 downloaded_audio_folder = os.getcwd() + "/downloaded_audio"
 transformed_audio_folder = os.getcwd() + "/transformed_audio"
 match_data = pd.read_csv(matchlist_csv_filename, header=0)
@@ -45,7 +45,8 @@ def reshape_audio(salami_id):
 	row = {colname: match_data[colname][match_data.salami_id==salami_id].values[0]  for colname in match_data.columns}
 	input_filename = downloaded_audio_folder + "/" + str(row["youtube_id"]) + ".mp3"
 	output_filename = transformed_audio_folder + "/" + str(row["salami_id"]) + ".mp3"
-	start_time_in_yt = - row["time_offset"]
+	start_time_in_yt = row["onset_in_youtube"] - row["onset_in_salami"]
+	# = - row["time_offset"]
 	end_time_in_yt = start_time_in_yt + row["salami_length"]
 	tfm = sox.Transformer()
 	if end_time_in_yt > row["youtube_length"]:
@@ -56,5 +57,4 @@ def reshape_audio(salami_id):
 	# Select portion of youtube file to match salami
 	tfm.trim(start_time_in_yt, start_time_in_yt+row["salami_length"])
 	tfm.build(input_filename, output_filename)
-
 
