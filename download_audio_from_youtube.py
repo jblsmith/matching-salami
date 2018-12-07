@@ -58,3 +58,16 @@ def reshape_audio(salami_id):
 	tfm.trim(start_time_in_yt, start_time_in_yt+row["salami_length"])
 	tfm.build(input_filename, output_filename)
 
+
+if __name__ == "__main__":
+	global match_data
+	for ind in match_data.index:
+		try:
+			download_youtube_id(match_data.youtube_id[ind])
+			reshape_audio(match_data.salami_id[ind])
+			time.sleep(2)
+		except (KeyboardInterrupt):
+			raise
+		except:
+			print "Error while attempting to process row {0}: {1} (salami_id {2}).".format(ind,match_data.youtube_id[ind],match_data.salami_id[ind])
+			return None
