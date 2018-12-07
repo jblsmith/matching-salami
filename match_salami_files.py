@@ -162,10 +162,10 @@ def define_candidates_from_searches(salami_id, search_response_list, overwrite=F
 			rank = video["rank"]
 			candidates.loc[youtube_id, "top_rank"] = min(candidates.loc[youtube_id, "top_rank"], rank)
 			candidates.loc[youtube_id, "n_hits"] += 1
-		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8")
+		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8", float_format='%.4f')
 	except:
 		print "Outputting list to temporary CSV file because something went wrong."
-		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8")
+		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8", float_format='%.4f')
 
 def prioritize_candidates(salami_id, no_longs=False, must_be_longer=False):
 	candidates = load_candidate_list(salami_id)
@@ -239,7 +239,7 @@ def load_candidate_list(salami_id):
 
 def save_candidates(salami_id, candidates):
 	filename = "./candidate_lists/" + str(salami_id) + ".csv"
-	candidates.to_csv(filename, header=True, index=False, encoding="utf-8")
+	candidates.to_csv(filename, header=True, index=False, encoding="utf-8", float_format='%.4f')
 
 def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep=0):
 	candidates = load_candidate_list(salami_id)
@@ -249,8 +249,9 @@ def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep
 	for ind in candidates.index[:max_tries_per_video]:
 		youtube_id = candidates.loc[ind]['youtube_id']
 		decision = candidates.loc[ind]['decision']
+		duration = candidates.loc[ind]['duration']
 		decisions = candidates['decision'].values.tolist()
-		if ("match" not in decisions) and (np.sum(np.array(decisions)=="potential") < max_potential):
+		if ("match" not in decisions) and (np.sum(np.array(decisions)=="potential") <= max_potential) and (duration<60*90):
 			if decision == "":
 				download_status = download_and_report(youtube_id, sleep=sleep)
 				if download_status == "downloaded":
@@ -297,7 +298,7 @@ def store_result_in_database(salami_id, youtube_id):
 	if youtube_id not in ytid_list:
 		print "Adding new youtube ID to storage so you can test for matches later."
 		df.loc[index,"candidate_youtube_ids"] = " ".join(ytid_list + [youtube_id]).strip()
-	df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+	df.to_csv(salami_matchlist_csv_filename, header=True, index=False,float_format='%.4f')
 
 
 # !!! WARNING !!!
@@ -317,7 +318,7 @@ def create_matchlist_csv():
 		mp3_path = salami_public_audio_folder + "/" + str(salid) + "/audio.mp3"
 		song_length = librosa.core.get_duration(filename=mp3_path)
 		df["salami_length"][salid] = song_length
-	df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+	df.to_csv(salami_matchlist_csv_filename, header=True, index=False,float_format='%.4f')
 	# Note: salami files 1126, 1227, 1327 were flacs mistakenly labelled as mp3s.
 	# Also, 1599 isn't a real entry! I deleted it from the metadata file.
 
@@ -383,7 +384,7 @@ def make_download_attempt(youtube_id, expected_length=None, max_abs_deviation=2,
 	global ydl_opts
 	video_info = get_info_from_youtube(youtube_id)
 	if video_info:
-		video_length = video_info
+		video_length = video_info['duration']
 	else:
 		video_length = 0
 	# max_ratio_deviation=0.05, 
@@ -394,6 +395,9 @@ def make_download_attempt(youtube_id, expected_length=None, max_abs_deviation=2,
 	abs_deviation = np.abs(expected_length-video_length)
 	if (abs_deviation > max_abs_deviation) and (expected_length is not None):
 		print "Stopping -- unexpected length ({0})".format(youtube_id)
+		return "stopped", video_length
+	if (video_length > 60*90):
+		print "Stopping -- longer than 90 minutes ({0})".format(youtube_id)
 		return "stopped", video_length
 	if (video_length > 60*10) and (expected_length<60*10-10) and (not long_ok):
 		print "Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id)
@@ -477,7 +481,7 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand
 			return "error"
 	output_filename = "./match_reports/match_report_" + str(salami_id) + ".txt"
 	if (not os.path.exists(output_filename)) or (redo):
-		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "1", "-D", "1300", "-w", "10", "--find-time-range", "--time-quantile", "0", "-o", output_filename]
+		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "100", "-D", "1300", "-w", "10", "--find-time-range", "--time-quantile", "0", "-o", output_filename]
 		# Since default options were used to create database, I'm removing these: "-F", "10", "-n", "36",
 		os.system(" ".join(subcall))
 	text = open(output_filename, 'r').readlines()
@@ -529,7 +533,7 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_
 		mp3_path = downloaded_audio_folder + "/" + youtube_id + ".mp3"
 		song_length = librosa.core.get_duration(filename=mp3_path)
 		df.loc[index,"youtube_length"] = song_length
-		df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+		df.to_csv(salami_matchlist_csv_filename, header=True, index=False, float_format='%.4f')
 	if operation == "reject":
 		# Take youtube_id, move it from candidate list to rejects.
 		# Check if already in rejects list
@@ -539,9 +543,9 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_
 		else:
 			print "This youtube_id was already rejected before!"
 		df.loc[index,"rejected_youtube_ids"] = " ".join(rejects_list).strip()
-		df.to_csv(salami_matchlist_csv_filename, header=True, index=False)
+		df.to_csv(salami_matchlist_csv_filename, header=True, index=False, float_format='%.4f')
 	if operation == "forget":
-		df.to_csv(temp_output_filename, header=True, index=False)
+		df.to_csv(temp_output_filename, header=True, index=False, float_format='%.4f')
 
 def test_fingerprints_for_salami_id(salami_id):
 	# Put more logic in here?

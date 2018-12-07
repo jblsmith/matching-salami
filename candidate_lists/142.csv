@@ -1,3 +1,3 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-jXRfuVvieOk,0,1,"Lute recital in China - Festival Croisements 2007 | Miguel Serdoura, 13c Baroque lute",167,-30.6930416667,0,reject,True,True,False,False,7,,,,,
-f0xdmfZ1VmM,1,1,"J.S. Bach: Ritornello ""Ruht wohl""",80,56.3069583333,0,reject,True,True,False,False,0,,,,,
+jXRfuVvieOk,0,1,"Lute recital in China - Festival Croisements 2007 | Miguel Serdoura, 13c Baroque lute",167,-30.6930,0,reject,True,True,False,False,7,,,,,
+f0xdmfZ1VmM,1,1,"J.S. Bach: Ritornello ""Ruht wohl""",80,56.3070,0,reject,True,True,False,False,0,,,,,

@@ -1,2 +1,2 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-6t05xjrsAoE,-1,1,Justin Timberlake - 13 - Pose (feat. Snoop Dogg),287,0.117166666667,0,match,True,True,False,True,0,281.5,0.3,0.3,2547.0,15133.0
+6t05xjrsAoE,-1,1,Justin Timberlake - 13 - Pose (feat. Snoop Dogg),287,0.1172,0,match,True,True,False,True,0,281.5000,0.3000,0.3000,2547.0000,15133.0000

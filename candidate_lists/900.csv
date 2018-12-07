@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-BlglpCC7H1M,1,3,PREßBURGER KLEZMER BAND - S´lofyn s´yogn shvartse volkns (BALADEN / HERITAGE),246,-30.751,0,,True,True,False,False,2,,,,,
-AY158QQmnLA,2,3,PREßBURGER KLEZMER BAND - Rivkele (BALADEN / HERITAGE),298,-82.751,0,,True,True,False,False,2,,,,,
-UFNsnUSKynI,3,3,Big Brooklyn Jazz / Klezmer / Groove,497,-281.751,0,,True,True,False,False,2,,,,,
-GsM1kAjQNOA,2,1,Vi azoy trinkt der keyser tey (2003),224,-8.751,0,,True,True,False,False,2,,,,,
-ahEqOwXRlq0,6,1,Ot Azoy Neyt a Shnayder - Sung by Tony Perry,228,-12.751,0,,False,True,False,False,1,,,,,
-z5Ndq_tVnGA,0,3,Budapest Klezmer Band - Vi azoy lebt de keyzer,212,3.249,0,match,True,True,False,True,0,207.4,0.6,0.4,2154.0,2255.0
-ayTcONVAXy8,0,1,Vi Azoy Lebt De Keyzer,215,0.249,0,,True,True,False,True,0,,,,,
-rjSitz4dQW8,3,1,Rhapsòdija Trio - Vi Azoy,196,19.249,0,,True,True,False,False,0,,,,,
+BlglpCC7H1M,1,3,PREßBURGER KLEZMER BAND - S´lofyn s´yogn shvartse volkns (BALADEN / HERITAGE),246,-30.7510,0,,True,True,False,False,2,,,,,
+AY158QQmnLA,2,3,PREßBURGER KLEZMER BAND - Rivkele (BALADEN / HERITAGE),298,-82.7510,0,,True,True,False,False,2,,,,,
+UFNsnUSKynI,3,3,Big Brooklyn Jazz / Klezmer / Groove,497,-281.7510,0,,True,True,False,False,2,,,,,
+GsM1kAjQNOA,2,1,Vi azoy trinkt der keyser tey (2003),224,-8.7510,0,,True,True,False,False,2,,,,,
+ahEqOwXRlq0,6,1,Ot Azoy Neyt a Shnayder - Sung by Tony Perry,228,-12.7510,0,,False,True,False,False,1,,,,,
+z5Ndq_tVnGA,0,3,Budapest Klezmer Band - Vi azoy lebt de keyzer,212,3.2490,0,match,True,True,False,True,0,207.4,0.6,0.4,2154.0,2255.0
+ayTcONVAXy8,0,1,Vi Azoy Lebt De Keyzer,215,0.2490,0,,True,True,False,True,0,,,,,
+rjSitz4dQW8,3,1,Rhapsòdija Trio - Vi Azoy,196,19.2490,0,,True,True,False,False,0,,,,,

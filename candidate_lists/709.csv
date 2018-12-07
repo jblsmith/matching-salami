@@ -1,12 +1,12 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-dZa7GyPFQTI,0,5,It's Kosher,56,-0.533333333333,0,match,True,True,True,False,9,54.5,0.3,0.1,489.0,491.0
-SvvmO0fj99Q,1,5,Lock Stock and Two Smoking Barrels Soundtrack Tracklist,135,-79.53333333329998,0,,True,True,False,False,2,,,,,
-0n0uTXOQd1I,3,5,tom and nick,193,-137.533333333,0,,True,True,False,False,2,,,,,
-Kj1S5pwozS0,3,3,kosher like christmas,196,-140.533333333,0,,True,True,False,False,2,,,,,
-w0k-aoR4mhY,6,5,"Jim Roads - Larry, Harry, Barry and Garry",146,-90.53333333329999,0,,False,True,False,False,1,,,,,
-tb3rl-kBEy8,6,3,"T.N.E. Project - It's A Deal, It's A Steal",456,-400.53333333300003,0,,False,True,False,False,1,,,,,
-Mc7Kahrv1fU,7,3,"Nick Thomas, Lead singer from The Spill Canvas doing a Ray Lamontagne cover",312,-256.533333333,0,,False,True,False,False,1,,,,,
-kvna3X1xFOI,1,5,I Don't Think it's Kosher,31,24.4666666667,0,,True,True,False,False,0,,,,,
-rwwgIVfkAw4,2,5,"It's kosher, folks",42,13.4666666667,0,,True,True,False,False,0,,,,,
-sN7bJFDEknk,2,5,Guns 4 Show Knives 4 A Pro,22,33.4666666667,0,,True,True,False,False,0,,,,,
-KTqpDSBGuDc,10,3,"Top 10 Latest Chill Nation Songs Of The Week - July 19, 2018",162,-106.53333333299999,0,,False,False,False,False,0,,,,,
+dZa7GyPFQTI,0,5,It's Kosher,56,-0.5333,0,match,True,True,True,False,9,54.5,0.3,0.1,489.0,491.0
+SvvmO0fj99Q,1,5,Lock Stock and Two Smoking Barrels Soundtrack Tracklist,135,-79.5333,0,,True,True,False,False,2,,,,,
+0n0uTXOQd1I,3,5,tom and nick,193,-137.5333,0,,True,True,False,False,2,,,,,
+Kj1S5pwozS0,3,3,kosher like christmas,196,-140.5333,0,,True,True,False,False,2,,,,,
+w0k-aoR4mhY,6,5,"Jim Roads - Larry, Harry, Barry and Garry",146,-90.5333,0,,False,True,False,False,1,,,,,
+tb3rl-kBEy8,6,3,"T.N.E. Project - It's A Deal, It's A Steal",456,-400.5333,0,,False,True,False,False,1,,,,,
+Mc7Kahrv1fU,7,3,"Nick Thomas, Lead singer from The Spill Canvas doing a Ray Lamontagne cover",312,-256.5333,0,,False,True,False,False,1,,,,,
+kvna3X1xFOI,1,5,I Don't Think it's Kosher,31,24.4667,0,,True,True,False,False,0,,,,,
+rwwgIVfkAw4,2,5,"It's kosher, folks",42,13.4667,0,,True,True,False,False,0,,,,,
+sN7bJFDEknk,2,5,Guns 4 Show Knives 4 A Pro,22,33.4667,0,,True,True,False,False,0,,,,,
+KTqpDSBGuDc,10,3,"Top 10 Latest Chill Nation Songs Of The Week - July 19, 2018",162,-106.5333,0,,False,False,False,False,0,,,,,

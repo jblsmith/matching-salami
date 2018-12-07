@@ -1,2 +1,2 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-NuzVY7srVVI,inf,0,,0,inf,0,match,False,False,False,False,0,279.0,2107.7,1.8,4102.0,5283.0
+NuzVY7srVVI,inf,0,,0,inf,0,match,False,False,False,False,0,279.0000,2107.7000,1.8000,4102.0000,5283.0000

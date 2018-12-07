@@ -1,2 +1,2 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-zLAmxoX_P8U,inf,0,,0,inf,0,potential,False,False,False,False,0,231.0,2.3,7.1,4775.0,5338.0
+zLAmxoX_P8U,inf,0,,0,inf,0,potential,False,False,False,False,0,231.0000,2.3000,7.1000,4775.0000,5338.0000

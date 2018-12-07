@@ -1,4 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-7325otGTP_8,1,3,"Dorota Lachowicz, mezzo-soprano, J.Peri ""L'Euridice""",178,-75.44325,0,reject,True,True,False,False,2,,,,,
-ufrlyNHuTU4,1,3,"Euridice, Scena III: Biond'arcier che d'alto monte",324,-221.44325,0,reject,True,True,False,False,2,,,,,
-RdboBUZg1g0,0,3,Euridice by Jacopo Peri Scene 4,1295,-1192.44325,0,reject,True,True,False,False,0,,,,,
+7325otGTP_8,1,3,"Dorota Lachowicz, mezzo-soprano, J.Peri ""L'Euridice""",178,-75.4433,0,reject,True,True,False,False,2,,,,,
+ufrlyNHuTU4,1,3,"Euridice, Scena III: Biond'arcier che d'alto monte",324,-221.4433,0,reject,True,True,False,False,2,,,,,
+RdboBUZg1g0,0,3,Euridice by Jacopo Peri Scene 4,1295,-1192.4433,0,reject,True,True,False,False,0,,,,,

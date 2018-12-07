@@ -1,9 +1,9 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
 y7egZYCfIc4,0,2,La Serva Padrona - Intermezzo in 2 Acts: La conosco a quegl' occhietti,260,-222.5665,0,reject,True,True,False,False,7,,,,,
 kg1EY0GQG7g,3,1,La Serva Padrona (Part 3),362,-324.5665,0,reject,True,True,False,False,2,,,,,
-a5VKdwASV94,4,1,Pergolesi: La serva Padrona. Son imbrogliato io già (Uberto). Aria da capo. Partitura. Audición.,249,-211.5665,0,,True,True,False,False,2,,,,,
+a5VKdwASV94,4,1,Pergolesi: La serva Padrona. Son imbrogliato io già (Uberto). Aria da capo. Partitura. Audición.,249,-211.5665,0,reject,True,True,False,False,2,,,,,
 J4DH6yi0dYQ,5,1,"Giovanni Pergolesi - La serva padrona (1733) - ""Stizzoso, mio stizzoso"" (Teresa Berganza) (1959)",208,-170.5665,0,,False,True,False,False,1,,,,,
-0AT8i9aUHVM,6,1,"La Serva Padrona, Act I: Lo conosco a quegl' occhietti (Duetto)",245,-207.5665,0,,False,True,False,False,1,,,,,
+0AT8i9aUHVM,6,1,"La Serva Padrona, Act I: Lo conosco a quegl' occhietti (Duetto)",245,-207.5665,0,reject,False,True,False,False,1,,,,,
 9R1ajxdLCPA,7,1,La Serva Padrona (Part 1),574,-536.5665,0,,False,True,False,False,1,,,,,
 HLGh5DWixZk,8,1,Giovanni Battista Pergolesi - La serva padrona - Uberto (subtitulado español),95,-57.5665,0,,False,True,False,False,1,,,,,
 -FaHrId3Mk8,0,1,Giovanni Battista Pergolesi: La Serva Padrona (with English subtitles),2519,-2481.5665,0,reject,True,True,False,False,0,,,,,

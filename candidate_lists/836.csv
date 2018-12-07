@@ -1,4 +1,4 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-js2Ga92Ta14,0,2,Le Mystere Des Voix Bulgares - Dva Shopski Dueta,163,-20.52815,0,reject,True,True,False,False,7,,,,,
-X_1gggZZTCM,1,1,Tche Da Ti Kupin Bela Seitsa,154,-11.52815,0,reject,True,True,False,False,2,,,,,
-KYzZpUwUiKE,0,1,Dve Tourlaski Pesen,140,2.47185,0,match,True,True,False,True,0,135.7,1.1,0.9,1746.0,1789.0
+js2Ga92Ta14,0,2,Le Mystere Des Voix Bulgares - Dva Shopski Dueta,163,-20.5282,0,reject,True,True,False,False,7,,,,,
+X_1gggZZTCM,1,1,Tche Da Ti Kupin Bela Seitsa,154,-11.5282,0,reject,True,True,False,False,2,,,,,
+KYzZpUwUiKE,0,1,Dve Tourlaski Pesen,140,2.4718,0,match,True,True,False,True,0,135.7,1.1,0.9,1746.0,1789.0

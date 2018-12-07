@@ -1,8 +1,8 @@
 youtube_id,top_rank,n_hits,title,duration,deviation,salami_coverage,decision,in_top_5,in_top_10,same_plus_5,same_less_5,overall_score,matching_length,onset_in_youtube,onset_in_salami,hashes,total_hashes
-JIuNdOHG65g,0,2,Bonnocks Of Beer Meal,169,-0.484083333333,0,match,True,True,True,False,9,166.0,1.6,1.6,2666.0,3012.0
-xaQ9fGy0TWo,1,2,Loch Ness: Loch Ness; Sandy Is My Darling,181,-12.4840833333,0,,True,True,False,False,2,,,,,
-bI7mO_sEFxY,3,1,"Keyboard Sonata, Op. 4, No. 6: I. Toccata",291,-122.48408333299999,0,,True,True,False,False,2,,,,,
-xut-UUenUDc,1,1,Bannocks O' Barley Meal,116,52.5159166667,0,,True,True,False,False,0,,,,,
-WYOE_07xOyc,2,1,"""Scottish Suite"" for harpsichord (Bagan/McGibbon)",785,-616.4840833330001,0,,True,True,False,False,0,,,,,
-o_xC9ymx0nk,4,1,Making Campfire Bannock on a Stick,158,10.515916666699999,0,,True,True,False,False,0,,,,,
-zSemfAZz6KE,6,1,"The Lass of Livingston, Hob. XXXIa:23",166,2.51591666667,0,,False,True,False,True,0,,,,,
+JIuNdOHG65g,0,2,Bonnocks Of Beer Meal,169,-0.4841,0,match,True,True,True,False,9,166.0,1.6,1.6,2666.0,3012.0
+xaQ9fGy0TWo,1,2,Loch Ness: Loch Ness; Sandy Is My Darling,181,-12.4841,0,,True,True,False,False,2,,,,,
+bI7mO_sEFxY,3,1,"Keyboard Sonata, Op. 4, No. 6: I. Toccata",291,-122.4841,0,,True,True,False,False,2,,,,,
+xut-UUenUDc,1,1,Bannocks O' Barley Meal,116,52.5159,0,,True,True,False,False,0,,,,,
+WYOE_07xOyc,2,1,"""Scottish Suite"" for harpsichord (Bagan/McGibbon)",785,-616.4841,0,,True,True,False,False,0,,,,,
+o_xC9ymx0nk,4,1,Making Campfire Bannock on a Stick,158,10.5159,0,,True,True,False,False,0,,,,,
+zSemfAZz6KE,6,1,"The Lass of Livingston, Hob. XXXIa:23",166,2.5159,0,,False,True,False,True,0,,,,,
