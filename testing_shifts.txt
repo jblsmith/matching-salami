@@ -1,0 +1,51 @@
+# Make small fingerprint DB out of 860s and 870s:
+./audfprint.py new --dbase tmp_870s.pklz ../../../data/SALAMI/audio/87*/audio.mp3
+./audfprint.py add --dbase tmp_870s.pklz ../../../data/SALAMI/audio/86*/audio.mp3
+
+# Test against test.mp3, an excerpt of https://www.youtube.com/watch?v=zVwDN-pyL8Y that should match 876 (Ramona)
+./audfprint.py match --dbase tmp_870s.pklz ./test.mp3
+./audfprint.py match --dbase tmp_870s.pklz ./test.mp3 -N 10 -x 100 -D 1300 -w 10 --find-time-range --time-quantile 0
+
+# Create pitch-shifted versions of test.mp3:
+sox test.mp3 test+2.mp3 pitch 2
+sox test.mp3 test+4.mp3 pitch 4
+sox test.mp3 test+6.mp3 pitch 6
+sox test.mp3 test+8.mp3 pitch 8
+sox test.mp3 test+10.mp3 pitch 10
+sox test.mp3 test+12.mp3 pitch 12
+sox test.mp3 test-2.mp3 pitch -2
+sox test.mp3 test-4.mp3 pitch -4
+sox test.mp3 test-6.mp3 pitch -6
+sox test.mp3 test-8.mp3 pitch -8
+sox test.mp3 test-10.mp3 pitch -10
+sox test.mp3 test-12.mp3 pitch -12
+
+# Create time-stretched versions of test.mp3:
+sox test.mp3 test-t-1.mp3 tempo 0.99
+sox test.mp3 test-t-2.mp3 tempo 0.98
+sox test.mp3 test-t-3.mp3 tempo 0.97
+sox test.mp3 test-t+1.mp3 tempo 1.01
+sox test.mp3 test-t+2.mp3 tempo 1.02
+sox test.mp3 test-t+3.mp3 tempo 1.03
+
+# Create fingerprint database of shifted versions of test.mp3:
+./audfprint.py new --dbase allshifts876.pklz ./test*.mp3
+./audfprint.py add --dbase allshifts876.pklz ./test-t*.mp3
+
+# Test original 876 against shifted versions:
+./audfprint.py match --dbase allshifts876.pklz ../../../data/SALAMI/audio/876/audio.mp3 -N 4 --find-time-range
+
+
+for salami_id in [set of remaining_ids]:
+	create +/- 1%, 2% tempo duplicates
+	create +/- 2, 4 cent duplicates
+	add duplicates to copy of fingerprint database
+	run through previous rejects in order of priority
+
+
+
+
+./audfprint.py match --dbase ../salami_public_fpdb.pklz ./test-2.mp3 -N 10 -x 100 -D 1300 -w 10 --find-time-range --time-quantile 0
+
+
+-o output_filename

@@ -1,40 +1,44 @@
 from match_salami_files import *
+pair_list_filename = "./salami_youtube_pairings.csv"
 df = load_matchlist()
 md = load_song_info()
 cod_ids = list((md.salami_id[md.source=="Codaich"]).astype(int))
 iso_ids = list((md.salami_id[md.source=="Isophonics"]).astype(int))
 cod_ids.sort()
 iso_ids.sort()
-# Make too-short videos always less desirable.
-for salami_id in iso_ids:
-	print salami_id
-	try:
-		output_list = multiple_searches_for_song(salami_id)
-		define_candidates_from_searches(salami_id, output_list)
-		prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
-		# If match not found on first pass, we can relax constraint and set no_longs=False to get more options.
-		# Also, focus for now only on things that are at least as long as the SALAMI file.
-		suggest_previous_find(salami_id) # (if it exists)
-		process_candidates(salami_id, max_tries_per_video=3, max_potential=2, sleep=60)
-		purge_rejected_audio(salami_id)
-	except (KeyboardInterrupt):
-		raise
-	except:
-		print "Error processing salami_id {0}".format(salami_id)
 
-# Push deeper:
-matchlist = pd.read_csv("matchlist_final_format.csv")
+# Initial search, including youtube queries to build candidate lists:
+# for salami_id in iso_ids:
+# 	print salami_id
+# 	try:
+# 		output_list = multiple_searches_for_song(salami_id)
+# 		define_candidates_from_searches(salami_id, output_list)
+# 		prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
+# 		# If match not found on first pass, we can relax constraint and set no_longs=False to get more options.
+# 		# Also, focus for now only on things that are at least as long as the SALAMI file.
+# 		suggest_previous_find(salami_id) # (if it exists)
+# 		process_candidates(salami_id, max_tries_per_video=3, max_potential=2, sleep=60)
+# 		purge_rejected_audio(salami_id)
+# 	except (KeyboardInterrupt):
+# 		raise
+# 	except:
+# 		print "Error processing salami_id {0}".format(salami_id)
+
+# Secondary searching, focusing on non-matched audio:
+matchlist = pd.read_csv(pair_list_filename)
 remaining_ids = set(cod_ids+iso_ids) - set(matchlist.salami_id) 
 remaining_ids = list(remaining_ids)
 remaining_ids.sort()
-for salami_id in remaining_ids[150:]:  # FRom 277 onwards
+for salami_id in remaining_ids[54:]:  # FRom 277 onwards
 	print salami_id
 	try:
 		prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
 		# If match not found on first pass, we can relax constraint and set no_longs=False to get more options.
 		# Also, focus for now only on things that are at least as long as the SALAMI file.
-		process_candidates(salami_id, max_tries_per_video=5, max_potential=2, sleep=60)
+		process_candidates(salami_id, max_tries_per_video=12, max_potential=0, sleep=0)
 		purge_rejected_audio(salami_id)
+		# Prioritize again after doing that, so that the diff isn't screwed up:
+		prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
 	except (KeyboardInterrupt):
 		raise
 	except:
@@ -75,11 +79,22 @@ for salami_id in (cod_ids + iso_ids):
 	# If no match yet, do nothing.
 
 len(matchlist)
-matchlist.to_csv("salami_youtube_pairings.csv",header=True,index=False)
+matchlist.to_csv(pair_list_filename,header=True,index=False)
 
+
+for salami_id in remaining_ids:
+	info = get_true_artist(salami_id)
+	if info[3] == "Latcho Drom Soundtrack":
+		manually_suggest_and_process(salami_id, "zVwDN-pyL8Y")
+	manually_suggest()
 
 
 # Reset to original priorities to spare diff:
+for salami_id in iso_ids + cod_ids:
+	print salami_id
+	prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
+
+
 for salami_id in iso_ids + cod_ids:
 	print salami_id
 	prioritize_candidates(salami_id, no_longs=True, must_be_longer=True)
@@ -95,28 +110,9 @@ def update_matchlist_from_candidate_report(salami_id):
 	# Update file with results
 	# If no match yet, do nothing.
 
-# 
-
-# TODO:
-# Function to convert candidate lists to final approved lists
-# Script (in main.py) to look deeper and find more when no matches found
-# Revise downloading_audio to use new info
-# Revise match_list saving/loading to have limited float length, because it's dumbly changing the precision.
-
-
-salami_id = 3
-youtube_id="Y6zAT15vaFk"
-test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand=False)
-
-test_for_matching_audio("mbJ9D_p3p24", 4)
 
 
 
-def grade_match(salami_id):
-	matched_song_id, matching_length, raw_hashes, onset, hashes, total_hashes = test_for_matching_audio(youtube_id, salami_id, redo=False)
-	index = df.index[df['salami_id'] == salami_id].tolist()[0]
-	salami_length = df["salami_length"][index]
-	
 
 df = load_matchlist()
 df.columns = df.columns.tolist()[:7] + ['matching_length','raw_hashes'] + df.columns.tolist()[9:]
@@ -183,41 +179,3 @@ for id in next_ids[1:]:
 		print id
 		download_for_salami_ids([id],min_sleep_interval=60)
 		test_fingerprints_for_salami_id(id)
-
-
-"RW9A8oJKx7s", 4   --> previous matching song had wrong length!
-StgAsIxCP6A, 1620
-
-
-# TODO:
-# Figure out a good threshold to judge match quality --- and maybe fingerprint multiple chunks of each youtube file instead of its entirety.
-
-tmp_df = df[df.youtube_id != ""]
-qual_percent = (tmp_df.matching_hashes / tmp_df.total_hashes).values
-qual_abs = (tmp_df.matching_hashes).values
-qual_frac = (tmp_df.matching_length / tmp_df.salami_length).values
-np.where(qual_frac>2)
-np.where(qual_frac>1.1)
-tmp_df.iloc[np.where(qual_frac>2)]
-
-
-plt.scatter(qual_percent,qual_abs)
-len_diff = tmp_df.salami_length - tmp_df.youtube_length
-you_short_by = np.abs(len_diff) * (len_diff > 0)
-sal_short_by = np.abs(len_diff) * (len_diff < 0)
-plt.scatter(qual_percent,you_short_by)
-
-tmp_df[len_diff > 5]
-
-# "Over You" by Bif Naked:
-# 14,248.26775,Q5u1ZbIaNps,255.8955102040816,830.0,19732.0,-0.7,0.0,0.0,,BdpJh_zc6k8
-# Seems like a poor match (830/19732 hashes) but is actually spot-on --- the youtube audio is filtered though!
-# On the other hand:
-# "I Close My Eyes" by Shivaree:
-# 4,236.09466666666665,mbJ9D_p3p24,217.056,825.0,4326.0,0.5,0.0,0.0,,
-# In an absolute sense, is just as good (825 hashes) and is relatively better (825/4326), but in fact this version is a radio edit that is missing 20 seconds, which, for the purposes of SALAMI, is a much poorer match.
-# So perhaps the final check I want to run is an alignment cost step... Computationally expensive (it will require loading all the audio!)... so perhaps only warranted for cases flagged as borderline.
-
-# Searching for all info (artist, composer, album, title) leads to poor search results.
-# I should write a script that iteratively tests candidates until it finds a match. It could do multiple searches (all possible combinations of search terms but must include title), and then consider its options among all of them, sorting by length similarity.
-# Then it would fingerprint them, and once it found a match, stop downloading new ones.
