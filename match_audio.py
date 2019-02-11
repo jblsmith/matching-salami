@@ -5,7 +5,12 @@ import re
 
 # Usage example:
 # 
-# python3 match_audio.py 'Madonna \'Like A Prayer\'' Madonna_-_Like_A_Prayer.mp3
+# python3 match_audio.py 'Madonna \'Like A Prayer\'' Madonna_-_Like_A_Prayer.mp3 10
+# 
+# This will:
+# 1. look up videos on YouTube related to 'Madonna 'Like A Prayer''
+# 2. use audio fingerprinting to test whether each result matches the local file 'Madonna_-_Like_A_Prayer.mp3'
+# 3. look at up to 10 results before giving up.
 # 
 # WARNING: you must use single quotes around the inputs, especially the filename! Otherwise, some characters (like '!') will cause all sorts of errors.
 
@@ -13,7 +18,7 @@ def parse_args():
 	parser = argparse.ArgumentParser(description='Match a given local audio file to content on YouTube.')
 	parser.add_argument('query', type=str, nargs=1, help='Complete query. E.g., \'Madonna \\\'Like A Prayer\\\'')
 	parser.add_argument('input_audio_filename', type=str, nargs=1, help="Local audio file that one wants to discover a match for online.")
-	parser.add_argument('max_results', type=int, nargs=1, help="Maximum number of search results to consider (default is 20).", default=20)
+	parser.add_argument('max_results', type=int, nargs=1, help="Maximum number of search results to consider (default is 10).", default=10)
 	args = parser.parse_args()
 	return args
 
