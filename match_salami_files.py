@@ -1,3 +1,4 @@
+from __future__ import print_function, division
 import os
 import youtube_dl
 import numpy as np
@@ -31,10 +32,6 @@ fingerprint_youtube_filename = os.getcwd() + "/youtube_public_fpdb.pklz"
 
 # Match list info
 salami_matchlist_csv_filename = os.getcwd() + "/match_list.csv"
-salami_xml = plistlib.readPlist(open(salami_xml_filename,'r'))
-track_keys = salami_xml["Tracks"].keys()
-track_to_persistent_id = {tk:salami_xml["Tracks"][tk]["Persistent ID"] for tk in track_keys}
-persistent_id_to_track = {track_to_persistent_id[tk]:tk for tk in track_keys}
 
 # Youtube download and post-processing options
 ydl_opts = {
@@ -52,11 +49,11 @@ ydl_opts = {
 # 		This command is designed to be run ONCE.
 #		Do not overwrite the database unnecessarily.
 def create_fingerprint_database(database_filename, audio_folder_wildcard):
-	subcall = ["python","./audfprint/audfprint.py","new","--dbase", database_filename, audio_folder_wildcard]
+	subcall = ["python","./audfprint/audfprint.py","new","--dbase", "'"+database_filename+"'", "'"+audio_folder_wildcard+"'"]
 	os.system(" ".join(subcall))
 
 def add_to_fingerprint_database(database_filename, audio_file):
-	subcall = ["python","./audfprint/audfprint.py","add","--dbase", database_filename, audio_file]
+	subcall = ["python","./audfprint/audfprint.py","add","--dbase", "'"+database_filename+"'", "'"+audio_file+"'"]
 	os.system(" ".join(subcall))	
 
 # Load local song metadata
@@ -74,8 +71,10 @@ def get_true_artist(salami_id):
 	global iso_info_filename
 	global rwc_info_filename
 	global ia_info_filename
-	global salami_xml
-	global persistent_id_to_track
+	salami_xml = plistlib.readPlist(open(salami_xml_filename,'r'))
+	track_keys = salami_xml["Tracks"].keys()
+	track_to_persistent_id = {tk:salami_xml["Tracks"][tk]["Persistent ID"] for tk in track_keys}
+	persistent_id_to_track = {track_to_persistent_id[tk]:tk for tk in track_keys}	
 	md = load_song_info()
 	assert (salami_id in md.salami_id.astype(int).values)
 	md_ind = md.index[md.salami_id.astype(int)==salami_id]
@@ -84,7 +83,7 @@ def get_true_artist(salami_id):
 		cod_df = pd.read_csv(codaich_info_filename)
 		index = cod_df.index[cod_df["SONG_ID"]==salami_id]
 		if index.empty:
-			print "Invalid salami_id. Returning nothing."
+			print("Invalid salami_id. Returning nothing.")
 			return None, None, None, None
 		persistent_id = cod_df.loc[index]["PERSISTENT_ID"].tolist()[0]
 		tk = persistent_id_to_track[persistent_id]
@@ -114,12 +113,17 @@ def get_true_artist(salami_id):
 			return artist, title, None, album
 
 # Search for a song using the YouTube API client
-def search_for_song(salami_id):
-	developer_key = json.load(open(os.path.realpath("./keys.json"),'r'))["youtube_developer_key"]
-	youtube_handle = build("youtube", "v3", developerKey=developer_key)
+			search_responses = search_for_song(query_text)
+			
+def prepare_query(salami_id):
 	song_info = get_true_artist(salami_id)
 	query_text = " ".join(["'"+item+"'" for item in song_info if item != ""])
-	search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=50, type="video", pageToken="").execute()
+	return query_text
+
+def search_for_song(query_text, maxResults=50):
+	developer_key = json.load(open(os.path.realpath("./keys.json"),'r'))["youtube_developer_key"]
+	youtube_handle = build("youtube", "v3", developerKey=developer_key)
+	search_responses = youtube_handle.search().list(q=query_text, part="id,snippet", maxResults=maxResults, type="video", pageToken="").execute()
 	for i in range(len(search_responses['items'])):
 		search_responses['items'][i]['rank'] = i
 	return search_responses
@@ -143,7 +147,7 @@ def define_candidates_from_searches(salami_id, search_response_list, overwrite=F
 	df = load_matchlist()
 	output_filename = "./candidate_lists/" + str(salami_id) + ".csv"
 	if os.path.exists(output_filename) and (not overwrite):
-		print "Cannot process candidates because saved list already exists."
+		print("Cannot process candidates because saved list already exists.")
 		return
 	expected_length = float(df["salami_length"][df.salami_id==salami_id].values)
 	candidates = pd.DataFrame(columns=["top_rank", "n_hits", "title", "duration", "deviation", "salami_coverage", "decision", "in_top_5", "in_top_10", "same_plus_5", "same_less_5", "overall_score", "matching_length", "onset_in_youtube", "onset_in_salami", "hashes", "total_hashes"])
@@ -164,7 +168,7 @@ def define_candidates_from_searches(salami_id, search_response_list, overwrite=F
 			candidates.loc[youtube_id, "n_hits"] += 1
 		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8", float_format='%.4f')
 	except:
-		print "Outputting list to temporary CSV file because something went wrong."
+		print("Outputting list to temporary CSV file because something went wrong.")
 		candidates.to_csv(output_filename, header=True, index=True, encoding="utf-8", float_format='%.4f')
 
 def prioritize_candidates(salami_id, no_longs=False, must_be_longer=False):
@@ -194,12 +198,12 @@ def prioritize_candidates(salami_id, no_longs=False, must_be_longer=False):
 def manually_suggest_and_process(salami_id, youtube_id):
 	candidates = load_candidate_list(salami_id)
 	if youtube_id in candidates.youtube_id.values:
-		print "Candidate already in list..."
+		print("Candidate already in list...")
 		ind = candidates.index[candidates.youtube_id==youtube_id].values
 		if candidates.loc[ind,"decision"].values != "":
-			print "Already tested for similarity! Not changing anything."
+			print("Already tested for similarity! Not changing anything.")
 		else:
-			print "Candidate not yet tested. Boosting score by 100."
+			print("Candidate not yet tested. Boosting score by 100.")
 			candidates.loc[ind,"overall_score"] += 100
 			candidates = candidates.sort_values(by = ['overall_score', 'n_hits', 'top_rank'], ascending=[False, False, True])
 			save_candidates(salami_id, candidates)
@@ -221,7 +225,7 @@ def manually_suggest_and_process(salami_id, youtube_id):
 			candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]] = candidates[["overall_score","duration","top_rank","salami_coverage","n_hits"]].astype(int)
 			save_candidates(salami_id, candidates)
 		else:
-			print "Video info failed. Not adding suggestion."
+			print("Video info failed. Not adding suggestion.")
 
 def suggest_previous_find(salami_id):
 	df = load_matchlist()
@@ -245,7 +249,7 @@ def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep
 	candidates = load_candidate_list(salami_id)
 	df = load_matchlist()
 	if "match" in candidates.decision.values:
-		print "Match already found."
+		print("Match already found.")
 	for ind in candidates.index[:max_tries_per_video]:
 		youtube_id = candidates.loc[ind]['youtube_id']
 		decision = candidates.loc[ind]['decision']
@@ -258,7 +262,7 @@ def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep
 					match_status = test_for_matching_audio(youtube_id, salami_id, redo=True)
 					candidates.decision.loc[ind] = match_status
 					if match_status == "potential":
-						matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
+						matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report_salami(salami_id)
 						if matched_song_id == salami_id:
 							candidates.matching_length.loc[ind] = matching_length
 							candidates.onset_in_youtube.loc[ind] = onset_in_youtube
@@ -270,7 +274,7 @@ def process_candidates(salami_id, max_tries_per_video=10, max_potential=3, sleep
 							if frac_match > 0.95:
 								candidates.decision.loc[ind] = "match"
 						else:
-							print "Matched... but with a different SALAMI song!"
+							print("Matched... but with a different SALAMI song!")
 							candidates.decision.loc[ind] = "matched_"+str(matched_song_id)
 					save_candidates(salami_id, candidates)
 
@@ -294,9 +298,9 @@ def store_result_in_database(salami_id, youtube_id):
 	index = df.index[df['salami_id'] == salami_id].tolist()[0]
 	ytid_list = df["candidate_youtube_ids"][index].split(" ")
 	if youtube_id in ytid_list:
-		print "Already have that youtube ID in the list. Skipping storage step."
+		print("Already have that youtube ID in the list. Skipping storage step.")
 	if youtube_id not in ytid_list:
-		print "Adding new youtube ID to storage so you can test for matches later."
+		print("Adding new youtube ID to storage so you can test for matches later.")
 		df.loc[index,"candidate_youtube_ids"] = " ".join(ytid_list + [youtube_id]).strip()
 	df.to_csv(salami_matchlist_csv_filename, header=True, index=False,float_format='%.4f')
 
@@ -313,7 +317,7 @@ def create_matchlist_csv():
 	# Populate with SALAMI IDs
 	df.salami_id = md.salami_id
 	# Populate with mp3 file lengths, taken from file since metadata doesn't have them all:
-	print "Getting SALAMI song lengths..."
+	print("Getting SALAMI song lengths...")
 	for salid in md.index:
 		mp3_path = salami_public_audio_folder + "/" + str(salid) + "/audio.mp3"
 		song_length = librosa.core.get_duration(filename=mp3_path)
@@ -359,26 +363,26 @@ def get_info_from_youtube(youtube_id):
 		# print "Video connection failed."
 		return None
 
-def download_and_report(youtube_id, redownload=False, sleep=0):
+def download_and_report(youtube_id, redownload=False, sleep=0, downloaded_audio_folder=downloaded_audio_folder):
 	global ydl_opts
 	if (not os.path.exists(downloaded_audio_folder + "/" + youtube_id + ".mp3")) or (redownload):
 		try:
 			with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 				x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
-			print "Successfully downloaded ({0})".format(youtube_id)
+			print("Successfully downloaded ({0})".format(youtube_id))
 			return "downloaded"
 			time.sleep(sleep)
 		except (KeyboardInterrupt):
 			raise
 		except:
-			print "Error downloading video ({0})".format(youtube_id)
+			print("Error downloading video ({0})".format(youtube_id))
 			return "error"
 	else:
 		return "downloaded"
 
 def make_download_attempt(youtube_id, expected_length=None, max_abs_deviation=2, long_ok=False):
 	if (expected_length > 60*9) and (not long_ok):
-		print "Setting long_ok = True, because expected length is greater than 9 minutes."
+		print("Setting long_ok = True, because expected length is greater than 9 minutes.")
 		long_ok = True
 	# If expected_length = None, don't bother checking length of video.
 	global ydl_opts
@@ -394,27 +398,27 @@ def make_download_attempt(youtube_id, expected_length=None, max_abs_deviation=2,
 	# 	ratio_deviation = np.abs(expected_length-video_length)*1.0/expected_length
 	abs_deviation = np.abs(expected_length-video_length)
 	if (abs_deviation > max_abs_deviation) and (expected_length is not None):
-		print "Stopping -- unexpected length ({0})".format(youtube_id)
+		print("Stopping -- unexpected length ({0})".format(youtube_id))
 		return "stopped", video_length
 	if (video_length > 60*90):
-		print "Stopping -- longer than 90 minutes ({0})".format(youtube_id)
+		print("Stopping -- longer than 90 minutes ({0})".format(youtube_id))
 		return "stopped", video_length
 	if (video_length > 60*10) and (expected_length<60*10-10) and (not long_ok):
-		print "Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id)
+		print("Stopping -- longer than 10 minutes without reason ({0})".format(youtube_id))
 		return "stopped", video_length
 	try:
 		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 			x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
 		# video_handle.streams.first().download(output_path = downloaded_audio_folder, filename = youtube_id)
-		print "Successfully downloaded ({0})".format(youtube_id)
+		print("Successfully downloaded ({0})".format(youtube_id))
 		return "downloaded", video_length
 	except:
-		print "Error downloading video ({0})".format(youtube_id)
+		print("Error downloading video ({0})".format(youtube_id))
 		return "error", video_length
 
 # Download at least one video for a song (trying from the top of the search result list)
 def download_at_least_one_video(salami_id, search_responses, max_count=10, min_sleep_interval=120):
-	print get_true_artist(salami_id)
+	print(get_true_artist(salami_id))
 	# , matching_dataset_filename=matching_dataset_filename):
 	global downloaded_audio_folder
 	# Look up row in current match_list. We don't want to bother downloading audio for youtube_ids we've already rejected.
@@ -432,17 +436,17 @@ def download_at_least_one_video(salami_id, search_responses, max_count=10, min_s
 	except:
 		expected_length = 0
 	if (try_count>=len(search_responses.get("items"))):
-		print "There are no search results to parse. Quitting with Nones."
+		print("There are no search results to parse. Quitting with Nones.")
 		return None, None
 	while (outcome != "downloaded") and (try_count<max_count) and (try_count<len(search_responses.get("items"))):
 		youtube_id = search_responses.get("items", [])[try_count]['id']['videoId']
 		mp3_location = downloaded_audio_folder + "/" + youtube_id + ".mp3"
-		print "Next search result to consider: {0}".format(youtube_id)
+		print("Next search result to consider: {0}".format(youtube_id))
 		if youtube_id in rejects_list:
-			print "Not bothering to consider because we already rejected it."
+			print("Not bothering to consider because we already rejected it.")
 			try_count += 1
 		elif os.path.exists(mp3_location):
-			print "Already downloaded!"
+			print("Already downloaded!")
 			if youtube_id not in candidate_list + rejects_list + [match_item]:
 				store_result_in_database(salami_id, youtube_id)
 			return youtube_id, "downloaded"
@@ -457,13 +461,14 @@ def download_at_least_one_video(salami_id, search_responses, max_count=10, min_s
 def download_for_salami_ids(salami_ids, min_sleep_interval=120):
 	for salami_id in salami_ids:
 		try:
-			print "\n\n\n\n\n" + str(salami_id) + "\n\n\n"
-			search_responses = search_for_song(salami_id)
+			print("\n\n\n\n\n" + str(salami_id) + "\n\n\n")
+			query_text = prepare_query(salami_id)
+			search_responses = search_for_song(query_text)
 			youtube_id, outcome = download_at_least_one_video(salami_id, search_responses, min_sleep_interval=min_sleep_interval)
 		except (KeyboardInterrupt):
 			raise
 		except:
-			print "Error downloading {0}. Maybe skipping sleep interval.".format(salami_id)
+			print("Error downloading {0}. Maybe skipping sleep interval.".format(salami_id))
 
 # Tells you whether downloaded audio for [youtube_id] matches any audio in SALAMI, and saves the report under "match_report_[salami_id]".
 def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand=False):
@@ -471,33 +476,43 @@ def test_for_matching_audio(youtube_id, salami_id, redo=True, download_on_demand
 	global fingerprint_public_filename
 	filename = downloaded_audio_folder + "/" + youtube_id + ".mp3"
 	if not os.path.exists(filename) and not download_on_demand:
-		print "Corresponding audio not downloaded. Removing from row entirely."
+		print("Corresponding audio not downloaded. Removing from row entirely.")
 		return "forget"
 	elif not os.path.exists(filename) and download_on_demand:
-		print "Corresponding audio not downloaded. Attempting to download now."
+		print("Corresponding audio not downloaded. Attempting to download now.")
 		outcome, video_length = make_download_attempt(youtube_id,0)
 		if outcome not in ["downloaded"]:
-			print "Download attempt failed."
+			print("Download attempt failed.")
 			return "error"
 	output_filename = "./match_reports/match_report_" + str(salami_id) + ".txt"
 	if (not os.path.exists(output_filename)) or (redo):
-		subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", fingerprint_public_filename, filename, "-N", "10", "-x", "100", "-D", "1300", "-w", "10", "--find-time-range", "--time-quantile", "0", "-o", output_filename]
-		# Since default options were used to create database, I'm removing these: "-F", "10", "-n", "36",
-		os.system(" ".join(subcall))
+		query_db_with_audio(fingerprint_public_filename, filename, output_filename)
+	return quick_answer(output_filename)
+
+def quick_answer(output_filename):
 	text = open(output_filename, 'r').readlines()
 	if text[1].split(" ")[0] == "NOMATCH":
 		return "reject"
 	else:
-		print "Potential match found!"
+		print("Potential match found!")
 		return "potential"
 
-def read_match_report(salami_id):
+def query_db_with_audio(database_path, audio_path, output_report_path):
+	subcall = ["python", "./audfprint/audfprint.py", "match", "--dbase", "'"+database_path+"'", "'"+audio_path+"'", "-N", "10", "-x", "100", "-D", "1300", "-w", "10", "--find-time-range", "--time-quantile", "0", "-o", "'"+output_report_path+"'"]
+	# Since default options were used to create database, I'm removing these: "-F", "10", "-n", "36",
+	os.system(" ".join(subcall))
+
+def read_match_report_salami(salami_id):
 	output_filename = "./match_reports/match_report_" + str(salami_id) + ".txt"
+	matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(output_filename)
+	return matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes
+
+def read_match_report(output_filename):
 	if not os.path.exists(output_filename):
-		print "Match report not yet computed"
+		print("Match report not yet computed")
 	text = open(output_filename, 'r').readlines()
 	if text[1].split(" ")[0] == "NOMATCH":
-		print "No match"
+		print("No match")
 		return None, None, None, None, None, None
 	else:
 		line_info = text[1].split()
@@ -521,7 +536,7 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_
 		# Assert that the youtube_id we're moving is already where we expect it
 		# Assert that no other youtube_id has been matched already.
 		assert matched_id == ""
-		matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
+		matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report_salami(salami_id)
 		# Take youtube_id, move it from candidate list to match, and write corresponding info (onset, length) about match.
 		df.loc[index,"youtube_id"] = youtube_id
 		df.loc[index,"matching_length"] = matching_length
@@ -541,7 +556,7 @@ def handle_candidate(salami_id, youtube_id, operation, onset=0, hashes=0, total_
 		if youtube_id not in rejects_list:
 			rejects_list += [youtube_id]
 		else:
-			print "This youtube_id was already rejected before!"
+			print("This youtube_id was already rejected before!")
 		df.loc[index,"rejected_youtube_ids"] = " ".join(rejects_list).strip()
 		df.to_csv(salami_matchlist_csv_filename, header=True, index=False, float_format='%.4f')
 	if operation == "forget":
@@ -555,26 +570,26 @@ def test_fingerprints_for_salami_id(salami_id):
 	candidates_exist = df.loc[index,"candidate_youtube_ids"] != ""
 	if match_found:
 		youtube_id = df.loc[index,"youtube_id"]
-		print "There is already a known match: {1}. Stopping analysis of salami_id {0}.".format(salami_id, youtube_id)
+		print("There is already a known match: {1}. Stopping analysis of salami_id {0}.".format(salami_id, youtube_id))
 		return youtube_id
 	if not candidates_exist:
-		print "There are no existing candidates for salami_id {0}.".format(salami_id)
+		print("There are no existing candidates for salami_id {0}.".format(salami_id))
 	else:
 		candidate_list = df["candidate_youtube_ids"][index].split(" ")
 		for youtube_id in candidate_list:
 			match_result = test_for_matching_audio(youtube_id, salami_id, download_on_demand=True)
-			matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report(salami_id)
+			matched_song_id, matching_length, onset_in_youtube, onset_in_salami, hashes, total_hashes = read_match_report_salami(salami_id)
 			if match_result == "potential":
 				if matched_song_id == salami_id:
-					print "Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id)
+					print("Success! Match found. Shifting {0} to match place for salami_id {1}.".format(youtube_id, salami_id))
 					handle_candidate(salami_id, youtube_id, "match")
 				else:
 					# elif type(matched_song_id) is int:
-					print "Match found for a different SALAMI ID... not sure what to do yet. Maybe handle manually."
-					print "\nIntended SALAMI ID: {0}.\nMatched SALAMI ID: {1}.\nyoutube_id in question: {2}.\n\n".format(salami_id, matched_song_id, youtube_id)
+					print("Match found for a different SALAMI ID... not sure what to do yet. Maybe handle manually.")
+					print("\nIntended SALAMI ID: {0}.\nMatched SALAMI ID: {1}.\nyoutube_id in question: {2}.\n\n".format(salami_id, matched_song_id, youtube_id))
 			elif match_result == "reject":
-				print "No match. Shifting {0} to rejects for salami_id {1}.".format(youtube_id, salami_id)
+				print("No match. Shifting {0} to rejects for salami_id {1}.".format(youtube_id, salami_id))
 				handle_candidate(salami_id, youtube_id, "reject")
 			elif match_result == "forget":
-				print "Audio does not exist. Deleting {0} from list of youtube_ids.".format(youtube_id)
+				print("Audio does not exist. Deleting {0} from list of youtube_ids.".format(youtube_id))
 				handle_candidate(salami_id, youtube_id, "forget")
