@@ -1,15 +1,20 @@
 from __future__ import print_function, division
 import os
-import youtube_dl
 import pandas as pd
 import time
 import sox
+
+# 
+# 
+# Zero-pads and trims all audio files to match the versions used in SALAMI.
+# 
+# 
 
 matchlist_csv_filename = os.getcwd() + "/salami_youtube_pairings.csv"
 downloaded_audio_folder = os.getcwd() + "/downloaded_audio"
 transformed_audio_folder = os.getcwd() + "/transformed_audio"
 
-# Specify download location
+# Specify location of downloaded audio
 
 downloaded_audio_folder = os.getcwd() + "/downloaded_audio"
 if not os.path.exists(downloaded_audio_folder):
@@ -17,27 +22,6 @@ if not os.path.exists(downloaded_audio_folder):
 
 if not os.path.exists(transformed_audio_folder):
 	os.makedirs(transformed_audio_folder)
-
-# Specify post-processing
-# Current options look for best quality audio and convert to 192kbps mp3 format.
-ydl_opts = {
-	'outtmpl': os.path.join(downloaded_audio_folder, u'%(id)s.%(ext)s'),
-	'format': 'bestaudio/best',
-	'postprocessors': [{
-		'key': 'FFmpegExtractAudio',
-		'preferredcodec': 'mp3',
-		'preferredquality': '192',
-	}],
-}
-
-def download_youtube_id(youtube_id):
-	global ydl_opts
-	try:
-		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-			x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
-		print("Successfully downloaded ({0})".format(youtube_id))
-	except:
-		print("Error downloading ({0})".format(youtube_id))
 
 def reshape_audio(salami_id, match_data):
 	row = {colname: match_data[colname][match_data.salami_id==salami_id].values[0]  for colname in match_data.columns}
@@ -56,13 +40,11 @@ def reshape_audio(salami_id, match_data):
 	tfm.trim(start_time_in_yt, start_time_in_yt+row["salami_length"])
 	tfm.build(input_filename, output_filename)
 
-
 if __name__ == "__main__":
 	match_data = pd.read_csv(matchlist_csv_filename, header=0)
 	match_data = match_data.fillna("")
 	for ind in match_data.index:
 		try:
-			download_youtube_id(match_data.youtube_id[ind])
 			reshape_audio(match_data.salami_id[ind], match_data)
 			time.sleep(2)
 		except (KeyboardInterrupt):

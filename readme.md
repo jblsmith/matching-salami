@@ -12,8 +12,8 @@ So far, we have found **about three-quarters** of the non-public SALAMI audio, i
 
 1. A list of matches between SALAMI and YouTube videos: [salami_youtube_pairings.csv](https://github.com/jblsmith/matching-salami/blob/master/salami_youtube_pairings.csv).
 
-2. A script to download the audio from YouTube: [download_audio_from_youtube.py](https://github.com/jblsmith/matching-salami/blob/master/download_audio_from_youtube.py).
-  It downloads the audio from YouTube using [youtube_dl](https://rg3.github.io/youtube-dl/), then uses [sox](https://pypi.org/project/sox/) to zero-pad and/or trim the audio in order to fit the SALAMI original. (This should ensure a match to the SALAMI annotations to within 0.1 seconds, which seems to be the accuracy of the fingerprinter output.)
+2. A script to align YouTube version of audio to SALAMI version: [align_audio.py](https://github.com/jblsmith/matching-salami/blob/master/align_audio.py).
+  If uses [sox](https://pypi.org/project/sox/) to zero-pad and/or trim the audio in order to fit the SALAMI original. (This should ensure a match to the SALAMI annotations to within 0.1 seconds, which seems to be the accuracy of the fingerprinter output.) Obtaining the audio files is left as an exercise for the reader.
 
 3. A [database of fingerprints for the public SALAMI audio files](https://github.com/jblsmith/matching-salami/blob/master/salami_public_fpdb.pklz) so you can check a match for an audio file you possess.
 
@@ -32,5 +32,5 @@ python3 match_audio.py 'Madonna \'Like A Prayer\'' ./Madonna_-_Like_A_Prayer.mp3
 The above code will:
 - create a fingerprint database that indexes one song (your local file Madonna\_-\_Like\_A\_Prayer.mp3)
 - search YouTube with the query 'Madonna \'Like A Prayer\''
-- download and check up to 10 matches before aborting
+- check up to 10 matches before aborting
 - list the candidate videos and describe the matches in ./match_info/Madonna\_-\_Like\_A\_Prayer.csv
