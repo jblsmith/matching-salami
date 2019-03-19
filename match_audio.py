@@ -1,11 +1,15 @@
+from __future__ import print_function, division
 import argparse
+import librosa
+import numpy as np
+import os
+import pandas as pd
 import sys
-from match_salami_files import *
-import re
+from match_salami_files import create_fingerprint_database, download_and_report, get_info_from_youtube, search_for_song, query_db_with_audio
 
 # Usage example:
 # 
-# python3 match_audio.py 'Madonna \'Like A Prayer\'' Madonna_-_Like_A_Prayer.mp3 10
+# python3 match_audio.py 'Madonna \'Like A Prayer\'' ./Madonna_-_Like_A_Prayer.mp3 10
 # 
 # This will:
 # 1. look up videos on YouTube related to 'Madonna 'Like A Prayer''
@@ -42,12 +46,12 @@ def search_response_to_df(search_responses):
 
 def read_match_report(report_filename, input_audio_filename, test_audio_path):
 	text = open(report_filename, 'r').readlines()
-	line_info = re.sub(input_audio_filename,"INPUTAUDIOFILENAME",text[1])
-	line_info = re.sub(test_audio_path,"QUERYAUDIOFILENAME",line_info)
+	line_info = text[1].replace(input_audio_filename,"INPUTAUDIOFILENAME")
+	line_info = line_info.replace(test_audio_path,"QUERYAUDIOFILENAME")
 	line_info = line_info.split()
 	if line_info[0] == "NOMATCH":
 		print("No match")
-		return None, None, None, None, None, None
+		return None, None, None, None, None
 	elif ("INPUTAUDIOFILENAME" in line_info) and ("QUERYAUDIOFILENAME" in line_info):
 		matching_length, onset_in_youtube, onset_in_local, hashes, total_hashes = [float(line_info[i]) for i in [1, 5, 11, 16, 18]]
 		return matching_length, onset_in_youtube, onset_in_local, hashes, total_hashes
@@ -105,7 +109,10 @@ def main(argv):
 			test_audio_path = audio_dir + youtube_id + ".mp3"
 			query_db_with_audio(fingerprint_db_filename, test_audio_path, match_report_filename)
 			matching_length, onset_in_youtube, onset_in_local, hashes, total_hashes = read_match_report(match_report_filename, input_audio_filename, test_audio_path)
-			if matching_length is not None:
+			if matching_length is None:
+				df.at[counter,"matching_length"] = 0
+				df.to_csv(match_info_filename, float_format='%.2f')
+			else:
 				# A match has been found!
 				match_found = True
 				df.at[counter,'matching_length'] = matching_length
