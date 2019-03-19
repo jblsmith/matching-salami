@@ -1,3 +1,4 @@
+from __future__ import print_function, division
 import os
 import youtube_dl
 import pandas as pd
@@ -7,8 +8,6 @@ import sox
 matchlist_csv_filename = os.getcwd() + "/salami_youtube_pairings.csv"
 downloaded_audio_folder = os.getcwd() + "/downloaded_audio"
 transformed_audio_folder = os.getcwd() + "/transformed_audio"
-match_data = pd.read_csv(matchlist_csv_filename, header=0)
-match_data = match_data.fillna("")
 
 # Specify download location
 
@@ -36,12 +35,11 @@ def download_youtube_id(youtube_id):
 	try:
 		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 			x = ydl.download(['http://www.youtube.com/watch?v='+youtube_id])
-		print "Successfully downloaded ({0})".format(youtube_id)
+		print("Successfully downloaded ({0})".format(youtube_id))
 	except:
-		print "Error downloading ({0})".format(youtube_id)
+		print("Error downloading ({0})".format(youtube_id))
 
-def reshape_audio(salami_id):
-	global match_data
+def reshape_audio(salami_id, match_data):
 	row = {colname: match_data[colname][match_data.salami_id==salami_id].values[0]  for colname in match_data.columns}
 	input_filename = downloaded_audio_folder + "/" + str(row["youtube_id"]) + ".mp3"
 	output_filename = transformed_audio_folder + "/" + str(row["salami_id"]) + ".mp3"
@@ -60,14 +58,14 @@ def reshape_audio(salami_id):
 
 
 if __name__ == "__main__":
-	global match_data
+	match_data = pd.read_csv(matchlist_csv_filename, header=0)
+	match_data = match_data.fillna("")
 	for ind in match_data.index:
 		try:
 			download_youtube_id(match_data.youtube_id[ind])
-			reshape_audio(match_data.salami_id[ind])
+			reshape_audio(match_data.salami_id[ind], match_data)
 			time.sleep(2)
 		except (KeyboardInterrupt):
 			raise
 		except:
-			print "Error while attempting to process row {0}: {1} (salami_id {2}).".format(ind,match_data.youtube_id[ind],match_data.salami_id[ind])
-			return None
+			print("Error while attempting to process row {0}: {1} (salami_id {2}).".format(ind,match_data.youtube_id[ind],match_data.salami_id[ind]))
